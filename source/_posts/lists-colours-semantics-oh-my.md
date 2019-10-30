@@ -1,0 +1,12 @@
+---
+title: 'Lists, Colours, Semantics, Oh My!'
+url: 22.html
+id: 22
+comments: false
+categories:
+  - Uncategorized
+date: 2003-11-19 09:48:42
+tags:
+---
+
+Discussing with a friend about creating lists, cataloguing collections of objects and codifying we came up with an interesting idea. When it comes to lists of visual 'things', the winners of largest and most abstract could surely be Pantone. How about we go about turning that giant abstract list into a resource on the semantic web. What happens when you describe the emotional response of colours in a machine readable form? You get **FOAC - Feel Of A Colour**, amongst other things. Lets explore them here. If we had a mechanism that a designer could use to add emotional and conceptual metadata to visual content we could begin to use this content in new and interesting ways. The first example would be to ensure the brand and feeling of website imagery become a constant and calibrated transmission, direct from designer to viewer. How do we do this? Doesn't everyone see colour slightly differently? Is this purely based on physical differences such as colour-blindness, or are there additional factors? Does the light in the place you grew up affect your perception of colour? Could it be that the subdued light of the North give a heightened sense of colour where there is only subtle shades? Does growing up in the brilliant, bright light of Sydney or California affect how you see, react and apply meaning to colour? If we can begin to answer questions like that we can start to create a more individual set of codes to balance the viewing of content. This could just be an extension to a users profile or description (a [FOAF file](http://www.foaf-project.org/), for example) and local electronic data such as ambient light, white balance, monitor calibration could be picked up from the receiver. When we combine this with the **Emotone** _(the company Pantone really should be thinking about becoming after all)_ set of emotional data attached to the content, along with specific designer coded notes, we can try and alter our image slightly to ensure the emotional response of the user matches the original intention. I'll go further in a future post and describe how this **Feel Of A Colour** data can be used in all sorts of useful ways.

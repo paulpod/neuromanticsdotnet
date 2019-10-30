@@ -1,0 +1,428 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>Tables : Design Guide :: Labguru</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo" width="130" height="45" style="padding:14px 0 30px 0" />
+			
+			<!--
+<ul id="topnav">
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Live Help</a></li>
+			<li><a href="#">FAQs</a></li>
+			</ul>
+-->
+
+		</div>
+		
+		<div class="fourcol">
+		
+			<!--
+<img src="images/avi-1.jpg" class="smallavi" />
+		
+			Nicholas Makepeace
+		
+			<ul id="topnav">
+			<li><a href="#">Your profile</a></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+-->
+		
+		</div>
+		
+		<div class="threecol">
+		
+		</div>
+		
+		<div class="threecol last">
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li>Design Guide</li>
+				
+				<ul class="subnav">
+				<li><a href="typography.html">Typography</li>
+				<li><a href="icons.html">Icons</a></li>
+				<li><a href="buttons.html">Buttons</a></li>
+				<li><a href="colours.html">Colours</a></li>
+				<li><a href="thegrid.html">The Grid</a></li>
+				<li><a href="navigation.html">Navigation</a></li>
+				<li><a href="forms.html">Forms</a></li>
+				<li class="active"><a href="tables.html">Tables</a></li>
+				<li><a href="widgets.html">Other UI widgets</a></li>
+				</ul>
+				
+				
+				
+				<ul class="nav">
+				<li><a href="#">News Feed</a></li>
+				<li><a href="#">Work Spaces</a></li>
+				</ul>
+				
+				</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+		
+
+
+
+		<div class="eightcol">
+		
+			<h1 class="megatitle">Tables</h1>
+			
+	<!-- 		<p id="byline" class="meta left">Author <a href="mailto:paulpod@neuromantics.net">Paul Pod</a></p> -->
+			
+	<!-- 		<p id="doctools" class="meta right">You may <a href="#">Edit</a> <a href="#">Delete</a></p> -->
+	
+	<!-- 		<br style="clear:both"/> -->
+	
+			<hr />
+			
+			<div class="longcopy">
+												
+			<h2>Basic table data</h2>
+			
+<!-- 			<img src="images/old-main-nav.jpg" alt="old-main-nav" width="574" height="67" /> -->
+			
+			<p>Users can add tables now to their own documents within the system using the Redator WYSIWYG editor. Many other pages across the system are presenting tabular data, or more frequently, using a table to present many items and their properties together eg. browsing specimens or materials.</p>
+			
+			<p>The first simple table has a few columns with data and no interactive elements.</p>
+			
+			</div><!-- end long copy region -->
+			
+			<div class="contentwidth" id="data">
+					
+			<table cellspacing="0" cellpadding="0" border="0" id="index_table">  <tbody>
+				<tr class="index_table_tr">
+				<th id="SysID" class="table_index_th">SysID</th>
+				<th id="Name" class="table_index_th">Name</th>
+				<th id="Description" class="table_index_th">Description</th>
+				<th id="Created at" class="table_index_th">Created at</th>
+				<th id="Added by" class="table_index_th">Added by</th>
+				<th id="Catalog number" class="table_index_th">Catalog number</th>
+				</tr>
+			      
+				<tr>
+				<td><p>12.0023</p></td>
+				<td><p> <a href="/stocks/generics/211">Small medusa </a> </p></td>
+				<td><p class="desc">This line is derivative of Jurkat that is CD4 negative. The cells have contact dependent helper activity.</p></td>
+				<td><p> 04/25/2012</p></td>
+				<td><p>Daphne Rosenfeld</p></td>
+				<td><p>DKSJ-00127</p></td>
+				</tr>
+				
+				
+				<tr>
+				<td><p>12.0025</p></td>
+				<td><p><a href="/stocks/generics/231">Irakanje</a></p></td>
+				<td><p class="desc">The tissue donor was a presumed heterozygote for xeroderma pigmentosum</p></td>
+				<td><p> 08/14/2012</p></td>
+				<td><p>Daphne Rosenfeld</p></td>
+				<td><p>DKSJ-00127</p></td>
+				</tr>
+				
+				
+			</tbody></table>
+
+			</div><!-- end full width section -->
+			
+			<p class="note">
+			<strong>Note:</strong> This table has been left without a width, so should scale to an appropriate size for the content. Table cells (both TD and TH) have CSS width set to 300px and word-wrap enabled so that the line length remains sensible.
+			</p>
+			
+			<div class="longcopy">
+			
+			<h2>Tables with actions</h2>
+
+			<p>This second table has row selectors and a few actions to contents may be performed: bulk delete and tagging. It has selectable headers on some columns to allow sorting, where that makes sense. On the right is a basic search functionality for data in this whole area, added using a class 'searchable' to the caption.</p>
+			
+			</div><!-- end long copy region -->
+			
+			<div class="contentwidth" id="data">
+					
+			<table cellspacing="0" cellpadding="0" border="0" id="index_table">
+			<caption id="doctoolsbox" class="searchable">
+				<ul id="doctools">
+				<li style="color:#9CC91C;text-transform:uppercase"><strong>Actions:</strong></li>
+				<li><i class="icon-circle-plus"></i> <a href="#">Tag</a></li>
+				<li><i class="icon-cross"></i> <a href="#">Delete</a> </li>
+				<li style="float:right;clear:both"><input type="text" value="Search this" size="10" class="tablesearchbox" /></li>
+				</ul>
+			</caption>
+			
+							<br style="clear:both"/>
+
+			<tbody>
+				<tr class="index_table_tr">
+				<th class="table_index_th"><input type="checkbox" onclick="toggleChecked(this.checked)" id="check_all"></th>
+				<th id="SysID" class="table_index_th"><a href="#" class="sort_link" data-remote="true">SysID</a></th>
+				<th id="Name" class="table_index_th"><a href="#" class="sort_link" data-remote="true">Name</a></th>
+				<th id="Description" class="table_index_th">Description</th>
+				<th id="Created at" class="table_index_th"><a href="#" class="sort_link dsc" data-remote="true">Created&nbsp;at</a></th>
+				<th id="Added by" class="table_index_th"><a href="#" class="sort_link" data-remote="true">Added by</a></th>
+				<th id="Catalog number" class="table_index_th">Catalog number</th>
+				</tr>
+			      
+				<tr>
+				<td><input type="checkbox" class="checkbox" id="211" onclick="update_checkboxes(this.checked)"></td>
+				<td><p>12.0023</p></td>
+				<td><p><a href="/stocks/generics/211">Small medusa</a></p></td>
+				<td><p class="desc">This line is derivative of Jurkat that is CD4 negative. The cells have contact dependent helper activity.</p></td>
+				<td><p> 04/25/2012</p></td>
+				<td><p>Daphne Rosenfeld</p></td>
+				<td><p>DKSJ-00127</p></td>
+				</tr>
+				
+				
+				<tr>
+				<td><input type="checkbox" class="checkbox" id="231" onclick="update_checkboxes(this.checked)"></td>
+				<td><p>12.0025</p></td>
+				<td><p><a href="/stocks/generics/231">Irakanje</a></p></td>
+				<td><p class="desc">The tissue donor was a presumed heterozygote for xeroderma pigmentosum</p></td>
+				<td><p> 08/14/2012</p></td>
+				<td><p>Daphne Rosenfeld</p></td>
+				<td><p>DKSJ-00127</p></td>
+				</tr>
+				
+				
+			</tbody></table>
+
+			</div><!-- end full width section -->
+			
+			<p class="note">
+			<strong>Note:</strong> The Table Caption element has been used here to contain the actions as it gets correctly placed at the top and sized to match the fluid table width</p>
+			
+			<div class="longcopy">
+
+			<p>This third table allows customisation of columns shown from a wider data set, and the columns may also be rearranged with a drag-and-drop action on the column header blocks. Pagination is possible for larger sets of data.</p>
+			
+			
+			</div><!-- end long copy region -->
+			
+			<div class="contentwidth">
+			
+			<div id="data" style="float:left">	
+			<table cellspacing="0" cellpadding="0" border="0" id="index_table">
+			<caption>
+			
+			<div id="doctoolsbox" class="searchable">
+				<ul id="doctools">
+				<li style="color:#9CC91C;text-transform:uppercase"><strong>Actions:</strong></li>
+				<li><i class="icon-circle-plus"></i> <a href="#">Tag</a></li>
+				<li><i class="icon-cross"></i> <a href="#">Delete</a> </li>
+				<li><i class="icon-cog"></i> <a href="#">Customise table</a></li>
+				<li><i class="icon-file-down"></i> <a href="#">Export</a></li>
+				<li style="float:right;clear:both"><input type="text" value="Search this" size="12" class="tablesearchbox" /></li>
+				</ul>
+			</div>
+				
+			</caption>
+			
+			<br style="clear:both"/>
+
+			<tbody>
+				<tr class="index_table_tr">
+				<th class="table_index_th"><input type="checkbox" onclick="toggleChecked(this.checked)" id="check_all"></th>
+				<th id="SysID" class="accept"><a href="#" class="sort_link" data-remote="true">SysID</a></th>
+				<th id="Name" class="accept"><a href="#" class="sort_link" data-remote="true">Name</a></th>
+				<th id="Description" class="table_index_th accept">Description</th>
+				<th id="Created at" class="table_index_th accept"><a href="#" class="sort_link asc" data-remote="true">Created&nbsp;at</a></th>
+				<th id="Added by" class="table_index_th accept"><a href="#" class="sort_link" data-remote="true">Added by</a></th>
+				<th id="Catalog number" class="table_index_th accept">Catalog number</th>
+				</tr>
+			      
+				<tr>
+				<td><input type="checkbox" class="checkbox" id="211" onclick="update_checkboxes(this.checked)"></td>
+				<td><p>12.0023</p></td>
+				<td><p><a href="/stocks/generics/211">Small medusa</a></p></td>
+				<td><p class="desc">This line is derivative of Jurkat that is CD4 negative. The cells have contact dependent helper activity.</p></td>
+				<td><p> 04/25/2012</p></td>
+				<td><p>Daphne Rosenfeld</p></td>
+				<td><p>DKSJ-00127</p></td>
+				</tr>
+				
+				
+				<tr>
+				<td><input type="checkbox" class="checkbox" id="231" onclick="update_checkboxes(this.checked)"></td>
+				<td><p>12.0025</p></td>
+				<td><p><a href="#">Irakanje</a></p></td>
+				<td><p class="desc">This line is derivative of Jurkat</p></td>
+				<td><p> 08/14/2012</p></td>
+				<td><p>Daphne Rosenfeld</p></td>
+				<td><p>DKSJ-00127</p></td>
+				</tr>
+				
+				<tr>
+				<td><input type="checkbox" class="checkbox" id="231" onclick="update_checkboxes(this.checked)"></td>
+				<td><p>12.0028</p></td>
+				<td><p><a href="#">Irakanje</a></p></td>
+				<td><p class="desc">The tissue donor was a presumed heterozygote for xeroderma pigmentosum</p></td>
+				<td><p> 08/26/2012</p></td>
+				<td><p>Daphne Rosenfeld</p></td>
+				<td><p>DKSJ-00128</p></td>
+				</tr>
+				
+				
+				<tr>
+				<td><input type="checkbox" class="checkbox" id="231" onclick="update_checkboxes(this.checked)"></td>
+				<td><p>12.0029</p></td>
+				<td><p><a href="#">Mesocricetus </a></p></td>
+				<td><p class="desc">To make the complete growth medium add fetal bovine serum to a final concentration of 10%</p></td>
+				<td><p> 08/28/2012</p></td>
+				<td><p>Daphne Rosenfeld</p></td>
+				<td><p>DKSJ-00129</p></td>
+				</tr>
+				
+								
+			</tbody></table>
+			
+			
+			
+			<div class="pagination">
+			<ul class="tab">
+			<li class="inactive">&laquo; Previous</li>
+			<li class="active">1</li>
+			<li><a rel="next" href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a class="next_page" rel="next" href="#">Next &laquo;</a></li>
+			
+			</ul>
+			</div>
+			
+			<div class="AdvSearch"><a href="#">Advanced search</a></div>
+			
+			</div>
+			
+			<br style="clear:both"/>
+
+
+			</div><!-- end full width section -->
+			
+			<p class="note">
+			<strong>Note:</strong> While the table reorganisation is a "cool" feature, it can be annoying or confusing and a recommendation would be have this as an option to be switched on in the 'Customise table' page, but off by default.</p>
+			<p class="note">
+			<strong>2:</strong> The long strings eg. gene sequences like GTTATC&#8203;ATGATC&#8203;TAATCT&#8203;TCAGTG&#8203;CAATT&#8203;AGCTAG&#8203;GGACAT&#8203;TTAGCT&#8203;AGC should have the zero-width-space character inserted at regular word sized places, in addition if you want the entire string in the page (for search) but not displayed, truncate with the the css ellipsis.</p>
+			<p class="note">
+			<strong>3:</strong> Above about 14 columns the page renderer needs more width for tables - these become horizontal scrollers within the content box currently, but if this seems restrictive, some jQuery work may be required to alter the layout and scroll the whole page horizontally.
+			</p>
+			
+			
+				
+			
+						
+			
+			
+		</div><!-- end column -->
+		
+		
+		
+
+		
+		
+		
+		<div class="sixcol last">
+		
+	
+			<div class="meta" style="overflow:visible;padding-top:9em;">
+			
+			
+			<p>/</p>
+
+			
+
+						
+			</div>
+			
+			
+						
+			
+		</div><!-- end column -->
+		
+	</div><!-- end ROW -->
+
+</div><!-- end container 'id=content' -->
+
+
+<div class="container" id="footer">
+	<div class="row">
+		<footer>
+		
+		<div class="fleft">
+		<a href="#"><img src="images/biodata-logo.png" alt="biodata-logo" width="25" height="30" style="margin-right:10px;" /></a>
+		</div>
+		
+		<div class="fleft addgap">
+		<p style="line-height:1.1"><span class="smaller">Powered by</span><br />BioData</p>
+		</div>
+		
+		<div class="fleft">
+		<p><a href="#">Privacy</a> | <a href="#">Terms and Conditions</a></p>
+		</div>
+		
+		<div class="fright">
+		<p>All contents &copy; copyright 2008-2012 BioData Ltd.  All rights reserved.  Read updates and reviews on <a href="#">our blog</a></p>
+		</div>
+		
+		<br clear=all />
+		
+		</footer>
+	</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,478 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>Newsfeed / Whiteboard</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	<!--from bootstrap - just the dropdown chunk, customized -->
+	<link rel="stylesheet" href="css/bootstrap-dropdown.css" type="text/css" media="screen" />	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo" width="130" height="45" style="padding:14px 0 30px 0" />
+			
+			<!--
+<ul id="topnav">
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Live Help</a></li>
+			<li><a href="#">FAQs</a></li>
+			</ul>
+-->
+
+		</div>
+		
+		<div class="fourcol">
+		
+			<!--
+<img src="images/avi-1.jpg" class="smallavi" />
+		
+			Nicholas Makepeace
+		
+			<ul id="topnav">
+			<li><a href="#">Your profile</a></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+-->
+		
+		</div>
+		
+		<div class="threecol">
+		
+		</div>
+		
+		<div class="threecol last">
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li>Design Guide</li>
+				
+				<ul class="subnav">
+				<li><a href="basics.html">Basic Content</a></li>
+				<li><a href="colours.html">Colours</a></li>
+				<li><a href="thegrid.html">The Grid</a></li>
+				<li><a href="navigation.html">Navigation</a></li>
+				<li class="active"><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="widgets.html">Other UI widgets</a></li>
+				</ul>
+				
+				
+				
+				<ul class="nav">
+				<li><a href="#">News Feed</a></li>
+				<li><a href="#">Work Spaces</a></li>
+				</ul>
+				
+				</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+		
+
+
+
+		<div class="tencol">
+		
+			
+			<div><!-- top of neswfeed filters -->
+				<div class="newshead fleft" style="width:152px">Newsfeed</div>
+			
+				<div class="fleft" style="overflow:hidden;width:574px">
+					<ul class="feedtools">
+						<li style="color:#ccc;text-transform:uppercase"><strong>Show me</strong></li>
+						<li><input type="checkbox" class="checkbox" checked="yes" id="4" onclick="#" > <a href="#">Everything</a></li>
+						<li><input type="checkbox" class="checkbox" id="4" onclick="#" > <a href="#">Figures</a></li>
+						<li><input type="checkbox" class="checkbox" id="4" onclick="#" > <a href="#">Milestones</a></li>
+						<li><input type="checkbox" class="checkbox" id="4" onclick="#" > <a href="#">Team Tasks</a></li>
+						<li><input type="checkbox" class="checkbox" id="4" onclick="#" > <a href="#">Filter 5</a></li>
+						<li><input type="checkbox" class="checkbox" id="4" onclick="#" > <a href="#">Six</a></li>
+
+					</ul>
+				</div>			
+			</div><!-- end top -->
+			
+			
+			<br clear="all" />
+			
+			
+			<div><!-- main newsfeed content / make infinity scroll? Sticky? -->
+			
+							
+				<div class="news-byline">Today at 13.23
+					<img src="images/user-01.jpg" alt="user-01" class="newsfeed-avatar" />
+				</div>
+				
+				<div class="news-post">
+					<p><a href="#user">Alex Chandler</a> completed 7 team tasks on <a href="#project">Inhibiting β-Amyloid Oligomerization</a></p>
+					
+					<p><i class="icon-bluesort-right"></i> <em><a href="#show">show tasks</a></em></p>
+					
+					<div class="comments">
+					<div class="newsfeed-comment"><input class="comment-field" name="#" value="Write a comment..." type="text"></div>
+					</div>
+				</div>
+				
+				
+				<hr class="news-hr" />
+
+				
+				<div class="news-byline">Today at 13.23
+					<img src="images/user-01.jpg" alt="user-01" class="newsfeed-avatar" />
+				</div>
+				
+				<div class="news-post">
+					<p><a href="user">Alex Chandler</a> completed 5 team tasks on <a href="#project">Subcellular Distribution of Puf Proteins</a></p>
+					
+					<p><i class="icon-bluesort-down"></i> <em><a href="#hide">hide tasks</a></em></p>
+					
+					<ul class="newsfeed-tasks">
+						<li><i class="icon-checked-grey"></i> Miniprep - isolation of the Tap-tagged Pufs cloned plasmids</li>
+						<li><i class="icon-checked-grey"></i> Cloning TAP-tag constructs for 5 Puf family members</li>
+						<li><i class="icon-checked-grey"></i> Transformation to Yeast</li>
+						<li><i class="icon-checked-grey"></i> Miniprep #2- Isolation of Tap-tagged Puf Plasmids</li>
+						<li><i class="icon-checked-grey"></i> Growth rates and cell morphology</li>
+					</ul>
+										
+					<div class="comments">
+					<div class="newsfeed-comment"><input class="comment-field" name="#" value="Write a comment..." type="text"></div>
+					</div>
+				</div>
+				
+				
+				<hr class="news-hr" />
+
+				
+				<div class="news-byline">Today at 13.23
+					<img src="images/user-04.jpg" alt="user-04" class="newsfeed-avatar" />
+				</div>
+				
+				<div class="news-post">
+					<p>Knowledge updates for you have been published recently</p>
+					
+					<p><i class="icon-bluesort-down"></i> <em><a href="#hide">hide papers</a></em></p>
+					
+					<ul class="newsfeed-knowledge">
+						<li><i class="icon-blackdoc"></i> <a href="#paper">p38 MAPK Signaling.full.pdf1353073227</a><br />
+						by Daphne Rosenfeld ... 11/16/2012</li>
+						
+						<li><i class="icon-blackdoc"></i> <a href="#paper">Progression of RAS-Mutant Leukemia during RAF Inhibitor Treatment</a><br />
+						by Daphne Rosenfeld ... 11/16/2012</li>
+						
+						<li><i class="icon-blackdoc"></i> <a href="#paper">The Tumor Suppressor CYLD Controls the Function of Murine Regulatory T Cells...</a><br />
+						by Daphne Rosenfeld ... 11/14/2012</li>
+					</ul>
+					
+					
+					<div class="comments">
+					<div class="newsfeed-comment"><input class="comment-field" name="#" value="Write a comment..." type="text"></div>
+					</div>	
+				</div>
+				
+				
+				<hr class="news-hr" />
+
+				
+				<div class="news-byline">Today at 12.56
+					<img src="images/user-02.jpg" alt="user-02" class="newsfeed-avatar" />
+				</div>
+				
+				<div class="news-post">
+					<p><a href="#user">J C Hernandez</a> posted 4 figures to the document <a href="#doc">Puf Family Results</a></p>
+					
+					<ul class="newsfeed-figure">
+						<li><img src="images/eg-figure-01.jpg" alt="thumb1" /></li>
+						<li><img src="images/thumb1.jpg" alt="thumb2" /></li>
+						<li><img src="images/eg-figure-02.jpg" alt="thumb2" /></li>
+						<li><img src="images/thumb2.jpg" alt="thumb2" /></li>
+					</ul>
+					
+					
+					<div class="comments">
+						<div class="newsfeed-comment">
+						<img src="images/user-03.jpg" alt="user-03" class="comment-avatar" /> <a href="#user">John Folland </a> These look promising!</div>
+						<div class="newsfeed-comment">
+						<img src="images/user-02.jpg" alt="user-02" class="comment-avatar" /> <a href="#user">JC Hernandez </a> We're quite excited by these</div>
+						<div class="newsfeed-comment">
+						<input class="comment-field" name="#" value="Write a comment..." type="text"></div>
+	
+					</div>
+				</div>
+				
+				
+				<hr class="news-hr" />
+
+				
+				<div class="news-byline">
+					Today at 13.23
+					<img src="images/user-03.jpg" alt="user-03" class="newsfeed-avatar" />
+				</div>
+				
+				<div class="news-post">
+					<p><a href="#user">Jon Folland</a> added 4 items to the <a href="#shoppinglist">shopping list</a></p>
+					
+					<p><i class="icon-bluesort-down"></i> <em><a href="#hide">hide items</a></em></p>
+					
+					<ul class="newsfeed-list">
+						<li><a href="#product">TaKaRa Ex Taq™</a> Cat# RR001A from <a href="#vendor">TAKARA</a><br />
+						1 of (250 unit enzyme) for $80.00</li>
+							
+						<li><a href="#product">Ethanol</a> Cat# 459844 from <a href="#vendor">Sigma-Aldrich</a><br />
+						1 of (500µl) for $60.00</li>
+						
+						<li><a href="#product">Phenol</a> Cat# 185450 from <a href="#vendor">Sigma-Aldrich</a><br />
+						1 of (500g) for $30.00</li>
+						
+						<li><a href="#product">Sodium Chloride</a> Cat# S9625 from <a href="#vendor">Sigma-Aldrich</a><br />
+						1 of (1000g) for $60.00</li>
+					</ul>
+	
+					
+					<div class="comments">
+					<div class="newsfeed-comment"><input class="comment-field" name="#" value="Write a comment..." type="text"></div>
+					</div>
+				</div>
+				
+				
+				<hr class="news-hr" />
+				
+				
+				<div class="news-byline">Today at 12.56
+					<img src="images/user-02.jpg" alt="user-02" class="newsfeed-avatar" />
+				</div>
+					
+				<div class="news-post">
+					<p><a href="#user">Daniel Moore</a> added 2 experiments to milestone <a href="#track">Extract cells, recover mRNA and labelling</a></p>
+					
+					<ul class="newsfeed-milestone">
+						<li><i class="icon-blackexperi"></i>  <a href="#milestone">RNA isolation using phenol chloroform</a></li>
+						<li><i class="icon-blackexperi"></i>  <a href="#milestone">Extraction of the RBP-mRNA complexes and TEV cleavage</a></li>
+					</ul>
+															
+					<div class="comments">
+					<div class="newsfeed-comment"><input class="comment-field" name="#" value="Write a comment..." type="text"></div>
+					</div>
+				</div>
+				
+				
+				<hr class="news-hr" />
+
+			</div>
+			
+			
+				
+						
+		</div><!-- end column -->
+		
+		
+		<div class="fourcol last">
+		
+			<div>									
+				<div class="newshead fleft">Whiteboard</div>
+				<div class="feedtools fright" style="border-bottom-color:#999">Group messages</div>
+			</div>
+			
+
+			
+			<div class="input ">
+				<input class="txt-field fleft" name="new-message" value="Add a note to the whiteboard" type="text" style="margin-right:20px">
+				
+				<button class="btn fright" >Post</button>
+			</div><!-- end input -->
+			
+			<br clear="all" />
+			
+			<div class="wb-post">
+			<div class="wb-head"><a href="#user"><img src="images/user-01.jpg" alt="user-03" class="wb-avatar" /> Daniel Moore</a> posted</div>
+			
+			<p>All items in the food and drink fridge will be put in the bin before the weekend, thanks.</p>
+			</div>
+			
+			<div class="wb-post">
+			<div class="wb-head"><a href="#user"><img src="images/user-02.jpg" alt="user-03" class="wb-avatar" /> Jon Folland</a> posted</div>
+			
+			<p>On Tuesday morning, I will present my work. Megan - will bring food and drinks.</p>
+			</div>
+			
+			<div class="wb-post">
+			<div class="wb-head"><a href="#user"><img src="images/user-03.jpg" alt="user-03" class="wb-avatar" /> J C Hernandez</a> posted</div>
+			
+			<p>Big delivery due on Monday, so please be around to help out.</p>
+			</div>
+			
+			
+			
+			
+			
+			<div class="caltopper">
+			
+			<h3 class="calname">
+				<a href="#"><img src="images/plan-arrow-left.png" alt="October 2012" width="8" height="24" valign="middle" /></a>
+
+				November 2012
+				
+				<a href="#"><img src="images/plan-arrow-right.png" alt="December 2012" width="8" height="24" valign="middle" /></a>
+			</h3>
+
+			</div>
+			<div class="calendar" id="minimonth">				
+				
+				<table cellspacing="0" cellpadding="0" frame="void" rules="rows">
+					
+					<thead>
+					<tr>
+					<th>S</th>
+					<th>M</th>
+					<th>T</th>
+					<th>W</th>
+					<th>T</th>
+					<th>F</th>
+					<th>S</th>
+					</tr>
+					</thead>
+					
+					<tbody>
+					<tr>
+					<td class="grey">28</td>
+					<td class="grey">29</td>
+					<td class="grey">30</td>
+					<td class="grey">31</div></td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					</tr>
+					
+					<tr>
+					<td>4</td>
+					<td>5 <div class="cal-a"></div></td>
+					<td>6 <div class="cal-c"></div></td>
+					<td>7 <div class="cal-a noon"></div></td>
+					<td>8 <div class="cal-b noon"></div> <div class="cal-b"></div></td>
+					<td>9</td>
+					<td>10</td>
+					</tr>
+					
+					<tr class="active">
+					<td>11</td>
+					<td>12 <div class="cal-a"></div></td>
+					<td>13 <div class="cal-b noon"></div></td>
+					<td>14 <div class="cal-a"></div> <div class="cal-a"></div> <div class="cal-a"></div></td>
+					<td>15 <div class="cal-c"></div></td>
+					<td>16 <div class="cal-a"></div> <div class="cal-a"></div> <div class="cal-a"></div></td>
+					<td>17</td>
+					</tr>
+					
+					<tr>
+					<td>18</td>
+					<td>19 <div class="cal-a"></div></td>
+					<td>20</td>
+					<td>21 <div class="cal-a noon"></div></td>
+					<td>22 <div class="cal-b"></div> <div class="cal-a"></div> <div class="cal-b"></div></td>
+					<td>23 <div class="cal-a noon"></div></td>
+					<td>24</td>
+					</tr>
+					
+					<tr>
+					<td>25</td>
+					<td>26 <div class="cal-a"></div></td>
+					<td>27 <div class="cal-b pm"></div></td>
+					<td>28</td>
+					<td>29</td>
+					<td>30</td>
+					<td class="grey">1</td>
+					</tr>
+					
+					</tbody>
+				
+				</table>
+				
+				<p class="smaller addto"><a href="#"><i class="icon-greenadd"></i> add an event</a>
+								
+			</div><!-- end dashboard planner-month module -->
+
+
+										
+
+		</div><!-- end column -->
+		
+</div><!-- end ROW -->
+
+</div><!-- end container 'id=content' -->
+
+
+<div class="container" id="footer">
+	<div class="row">
+		<footer>
+		
+		<div class="fleft">
+		<a href="#"><img src="images/biodata-logo.png" alt="biodata-logo" width="25" height="30" style="margin-right:10px;" /></a>
+		</div>
+		
+		<div class="fleft addgap">
+		<p style="line-height:1.1"><span class="smaller">Powered by</span><br />BioData</p>
+		</div>
+		
+		<div class="fleft">
+		<p><a href="#">Privacy</a> | <a href="#">Terms and Conditions</a></p>
+		</div>
+		
+		<div class="fright">
+		<p>All contents &copy; copyright 2008-2012 BioData Ltd.  All rights reserved.  Read updates and reviews on <a href="#">our blog</a></p>
+		</div>
+		
+		<br clear=all />
+		
+		</footer>
+	</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>The Grid : Design Guide :: Labguru</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo" width="130" height="45" style="padding:14px 0 30px 0" />
+			
+			<!--
+<ul id="topnav">
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Live Help</a></li>
+			<li><a href="#">FAQs</a></li>
+			</ul>
+-->
+
+		</div>
+		
+		<div class="fourcol">
+		
+			<!--
+<img src="images/avi-1.jpg" class="smallavi" />
+		
+			Nicholas Makepeace
+		
+			<ul id="topnav">
+			<li><a href="#">Your profile</a></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+-->
+		
+		</div>
+		
+		<div class="threecol">
+		
+		</div>
+		
+		<div class="threecol last">
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li>Design Guide</li>
+				
+				<ul class="subnav">
+				<li><a href="typography.html">Typography</li>
+				<li><a href="icons.html">Icons</a></li>
+				<li><a href="buttons.html">Buttons</a></li>
+				<li><a href="colours.html">Colours</a></li>
+				<li class="active"><a href="thegrid.html">The Grid</a></li>
+				<li><a href="navigation.html">Navigation</a></li>
+				<li><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="widgets.html">Other UI widgets</a></li>
+				</ul>
+				
+				
+				
+				<ul class="nav">
+				<li><a href="#">News Feed</a></li>
+				<li><a href="#">Work Spaces</a></li>
+				</ul>
+				
+				</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+		
+
+
+
+		<div class="eightcol">
+		
+			<h1 class="megatitle">The Grid</h1>
+			
+	<!-- 		<p id="byline" class="meta left">Author <a href="mailto:paulpod@neuromantics.net">Paul Pod</a></p> -->
+			
+	<!-- 		<p id="doctools" class="meta right">You may <a href="#">Edit</a> <a href="#">Delete</a></p> -->
+	
+	<!-- 		<br style="clear:both"/> -->
+	
+			<hr />
+			
+			<div class="longcopy">
+												
+			<h2>Sixteen Columns</h2>
+			
+			<p>The new design uses a sixteen column grid, designed to fit well on a 1280 wide screen. This provides quite a lot of flexibility in layouts, allowing extra width for tables while still providing room to move the top level navigation into a vertical list on the left hand side (rather than fitting this into horizontal tabs).</p>
+			
+			<p>Main text content should usually define it's own column width by using readability of line length as a measure. This body text is at a very readable 18pt size, and the line lengths are around 80 characters which works out at <strong>8 columns</strong> out of 16. While characters per line studies have proved inconclusive, this number has been arrived through the evolution of books (60-70 cpl) and the typewriter (70-80 cpl), IBM punchcards and early computer screens.</p>
+			
+			<p>The meta column on the right less often needs multi-line body text, so 14pt and 60 characters provides a good space for lists, titles and links across <strong>4, 5 or 6 columns</strong> leaving two for the navigation on the left. This could be sub-divided for different uses too.</p>
+
+			<h2>Wide loads</h2>
+
+			<p>Where maximum horizontal content is required for tables or a hierarchy browser, the full <strong>12 column</strong> width provides 1034 pixels, more than the entire screen area on 960px / 1024px based screen designs.</p>
+			
+			
+			
+			<h2>Complex layouts</h2>
+			
+			<p><em>The same grid will be used for newsfeed style pages for dashboards and projects - will summarise here when those are designed</em></p>
+
+
+	
+			
+						
+			</div><!-- end long copy region -->
+			
+			
+		</div><!-- end column -->
+		
+		
+		
+
+		
+		
+		
+		<div class="sixcol last">
+		
+	
+			<div class="meta" style="overflow:visible;padding-top:9em;">
+			
+			
+			<p>Some example layouts using the 16 column grid</p>
+
+			<img src="images/columns-layouts.png" alt="Some common layouts..." width="421" height="840" />
+			
+
+						
+			</div>
+			
+			
+						
+			
+		</div><!-- end column -->
+		
+</div><!-- end ROW -->
+
+
+
+
+</body>
+
+</html>

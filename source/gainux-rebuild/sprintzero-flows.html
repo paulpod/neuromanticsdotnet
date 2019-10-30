@@ -1,0 +1,451 @@
+layout: false
+---
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <title>  GAIN CAPITAL Design Kit
+</title>
+
+    
+
+  </head>
+
+  <body class="">
+    
+   
+
+    
+
+
+   
+
+
+<script type="text/javascript" src="javascripts/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript" src="javascripts/application.js"></script>
+
+<script type="text/javascript" src="javascripts/selection-buttons.js"></script>
+
+<script type="text/javascript" src="javascripts/common.js"></script>
+
+
+<link href="stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
+
+
+<body>
+<main id="content" role="main">
+<div class="grid-row">
+
+  <h1 class="heading-xlarge" style="margin-bottom:0.3em">Sprint Zero</h1>
+
+  <p><strong style="font-size:1.1em;">Putting it all together</strong></p>
+
+  <ul class="list-number" style="font-family:'Open Sans';max-width:720px;font-size:1.1em;margin-left:-1em"">
+
+    <li>Overview</li>
+    <li>Typical flows</li>
+    <li>Principles</li>
+    <li>Elements</li>
+    <li>Mobile </li>
+    
+
+  </ul>
+
+  <a id="overview">
+  <h2 class="heading-large">Overview</h2></a>
+
+  
+  <div style="float:left;width:500px;margin-right:20px">
+    <p style="max-width:520px">
+    We are replacing a flash-based single-window app with html-based web app. It will feel more like a website, within a scrolling window but will remain functional like an app.
+    </p>
+
+    <p style="max-width:520px;margin-top:3em">
+    We are replacing a fluid window style interface with a fixed workspace, where elements have positions that are not configurable.
+    </p>
+
+    <p style="max-width:720px;margin-top:3em">
+    Rather than allowing elements to be positioned and scaled anywhere or anysize, items are laid out according to rigid grid structure. Text across the whole screen conforms to a consistent baseline.
+    </p>
+
+    <p style="max-width:720px;margin-top:3em">
+    We are replacing an interface that allows many layers to be arranged on top of each other with a workspace that has a single flat background and a single floating layer for functional elements.
+    </p>
+
+
+    <p style="max-width:720px;margin-top:3em">
+    Where lots of information is presented, especially in tables we will prioritise on the 20% of information 80% of people need, the rest will be hidden but available with a click. 
+    </p>
+  </div>
+
+  <div style="float:left;width:260px">
+
+    <a href="images/eg-windows.png"><img src="images/eg-windows.png" style="width:260px;float:left"></a>
+
+    <img src="images/eg-arrow.png" style="width:260px;float:left">
+
+    <a href="images/eg-webapp.png"><img src="images/eg-webapp.png" style="width:260px;float:left;margin-top:5px"></a>
+
+    <a href="images/eg-layers.png"><img src="images/eg-layers.png" style="width:268px;float:left;margin-top:10px"></a>
+
+    <a href="images/eg-usersvsinfo.png"><img src="images/eg-usersvsinfo.png" style="width:260px;float:left;margin-top:10px"></a>
+  
+    
+  <br clear="all">
+
+
+
+  </div>
+
+<br clear="all">
+
+  <a id="flows">
+  <h2 class="heading-xlarge">Typical flows</h2></a>
+
+  <h3 class="heading-medium">Search and trade</h3>
+
+  <a href="images/eg-tradeflow1.png"><img src="images/eg-tradeflow1.png" style="width:960px"></a>
+
+  <p style="max-width:940px;line-height:1.6">In this simple flow, a user is <span class="redblobnumber">1</span> presented with the platform and uses the search box <span class="redblobnumber">2</span> to find a specific market where they open a ticket <span class="redblobnumber">3</span> directly from a price in the smart search results.</p>
+
+  <p style="max-width:940px;line-height:1.6">Next the user completes the ticket <span class="redblobnumber">4</span> resulting in a digital contract note confirmation and go to a chart on the market page <span class="redblobnumber">5</span> and after a period of time the trade is profitably closed <span class="redblobnumber">6</span> resulting in a confirmation contract note. <span class="redblobnumber">7</span>
+  </p>
+
+  <p><span style="background-color:#eeb;padding:0.2em 0.5em;border-radius:0.2em"><strong>Applicable to all user personas</strong></span></p>
+
+
+
+  <h3 class="heading-medium" style="margin-top:3.5em">News and trade</h3>
+
+  <a href="images/eg-tradeflow2.png"><img src="images/eg-tradeflow2.png" style="width:960px"></a>
+
+  <p style="max-width:940px;line-height:1.6">In this simple flow, a user is <span class="redblobnumber">1</span> reading news headlines, and selects a story <span class="redblobnumber">2</span> which is linked to a number of <span class="redblobnumber">3</span> markets.</p>
+
+  <p style="max-width:940px;line-height:1.6">The user can open a ticket directly from the short list of markets <span class="redblobnumber">4</span> confirm and begin monitoring <span class="redblobnumber">5</span> without leaving the story or reconfiguring the platform.</p>
+
+
+  <p><span style="background-color:#eeb;padding:0.2em 0.5em;border-radius:0.2em"><strong>Applicable to Diligent personas</strong></span></p>
+
+
+
+
+  <h3 class="heading-medium" style="margin-top:3.5em">Charts and trade</h3>
+
+  <a href="images/eg-tradeflow3.png"><img src="images/eg-tradeflow3.png" style="width:960px"></a>
+
+  <p style="max-width:940px;line-height:1.6">This charting flow outlines a user looking at a realtime chart <span class="redblobnumber">1</span> and opens a trade-on-chart ticket <span class="redblobnumber">2</span> which takes the current view and overlays stop/limit levels <span class="redblobnumber">3</span> alongside the regular ticket details.</p>
+
+  <p style="max-width:940px;line-height:1.6">This user can complete the trade <span class="redblobnumber">4</span> with the usual confirmation and is returned to the chart view with added trade indicators <span class="redblobnumber">5</span> on it. 
+
+  <p><span style="background-color:#eeb;padding:0.2em 0.5em;border-radius:0.2em"><strong>Applicable to Aspiring, Diligent personas</strong></span></p>
+
+
+
+  <h3 class="heading-medium" style="margin-top:3.5em">Mobile trade</h3>
+
+  <a href="images/eg-tradeflow4.png"><img src="images/eg-tradeflow4.png" style="width:960px"></a>
+
+  <p style="max-width:940px;line-height:1.6">In this mobile flow, a user has <span class="redblobnumber">1</span> already opened a position, most likely on a desktop platform. They may remotely monitor the open positions <span class="redblobnumber">2</span> or have an alert set to notify them of price positions <span class="redblobnumber">3</span> where the main mobile action is to close a position <span class="redblobnumber">4</span> resulting in a confirmation ticket <span class="redblobnumber">5</span></p>
+
+  <p><span style="background-color:#eeb;padding:0.2em 0.5em;border-radius:0.2em"><strong>Applicable to most user personas</strong></span></p>
+
+
+
+<h2 class="heading-xlarge">Principles</h2>
+
+  <p style="margin-top:6em"><strong>Basic trade flow principles</strong></p>
+
+  <ul class="list-number" style="font-family:'Open Sans';max-width:720px;font-size:1.1em;margin-left:-1em">
+    <li>Search box available at all times</li>
+
+    <li>Smart search results to help find most relevant results and trade quickly</li>
+
+    <li>Direct access to simple deal ticket</li>
+
+    <li>Provide all the information on a market in one place</li>
+
+    <li>Open a chart from a ticket or an open position</li>
+
+    <li>Monitor and close, or be alerted if auto-closed from stops</li>
+  </ul>
+
+
+  <h3 class="heading-medium">Search box</h3>
+
+  <a href="images/eg-searchhead.png"><img src="images/eg-searchhead.png" style="width:260px;float:left;margin-right:20px"></a>
+
+  <p style="max-width:620px">It's fixed to the top of the page, in the header and visible all the time.</p>
+
+  <p style="max-width:620px">Scrolling down a longer page should keep the header locked to the top of the screen.</p>
+
+<br clear="all">
+
+  <h3 class="heading-medium">Smart search</h3>
+
+  <p style="max-width:720px">Before we have matched user input, we should use a large popover to provide inspiration to people looking for an opportunity. This might be calendar events, big movers, news or a user's previous searches.</p>
+
+  <a href="images/eg-search-empty.png"><img src="images/eg-search-empty.png" style="width:960px;float:left;margin-bottom:30px;margin-left:-10px"></a>
+
+
+
+  <p style="max-width:720px">We try to match user input as quickly and accurately as possible, so that means cross-referencing market names with alternate names, symbols, common mistakes and typos.</p>
+
+  <a href="images/eg-search-seeking.png"><img src="images/eg-search-seeking.png" style="width:960px;float:left;margin-bottom:30px;margin-left:-10px"></a>
+
+
+
+  <p style="max-width:720px">When we have a match we should swap out the broad inspiration with more specific details of events, news, pricing. Try to answer the user's need immediately.</p>
+
+  <a href="images/eg-search-found.png"><img src="images/eg-search-found.png" style="width:960px;float:left;margin-bottom:30px;margin-left:-10px"></a>
+
+
+
+  <h3 class="heading-medium">Deal ticket</h3>
+
+  <p style="max-width:720px">Wherever there is a price there is an opportunity to trade. As in IFE, prices should be presented in pairs and be actionable into a deal ticket.</p>
+
+
+  <p style="max-width:720px;margin-top:1em"><strong>Deal tickets should do the hard work for the user.</strong></p>
+
+   <div style="float:left;margin-right:2em">
+   <video controls="controls" width="416" height="464" loop="true" autoplay="true" name="Video Name" src="images/margin-ticket-slider.m4v"></video>
+   </div>
+
+    <p>Launch tickets from:
+    <ul style="font-family:'Open Sans';line-height:1.6">
+    <li>Watchlist</li>
+    <li>Search</li>
+    <li>News</li>
+    <li>Charts</li>
+    <li>Economic calendar</li>
+    <li>Trade history</li>
+  </ul>
+  </p>
+  
+
+  <p><a href="sprintzero-dealticket-2.html">
+  More detail on deal<br>
+  ticket exploration and <br>
+designs, here.</a></p>
+
+  <br clear="all">
+
+  <p style="max-width:720px">This means calculating meaningful values automatically: margin already used, remaining margin available and margin required, quantities to trade that fit this, actual profit/loss amounts that would the result of a stop of limit order and some indication of the real market value of the trade. Where meaningful, present values in the user's currency.</p>
+
+  <p style="max-width:720px">We are keen to test alternative tickets, especially possible designs that use the risk/margin as an active controller (rather than as a passive output).</p>
+
+  <p style="max-width:720px">For the simple ticket used by most people (80%) it should have clear access to the small number of options most used (20%).</p>
+
+  <p style="max-width:720px">Less widely used options should be made available on more specialised tickets or set as a user option for their account.</p>
+
+
+  <h3 class="heading-medium">All the information</h3>
+
+<a href="images/eg-big-apple.png"><img src="images/eg-big-apple.png" style="width:380px;float:left;margin: 0 2em 1em 0;margin-left:-10px"></a>
+
+  <a href="images/product-page-maxi-cut.png"><img src="images/product-page-maxi-cut.png" style="width:300px;float:left;margin: 0 2em 1em 0;margin-left:-10px"></a>
+
+<br clear="all">
+  
+  <p style="max-width:720px">Where a link to a market is presented, either from news, search results or a watchlist there should be a single consistent destination.</p>
+
+  <p style="max-width:720px">This destination should pull together all the information previously in different windows: chart, price, ticket, news, trade history, pricing and contractual details.</p>
+
+  
+
+
+
+  <h3 class="heading-medium">Watchlists</h3>
+
+  <a href="images/eg-watchlist.png"><img src="images/eg-watchlist.png" style="width:300px;float:left;margin: 0 2em 1em 0;margin-left:-10px"></a>
+
+  <p style="max-width:720px">Watchlists are collections of markets, either curated by us or a user. Their only function is to monitor and act on prices and should be presented as simply as possible. Data shows most users don't have many, and not many items on each. There are outliers, but we should concentrate on this core set.</p>
+
+  <p style="max-width:720px">Users should be able to add any market to a watchlist from a search, a product info page, a news story or other list of markets. Users should be able to create new watchlists, rename and delete existing ones, and remove items from them.</p>
+
+  
+
+  <br clear="all">
+
+
+
+
+  <h3 class="heading-medium">Monitor and close</h3>
+
+  <a href="images/eg-openpos.png"><img src="images/eg-openpos.png" style="width:300px;float:left;margin: 0 2em 1em 0;margin-left:-10px"></a>
+
+  <p style="max-width:720px">We know most of our users act on market prices and close trades manually, rather than using orders, stops and limits.</p>
+
+  <p style="max-width:720px">As such, we provide monitoring at all times as an integral part of the layout. Position is consistent and it is only obscured when performing a search (ie. briefly).</p>
+
+  <br clear="all">
+
+
+  <a href="images/eg-activeorders.png"><img src="images/eg-activeorders.png" style="width:300px;float:left;margin: 0 2em 1em 0;margin-left:-10px"></a>
+
+  <p style="max-width:720px">While we would like to encourage more strategic behaviour in trading, this will remain a key user need and should be accomodated.</p>
+
+  <br clear="all">
+
+
+
+
+
+
+  <h2 class="heading-xlarge" style="margin: 2em 0 0 0">Elements</h2>
+
+
+  <h3 class="heading-medium">Price buttons</h3>
+
+  <p style="max-width:720px">The price buttons sit on either the background layer or the floated layer. If they are on the background, they have a big diffuse shadow. When used on a floated layer the shadow is much smaller.</p>
+
+  <p style="max-width:720px">The effect of this should be a consistent layer above all the elements that price buttons appear.</p>
+
+  <video controls="controls" autoplay="true" loop="true" width="480" height="400" name="Video Name" src="images/price-buttons.m4v"></video>
+
+
+  <p style="max-width:720px">They should equally be functional – clicking on a price pair should open a deal ticket, with the default direction relating to the button clicked. On a single static price, eg. an order, the ticket should open to ammend that order.</p>
+
+
+
+
+  <h3 class="heading-medium">Baselines</h3>
+
+  <p style="max-width:720px">
+  Within distinct units (eg. a Table or a Ticket) a consistent baseline must be applied rigourously to all elements, and ideally applied across the entire platform.
+  </p>
+
+  <a href="images/elements-baseline.png"><img src="images/elements-baseline.png" style="width:460px"></a>
+
+
+
+  <h3 class="heading-medium">Typography</h3>
+
+  <p style="max-width:720px">
+  If in doubt, Open Sans regular. Bigger sizes use Light, smaller sizes can go to Semi-Bold and Bold is good for tiny labels on tables etc.</p>    
+
+  <div id="typography" style="max-width:700px;background-color:#f6f6ed;border:1px solid #e8e8d1;padding:1em">
+      <p style="font-weight:300;font-size:6em;margin:0;padding:0;line-height:1">News</p>
+      <p style="font-weight:300;font-size:3em;margin:0;padding:0;line-height:1.3">Log In</p>
+      <p style="font-weight:400;font-size:1.8em;margin:0;padding:0;line-height:1.8">Trade Ideas</p>
+      <p style="font-weight:600;font-size:1.2em;margin:0;padding:0;line-height:2.4;text-transform:uppercase">Open Positions</p>
+
+      <p style="line-height:2">Japan 225 CFD<br>Germany 30<br>Wall Street CFD<br>UK100</p>
+
+      <p style="font-size:0.9em;line-height:1.6;max-width:600px;margin-left:2em">The British Pound surged higher versus all other major currencies after today’s Markit/CIPS Manufacturing PMI increased by the joint greatest amount in the survey’s history.</p>
+
+      <p style="font-size:0.9em;line-height:1.6;max-width:600px;margin-left:2em">The diffusion index, by Markit Economics, printed 52.3 from the prior reading of 48.3, smashing economist's expectations of a 49.0 figure. The numbers marked a 10-month high.</p>
+
+      <p style="font-size:0.9em;line-height:1.6;max-width:600px;margin-left:2em">Looking into the report, Markit said that August saw solid rebounds in the trends in UK Manufacturing output and incoming new orders.</p>
+
+      <p style="border-bottom:2px solid black;text-transform:uppercase;font-weight:700;font-size:0.66em;line-height:1.6;max-width:600px;"><span style="margin-right:6em">Market</span> <span style="margin-right:3em">Short</span> <span style="margin-right:3em">Long</span> Change</p>
+
+  </div>
+
+
+
+
+
+  <h3 class="heading-medium">Icons</h3>
+
+  <p style="max-width:720px">Keeping icons to a minimum, labels should do most of the heavy lifting to communicate what a link or button is.</p>
+
+  <p>These are <strike>some</strike> all of the icons used within the prototype to date:</p>
+
+  <a href="images/elements-icons.png"><img src="images/elements-icons.png" style="width:460px"></a>
+
+
+
+  <h3 class="heading-medium">Colour</h3>
+
+  <p style="max-width:300px;border-radius:8px;border:1px #ccc solid;padding:2em">White for content background</p>
+
+  <p style="max-width:300px;border-radius:8px;border:1px #ccc solid;padding:2em;background-color:#f6f6ed">Off-white <strong>#f6f6ed</strong> for the table column containing Order, Watchlists and Open Positions</p>
+
+  <p style="color:white;max-width:300px;border-radius:8px;border:1px #821E2E solid;padding:2em;background-color:#de4559">Pinky-Red <strong>#de4559</strong> for Short/Sell content, as well as loss accent colour</p>
+
+  <p style="color:white;max-width:300px;border-radius:8px;border:1px #0E3F5F solid;padding:2em;background-color:#157db1">Blue <strong>#157db1</strong> for Long/Buy content, as well as for links</p>
+
+  <p style="color:#065ed0;max-width:296px;border-radius:8px;border:3px #065ed0 solid;padding:2em;background-color:#EFF5FE">Bright Blue <strong>#065ed0</strong> for links.<br>
+  <a href="#" style="color:#065ed0">Underlined for clarity</a> where that makes sense</p>
+
+  <p style="color:white;max-width:300px;border-radius:8px;border:1px #2A6B35 solid;padding:2em;background-color:#4eb46b">Green <strong>#4eb46b</strong> for positive action buttons, as well as profit accent colour</p>
+
+  <p style="max-width:300px;border-radius:8px;border:1px #C3C494 solid;padding:1.3em 2em;background-color:#ffffcc">Yellow <strong>#ffffcc</strong> for main active search panels and field</p>
+
+  <p style="z-index: -10; margin:-2em 0 0 1em;max-width:300px;border-radius:8px;border:1px #ddddaa solid;padding: 1.3em 2em;background-color:#ffffed">Yellow faded out for contrasting <strong>#ffffed</strong> search panels</p>
+
+
+
+
+  <h3 class="heading-medium">Pattern</h3>
+
+   <p style="max-width:720px">On some of the panels and tickets we introduce a 45º striped texture. The roots of this are the <a href="sprintzero-dealticket-1.html">printed deal tickets from 1918</a> and stock certificates we discovered in research.</p>
+
+   <div style="background: url('images/stripe-red.png') repeat-x; width:400px;height:20px;-webkit-filter: saturate(0%);margin-bottom:1em"></div>
+
+   <p style="max-width:720px">This can be rendered in a number of colours depending on context - eg. the search popover is quite vibrant and colourful and has different coloured stripes for each of the main sections.</p>
+
+   <div style="background: url('images/stripe-red.png') repeat-x; width:400px;height:20px;-webkit-filter: hue-rotate(90deg) saturate(50%)"></div>
+
+   <div style="background: url('images/stripe-red.png') repeat-x; width:400px;height:20px;-webkit-filter: hue-rotate(180deg)  saturate(50%);margin-top:1em"></div>
+
+   <div style="background: url('images/stripe-red.png') repeat-x; width:400px;height:20px;-webkit-filter: hue-rotate(10deg) saturate(50%);margin-top:1em"></div>
+
+   <p style="max-width:720px;margin-top:1em">It works nicely shrunk right down, especially on retina mobile and desktop screens.</p>
+
+   <div style="background: url('images/stripe-red.png') repeat-x; background-size: 45px 10px; width:400px;height:20px;-webkit-filter: saturate(0%);margin-bottom:1em"></div>
+
+
+
+
+  <h2 class="heading-xlarge" style="margin: 2em 0 0 0">Mobile</h2>
+
+  <p style="max-width:720px;margin-top:1em">Using columns means we can turn many platform views directly into mobile views, as long scrolling pages. Other elements like the deal ticket should be worked on to fit on a single screen. A third type of element, the wide table, should work with collapsable table rows following our 80/20 use/info principle.</p>
+
+  <p>Collection of mobile format screens here:</p>
+
+  <a href="images/mobile-tableview.png"><img src="images/mobile-tableview.png" style="width:260px"></a>
+
+  <a href="images/mobile-lists-2.png"><img src="images/mobile-lists-2.png" style="width:260px"></a>
+
+  <br>
+
+    <a href="images/mobile-home.png"><img src="images/mobile-home.png" style="width:260px"></a>
+
+  <a href="images/mobile-lists-1.png"><img src="images/mobile-lists-1.png" style="width:260px"></a>
+
+  <a href="images/mobile-search.png"><img src="images/mobile-search.png" style="width:260px"></a>
+
+  <a href="images/phone-search-1.png"><img src="images/phone-search-1.png" style="width:260px;margin-right:100px"></a>
+
+  <a href="images/phone-search-2.png"><img src="images/phone-search-2.png" style="width:260px"></a>
+
+
+
+
+
+
+
+  </div></div>
+
+  
+
+
+</main>
+
+
+    <footer class="">
+
+     
+
+    </footer>
+
+   
+   
+  <!-- Javascript -->
+  <script src="javascripts/application.js"></script>  </body>
+</html>

@@ -1,0 +1,584 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>Antibodies / Add New</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	<!--from bootstrap - just the dropdown chunk, customized -->
+	<link rel="stylesheet" href="css/bootstrap-dropdown.css" type="text/css" media="screen" />	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo" width="130" height="45" style="padding:14px 0 30px 0" />
+			
+			<!--
+<ul id="topnav">
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Live Help</a></li>
+			<li><a href="#">FAQs</a></li>
+			</ul>
+-->
+
+		</div>
+		
+		<div class="fourcol">
+		
+			<!--
+<img src="images/avi-1.jpg" class="smallavi" />
+		
+			Nicholas Makepeace
+		
+			<ul id="topnav">
+			<li><a href="#">Your profile</a></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+-->
+		
+		</div>
+		
+		<div class="threecol">
+		
+		</div>
+		
+		<div class="threecol last">
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li>Design Guide</li>
+				
+				<ul class="subnav">
+				<li><a href="basics.html">Basic Content</a></li>
+				<li><a href="colours.html">Colours</a></li>
+				<li><a href="thegrid.html">The Grid</a></li>
+				<li><a href="navigation.html">Navigation</a></li>
+				<li class="active"><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="widgets.html">Other UI widgets</a></li>
+				</ul>
+				
+				
+				
+				<ul class="nav">
+				<li><a href="#">News Feed</a></li>
+				<li><a href="#">Work Spaces</a></li>
+				</ul>
+				
+				</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+		
+
+
+
+		<div class="tencol">
+		
+			
+			<div>									
+			<h1 style="font-size:1.66em">Antibodies <span style="color:#888">&gt; Add New</span></h1>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div id="form_container">
+<h3 class="antibody-step">Step #1: Enter antibody details </h3>
+
+<div class="input ">
+<label for="molecular_antibody_title">Title:<span class="required_star_class"> * </span></label><input class="txt-field required " name="molecular_antibody[title]" size="10" type="text">
+</div><!-- end input -->
+
+
+<hr clear="all" class="formtop" />
+
+
+<div class="fivecolsub fleft"><!-- begin sub-column 1 -->
+
+<div class="input ">
+<label for="molecular_antibody_alternative_name">Alternative Name:</label><input class="txt-field" name="molecular_antibody[alternative_name]" size="10" type="text">
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_alternative_name">Alternative Name:</label>
+<input class="txt-field" name="molecular_plasmids_plasmid[alternative_name]" value="User enters text here" type="text">
+</div><!-- end input -->
+
+
+<div class="input">
+<label>Clonality </label>
+<select class="full" id="molecular_antibody_immune" name="molecular_antibody[immune]">
+<option value="0">Polyclonal</option>
+<option value="1">Monoclonal</option>
+<option value="-1" selected="selected">none</option>
+</select><span class="select-arrow"></span>
+</div><!-- end input -->
+
+
+
+<div class="input">
+<script language="javascript">
+          function add_antibody_line(antibody){
+            
+          }
+           
+          function verify_selected_organism(){
+            var selected = $('#antibody_target_organsim option:selected').val()
+            if (selected == "-3"){
+              organism_comman_name = prompt("enter the organism name","name"); 
+              var url = "/stocks/organisms"
+              $.ajax({
+                url: url,
+                type: "post",
+                dataType: 'json',
+                data: {
+                  common_name: organism_comman_name,
+                  application: 'antibodies'
+                },
+                beforeSend: function(){
+                  $('#antibody_target_organsim').attr('disabled', 'disabled');;
+                },
+                success: function(data){
+                  $('#antibody_target_organsim').prepend($("<option Selected></option>").attr("value", data["organism"].id).text(data["organism"].common_name));
+                  $('#antibody_target_organsim').removeAttr('disabled');
+                },
+                error: function(){
+                  alert('Something went wrong...');
+                  $('#antibody_target_organsim').removeAttr('disabled');
+                }
+              });
+            }
+          }
+</script>
+
+<label for="molecular_antibody_source" style="font-weight:bold">Raised in:</label>
+<select class="full" id="antibody_target_organsim" name="molecular_antibody[raised_in]" onchange="verify_selected_organism()">
+<option value="-1">Select one...</option>
+<option value="1">mouse</option>
+<option value="5">mouse</option>
+<option value="6">chicken</option>
+<option value="7">rabbit</option>
+<option value="8">horse</option>
+<option value="11">iguana</option>
+<option value="21">donkey</option>
+<option value="31">cat</option>
+<option value="41">goblin</option>
+<option value="111">-1</option>
+<option value="121">human</option>
+<option value="-2">----</option>
+<option value="-3">New Organism</option>
+</select><span class="select-arrow"></span>
+</div><!-- end input -->
+
+<div class="input ">
+<label for="molecular_antibody_source" style="font-weight:bold">Source:</label>
+<input class="txt-field" name="molecular_antibody[source]" size="10" type="text">
+</div><!-- end input -->
+
+
+
+</div><!-- end sub-column 1 -->
+
+<div class="fivecolsub fright"><!-- begin sub-column 2 -->
+
+
+
+<div class="input ">
+<label for="molecular_antibody_antigene" style="font-weight:bold">Antigen / Immunogen:</label>
+<input class="txt-field" name="molecular_antibody[antigene]" size="10" type="text">
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_antibody_tags_fluorophores" style="font-weight:bold">Tags / Fluorophores:</label>
+<input class="txt-field" name="molecular_antibody[tags_fluorophores]" size="10" type="text">
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_antibody_clone_field" style="font-weight:bold">Clone:</label>
+<input class="txt-field" name="molecular_antibody[clone_field]" size="10" type="text">
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_antibody_isotype" style="font-weight:bold">Isotype:</label>
+<input class="txt-field" name="molecular_antibody[isotype]" size="10" type="text">
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_antibody_preparation_date" style="font-weight:bold">Preparation Date:</label>
+<input class="txt-field hasDatepicker" id="preparation_date_datepicker_event" name="molecular_antibody[preparation_date]" size="10" type="text" value="">
+</div><!-- end input -->
+
+
+</div><!-- end sub-column 2 -->
+
+
+<br clear="all" />
+
+
+
+<div class="input ">
+<label for="molecular_antibody_reacts_with">Reacts with:</label>
+
+<br clear="all" />
+
+<ul class="reacts_list">
+<li><input class="cb_react" id="Avian" name="molecular_antibody[reacts_with][7]" type="checkbox" value="Avian"> <label class="reacts_label" for="antibody_reacts_with_7">Avian</label></li>
+<li><input class="cb_react" id="Cat" name="molecular_antibody[reacts_with][8]" type="checkbox" value="Cat"> <label class="reacts_label" for="antibody_reacts_with_8">Cat</label></li>
+<li><input class="cb_react" id="Chicken" name="molecular_antibody[reacts_with][9]" type="checkbox" value="Chicken"> <label class="reacts_label" for="antibody_reacts_with_9">Chicken</label></li>
+<li><input class="cb_react" id="Chimpanzee" name="molecular_antibody[reacts_with][10]" type="checkbox" value="Chimpanzee"> <label class="reacts_label" for="antibody_reacts_with_10">Chimpanzee</label></li>
+<li><input class="cb_react" id="Dog" name="molecular_antibody[reacts_with][11]" type="checkbox" value="Dog"> <label class="reacts_label" for="antibody_reacts_with_11">Dog</label></li>
+</ul>
+
+<ul class="reacts_list">
+<li><input class="cb_react" id="Donkey" name="molecular_antibody[reacts_with][12]" type="checkbox" value="Donkey"> <label class="reacts_label" for="antibody_reacts_with_12">Donkey</label></li>
+<li><input class="cb_react" id="Drosophila" name="molecular_antibody[reacts_with][13]" type="checkbox" value="Drosophila"> <label class="reacts_label" for="antibody_reacts_with_13">Drosophila</label></li>
+<li><input class="cb_react" id="Goat" name="molecular_antibody[reacts_with][14]" type="checkbox" value="Goat">
+<label class="reacts_label" for="">Goat</label></li>
+<li><input class="cb_react" id="Guinea pig" name="molecular_antibody[reacts_with][15]" type="checkbox" value="Guinea pig">
+<label class="reacts_label" for="antibody_reacts_with_15">Guinea pig</label></li>
+<li><input class="cb_react" id="Hamster" name="molecular_antibody[reacts_with][16]" type="checkbox" value="Hamster">
+<label class="reacts_label" for="antibody_reacts_with_16">Hamster</label></li>
+</ul> 
+
+<ul class="reacts_list">
+<li><input class="cb_react" id="Horse" name="molecular_antibody[reacts_with][17]" type="checkbox" value="Horse">
+<label class="reacts_label" for="antibody_reacts_with_17">Horse</label></li>
+<li><input class="cb_react" id="Human" name="molecular_antibody[reacts_with][18]" type="checkbox" value="Human">
+<label class="reacts_label" for="antibody_reacts_with_18">Human</label></li>
+<li><input class="cb_react" id="Monkey" name="molecular_antibody[reacts_with][19]" type="checkbox" value="Monkey">
+<label class="reacts_label" for="antibody_reacts_with_19">Monkey</label></li>
+<li><input class="cb_react" id="Mouse" name="molecular_antibody[reacts_with][20]" type="checkbox" value="Mouse">
+<label class="reacts_label" for="antibody_reacts_with_20">Mouse</label></li>
+<li><input class="cb_react" id="Other" name="molecular_antibody[reacts_with][21]" type="checkbox" value="Other">
+<label class="reacts_label" for="antibody_reacts_with_21">Other</label></li>
+</ul>
+
+<ul class="reacts_list">
+<li><input class="cb_react" id="Pig" name="molecular_antibody[reacts_with][22]" type="checkbox" value="Pig">
+<label class="reacts_label" for="antibody_reacts_with_22">Pig</label></li>
+<li><input class="cb_react" id="Plant" name="molecular_antibody[reacts_with][23]" type="checkbox" value="Plant">
+<label class="reacts_label" for="antibody_reacts_with_23">Plant</label></li>
+<li><input class="cb_react" id="Rabbit" name="molecular_antibody[reacts_with][24]" type="checkbox" value="Rabbit">
+<label class="reacts_label" for="antibody_reacts_with_24">Rabbit</label></li>
+<li><input class="cb_react" id="Rat" name="molecular_antibody[reacts_with][25]" type="checkbox" value="Rat">
+<label class="reacts_label" for="antibody_reacts_with_25">Rat</label></li>
+<li><input class="cb_react" id="Sheep" name="molecular_antibody[reacts_with][26]" type="checkbox" value="Sheep">
+<label class="reacts_label" for="antibody_reacts_with_26">Sheep</label></li>
+</ul>
+
+<ul class="reacts_list" style="margin-right:0">
+<li><input class="cb_react" id="Xenopus" name="molecular_antibody[reacts_with][27]" type="checkbox" value="Xenopus">
+<label class="reacts_label" for="antibody_reacts_with_27">Xenopus</label></li>
+<li><input class="cb_react" id="Zebrafish" name="molecular_antibody[reacts_with][28]" type="checkbox" value="Zebrafish">
+<label class="reacts_label" for="antibody_reacts_with_28">Zebrafish</label></li>
+</ul>
+
+</div><!-- end input -->
+
+<br clear="all" />
+
+
+<div class="input ">
+<label for="molecular_antibody_description">Description:</label>
+
+<img src="images/redactor-editbox.png" alt="redactor-editbox" width="" height="" style="margin-top:10px"/>
+</div><!-- end input -->
+
+
+<br clear="all" />
+
+
+
+
+
+ <h3 class="antibody-step">Step #2: Select applications (optional)</h3>
+ 
+  <table id="applications">
+    <tbody><tr class="application">
+      <th width="150px"> 
+        <a href="#" id="add_app" onclick="return false;"><i class="icon-greenadd"></i> add another</a>
+      </th>
+      <th width="226px">
+      Application
+      </th>
+      <th width="120px">
+      Dilution
+      </th>
+    </tr>
+    
+  <tr class="application" id="application_1">
+    <td> 
+      <a href="#" class="smaller" id="del_app_1" onclick="delete_application_row(this); return false;"><i class="icon-cross"></i> remove</a>
+    </td>
+    
+    <td>
+    <select class="full" id="antibody_application_1" name="molecular_antibody[application_attributes][new][1][characteristic_type_id]" onchange="select_application(this)">
+    <option value="-1">Select application...</option>
+    <option value="1">Affinity purification</option>
+    <option value="2">Blocking</option>
+    <option value="3">Southern Blot</option>
+    <option value="4">Northern Blot</option>
+    <option value="5">Western Blot</option>
+    <option value="6">Dot Blot</option>
+    <option value="7">Agglutination</option>
+    <option value="8">competitive binding assays</option>
+    <option value="9">Cellular activation</option>
+    <option value="10">ChIP</option>
+    <option value="11">Microcytotoxicity testing</option>
+    <option value="12">Enzyme Immunoassay</option>
+    <option value="13">ELISA</option>
+    <option value="14">Electron Microscopy</option>
+    <option value="15">Electrophoretic Mobility Shift Assay</option>
+    <option value="16">Flow Cytometry</option>
+    <option value="17">Functional Studies</option>
+    <option value="18">Gel supershift assays</option>
+    <option value="19">Hot Start PCR</option>
+    <option value="20">Indirect ELISA</option>
+    <option value="21">Immunoassay</option>
+    <option value="22">Immunohistochemistry</option>
+    <option value="24">Immunodiffusion</option>
+    <option value="25">Immunoelectrophoresis</option>
+    <option value="26">Immunofluorescence</option>
+    <option value="27">Inhibition Assay</option>
+    <option value="28">Immunoprecipitation</option>
+    <option value="29">In situ hybridisation</option>
+    <option value="30">Mass Spectrometry</option>
+    <option value="31">Real Time PCR</option>
+    <option value="32">Radioimmunoassay</option>
+    <option value="33">RNAse Protection</option>
+    <option value="34">RT-PCR</option>
+    <option value="35">SDS-PAGE</option>
+    <option value="36">Thin Layer Chromatography</option>
+    <option value="1821">null</option>
+    <option value="1901">null</option>
+    <option value="-2">----</option>
+    <option value="-3">Add application</option></select><span class="select-arrow"></span>
+    
+    </td>
+    
+    <td>
+    <input id="application_value_1" class="txt-field short"  type="text" name="molecular_antibody[application_attributes][new][1][value]">
+    </td>
+  </tr>
+</tbody></table>
+    
+    
+<div class="wizard" style="clear:both">
+
+
+<h3 class="antibody-step">Step #3: Is this antibody commercially available ? (optional)</h3>
+
+
+    <div class="input ">
+    <label for="molecular_antibody_company_name" style="font-weight:bold">Manufacturer:</label>
+    <input class="txt-field ui-autocomplete-input" id="material_manufacturer" name="molecular_antibody[company_name]" size="10" type="text" value="" autocomplete="off">
+    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+    </div>
+    
+    <div class="input ">
+    <label for="molecular_antibody_catalog_number" style="font-weight:bold">Catalog Number:</label>
+    <input class="txt-field" id="material_catalog_number" name="molecular_antibody[catalog_number]" size="10" type="text" value="">
+    </div>  
+    
+<div class="input">
+<label for="molecular_plasmids_plasmid_units">Units:</label>
+
+<input class="txt-field short addgap fleft" id="material_units" name="molecular_plasmids_plasmid[units]" type="text" value="">
+
+<div class="dropdown fright ">
+                <button class="btn short dropdown-toggle" data-toggle="dropdown">µl <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">ml</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">µg</a></li>
+                  <li><a href="#">ug</a></li>
+                  <li><a href="#">U</a></li>
+                  <li><a href="#">10U/ul</a></li>
+                  <li><a href="#">1 Liter</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">add a unit&hellip; </a></li>
+                  <!-- <a href="/catalog/units/new"><img alt="Addplus" src="/images/addPlus.png?1355130548" style="padding-left:5px" width="15px"></a> -->
+                </ul>
+</div><!-- end dropdown -->
+
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_web">Web page:</label>
+<input class="txt-field" id="material_web" name="molecular_plasmids_plasmid[web]" type="text" value="">
+
+</div><!-- end input -->
+
+
+<div class="input">
+<label for="material_price">Price:</label>
+
+
+<div class="dropdown fleft ">
+                <button class="btn short addgap dropdown-toggle" data-toggle="dropdown">$ USD <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">$ USD</a></li>
+                  <li><a href="#">€ EUR</a></li>
+                  <li><a href="#">£ GBP</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">other&hellip; </a></li>
+                </ul>
+</div><!-- end dropdown -->
+
+<!-- <select class="selection" name="molecular_plasmids_plasmid[currency]"><option value="1">$ USD</option><option value="2">€ EUR</option><option value="3">£ GBP</option></select> -->
+<input type="text" class="txt-field short" id="material_price" name="molecular_plasmids_plasmid[price]" size="8" value="Amount">
+
+</div><!-- end input -->
+
+<br clear="all" />
+
+				<div class="pagetools" style="margin:2em 0 5em 0">
+					<ul class="tab button">
+					<li><a href="#">Save</a></li>
+					<li><a href="#">Save &amp; New</a></li>
+					<li><a href="#" style="font-weight:400">Cancel</a></li>
+					</ul>
+				<br clear="all">
+				</div>
+
+			</div><!-- end form container -->
+			
+		</div><!-- end column -->			
+			
+			
+						
+			
+			
+			
+		</div><!-- end column -->
+		
+		
+		<div class="fourcol last">
+		
+		<h3>Add Tags</h3>
+		
+		<p class="smaller">You may want to add tags at this time. Click on a tag to toggle it on or off.</p>
+		
+		<br />
+		
+		<div id="tagprinter">
+				<ul class="tags">
+				<li><a href="#">Antibody</a></li>
+				<li><a href="#">Cell Lines</a></li>
+				<li><a href="#">DFF</a></li>
+				<li><a href="#">ECL</a></li>
+				<li><a href="#">Enzyme</a></li>
+				<li><a href="#">Harmful</a></li>
+				<li><a href="#">Hormone</a></li>
+				<li><a href="#">Label</a></li>
+				<li><a href="#">Liquid</a></li>
+				<li><a href="#">Microscopic</a></li>
+				<li><a href="#">PCR</a></li>
+				<li><a href="#">Toxic</a></li>
+				<li><a href="#">Plastic</a></li>
+				<li><a href="#">Phosphatase</a></li>
+				<li><a href="#">Laser-capture</a></li>
+				<li><a href="#">CO2</a></li>
+				<li><a href="#">Peptide</a></li>
+				<li><a href="#">NMR</a></li>
+				<li><a href="#">Experiments</a></li>
+				
+				<li id="tag_add"><a href="#">add a tag</a></li>
+				</ul>
+							
+			</div><!-- end tagprinter -->
+
+		</div><!-- end column -->
+		
+</div><!-- end ROW -->
+
+</div><!-- end container 'id=content' -->
+
+
+<div class="container" id="footer">
+	<div class="row">
+		<footer>
+		
+		<div class="fleft">
+		<a href="#"><img src="images/biodata-logo.png" alt="biodata-logo" width="25" height="30" style="margin-right:10px;" /></a>
+		</div>
+		
+		<div class="fleft addgap">
+		<p style="line-height:1.1"><span class="smaller">Powered by</span><br />BioData</p>
+		</div>
+		
+		<div class="fleft">
+		<p><a href="#">Privacy</a> | <a href="#">Terms and Conditions</a></p>
+		</div>
+		
+		<div class="fright">
+		<p>All contents &copy; copyright 2008-2012 BioData Ltd.  All rights reserved.  Read updates and reviews on <a href="#">our blog</a></p>
+		</div>
+		
+		<br clear=all />
+		
+		</footer>
+	</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+
+</body>
+
+</html>

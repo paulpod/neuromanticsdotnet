@@ -1,0 +1,307 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>Basics : Design Guide :: Labguru</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo" width="130" height="45" style="padding:14px 0 30px 0" />
+			
+			<!--
+<ul id="topnav">
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Live Help</a></li>
+			<li><a href="#">FAQs</a></li>
+			</ul>
+-->
+
+		</div>
+		
+		<div class="fourcol">
+		
+			<!--
+<img src="images/avi-1.jpg" class="smallavi" />
+		
+			Nicholas Makepeace
+		
+			<ul id="topnav">
+			<li><a href="#">Your profile</a></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+-->
+		
+		</div>
+		
+		<div class="threecol">
+		
+		</div>
+		
+		<div class="threecol last">
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li>Design Guide</li>
+				
+				<li class="active">Typography</li>
+				<li><a href="icons.html">Icons</a></li>
+				<li><a href="buttons.html">Buttons</a></li>
+				
+				<li><a href="colours.html">Colours</a></li>
+				<li><a href="thegrid.html">The Grid</a></li>
+				<li><a href="navigation.html">Navigation</a></li>
+				<li><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="widgets.html">Other UI widgets</a></li>
+				</ul>
+				
+				
+				
+				<ul class="nav">
+				<li><a href="#">News Feed</a></li>
+				<li><a href="#">Work Spaces</a></li>
+				</ul>
+				
+				</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+		
+
+
+
+		<div class="eightcol">
+		
+			<h1 class="megatitle">Typography</h1>
+			
+	<!-- 		<p id="byline" class="meta left">Author <a href="mailto:paulpod@neuromantics.net">Paul Pod</a></p> -->
+			
+	<!-- 		<p id="doctools" class="meta right">You may <a href="#">Edit</a> <a href="#">Delete</a></p> -->
+	
+	<!-- 		<br style="clear:both"/> -->
+	
+			<hr />
+			
+			<div class="longcopy">
+									
+			<h2>Main typeface : Open Sans</h2>
+			
+			<p>Open Sans is a humanist sans-serif typeface designed by Steve Matteson and commissioned by Google. It was designed with an "upright stress, open forms and a neutral, yet friendly appearance", being especially designed for legibility across print, web, and mobile interfaces. The character repertoire contains 897 glyphs.</p>
+			
+			<p>Open Sans is available in a large number of variants for a font with an open license. There are 5 variants for weight and each one has an italic version, totalling 10 variants.</p>
+			
+			<p>This <a href="http://www.google.com/webfonts#UsePlace:use/Collection:Open+Sans">implementation of Open Sans</a> from <a href="http://www.google.com/webfonts/specimen/Open+Sans">Google Web Fonts</a> project should work ok, but if font rendering in testing on older OS versions looks poor consider using an approach where the main font is Trebuchet MS on XP, Segoe UI on Vista, and Open Sans on Win 7 (and everywhere else)</p>
+			
+			
+			<h2>Body copy typeface : Georgia</h2>
+			
+			<p>While Open Sans is great for almost all type, where multiple paragraphs of body copy are likely to be used - for example on the main content area of a paper or document - a well sized and spaced serif is a good contrast and has great readability. Georgia is the serif font of choice, with suitable fallbacks thro Times and .serif defaults.</p>
+			
+			<p style="font-size:5em;text-indent:0;line-height:1.2;overflow:hidden;margin:-0.1em 0">Abcdefghijklmnopqrstuvwxyz</p>
+			<p style="font-size:4em;text-indent:0;line-height:1.2;overflow:hidden;margin:0">Abcdefghijklmnopqrstuvwxyz</p>
+			<p style="font-size:3em;text-indent:0;line-height:1.2;overflow:hidden;margin:-0.1em 0">Abcdefghijklmnopqrstuvwxyz</p>
+			<p style="font-size:2.4em;text-indent:0;line-height:1.2;overflow:hidden;margin:0.1em 0 0.66em 0">1234567890 !@#$%? abcdefg</p>
+
+
+			
+			<p style="font-size:1.9em;text-indent:0;line-height:1.2;margin-bottom:0.6em">Georgia is a well proportioned web font with great weighting at all sizes.<br /><em style="color:#555">It also has a nicely drawn italic that contrasts well,</em> and t3xt f19ur3s.</p>
+			
+			<p>Bold is <strong>quite heavy</strong> so is best used in small doses or only on Headings (H4, see below).</p>
+			
+			<h2>Ordered and unordered lists</h2>
+
+			<p>Within a long section of body copy there are a few types of list available in the standard Redactor content editor:</p>
+			
+			<ol>
+			<li>Ordered lists with automatic numbering</li>
+			<li>Unordered lists with a bullet placed to the left</li>
+			<li>Note that the numbered list has been styled to remove the . dot</li>
+			<li>This styling includes correct x.xx sub-list numbering
+			
+			<ol>
+			<li>Georgia is the only standard webfont that uses <a href="http://en.wikipedia.org/wiki/Text_figures">text figures</a></li>
+			<li>They are also known as <em>old style</em> or <em>hanging numbers</em></li>
+			<li>Like lowercase letters they have ascenders and descenders</li>
+			<li>They are generally nicer to read in order lists</li>
+			</ol>
+			
+			</li>
+			
+			<li>And that is an ordered list</li>
+			</ol>
+			
+			<hr>
+			
+			<p>The above is clearly a numbered ordered list, below is an example of a bulleted, unordered list with sub-lists available if required</p>
+			
+			<ul>
+			<li>Nam id orci sed enim eleifend porta a eget urna</li>
+			<li>Vivamus fermentum vehicula orci, et feugiat arcu pulvinar dignissim</li>
+			<li>Donec sagittis felis nec magna varius a scelerisque augue posuere</li>
+			<li>Mauris ullamcorper enim ac est fringilla bibendum</li>
+			<li>Proin interdum bibendum mi, id dapibus nulla egestas</li>
+			<li>Integer imperdiet arcu in enim lobortis</li>
+			</ul>
+			
+			<h2>A few more text styles</h2>
+			
+			<p>The Redactor WYSIWYG editor also allows a little formatting of text for quoted blocks:
+			
+			<blockquote>Redactor is the most fantastic yet beautiful and easy-to-use WYSIWYG editor on jQuery. It is lightning fast, small, scalable, and powerful.</blockquote>
+			
+			<blockquote>You can easily make your web project much more attractive for your customers and visitors by implementing the Redactor as your default text-editor.</blockquote>
+			
+			<p>That's what they say, anyway. Within this <em>longcopy style</em> for document text there are four levels of heading available, so I'll show these in the context of a block of long text to make more sense.</p>
+			
+			<h1>Vivamus ac lectus &ndash; Heading one</h1>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis quam at nibh rhoncus vestibulum semper est elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus ac lectus ac neque ullamcorper congue eget ut nisl.</p>
+			
+			<h2>Vivamus viverra &ndash; Heading two</h2>
+			
+			<p>Donec tincidunt ultricies viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas in suscipit mauris. Praesent congue bibendum tincidunt. Integer ac neque eget lectus rutrum convallis. Vivamus viverra sodales risus, nec pulvinar dui lacinia quis. </p>
+			
+			<h3>Vulputate dictum &ndash; Heading three</h3>
+			
+			<p>Proin nec lacus in urna fermentum laoreet dictum vitae massa. Duis pulvinar accumsan enim vel cursus. Vestibulum porttitor pellentesque commodo. Maecenas eu mauris eget erat dapibus ullamcorper ac id sapien. Sed molestie vulputate dictum. Etiam et sem leo, ut pulvinar libero.</p>
+			
+			<h4>Vulputate lacus &ndash; Heading four</h4>
+			
+			<p>Proin nec lacus in urna fermentum laoreet dictum vitae massa. Duis pulvinar accumsan enim vel cursus. Vestibulum porttitor pellentesque commodo. Maecenas eu mauris eget erat dapibus ullamcorper ac id sapien. Sed molestie vulputate dictum. Etiam et sem leo, ut pulvinar libero.</p>
+			
+			
+			</div><!-- end long copy region -->
+			
+			
+		</div><!-- end column -->
+		
+		
+		
+
+		
+		
+		
+		<div class="sixcol last">
+		
+	
+			<h3>Typescale</h3>
+			
+			<p class="note">Open Sans has a similar visual feel to the current font, <span style="font-family:'Trebuchet MS'">Trebuchet</span>, while offering a wider range of weights and has more modern spacing and hinting to look good at all sizes.</p>
+			
+			<div style="overflow:hidden">
+			
+			<p style="text-indent:0;line-height:1.4">
+			<span class="note">72pt</span>&nbsp;<span style="font-size:4em;font-weight:300">Abcdefghijklmnopqrstuvxyz<br /></span>
+			<span class="note">48pt</span>&nbsp;<span style="font-size:2.65em;font-weight:300">Abcdefghijklmnopqrstuvxyz<br /></span>
+			<span class="note">32pt</span>&nbsp;<span style="font-size:1.8em;font-weight:300">Abcdefghijklmnopqrstuvxyz<br /></span>
+			<span class="note">28pt</span>&nbsp;<span style="font-size:1.55em;line-height:1.3;font-weight:300">Abcdefghijklmnopqrstuvxyz<br /></span>
+			<span class="note">21pt</span>&nbsp;<span style="font-size:1.15em;line-height:1.5;font-weight:300">Abcdefghijklmnopqrstuvxyz<span style="color:#9be">&nbsp;300 Book<br /></span></span>
+			<span class="note">18pt</span>&nbsp;<span style="font-size:1em;line-height:1.5;font-weight:400">Abcdefghijklmnopqrstuvxyz <span style="color:#9be">400 Normal<br /></span></span>
+			<span class="note">16pt</span>&nbsp;<span style="font-size:0.9em;line-height:1.2;font-weight:400">Abcdefghijklmnopqrstuvxyz <span style="color:#9be">400 Normal<br /></span></span>
+			<span class="note">14pt</span>&nbsp;<span style="font-size:0.8em;line-height:0.6;font-weight:600">Abcdefghijklmnopqrstuvxyz <span style="color:#9be">600 Semi-Bold<br /></span></span>
+			<span class="note">12pt</span>&nbsp;<span style="font-size:0.66em;line-height:0.6;font-weight:600">Abcdefghijklmnopqrstuvxyz <span style="color:#9be">600 Semi-Bold<br /></span></span>
+			<span class="note">10pt</span>&nbsp;<span style="font-size:0.55em;line-height:0.6;font-weight:700">Abcdefghijklmnopqrstuvxyz <span style="color:#9be">700 Bold<br /></span></span>
+			</p>
+			
+			<h3>Weights</h3>
+						
+			<p style="text-indent:0;line-height:1.;font-size:1.6em">
+			<span style="font-weight:300">Font-weight 300 Book<br /></span>
+			<span style="font-weight:400">Font-weight 400 Normal<br /></span>
+			<span style="font-weight:600">Font-weight 600 Semi-Bold<br /></span>
+			<span style="font-weight:700">Font-weight 700 Bold<br /></span>
+			<span style="font-weight:800">Font-weight 800 Extra Bold<br /></span>
+			</p>
+			
+			<p class="note">300 Book looks great at larger sizes, at medium sizes 400 Normal looks better and is more readable. Similarly, at small sizes 14pt and lower 600 Semi-Bold is preferred.</p>
+			
+			</div>
+			
+			
+						
+			
+		</div><!-- end column -->
+		
+	</div><!-- end ROW -->
+
+</div><!-- end container 'id=content' -->
+
+
+<div class="container" id="footer">
+	<div class="row">
+		<footer>
+		
+		<div class="fleft">
+		<a href="#"><img src="images/biodata-logo.png" alt="biodata-logo" width="25" height="30" style="margin-right:10px;" /></a>
+		</div>
+		
+		<div class="fleft addgap">
+		<p style="line-height:1.1"><span class="smaller">Powered by</span><br />BioData</p>
+		</div>
+		
+		<div class="fleft">
+		<p><a href="#">Privacy</a> | <a href="#">Terms and Conditions</a></p>
+		</div>
+		
+		<div class="fright">
+		<p>All contents &copy; copyright 2008-2012 BioData Ltd.  All rights reserved.  Read updates and reviews on <a href="#">our blog</a></p>
+		</div>
+		
+		<br clear=all />
+		
+		</footer>
+	</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,2884 @@
+layout: false
+---
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <title>GAIN CAPITAL</title>
+
+    
+
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300' rel='stylesheet' type='text/css'>
+
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
+  <link href="stylesheets/concept1.css" media="screen" rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.peity.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <body class="with-xvgrid" lang="en" style="transform: scale(0.8)">
+
+  <svg style="display:none">
+    <defs>
+
+      <g id="trade-direction-short">
+        <polygon points="11.001,0 11,9.586 1.419,0.006 0.005,1.42 9.586,11 0,11.001 0.001,13 13,13 13.001,0 " class="short" />
+      </g>
+
+      <g id="trade-direction-long">
+        <polygon points="0,1.999 9.586,2 0.005,11.581 1.419,12.995 11,3.415 11,13.001 13,12.999 13,0 0,0 " class="long" />
+      </g>
+
+      <g id="price-direction-short">
+        <polygon points="11.001,0 11,9.586 1.419,0.006 0.005,1.42 9.586,11 0,11.001 0.001,13 13,13 13.001,0 " class="fill-white" />
+      </g>
+
+      <g id="price-direction-long">
+        <polygon points="0,1.999 9.586,2 0.005,11.581 1.419,12.995 11,3.415 11,13.001 13,12.999 13,0 0,0 " class="fill-white" />
+      </g>
+
+      <g id="edit-icon">
+        <path fill="#231F20" d="M10.181,0L0.133,10.049L0,13.01l2.961-0.133l10.05-10.05L10.181,0z M1.677,11.739l-1.042-1.042l9.604-9.604
+  l1.042,1.041L1.677,11.739z"/>
+        <circle fill="#231F20" cx="5.999" cy="13" r="1"/>
+        <circle fill="#231F20" cx="9.499" cy="13" r="1"/>
+        <circle fill="#231F20" cx="12.999" cy="13" r="1"/>
+      </g>
+
+      <g id="down-menu">
+        <polygon fill="#000000" points="16.971,0 9.192,7.777 1.414,0 0,1.414 9.192,10.605 18.385,1.414 "/>
+      </g>
+
+      <g id="down-white-menu">
+        <polygon fill="#ffffff" points="16.971,0 9.192,7.777 1.414,0 0,1.414 9.192,10.605 18.385,1.414 "/>
+      </g>
+
+      <g id="down-yellow-menu">
+        <polygon fill="#ffee03" points="16.971,0 9.192,7.777 1.414,0 0,1.414 9.192,10.605 18.385,1.414 "/>
+      </g>
+
+      <g id="close-x">
+        <polygon fill="#000000" points="13,1.411 11.588,0 6.5,5.089 1.411,0 0,1.412 5.088,6.5 0,11.589 1.411,13 6.5,7.911 11.589,13 13,11.589 7.911,6.5 "/>
+      </g>
+
+      <g id="clock">
+        <path fill="#808080" d="M6.5,0C2.91,0,0,2.91,0,6.5S2.91,13,6.5,13c3.59,0,6.5-2.91,6.5-6.5S10.09,0,6.5,0z M9.876,7.945H6.479
+  c-0.552,0-1-0.448-1-1V1.562c0-0.552,0.448-1,1-1s1,0.448,1,1v4.384h2.396c0.553,0,1,0.448,1,1S10.429,7.945,9.876,7.945z"/>
+      </g>
+
+      <g id="fold-up">
+        <rect fill="#000000" width="13" height="2"/>
+        <polygon fill="#000000" points="12,7.5 6.5,2 1,7.5 2.411,8.911 5.5,5.822 5.5,9 7.5,9 7.5,5.822 10.589,8.911 "/>
+        <rect x="5.5" y="10" fill="#000000" width="2" height="1"/>
+        <rect x="5.5" y="12" fill="#000000" width="2" height="1"/>
+      </g>
+
+      <g id="open-chart">
+        <polygon fill="#AAAAAA" points="1,12 1,0 0,0 0,13 13,13 13,12 "/>
+        <polygon fill="#000000" points="13,0 7.937,5.063 4.937,3.063 2,6 2,7.812 5.063,4.749 8.063,6.749 13,1.812 "/>
+        <polygon fill="#000000" points="13,5.895 7.099,8.85 5.063,6.814 2,8.857 2,10.63 4.937,8.644 6.901,10.608 13,7.559 "/>
+      </g>
+
+      <g id="ci-circle-logo">
+        <circle fill="none" stroke="rgba(0, 0, 0, 0.33)" stroke-width="12" stroke-miterlimit="10" cx="96" cy="104" r="90"/>
+        <circle fill="none" stroke="rgba(0, 0, 0, 0.66)" stroke-width="12" stroke-miterlimit="10" cx="96" cy="100" r="90"/>
+        <circle cx="96" cy="96" r="90"/>
+        <polygon fill="#FFEE03" points="141,71 141,61 101,61 101,71 116,71 116,121 101,121 101,131 141,131 141,121 126,121 126,71 "/>
+        <polygon fill="#FFFFFF" points="96,81 96,71 86,61 61,61 51,71 51,121 61,131 86,131 96,121 96,111 86,111 86,121 61,121 61,71 
+          86,71 86,81 "/>
+        <circle fill="none" stroke="#FFEE03" stroke-width="12" stroke-miterlimit="10" cx="96" cy="96" r="90"/>
+      </g>
+
+      <g id="circle-user-menu">
+        <circle fill="none" stroke="rgba(0, 0, 0, 0.33)" stroke-width="12" stroke-miterlimit="10" cx="96" cy="104" r="90"/>
+        <circle fill="none" stroke="rgba(0, 0, 0, 0.66)" stroke-width="12" stroke-miterlimit="10" cx="96" cy="100" r="90"/>
+        <circle fill="none" stroke="#FFEE03" stroke-width="12" stroke-miterlimit="10" cx="95.996" cy="96" r="90"/>
+        <polygon fill="#FFEE02" points="274.232,90 242.497,121.727 210.771,90 205,95.767 242.497,133.265 280,95.767 "/>
+
+      </g>
+
+      <g id="search">
+        <path fill="#ffffff" d="M16.854,15.438l-4.255-4.255C13.475,10.015,14,8.569,14,7c0-3.86-3.141-7-7-7C3.14,0,0,3.14,0,7
+  c0,3.859,3.14,7,7,7c1.57,0,3.016-0.525,4.185-1.402l4.255,4.256c0.195,0.195,0.512,0.195,0.707,0l0.707-0.708
+  C17.049,15.95,17.049,15.634,16.854,15.438z M2,7c0-2.757,2.243-5,5-5s5,2.243,5,5s-2.243,5-5,5S2,9.757,2,7z"/>
+      </g>
+
+    </defs>
+  </svg>
+
+  </head>
+
+  <body class="">
+    
+   
+
+    
+
+
+   
+
+
+
+
+  <main>
+
+  
+  <!-- Start the HEADER -->
+  <!-- - - - - - - - -  -->
+  <header class="tophead">
+
+
+
+    <div class="header-item" style="width:100px">
+      <svg class="service-logo" viewBox="0 0 192 200">
+        <use xlink:href="#ci-circle-logo"></use>
+      </svg>
+    </div>
+
+
+    <div class="header-item" style="margin-right:190px">
+      <form action="search" method="get" class="form">
+
+      <input type="" class="search-input" name="search" id="search" placeholder="Search" required >
+
+
+      </form>
+    </div>
+
+    <div class="header-item">
+      
+      <ul class="header-nav">
+        <li>
+          <a href="concept-mix1">
+          <svg class="icon header-nav-icon" viewBox="0 0 20 11">
+            <use xlink:href="#down-white-menu"></use>
+          </svg>
+
+          News</a>
+        </li>
+
+        <li>
+        <a href="concept-mix2">
+          <svg class="icon header-nav-icon" viewBox="0 0 20 11">
+            <use xlink:href="#down-white-menu"></use>
+          </svg>
+          
+          Charts</a>
+        </li>
+
+        <li>
+        <a href="concept-mix3">
+          <svg class="icon header-nav-icon" viewBox="0 0 20 11">
+            <use xlink:href="#down-white-menu"></use>
+          </svg>
+          
+          Ideas</a>
+        </li>
+
+        <!--<li>
+        <a href="concept-">
+          <svg class="icon header-nav-icon" viewBox="0 0 20 11">
+            <use xlink:href="#down-white-menu"></use>
+          </svg>
+          
+          Auto</a>
+        </li>-->
+
+      </ul>
+
+    </div>
+
+
+    <div class="header-item head-2col head-right">
+      
+      <h3>Available to trade</h3>
+
+      <div class="header-number">1,234<span>.56</span></div>
+
+    </div>
+
+    <div class="header-item head-2col head-right">
+      
+      <h3>Net equity</h3>
+
+      <div class="header-number">1,234<span>.56</span></div>
+
+    </div>
+
+    <div class="header-item head-2col head-right">
+      
+      <h3>P &amp; L Unrealised</h3>
+
+      <div class="header-number">1,234<span>.56</span></div>
+
+    </div>
+
+    <div class="header-item head-2col head-right">
+      
+      <h3>Total margin</h3>
+
+      <div class="header-number">1,234<span>.56</span></div>
+
+    </div>
+
+    <div class="header-item" style="width:100px;">
+      
+      <svg class="user-menu" viewBox="0 0 280 210">
+        <use xlink:href="#circle-user-menu"></use>
+      </svg>
+
+    </div>
+
+
+  </header>
+
+  <br clear="all">
+<div id="cols" style="overflow:visible">
+  <div id="leftcol" style="display:inline-block;float:left">
+
+  <div id="open-positions-list" style="display:inline-block;margin-top:3px">
+
+
+    <header class="table-head" style="position:relative;top:-4px;left:-2px">
+      <h4 class="uppercase">Open positions</h4>
+
+      <span class="component-menu" id="openpositions-menu">
+      <a href="#menu" class="component-menu-icon">
+      &#9776;
+      <span style="display:none">Menu</span>
+      </a></span>
+
+    </header> 
+
+
+
+
+
+
+    <div class="stock-table positions-table" >
+      <table style=";position:relative;top:5px;">
+        <thead>
+          <tr id="open-positions-labels" style="vertical-align:top;height:20px">
+            <th>&nbsp;</th>
+            <th colspan="5" style="text-align:left">Market</th>
+            <th>Trade</th>
+            <th>Edit</th>
+            <th>P &amp; L</th>
+            <th colspan="2" style="text-align:center">Close</th>
+            
+          </tr>
+
+          <tr class="table-second-headrow">
+            <th style="background:none">&nbsp;</th>
+            <th colspan="7">&nbsp;</th>
+            <th style="background-repeat: no-repeat;background-position: 0 0;background-size: 32px 10px ;">
+
+            <div style="position:relative;top:-3px">GBP  <a href="#">%</a></div>
+
+            </th>
+            <th colspan="2" style="background-repeat: no-repeat;background-position: 12px 0;background-size: 35px 10px ;">&nbsp;</th>
+            
+          </tr>
+        </thead>
+
+
+        <tbody style="">
+          <tr class="toprow" style="">
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('positions-info-row1');">
+              <svg id="arrow-positions-info-row1" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-name" colspan="4">Wall Street CFD</td>
+
+            <td class="stock-chart">
+              <svg class="icon chart-icon" viewBox="0 0 14 14" style="text-align:right;position:relative;top:11px">
+                <use xlink:href="#open-chart"></use>
+              </svg> 
+            </td>
+
+            <td class="stock-direction">
+              <svg class="icon trade-icon" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-long"></use>
+              </svg>
+            </td>
+
+            <td class="stock-edit">
+              <svg class="icon edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+
+            <td class="stock-pl"><span class="pnl-profit">+193.40</span></td>
+
+            <td class="stock-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <!-- The hidden row contains all the details of the open position -->
+          <tr style="display:none;position:relative;top:7px" class="positions-info-row1">
+            <!-- details label row -->
+            <td class="detail-heading">&nbsp;</td>
+            <td class="detail-heading">Open</td>
+            <td class="detail-heading">Margin</td>
+            <td class="detail-heading">Quantity</td>
+            <td class="detail-heading">Current</td>
+            <td class="detail-heading">Stop</td>
+            <td class="detail-heading">Limit</td>
+            <td><!--ED--></td>
+            <td class="detail-heading">P &amp; L</td>
+            <td><!--X--></td>
+            <td class="detail-handle">&nbsp;<!--HANDLE--></td>
+          </tr>
+
+          <tr style="display:none;background-color:white;" class="detail-row positions-info-row1">
+            <td class="detail-trade">
+              <svg class="icon trade-icon-detail" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-long"></use>
+              </svg>
+            </td>
+            <td class="detail-price">1.12265</td>
+            <td class="detail-price">&pound;943</td>
+            <td class="detail-price">33</td>
+            <td class="detail-price">1.12300</td>
+            <td class="detail-price">1.12120</td>
+            <td class="detail-price">1.12900</td>
+            <td class="detail-edit">
+              <svg class="icon edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+            <td class="detail-pl">+115.50</td>
+            <td class="detail-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+            <td class="detail-handle">&nbsp;<!--HANDLE--></td>
+          </tr>
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('positions-info-row2');">
+              <svg id="arrow-positions-info-row2" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+            <td class="stock-name" colspan="4">UK100 CFD</td>
+            <td class="stock-chart">
+              <svg class="icon chart-icon" viewBox="0 0 14 14" style="text-align:right;position:relative;top:11px">
+                <use xlink:href="#open-chart"></use>
+              </svg> 
+            </td>
+            <td class="stock-direction">
+              <svg class="icon trade-icon" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-short"></use>
+              </svg>
+            </td>
+            
+            <td class="stock-edit">
+            <svg class="icon edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+            <td class="stock-pl"><span class="pnl-loss">-122.54</span></td>
+            <td class="stock-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('positions-info-row3');">
+              <svg id="arrow-positions-info-row3" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+            <td class="stock-name" colspan="4">Germany 30 CFD</td>
+            <td class="stock-chart">
+              <svg class="icon chart-icon" viewBox="0 0 14 14" style="text-align:right;position:relative;top:11px">
+                <use xlink:href="#open-chart"></use>
+              </svg> 
+            </td>
+            <td class="stock-direction">
+              <svg class="icon trade-icon" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-short"></use>
+              </svg>
+            </td>
+            <td class="stock-edit">
+              <svg class="icon edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+            <td class="stock-pl"><span class="pnl-profit">+856.32</span></td>
+            <td class="stock-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('positions-info-row4');">
+              <svg id="arrow-positions-info-row4" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+            <td class="stock-name" colspan="4">Gold (per 0.1) CFD</td>
+            <td class="stock-chart">
+              <svg class="icon chart-icon" viewBox="0 0 14 14" style="text-align:right;position:relative;top:11px">
+                <use xlink:href="#open-chart"></use>
+              </svg> 
+            </td>
+            <td class="stock-direction">
+              <svg class="icon trade-icon" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-long"></use>
+              </svg>
+            </td>
+            <td class="stock-edit">
+              <svg class="icon edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+            <td class="stock-pl"><span class="pnl-profit">+34.20</span></td>
+            <td class="stock-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <tr style=""><!-- this row has multiple positions, aggregated -->
+            <td class="stock-reveal">
+
+              <a href="javascript:toggleDiv('positions-info-row5');" >
+              <svg id="arrow-positions-info-row5" viewBox="0 0 19 11" class="reveal-icon-right">
+                <use xlink:href="#down-menu" ></use>
+              </svg>
+              </a>
+
+            </td>
+            <td class="stock-name" colspan="4">EUR/USD (per 0.0001) CFD</td>
+            <td class="stock-chart">
+              <svg class="icon chart-icon" viewBox="0 0 14 14" style="text-align:right;position:relative;top:11px">
+                <use xlink:href="#open-chart"></use>
+              </svg> 
+            </td>
+            <td class="stock-direction">
+              <svg class="icon trade-icon" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-long"></use>
+              </svg>
+            </td>
+            <td class="stock-edit">
+              
+              <!-- Indicator of how many aggregated trades are in here -->
+              <div class="aggnum">3</div>
+
+            </td>
+            <td class="stock-pl"><span class="pnl-profit">+376.20</span></td>
+            <td class="stock-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr> 
+
+          <!-- The hidden row contains all the details of the aggregated trades -->
+          <tr style="display:none;" class="positions-info-row5">
+            <td class="detail-heading"><!--Trade--></td>
+            <td class="detail-heading">Open <!--price--></td>
+            <td class="detail-heading">Margin</td>
+            <td class="detail-heading">Quantity</td>
+            <td class="detail-heading">Current</td>
+            <td class="detail-heading">Stop</td>
+            <td class="detail-heading">Limit</td>
+            <td class="detail-edit"><!--Edit--></td>
+            <td class="detail-heading">P &amp; L</td>
+            <td><!--Close--></td>
+            <td class="detail-handle">&nbsp;<!--HANDLE--></td>
+          </tr>
+
+          <tr style="display:none;" class="detail-row detail-row-odd positions-info-row5">
+            <td class="detail-trade">
+              <svg class="icon trade-icon-detail" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-long"></use>
+              </svg>
+            </td>
+            <td class="detail-price">1.12265</td>
+            <td class="detail-price">&pound;943</td>
+            <td class="detail-price">33</td>
+            <td class="detail-price">1.12300</td>
+            <td class="detail-price">1.12120</td>
+            <td class="detail-price">1.12900</td>
+            <td class="detail-edit">
+              <svg class="icon edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+            <td class="detail-pl">+115.50</td>
+            <td class="detail-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+            <td class="detail-handle">&nbsp;<!--HANDLE--></td>
+          </tr>
+
+          <tr style="display:none;" class="detail-row positions-info-row5">
+            <td class="detail-trade">
+              <svg class="icon trade-icon-detail" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-long"></use>
+              </svg>
+            </td>
+            <td class="detail-price">1.12265</td>
+            <td class="detail-price">&pound;881,303</td>
+            <td class="detail-price">33</td>
+            <td class="detail-price">1.12300</td>
+            <td class="detail-price">1.12120</td>
+            <td class="detail-price">1.12900</td>
+            <td class="detail-edit">
+              <svg class="icon edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+            <td class="detail-pl">+115.50</td>
+            <td class="detail-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+            <td class="detail-handle">&nbsp;<!--HANDLE--></td>
+          </tr>
+
+          <tr style="display:none;" class="detail-row detail-row-odd positions-info-row5">
+            <td class="detail-trade">
+              <svg class="icon trade-icon-detail" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-long"></use>
+              </svg>
+            </td>
+            <td class="detail-price">1.12265</td>
+            <td class="detail-price">&pound;827</td>
+            <td class="detail-price">33</td>
+            <td class="detail-price">1.12300</td>
+            <td class="detail-price">1.12120</td>
+            <td class="detail-price">1.12900</td>
+            <td class="detail-edit">
+              <svg class="icon edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+            <td class="detail-pl">+115.50</td>
+            <td class="detail-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+            <td class="detail-handle">&nbsp;<!--HANDLE--></td>
+          </tr>
+          <!-- END aggregated trade rows -->
+
+
+
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('positions-info-row6');">
+              <svg id="arrow-positions-info-row6" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+            <td class="stock-name" colspan="4">GBP/USD (per 0.0001) CFD</td>
+            <td class="stock-chart">
+              <svg class="icon chart-icon" viewBox="0 0 14 14" style="text-align:right;position:relative;top:11px">
+                <use xlink:href="#open-chart"></use>
+              </svg> 
+            </td>
+            <td class="stock-direction">
+              <svg class="icon trade-icon" viewBox="0 0 13 13">
+                <use xlink:href="#trade-direction-long"></use>
+              </svg>
+            </td>
+            <td class="stock-edit">
+              <svg class="icon edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+            <td class="stock-pl"><span class="pnl-profit">+100.32</span></td>
+            <td class="stock-close">
+              <svg class="icon close-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+
+        </tbody>
+      </table>
+
+      
+
+
+      <div id="close-all" style="text-align:right;margin-right:20px;margin-top:-12px">
+        <button class="close-all-button">Close all</button>
+      </div>
+
+
+    </div>
+  </div><!-- Ends the Open Positions List block -->
+
+  <br clear="all">
+  <div id="active-orders-list" style="display:inline-block;margin-top:14px;">
+
+    <header class="table-head">
+      <h4 class="uppercase">Active orders</h4>
+
+      <span class="component-menu" id="openpositions-menu">
+      <a href="#menu" class="component-menu-icon">
+      &#9776;
+      <span style="display:none">Menu</span>
+      </a></span>
+
+    </header> 
+
+    <div class="stock-table orders-table">
+      <table style="position:relative;top:-2px">
+        <thead>
+          <tr id="active-orders-labels" style="vertical-align:top;height:20px">
+            <th>&nbsp;</th>
+            <th style="text-align:left;" colspan="2">Market</th>
+            <th id="edit-title"><span style="margin-right:10px">Edit</span></th>
+            <th style="text-align:left;">Quantity<span style="display:none">uantity</span></th>
+            <th style="text-align:left;">Trade @ Price</th>
+            <th style="text-align:left;">Distance</th>
+            <!--<th style="text-align:left;">Current</th>-->
+            <!--<th style="text-align:left;">Type</th>-->
+            <th id="delete-title" colspan="2" style="text-align:right;"><span style="display:none">Delete</span></th>
+          </tr>
+          <tr class="table-second-headrow">
+            <th style="background:none">&nbsp;</th>
+            <th colspan="7">&nbsp;</th>
+            <th style="background:none">&nbsp;</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="toprow">
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('order-info-row1');">
+              <svg id="arrow-order-info-row1" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-ordername" colspan="2">Wall Street CFD</td>
+
+            <td class="stock-edit">
+              <svg class="icon order-edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+
+            <td class="stock-quantity">
+              <div class="numberbox">
+                <span class="number">50.0</span>
+              </div>
+            </td>
+
+            <td class="stock-order">
+              <div class="pricebox pricebox-long ">
+
+                <svg class="icon order-trade-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#trade-direction-long"></use>
+                </svg>
+
+                <span class="price">17550.0</span>
+
+              </div>
+            </td>
+
+            <td class="stock-distance">
+              <div class="numberbox">
+                <span class="number">218.9</span>
+              </div>
+            </td>
+
+            
+
+            <td class="stock-delete">
+              <svg class="icon delete-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+
+  <!-- The hidden row contains all the details of the open order -->
+          <tr style="display:none;position:relative;top:7px" class="order-info-row1">
+            <!-- details label row -->
+            <td class="detail-heading">&nbsp;</td>
+            <td class="detail-heading" style="text-align:left">Order type</td>
+            <td class="detail-heading">Current</td>
+            <td class="detail-heading" colspan="2">Margin</td>
+
+            <td class="detail-heading">Stop</td>
+            <td class="detail-heading" colspan="2">Limit</td>
+
+            <td class="detail-handle">&nbsp;<!--HANDLE--></td>
+          </tr>
+
+
+          <tr style="display:none;background-color:white;" class="detail-row order-info-row1">
+            <td class="">&nbsp;</td>
+            <td class="detail-type"><span>Good til <a href="#">cancelled</a></span></td>
+            <td class="detail-price">17768.9</td>
+            <td class="detail-price" colspan="2">&pound;943</td>
+
+            <td class="detail-price">17752.2</td>
+            <td class="detail-price" colspan="2">17778.8</td>
+
+            <td class="detail-handle">&nbsp;<!--HANDLE--></td>
+          </tr><!-- END detail row for ORDER -->
+
+
+
+          <tr class="toprow">
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('positions-info-row1');">
+              <svg id="arrow-positions-info-row1" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-ordername" colspan="2">Wall Street CFD</td>
+
+            <td class="stock-edit">
+              <svg class="icon order-edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+
+            <td class="stock-quantity">
+              <div class="numberbox">
+                <span class="number">50.0</span>
+              </div>
+            </td>
+
+            <td class="stock-order">
+              <div class="pricebox pricebox-long ">
+
+                <svg class="icon order-trade-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#trade-direction-long"></use>
+                </svg>
+
+                <span class="price">17650.0</span>
+
+              </div>
+            </td>
+
+            <td class="stock-distance">
+              <div class="numberbox">
+                <span class="number">118.9</span>
+              </div>
+            </td>
+
+            
+            <td class="stock-delete">
+              <svg class="icon delete-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+
+
+          <tr class="toprow">
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('positions-info-row1');">
+              <svg id="arrow-positions-info-row1" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-ordername" colspan="2">Wall Street CFD</td>
+
+            <td class="stock-edit">
+              <svg class="icon order-edit-icon" viewBox="0 0 14 14">
+                <use xlink:href="#edit-icon"></use>
+              </svg>
+            </td>
+
+            <td class="stock-quantity">
+              <div class="numberbox">
+                <span class="number">50.0</span>
+              </div>
+            </td>
+
+            <td class="stock-order">
+              <div class="pricebox pricebox-long ">
+
+                <svg class="icon order-trade-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#trade-direction-long"></use>
+                </svg>
+
+                <span class="price">17400.0</span>
+
+              </div>
+            </td>
+
+            <td class="stock-distance">
+              <div class="numberbox">
+                <span class="number">368.9</span>
+              </div>
+            </td>
+
+            <td class="stock-delete">
+              <svg class="icon delete-icon" viewBox="0 0 14 14">
+                <use xlink:href="#close-x"></use>
+              </svg>
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          
+
+        </tbody>
+      </table>
+    </div>
+  </div><!-- Ends the Open Positions List block -->
+
+
+  <br clear="all">
+  <div id="watchlist-block" style="display:inline-block;margin-top:24px">
+
+  <header class="table-head">
+      <h4><span class="uppercase">Watchlist</span> &gt; Popular markets</h4>
+
+      <span class="component-menu" id="openpositions-menu">
+      <a href="#menu" class="component-menu-icon">
+      &#9776;
+      <span style="display:none">Menu</span>
+      </a></span>
+
+    </header> 
+
+    <div class="stock-table watchlist-table">
+      <table style="">
+        <thead>
+          <tr id="watchlist-labels" style="vertical-align:top;height:20px">
+            <th>&nbsp;</th>
+            <th style="text-align:left;">Market</th>
+            <th style="text-align:left;">Short</th>
+            <th style="text-align:left;">Long</th>
+            <th>1 day</th>
+            <th>
+              <svg class="icon clock-icon" viewBox="0 0 14 14">
+                <use xlink:href="#clock"></use>
+              </svg>
+            </th>
+            <th>&nbsp;</th>
+          </tr>
+
+          <tr class="table-second-headrow">
+            <th style="background:none">&nbsp;</th>
+            <th colspan="5">&nbsp;</th>
+            <th style="background:none">&nbsp;</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="toprow">
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('watch-info-row1');">
+              <svg id="arrow-watch-info-row1" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-watchname">Wall Street CFD</td>
+
+            <td class="stock-short">
+
+              <div class="pricebox pricebox-long lastmovedown">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-short"></use>
+                </svg>
+
+                <span class="price">
+                <button class="show">
+                18022.2
+                </button></span>
+
+              </div>
+
+            </td>
+            <td class="stock-long">
+              
+              <div class="pricebox pricebox-short lastmovedown">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-long"></use>
+                </svg>
+
+                <span class="price">
+                <button class="show">
+                18022.2
+                </button>
+                </span>
+
+              </div>
+
+            </td>
+            <td class="stock-minichart" colspan="2">
+
+              <span class="sparkline" style="display: none;">7,7,10,6,5,7,4,5,4.5,6,4,3,5,2,2.5,1.5,3</span>
+
+              <p class="mini-change negative">-0.26%</p>
+
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('watch-info-row2');">
+              <svg id="arrow-watch-info-row2" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-watchname">UK100 CFD</td>
+
+            <td class="stock-short">
+
+              <div class="pricebox pricebox-long lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-short"></use>
+                </svg>
+
+                <span class="price">6377.0</span>
+
+              </div>
+
+            </td>
+            <td class="stock-long">
+              
+              <div class="pricebox pricebox-short lastmovenone">
+
+                <svg class="icon price-icon white-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-long"></use>
+                </svg>
+
+                <span class="price">6378.0</span>
+
+              </div>
+
+            </td>
+            <td class="stock-minichart" colspan="2">
+
+              <span class="sparkline" style="display: none;">9,9,7,6.6,5,5.5,6,6.3,7,5,6,5.5,3,3.3,1,1.1,2,3,3.3,2</span>
+
+              <p class="mini-change negative">-0.03%</p>
+
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('watch-info-row3');">
+              <svg id="arrow-watch-info-row3" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-watchname">Germany 30 CFD</td>
+
+            <td class="stock-short">
+
+              <div class="pricebox pricebox-long lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-short"></use>
+                </svg>
+
+                <span class="price">10322.4</span>
+
+              </div>
+
+            </td>
+            <td class="stock-long">
+              
+              <div class="pricebox pricebox-short lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-long"></use>
+                </svg>
+
+                <span class="price">10323.4</span>
+
+              </div>
+
+            </td>
+            <td class="stock-minichart" colspan="2">
+
+              <span class="sparkline" style="display: none;">6,6,5,9.9,9,4,5,5.5,3,2,4,3.5,3,1,1.3,4,5,6,3,3.3,3</span>
+
+              <p class="mini-change positive">+0.35%</p>
+
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('watch-info-row4');">
+              <svg id="arrow-watch-info-row4" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-watchname">Japan 225 CFD</td>
+
+            <td class="stock-short">
+
+              <div class="pricebox pricebox-long lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-short"></use>
+                </svg>
+
+                <span class="price">16985</span>
+
+              </div>
+
+            </td>
+            <td class="stock-long">
+              
+              <div class="pricebox pricebox-short lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-long"></use>
+                </svg>
+
+                <span class="price">16995</span>
+
+              </div>
+
+            </td>
+            <td class="stock-minichart" colspan="2">
+
+              <span class="sparkline" style="display: none;">6,6.6,6.6,8,9,9.1,8.5,6,7,5,2,1.5,1,1.8,2,3,7,6,6.2,6.7,5,5.2</span>
+
+              <p class="mini-change positive">+0.63%</p>
+
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('watch-info-row5');">
+              <svg id="arrow-watch-info-row5" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-watchname">Bolsas y Mercados Espanoles Jun 16</td>
+
+            <td class="stock-short">
+
+              <div class="pricebox pricebox-long lastmoveup">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-short"></use>
+                </svg>
+
+                <span class="price">10322</span>
+
+              </div>
+
+            </td>
+            <td class="stock-long">
+              
+              <div class="pricebox pricebox-short lastmoveup">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-long"></use>
+                </svg>
+
+                <span class="price">10323</span>
+
+              </div>
+
+            </td>
+            <td class="stock-minichart" colspan="2">
+
+              <span class="sparkline" style="display: none;">2,2,1.6,7,7.4,7,6,7,6.6,6,7,7.5,7.3,7.8,8,6,7.4,8,7</span>
+
+              <p class="mini-change positive">+0.08%</p>
+
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('watch-info-row6');">
+              <svg id="arrow-watch-info-row6" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+            <td class="stock-watchname">GBP/USD CFD</td>
+
+            <td class="stock-short">
+
+              <div class="pricebox pricebox-long lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-short"></use>
+                </svg>
+
+                <span class="price">1.4469</span>
+
+              </div>
+
+            </td>
+            <td class="stock-long">
+              
+              <div class="pricebox pricebox-short lastmovenone">
+
+                <svg class="icon price-icon white-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-long"></use>
+                </svg>
+
+                <span class="price">1.4470</span>
+
+              </div>
+
+            </td>
+            <td class="stock-minichart" colspan="2">
+
+              <span class="sparkline" style="display: none;">1,1.5,1.2,3,8,7.6,7.9,7,7.4,6.6,7.2,6.4,7,6,4,4.5,4</span>
+
+              <p class="mini-change positive">+0.57%</p>
+
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('watch-info-row7');">
+              <svg id="arrow-watch-info-row7" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-watchname">US SP500 DFT</td>
+
+            <td class="stock-short">
+
+              <div class="pricebox pricebox-long lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-short"></use>
+                </svg>
+
+                <span class="price">2090.30</span>
+
+              </div>
+
+            </td>
+            <td class="stock-long">
+              
+              <div class="pricebox pricebox-short lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-long"></use>
+                </svg>
+
+                <span class="price">2090.40</span>
+
+              </div>
+
+            </td>
+            <td class="stock-minichart" colspan="2">
+
+              <span class="sparkline" style="display: none;">4,4,1,4,7,9,6,7,5,7,2,2,2.4,2.6,3,2.4,6,5.5,6.2,5.6,6.3,5.1,5</span>
+
+              <p class="mini-change positive">+4.04%</p>
+
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+          <tr>
+            <td class="stock-reveal">
+              <a href="javascript:toggleDiv('watch-info-row8');">
+              <svg id="arrow-watch-info-row8" class="icon reveal-icon-right" viewBox="0 0 19 11">
+                <use xlink:href="#down-menu"></use>
+              </svg>
+              </a>
+            </td>
+
+            <td class="stock-watchname">EUR/USD CFD</td>
+
+            <td class="stock-short">
+
+              <div class="pricebox pricebox-long lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-short"></use>
+                </svg>
+
+                <span class="price">1.1260</span>
+
+              </div>
+
+            </td>
+            <td class="stock-long">
+              
+              <div class="pricebox pricebox-short lastmovenone">
+
+                <svg class="icon price-icon" viewBox="0 0 13 13">
+                  <use xlink:href="#price-direction-long"></use>
+                </svg>
+
+                <span class="price">1.1272</span>
+
+              </div>
+
+            </td>
+            <td class="stock-minichart" colspan="2">
+
+              <span class="sparkline" style="display: none;">1,1.3,5,7,6,7.4,7,7.2,6.7,7,5,6,3,3.5,3.2,3.7,3.3,4,5,3.3,4,3,3.2</span>
+
+              <p class="mini-change positive">+11.62%</p>
+
+            </td>
+
+            <td class="stock-handle">&nbsp;<!--future handle--></td>
+          </tr>
+
+
+        </tbody>
+      </table>
+    </div><!-- end watchlist table -->
+  </div><!-- end watchlist block -->
+  </div>
+
+
+
+  <div style="margin-left:30px;float:left;">
+
+  <div class="news" id="news-headline-list" style="margin-top:6px;float:left">
+
+    <ol class="news-list">
+      <li class="lead-story">
+        <h2>New U.S. home sales drop on sharp decline in the West</h2>
+
+
+        <div class="newsthumb">
+          <img src="images/newsthumb-1.jpg">
+        </div>
+
+
+        <p>WASHINGTON New U.S. single-family home sales unexpect&shy;edly fell in March, but the decline was concentrated in the West region, suggesting that the housing market continued to strengthen.</p>
+      </li>
+
+      <li>
+        <span class="news-timecode">10:25am EDT</span>
+        <h3>Wall St. opens lower as earnings continue to underwhelm</h3>
+        <p>U.S. stocks opened lower on Monday as corporate earnings continued to underwhelm and investors stayed away from risky assets a day before the start of the Federal Reserve's two-day policy meeting.</p>
+      </li>
+
+      <li>
+        <span class="news-timecode">10:05am EDT</span>
+        <h3>El-Erian says this week's Fed meeting to set stage for June hike</h3>
+        <p>NEW YORK Mohamed El-Erian, the chief economic adviser at Allianz SE , said on Monday he expects this week's Federal Reserve policy-setting meeting to set the stage for a June interest rate hike.</p>
+      </li>
+
+      <li>
+        <span class="news-timecode">10:20am EDT</span>
+        <h3>Saudi prince unveils sweeping plans to end 'addiction' to oil</h3>
+        <p>RIYADH The powerful young prince overseeing Saudi Arabia's economy unveiled ambitious plans on Monday aimed at ending the kingdom's "addiction" to oil and transforming it into a global investment power.</p>
+      </li>
+
+      <li>
+        <span class="news-timecode">10:23am EDT</span>
+        <h3>Global stocks, dollar stumble ahead of Fed, BOJ meetings</h3>
+        <p>LONDON World stocks, the dollar and oil all fell modestly on Monday as investors locked in recent gains before central bank meetings in the United States and Japan this week.</p>
+      </li>
+
+      <li>
+        <span class="news-timecode">7:22am EDT</span>
+        <h3>Oil resumes rise after brief pause</h3>
+        <p>LONDON Oil prices rose on Monday, extending recent gains, building on three weeks of higher prices and reversing earlier losses from traders taking profits.</p>
+      </li>
+
+    </ol>
+  </div>
+  <div id="news-story" style="margin-top:8px;float:left">
+
+    <span class="news-timecode">April 25, 2016 2:19pm EDT</span>
+
+    <h1 class="news-headline">Saudi Arabia targets $2tn Aramco IPO as it outlines economic view</h1>
+
+    <span class="news-byline">Anjli Raval in London and Simeon Kerr in Riyadh</span>
+
+    <p>Saudi Arabia’s cabinet has approved the long-awaited plan for a big transformation of the oil-dependent economy, promising to list less than 5 per cent of the state oil company, Saudi Aramco, which will value it at more than $2tn.</p>
+
+    <p>The so-called “Vision 2030”, brainchild of Prince Mohammed bin Salman, the deputy crown prince and most powerful man in the kingdom, has been in the works for months.</p>
+
+    <p>Monday morning’s announcement of a cabinet approval was followed by an interview by the prince on the Saudi owned al-Arabiya channel, in which he optimistically asserted that the kingdom could end its reliance on oil within four years. Saudi Arabia derives more than 90 per cent of its budget revenues from hydrocarbons.</p>
+
+    <p>“We have an addiction to oil ... this is dangerous,” he said. “It has delayed development of other sectors.”</p>
+
+    <p>He added that he wants to convert Saudi Aramco into a holding company and that all financial information related to the company will be disclosed. Subsidiaries of the entity will also be listed and its board will be elected.</p>
+
+    <p>“The vision is a road map of our development and economic goals,” he said. “A part of that is related to Aramco and this is a very small aspect.”</p>
+
+    <p>The prince, who is also defence minister and oversees economic ministries, has emerged as the key decision maker in the country since his father, King Salman bin Abdulaziz, assumed the throne. He has since worked with a group of technocrats to slash expenditures, reform energy subsidies and lay out a vision for a post-oil economy.</p>
+
+    <p>The collapse in oil prices, precipitated by Saudi Arabia’s decision to protect its market share rather than the oil price, has forced a re-evaluation of economic priorities in Riyadh, prompting the prince to press for the development of non-oil sectors. The prince cited mineral mining and a domestic military industry as priorities for development.</p>
+
+    <p>As the nation awaits further details of the economic vision later on Monday, the prince said the plan envisaged boosting housing and jobs for an overwhelmingly young population.</p>
+
+  </div>
+
+  <br clear="all">
+  </div>
+</div>
+
+  <!-- use these to change the values of the ticket -->
+    <input type="hidden" id="price" name="price" value="1.13703">
+    <input type="hidden" id="spread" name="spread" value="1.2">
+    <input type="hidden" id="margin" name="margin" value="200">
+  <!-- - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+  
+
+  <!-- THIS ticked uses a single control, a vertical slider to change the amount in play -->
+
+  <!-- Start the TICKET -->
+  <!-- - - - - - - - -  -->
+  <div class="ticket toggle" id="trade-max" style="margin-top:0px;float:left;display:visible;position:absolute;top:100px;left:300px;width:340px;">
+
+      <button class="hide" style="background:none;border:0;padding:0;margin:0;float:right;position:relative;top:-20px">
+        <svg class="icon close-icon" viewBox="0 0 14 14" style="padding-top:5px">
+          <use xlink:href="#close-x"></use>
+        </svg>
+      </button>
+
+    
+      <div class="js-tabs">
+    
+        <div class="tabs" style="margin-left:75px">
+          <a href="#trade-panel" id="trade-tab" class="tab active">Trade</a>
+          <a href="#order-panel" id="order-tab" class="tab">Order</a>
+          <a href="#alert-panel" id="alert-tab" class="tab">Alert</a>
+        </div>
+
+
+
+        <div class="panels">
+          <ul id="trade-panel" class="panel active" role="tabpanel" aria-labelledby="trade-tab" style="">
+              
+            <div id="market-name" style="margin-top:12px">
+
+            <h2 style="float:left;font-weight:300">EUR/USD (per 0.0001) CFD</h2>
+
+            <svg class="icon chart-icon" viewBox="0 0 14 14" style="float:right;padding-top:6px">
+              <use xlink:href="#open-chart"></use>
+            </svg>
+
+            </div>
+
+            <br clear="all">
+
+            
+
+            <!-- - - - - - MAIN SELL / BUY .... red / blue price buttons -->
+            <div id="buysell-pair" style="margin-top:4px">
+
+              <button id="sellticketbutton" class="secondary-button sell" style="margin-right:15px">
+                <p>Sell</p>
+               
+
+               <input class="price-field upward" type="number" id="sellprice" name="sellprice" autocomplete="off" size="6" value="1.3544" style="text-align:center;width:140px;margin-top:-2px">
+
+              </button>
+
+              <button id="buyticketbutton" class="secondary-button buy">
+                <p>Buy</p>
+
+
+                <input class="price-field downward" type="number" id="buyprice" name="buyprice" autocomplete="off" size="6" value="1.3544" style="text-align:center;width:140px;margin-top:-2px">
+
+              </button>
+            </div>
+
+
+
+
+
+            <!-- - - - - - SLIDERS - - - - - -->
+
+            <div id="slider-horizontal" style="height:10px;margin-top:20px"></div>
+            <!-- Hoz slider for the quantity for this trade -->
+
+            <div id="stopper" style="display:inline-block;height:220px;margin-top:20px;">
+
+
+            <span class="updating-chart">1.137,1.1375,1.1378,1.1374,1.1372,1.1367,1.134,1.131,1.1305,1.1299,1.12985,1.12982,1.1302,1.1304,1.1312,1.137,1.1375,1.1378,1.1374,1.1372,1.1367,1.134,1.131,1.1305,1.1299,1.12985,1.12982,1.1302,1.1304,1.1312</span>
+
+              
+            <div id="slider-range" style="position:relative;top:-200px;width:340px;height:210px;border:none"></div>
+            <!-- vertical range slider for the stops and losses -->
+
+            </div>
+
+
+
+
+            <!-- - - - - - MAIN field / buttons for trade QUANTITY -->
+            <div id="ticket-quantity" style="margin-top:7px">
+
+              <div id="pound-point" style="float:left;width:180px">
+
+              <label class="form-label" for="quantity"><a href="#">&pound; Point</a> <span style="color:#eee">/</span> Quantity </label>
+
+              <input class="form-control qty" type="number" id="quantity" name="quantity" autocomplete="off" size="6" value="0" style="width:140px;margin-top:-2px">
+
+              <p class="form-hint">Enter 1 to <span id="quantav">1</span></p>
+              <input name="quantav_f" id="quantav_f" val=1 type="hidden">
+
+              </div>
+
+             
+
+              <div id="pound-arrows" style="float:left;margin:43px 0 0 -30px;width:20px">
+
+              <input type="image" value='+' class="arrow-button qtyplus" field='quantity' src="images/number-arrow-up.png">
+              
+
+              
+
+              <input type="image" value='-' class="arrow-button qtyminus" field='quantity' src="images/number-arrow-down.png">
+
+              <!-- <p>
+                <label for="amount">Volume:</label>
+                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+              </p>-->
+
+
+              </div>
+
+             
+
+
+
+              <div id="pound-value" style="float:right">
+
+              <label class="form-label" for="value">&pound; Value</label>
+
+              <input class="form-control" type="" id="value" name="value" autocomplete="off" size="6" value="£0" style="width:140px;color:#666;border-color:#808080;margin-top:-2px">
+
+              </div>
+
+
+              <br clear="all">
+
+            </div><!-- end Quantity field / bttons -->
+
+
+
+
+            <!-- - - - - - STOPS - - - - - - -->
+            <!-- This is an open/close block -->
+            <div id="ticket-stops" style="margin-top:15px">
+              <details style="" >
+                <summary role="button" aria-controls="details-content-0" tabindex="0" aria-expanded="true" style="">
+                  <span class="" style="display:inline-block;width:170px;">Set stop loss</span><!-- this is the clickable open/close part -->
+
+                  <span class="addlimit" style="color:#eee;display:inline-block;width:140px;text-align:right"> <a href="#addstop">+</a></span>
+                </summary>
+
+                <div class="js-hidden" id="details-content-0" aria-hidden="false" style="display:block;">
+
+                  <!-- hidden by default details here -->
+                  <div><!-- choose type of stop loss - standard, trailing or guaranteed - to use tabs selector -->
+                  <span style="border-bottom:solid 2px #333">standard</span> <span style="color:#eee">/</span> <a href="#">trailing</a> <span style="color:#eee">/</span> <a href="#">guaranteed</a>
+                  </div>
+
+
+                  <!-- set the points away or specific price here, default is points -->
+                  <div id="stop-price" style="float:left;">
+
+                    <label class="form-label" for="stopprice"><span>Points</span> <span style="color:#eee">/</span> <a href="#">Price</a></label>
+
+                    <input class="form-control" type="number" id="stopprice" name="stopprice" autocomplete="off" size="6" value="10" style="width:140px;">
+
+                  </div>
+
+                 
+
+                  <!-- the use arrows to change quantity x total risk amount -->
+                  <div id="stop-arrows" style="float:left;margin:43px 0 0 10px;width:20px">
+
+                    <input type="image" value='+' class="arrow-button stopqtyplus" field='stopprice' src="images/number-arrow-up.png">
+                    <input type="image" value='-' class="arrow-button stopqtyminus" field='stopprice' src="images/number-arrow-down.png">
+
+                  </div>
+
+
+
+                  <!-- the total *large* value of the position is calcualted here based on price * pips * multi -->
+                  <div id="stop-value" style="float:right;margin-bottom:10px;">
+
+                    <label class="form-label" for="stopvalue">&pound; Loss</label>
+
+                    <input class="form-control" type="" id="stopvalue" name="stopvalue" autocomplete="off" size="6" value="" style="width:140px;color:#de4559;border-color:#808080">
+
+                  </div>
+
+                </div>
+
+                <br clear="all" style="">
+
+                <p>Good til <a href="#">cancelled</a></p>
+
+              </details>
+
+            </div>
+            <!-- end the open/close block -->
+
+            <!-- - - - - - LIMIT - - - - - - -->
+            <!-- This is an open/close block -->
+            <div id="ticket-stops" style="margin-top:9px">
+              <details style="" >
+                <summary role="button" aria-controls="details-content-0" tabindex="0" aria-expanded="true" style="">
+                  <span class="" style="display:inline-block;width:170px;">Set limit</span><!-- this is the clickable open/close part -->
+
+                  <span class="addlimit" style="color:#eee;display:inline-block;width:140px;text-align:right"> <a href="#addlimit">+</a></span>
+                </summary>
+
+                <div class="js-hidden" id="details-content-0" aria-hidden="false" style="display:block;margin-top:-14px">
+
+                  <!-- hidden by default details here -->
+                 
+                  <!-- set the points away or specific price target here, default is points -->
+                  <div id="limit-price" style="float:left;">
+
+                    <label class="form-label" for="limitprice"><span>Points</span> <span style="color:#eee">/</span> <a href="#">Price</a></label>
+
+                    <input class="form-control" type="number" id="limitprice" name="limitprice" autocomplete="off" size="6" value="15" style="margin-top:-2px;width:140px;">
+
+                  </div>
+
+                 
+
+                  <!-- the use arrows to change price x profit target amount -->
+                  <div id="limit-arrows" style="float:left;margin:43px 0 0 10px;width:20px">
+
+                    <input type="image" value='+' class="arrow-button limitqtyplus" field='limitprice' src="images/number-arrow-up.png">
+                    <input type="image" value='-' class="arrow-button limitqtyminus" field='limitprice' src="images/number-arrow-down.png">
+
+                  </div>
+
+
+
+                  <!-- the potential profit to take is here... price * pips * multi -->
+                  <div id="stop-value" style="float:right">
+
+                    <label class="form-label" for="limitvalue">&pound; Profit</label>
+
+                    <input class="form-control" type="" id="limitvalue" name="limitvalue" autocomplete="off" size="6" value="" style="margin-top:-2px;width:140px;color:#1ba12d;border-color:#3E8853">
+
+                  </div>
+
+                </div>
+
+                <br clear="all">
+
+                <p>Good til <a href="#">cancelled</a></p>
+
+
+              </details>
+            </div>
+            <!-- end the open/close block -->
+
+            <!-- - - - - - MARGIN - - - - - - -->
+            <!-- This is an open/close block -->
+            <div id="margin" style="margin-top:10px">
+              <details open style="" >
+                <summary role="button" aria-controls="details-content-0" tabindex="0" aria-expanded="true" style="">
+                  <span class="">Margin requirements</span><!-- this is the clickable open/close part -->
+                </summary>
+
+                <div class="js-hidden" id="details-content-0" aria-hidden="false" style="display:block;margin-top:-14px">
+
+                  <!-- hidden by default details here -->
+                 
+
+                  <div id="margin-available" class="data-attributes" style="float:left;margin:7px 10px 0 0">
+
+                  <input id="marginreq" class="form-control" name="marginreq" value="0" style="margin-top:5px;border:none;background:none" /><br>
+
+
+                    <span id="margindonut" data-peity='{ "fill": ["green", "#eeeeee"],  "innerRadius": 24, "radius": 35 }'>603/1234</span>
+
+                    <div id="marginpercent">00%</div>
+                  </div>
+
+
+                  <div style="float:left">
+                    <p style="margin-top:24px;margin-bottom:10px;padding-bottom:0">Margin available:</p>
+
+                    <p style="margin-top:15px;margin-bottom:5px;padding-bottom:0"><strong style="width:6em;display:inline-block;">Pre-trade:</strong> <span id="marginall">1000</span></p>
+
+                    <p><strong style="width:6em;display:inline-block;">Post-trade:</strong> <span id="marginav">1234</span></p>
+                  </div>
+
+                  <br clear="all">
+
+              </details>
+            </div>
+            <!-- end the open/close block -->
+
+
+            <button class="primary-button" style="width:100%">Place trade</button>
+
+          </ul>
+          <ul id="order-panel" class="panel" role="tabpanel" aria-labelledby="order-tab">
+              
+            <div id="market-name" style="margin-top:12px">
+
+            <h2 style="float:left;font-weight:300">EUR/USD (per 0.0001) CFD</h2>
+
+            <svg class="icon chart-icon" viewBox="0 0 14 14" style="float:right;padding-top:6px">
+              <use xlink:href="#open-chart"></use>
+            </svg>
+
+            </div>
+
+            <br clear="all">
+
+            <!-- - - - - - MAIN SELL / BUY .... red / blue price buttons -->
+            <div id="buysell-pair" style="margin-top:4px">
+
+              <button class="secondary-button sell buysell-inactive" style="margin-right:15px">
+                <p>Sell</p>
+               
+
+               <input class="price-field upward" type="number" id="sellprice" name="sellprice" autocomplete="off" size="6" value="1.3544" style="text-align:center;width:140px;margin-top:-2px">
+
+              </button>
+
+              <button class="secondary-button buy">
+                <p>Buy</p>
+
+
+                <input class="price-field downward" type="number" id="buyprice" name="buyprice" autocomplete="off" size="6" value="1.3544" style="text-align:center;width:140px;margin-top:-2px">
+
+              </button>
+            </div>
+
+
+
+            <!-- - - - - - ORDER specific field / buttons for PRICE -->
+            <div id="ticket-price" style="margin-top:7px">
+
+              <div id="order-price" style="float:left;width:180px">
+
+              <label class="form-label" for="price">Order price</label>
+
+              <input class="form-control qty" type="number" id="order_price" name="order_price" autocomplete="off" size="6" value="1.3559" style="width:140px;margin-top:-2px">
+
+              </div>
+
+             
+
+              <div id="orderprice-arrows" style="float:left;margin:43px 0 0 -30px;width:20px">
+
+              <input type="image" value='+' class="arrow-button orderpriceplus" field='order_price' src="images/number-arrow-up.png">
+              <input type="image" value='-' class="arrow-button orderpriceminus" field='order_price' src="images/number-arrow-down.png">
+
+              </div>
+
+             
+
+
+
+              <div id="price-value-diff" style="float:right">
+
+              <label class="form-label" for="pricediff">Difference</label>
+
+              <input class="form-control" type="" id="pricediff" name="pricediff" autocomplete="off" size="6" value="0%" style="width:140px;color:#666;border-color:#808080;margin-top:-2px">
+
+              </div>
+
+
+              <br clear="all">
+
+              <p class="form-hint">Under <span id="order_lower">1</span>, over <span id="order_higher">1</span></p>
+
+
+            </div><!-- end PRICE field / bttons -->
+
+
+
+
+
+            <!-- - - - - - ORDER field / buttons for order QUANTITY -->
+            <div id="order-quantity" style="margin-top:7px">
+
+              <div id="pound-point" style="float:left;width:180px">
+
+              <label class="form-label" for="order_quantity"><a href="#">&pound; Point</a> <span style="color:#eee">/</span> Quantity </label>
+
+              <input class="form-control qty" type="number" id="order_quantity" name="order_quantity" autocomplete="off" size="6" value="0" style="width:140px;margin-top:-2px">
+
+              <p class="form-hint">Enter 1 to <span id="quantav">1</span></p>
+              <input name="quantav_f" id="quantav_f" val=1 type="hidden">
+
+              </div>
+
+             
+
+              <div id="pound-arrows" style="float:left;margin:43px 0 0 -30px;width:20px">
+
+              <input type="image" value='+' class="arrow-button orderqtyplus" field='order_quantity' src="images/number-arrow-up.png">
+              <input type="image" value='-' class="arrow-button orderqtyminus" field='order_quantity' src="images/number-arrow-down.png">
+
+              </div>
+
+             
+
+
+
+              <div id="order-value" style="float:right">
+
+              <label class="form-label" for="value">&pound; Value</label>
+
+              <input class="form-control" type="" id="order_value" name="order_value" autocomplete="off" size="6" value="£0" style="width:140px;color:#666;border-color:#808080;margin-top:-2px">
+
+              </div>
+
+
+              <br clear="all">
+
+            </div><!-- end Order Quantity field / bttons -->
+
+
+
+
+            <!-- - - - - - Order STOPS - - - - - - -->
+            <!-- This is an open/close block -->
+            <div id="order-stops" style="margin-top:15px">
+              <details style="" >
+                <summary role="button" aria-controls="details-content-0" tabindex="0" aria-expanded="true" style="">
+                  <span class="" style="display:inline-block;width:170px;">Set stop loss</span><!-- this is the clickable open/close part -->
+
+                  <span class="addlimit" style="color:#eee;display:inline-block;width:140px;text-align:right"> <a href="#addstop">+</a></span>
+                </summary>
+
+                <div class="js-hidden" id="details-content-0" aria-hidden="false" style="display:block;">
+
+                  <!-- hidden by default details here -->
+                  <div><!-- choose type of stop loss - standard, trailing or guaranteed - to use tabs selector -->
+                  <span style="border-bottom:solid 2px #333">standard</span> <span style="color:#eee">/</span> <a href="#">trailing</a> <span style="color:#eee">/</span> <a href="#">guaranteed</a>
+                  </div>
+
+
+                  <!-- set the points away or specific price here, default is points -->
+                  <div id="order-stop-price" style="float:left;">
+
+                    <label class="form-label" for="order_stopprice"><span>Points</span> <span style="color:#eee">/</span> <a href="#">Price</a></label>
+
+                    <input class="form-control" type="number" id="order_stopprice" name="order_stopprice" autocomplete="off" size="6" value="10" style="width:140px;">
+
+                  </div>
+
+                 
+
+                  <!-- the use arrows to change quantity x total risk amount -->
+                  <div id="stop-arrows" style="float:left;margin:43px 0 0 10px;width:20px">
+
+                    <input type="image" value='+' class="arrow-button stopqtyplus" field='order_stopprice' src="images/number-arrow-up.png">
+                    <input type="image" value='-' class="arrow-button stopqtyminus" field='order_stopprice' src="images/number-arrow-down.png">
+
+                  </div>
+
+
+
+                  <!-- the total value of the loss is calcualted here based on price * neg-pips * quantity -->
+                  <div id="order-stop-value" style="float:right;margin-bottom:10px;">
+
+                    <label class="form-label" for="order_stopvalue">&pound; Loss</label>
+
+                    <input class="form-control" type="" id="order_stopvalue" name="order_stopvalue" autocomplete="off" size="6" value="" style="width:140px;color:#de4559;border-color:#808080">
+
+                  </div>
+
+                </div>
+
+                <br clear="all" style="">
+
+              </details>
+
+            </div>
+            <!-- end the open/close block -->
+
+
+
+
+            <!-- - - - - - LIMIT - - - - - - -->
+            <!-- This is an open/close block -->
+            <div id="order-limit" style="margin-top:9px">
+              <details style="" >
+                <summary role="button" aria-controls="details-content-0" tabindex="0" aria-expanded="true" style="">
+                  <span class="" style="display:inline-block;width:170px;">Set limit</span><!-- this is the clickable open/close part -->
+
+                  <span class="addlimit" style="color:#eee;display:inline-block;width:140px;text-align:right"> <a href="#addlimit">+</a></span>
+                </summary>
+
+                <div class="js-hidden" id="details-content-0" aria-hidden="false" style="display:block;margin-top:-14px">
+
+                  <!-- hidden by default details here -->
+                 
+                  <!-- set the points away or specific price target here, default is points -->
+                  <div id="order-limit-price" style="float:left;">
+
+                    <label class="form-label" for="order_limitprice"><span>Points</span> <span style="color:#eee">/</span> <a href="#">Price</a></label>
+
+                    <input class="form-control" type="number" id="order_limitprice" name="order_limitprice" autocomplete="off" size="6" value="15" style="margin-top:-2px;width:140px;">
+
+                  </div>
+
+                 
+
+                  <!-- the use arrows to change price x profit target amount -->
+                  <div id="limit-arrows" style="float:left;margin:43px 0 0 10px;width:20px">
+
+                    <input type="image" value='+' class="arrow-button limitqtyplus" field='order_limitprice' src="images/number-arrow-up.png">
+                    <input type="image" value='-' class="arrow-button limitqtyminus" field='order_limitprice' src="images/number-arrow-down.png">
+
+                  </div>
+
+
+
+                  <!-- the potential profit to take is here... price * pips * multi -->
+                  <div id="order-limit-value" style="float:right">
+
+                    <label class="form-label" for="order_limitvalue">&pound; Profit</label>
+
+                    <input class="form-control" type="" id="order_limitvalue" name="order_limitvalue" autocomplete="off" size="6" value="" style="margin-top:-2px;width:140px;color:#1ba12d;border-color:#3E8853">
+
+                  </div>
+
+                </div>
+
+                <br clear="all">
+
+              </details>
+            </div>
+            <!-- end the open/close block -->
+
+            <!-- - - - - - MARGIN - - - - - - -->
+            <!-- This is an open/close block -->
+            <div id="margin" style="margin-top:10px">
+              <details style="" >
+                <summary role="button" aria-controls="details-content-0" tabindex="0" aria-expanded="true" style="">
+                  <span class="">Margin requirements</span><!-- this is the clickable open/close part -->
+                </summary>
+
+                <div class="js-hidden" id="details-content-0" aria-hidden="false" style="display:block;margin-top:-14px">
+
+                  <!-- hidden by default details here -->
+                 
+
+                  <div id="margin-available" class="data-attributes" style="float:left;margin:7px 10px 0 0">
+
+                  <input id="marginreq" class="form-control" name="marginreq" value="0" style="margin-top:5px;border:none;background:none" /><br>
+
+
+                    <span id="margindonut" data-peity='{ "fill": ["green", "#eeeeee"],  "innerRadius": 24, "radius": 35 }'>603/1234</span>
+                  </div>
+
+
+                  <div style="float:left">
+                    <p style="margin-top:24px;margin-bottom:10px;padding-bottom:0">Margin available:</p>
+
+                    <p style="margin-top:15px;margin-bottom:5px;padding-bottom:0"><strong style="width:6em;display:inline-block;">Pre-trade:</strong> <span id="marginall">1000</span></p>
+
+                    <p><strong style="width:6em;display:inline-block;">Post-trade:</strong> <span id="marginav">1234</span></p>
+                  </div>
+
+                  <br clear="all">
+
+              </details>
+            </div>
+            <!-- end the open/close block -->
+
+
+            <p>Order good til <a href="#">cancelled</a></p>
+
+            <button class="primary-button" style="width:100%">Place order</button>
+          </ul>
+
+
+
+
+
+          <ul id="alert-panel" class="panel" role="tabpanel" aria-labelledby="alert-tab">
+              
+              <div id="market-name" style="margin-top:12px">
+
+            <h2 style="float:left;font-weight:300">EUR/USD (per 0.0001) CFD</h2>
+
+            <svg class="icon chart-icon" viewBox="0 0 14 14" style="float:right;padding-top:6px">
+              <use xlink:href="#open-chart"></use>
+            </svg>
+
+            </div>
+
+            <br clear="all">
+
+            <!-- - - - - - MAIN SELL / BUY .... red / blue price buttons -->
+            <div id="buysell-pair" style="margin-top:4px">
+
+              <button class="secondary-button sell buysell-inactive" style="margin-right:15px">
+                <p>Sell</p>
+               
+
+               <input class="price-field upward" type="number" id="sellprice" name="sellprice" autocomplete="off" size="6" value="1.3544" style="text-align:center;width:140px;margin-top:-2px">
+
+              </button>
+
+              <button class="secondary-button buy">
+                <p>Buy</p>
+
+
+                <input class="price-field downward" type="number" id="buyprice" name="buyprice" autocomplete="off" size="6" value="1.3544" style="text-align:center;width:140px;margin-top:-2px">
+
+              </button>
+            </div>
+
+
+            <!-- - - - - - ALERT box, defaults to current buy/sell price -->
+            <div id="alert-price" style="margin-top:7px">
+
+              <div id="" style="float:left;width:180px">
+
+              <label class="form-label" for="alert_price">Price to send alert</label>
+
+              <input class="form-control qty" type="number" id="alert_price" name="alert_price" autocomplete="off" size="6" value="1.3544" style="width:140px;margin-top:-2px">            
+
+              </div>
+
+             
+
+              <div id="alert-arrows" style="float:left;margin:43px 0 0 -30px;width:20px">
+
+              <input type="image" value='+' class="arrow-button alertqtyplus" field='alert_price' src="images/number-arrow-up.png">
+              <input type="image" value='-' class="arrow-button alertqtyminus" field='alert_price' src="images/number-arrow-down.png">
+
+              </div>
+
+
+
+             
+
+
+
+              
+              <!--<div id="pound-value" style="float:right">
+
+              <label class="form-label" for="value">&pound; Value</label>
+
+              <input class="form-control" type="" id="value" name="value" autocomplete="off" size="6" value="£0" style="width:140px;color:#666;border-color:#808080;margin-top:-2px">
+
+              </div>-->
+
+
+              <br clear="all">
+
+            </div><!-- end Quantity field / bttons -->
+
+
+            <p>Alert good til <a href="#">cancelled</a></p>
+
+            <p>Send as <a href="#">email</a>, <a href="#">tweet</a> or <a href="#">sms</a></p>
+
+            <button class="primary-button" style="width:100%">Set alert</button>
+
+
+
+          </ul>
+      </div>
+    </div><!-- end JS-tabs -->
+
+
+
+
+
+  </div>
+  <!-- end the TICKET  -->
+  <!-- - - - - - - - - -->
+
+    
+
+
+  </main>
+
+
+    <footer class="">
+
+     
+
+    </footer>
+
+   
+   
+  <script type="text/javascript">
+
+  // THIS IS FOR THE TABS from http://alistapart.com/article/radio-controlled-web-design 
+
+  $('.tab').on('click', function (e) {
+      e.preventDefault();
+      $('.tab, .panel').removeClass('active');
+      $(this).add('#' + $(this).attr('id').replace(/\s*tab\s*/, 'panel')).addClass('active');
+      $(this).focus();
+  });
+
+
+  // Jquery toggle visiblity 
+  $(function() {
+      $('.hide').click(function(){
+          $('.toggle').hide();
+          setDisplayValue();
+      });
+      $('.show').click(function(){
+          $('.toggle').show();
+          setDisplayValue();
+      });
+  });
+
+
+  // vertical slider for the experiemental tickets
+  $(function() {
+  $( "#slider-vertical" ).slider({
+    orientation: "vertical",
+    range: "min",
+    min: -51,
+    max: 51,
+    value: 0,
+    slide: function( event, ui ) {
+      $( "#quantity" ).val( ui.value );
+    }
+  });
+  $( "#quantity" ).val( $( "#slider-vertical" ).slider( "value" ) );
+  });
+
+
+  // HOZ slider for the experiemental tickets
+  $(function() {
+  $( "#slider-horizontal" ).slider({
+    orientation: "horizontal",
+    range: "min",
+    min: -51,
+    max: 51,
+    value: 0,
+    slide: function( event, ui ) {
+      $( "#quantity" ).val( ui.value );
+    }
+  });
+  $( "#quantity" ).val( $( "#slider-horizontal" ).slider( "value" ) );
+  });
+
+
+  $(function() {
+      $( "#slider-range" ).slider({
+        orientation: "vertical",
+        range: true,
+        min: -100,
+        max: 100,
+        values: [ -25, 75 ],
+        slide: function( event, ui ) {
+          $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        }
+      });
+      $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+        " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+    });
+
+
+
+  function toggleDiv(divId) {
+      $("."+divId).toggle();
+      $('#arrow-'+divId).toggleClass('reveal-icon-down reveal-icon-right');
+  }
+
+  function setDisplayValue() {
+      var display = $('.toggle')[0].style.display;
+      $('.displayvalue').text(display);
+      e.preventDefault();
+  }
+
+
+
+  function refreshNumbers() {
+    // Get its current value
+    var currentMid = parseFloat($('input[name='+"price"+']').val());
+    var currentSpread = parseFloat($('input[name='+"spread"+']').val());
+    var currentMargin = parseFloat($('input[name='+"margin"+']').val());
+    // If is not undefined
+    if (!isNaN(currentMid)) {
+      var change = 0.00029 - (Math.floor(Math.random() * 999) / 1712345).toFixed(7);
+      var number = (currentMid + change);
+      currentSpread = currentSpread / 20000;
+      newMid = parseFloat((number).toFixed(7));
+      $("#price").val(newMid);
+
+      sellnumber = (parseFloat(number) - parseFloat(currentSpread)).toFixed(5);
+      buynumber = (parseFloat(number) + parseFloat(currentSpread)).toFixed(5);
+      $("#sellprice").val(sellnumber);
+      $("#buyprice").val(buynumber);
+
+      //set the big BUY SELL numbers + buttons to active depending on trade direction
+      var tradedirection = $("#quantity").val();
+      if (tradedirection > 0) {
+        $("#sellticketbutton").addClass('buysell-inactive');
+        $("#buyticketbutton").removeClass('buysell-inactive');
+      } else if (tradedirection < 0) {
+        $("#buyticketbutton").addClass('buysell-inactive');
+        $("#sellticketbutton").removeClass('buysell-inactive');
+      } else if (tradedirection == 0) {
+        $("#sellticketbutton").addClass('buysell-inactive');
+        $("#buyticketbutton").addClass('buysell-inactive');
+      }
+
+      //do the number wang quantity x price = total value of trade
+      var v_pound = $("#quantity").val();
+      var price = buynumber;
+      var value = (v_pound * price * 10000).toFixed(0);
+      v_pound = numberWithCommas(Math.abs(value));
+
+      $("#value").val('£' + v_pound);
+
+      // Do the numberwang for STOPS
+      var newquant = $("#quantity").val();
+      var v_pound = $("#stopprice").val();
+      v_pound = (v_pound * price * newquant).toFixed(0);
+      v_stoppound = numberWithCommas(v_pound);
+
+      $("#stopvalue").val('-£' + v_stoppound);
+
+      // Do the numberwang for LIMITS
+
+      var v_pound = $("#limitprice").val();
+      v_pound = (v_pound * price * newquant).toFixed(0);
+      v_limitpound = numberWithCommas(v_pound);
+
+
+      $("#limitvalue").val('£' + v_limitpound);
+
+      // Do the numberwang for MARGIN REQUIRED
+
+      // Margin required is Value (Quantity x Price) * Margin rate (0.5% or similar) ...
+      // then * any currency conversions to base (eg. to USD, yesterday's close + 0.0125) 
+      var exchangerate = 1.4453 + 0.0125;
+      var marginrate = 0.0005;
+      var acc_marginav = 2000;//account margin (trading resources)
+      
+      v_pound = (value * marginrate / exchangerate).toFixed(2);
+      marginreqraw = v_pound;
+      v_marginpound = numberWithCommas(v_pound);
+
+      $("#marginreq").val('£' + Math.abs(v_marginpound));
+
+      // Do the numberwang for MARGIN AVAILABLE
+      marginav = (parseFloat(currentMargin) - parseFloat(Math.abs(v_marginpound))).toFixed(0);
+
+      margindonut = (Math.abs(marginreqraw) + ',' + marginav);
+      $("#margindonut").text(margindonut);
+      $(".data-attributes span").peity("donut")
+
+      marginav = numberWithCommas(marginav);
+      $("#marginall").text('£' + currentMargin);
+      $("#marginav").text('£' + marginav);
+
+      marginpercent = (100-((marginav / currentMargin)*100)).toFixed(0);
+      marginpercent = Math.abs(marginpercent);
+      $("#marginpercent").text(marginpercent + '%');
+      var greentored = (150 - (marginpercent * 1.5)).toFixed(1);
+      // colour the % text from green to red
+      $("#marginpercent").css("color", 'hsla('+ greentored +',80%, 40%, 1)');
+      // colour the whole ring from green to red
+      $(".peity path:last-child").css("fill", 'hsla('+ greentored +',80%, 60%, 1)');
+
+      
+      //available quantity = ((marginav / marginrate) × exchangerate) / price
+      var quantav = ((((acc_marginav / marginrate) * exchangerate) / price) / 10000).toFixed(0);
+      $("#quantav_f").val(quantav);
+      $("#quantav").text(quantav);
+
+      // Do the numberwang for the ORDER price field
+      var orderprice_spread = 0.00014
+      var currentOrderprice = parseFloat($('input[name='+"order_price"+']').val());
+      //var order_price = currentOrderprice;
+      //$("#order_price").val(order_price);
+      pricediff = (currentOrderprice - currentMid).toFixed(4);
+      $("#pricediff").val(pricediff + '%');
+
+      // Do the numberwang for the ORDER price hints
+      var order_lower = currentMid - orderprice_spread;
+      var order_higher = currentMid + orderprice_spread;
+      $("#order_lower").text(order_lower);
+      $("#order_higher").text(order_higher);
+
+      // Do the numberwang for the ORDER price x quantity = value indicator
+      var ov_pound = $("#order_quantity").val();
+      var orderprice = $("#order_price").val();
+      var order_value = (ov_pound * orderprice * 10000).toFixed(0);
+      ov_pound = numberWithCommas(order_value);
+      $("#order_value").val('£' + ov_pound);
+
+      // Do the numberwang for Order STOPS
+      var order_price = $("#order_price").val();
+      var ordernewquant = $("#order_quantity").val();
+      var order_stopprice = $("#order_stopprice").val();
+      var ov_stoppound = (order_price * order_stopprice * ordernewquant).toFixed(0);
+      ov_stoppound = numberWithCommas(ov_stoppound);
+      $("#order_stopvalue").val('-£' + ov_stoppound);
+
+
+      // Do the numberwang for Order LIMIT
+      var order_price = $("#order_price").val();
+      var ordernewquant = $("#order_quantity").val();
+      var order_limitprice = $("#order_limitprice").val();
+      var ov_limitpound = (order_price * order_limitprice * ordernewquant).toFixed(0);
+      ov_limitpound = numberWithCommas(ov_limitpound);
+      $("#order_limitvalue").val('£' + ov_limitpound);
+
+
+    // THIS draws the moving graph on the ticket
+    var updatingChart = $(".updating-chart").peity("line", { 
+      max: parseFloat(newMid * 1.001),
+      min: parseFloat(newMid * 0.999),
+      width: 340,
+      height: 220,
+      fill: "#cbe0ed",
+      stroke: "#0378ba",
+      strokeWidth: 1.2, 
+      id: "movingchart"
+    })
+
+    var priceMid = parseFloat($('input[name='+"price"+']').val());
+      var values = updatingChart.text().split(",");
+      values.shift();
+      values.push(priceMid);
+
+      updatingChart.text(values.join(",")).change();
+
+
+    // Draw a line in the middle 
+    d3.select("#stopper .peity").append("svg").append("line").attr("x1", 1).attr("y1", 110).attr("x2",3420).attr("y2", 110).attr("stroke-width", 2).attr("stroke", "rgba(0, 0, 0, 0.5)");
+
+
+      
+
+    }
+  }
+
+  refreshNumbers(); // for initial display
+
+  setInterval(function() {
+   refreshNumbers(); // it excutes every third of a sec
+  },2000);
+
+
+
+  $(document).ready(function(){
+    $("#quantity").change(function(){
+      var v_pound = $(this).val();
+      var price = 1.13488;
+      v_pound = (v_pound * price * 10000).toFixed(2);
+      v_pound = numberWithCommas(v_pound);
+
+      $("#value").val('£' + v_pound);
+    });
+  });
+
+
+
+
+  function numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
+  }
+
+
+  // *************************************************************
+
+  // \            ///////  \\        //   /////\
+  //  \          //         \\      //   //    \\
+  //   \          //////\\   \\    //    ||
+  //    —               ||    \\  //     ||  =====
+  //     \       \\     //     \\//      ||    ||
+  //      —       ///////       \\        \\\//||
+  //       —_
+  //         —_
+  //           ——__
+  //               ———___/\/\ CHART SVG TIME
+  //                     
+
+
+  // PEITY THINGS / SVG charts from tiny data spans 
+
+  // THIS draws ALL the small blue line graphs on the WATCHLIST
+  $(".sparkline").peity("line", {
+    width: 100,
+    height: 40,
+    fill: "#cbe0ed",
+    stroke: "#0378ba",
+    strokeWidth: 1.2
+  })
+
+
+
+  // THIS draws an initial donut for MARGIN
+  $(".data-attributes span").peity("donut", {
+    fill: function(_, i, all) {
+      var g = parseInt((i / all.length) * 255)
+      return "rgb( " + g + "," + (g * 5) + "," + g + ")"
+    }
+  })
+
+
+
+
+
+
+
+
+
+  // ***********************************************************
+
+  //
+  //                   //       //
+  ///////   //   //  //////  //////    /////   //////    /////
+  //    //  //   //    //      //     //   //  //   //  //____
+  //    //  //   //    //      //     //   //  //   //       \\
+  ////////   //////     ///     ///    /////   //   //   /////
+
+
+  // £POINT quantity buttons + calculator
+
+  $(document).ready(function(){
+      // This button will increment the TRANSACTION value
+      $('.qtyplus').click(function(e){
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseInt($('input[name='+fieldName+']').val());
+          var quantav = parseInt($('input[name='+'quantav_f'+']').val());
+
+          // If is not undefined
+          if (!isNaN(currentVal)) {
+              // Increment
+
+
+              if (currentVal < quantav) {
+                  $('input[name='+fieldName+']').val(currentVal + 1);
+                  var newquant = currentVal + 1;
+              }
+
+              //do the number wang too
+              var v_pound = $("#quantity").val();
+              var price = 1.13488;
+              var value = (v_pound * price * 10000).toFixed(0);
+              v_pound = numberWithCommas(value);
+
+              $("#value").val('£' + v_pound);
+
+              // Do the numberwang for STOPS
+              var newquant = $("#quantity").val();
+              var v_pound = $("#stopprice").val();
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_stoppound = numberWithCommas(v_pound);
+
+              $("#stopvalue").val('-£' + v_stoppound);
+
+              // Do the numberwang for LIMITS
+
+              var v_pound = $("#limitprice").val();
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_limitpound = numberWithCommas(v_pound);
+
+
+              $("#limitvalue").val('£' + v_limitpound);
+
+              // Do the numberwang for MARGIN
+
+              // Margin required is Value (Quantity x Price) * Margin rate (0.5% or similar) ...
+              // then * any currency conversions to base (eg. to USD, yesterday's close + 0.0125) 
+              var exchangerate = 1.4453 + 0.0125;
+              var marginrate = 0.0005;
+              
+              v_pound = (value * marginrate / exchangerate).toFixed(2);
+              v_marginpound = numberWithCommas(v_pound);
+
+              $("#marginreq").val('£' + v_marginpound);
+
+              
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+
+
+          }
+      });
+      // This button will decrement the TRANSACTION value till 0
+      $(".qtyminus").click(function(e) {
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseInt($('input[name='+fieldName+']').val());
+          // If it isn't undefined or its greater than 0
+          if (!isNaN(currentVal) && currentVal > 0) {
+              // Decrement one
+              $('input[name='+fieldName+']').val(currentVal - 1);
+              //do the number wang too
+              var v_pound = $("#quantity").val();
+              var price = 1.13488;
+              v_pound = (v_pound * price * 10000).toFixed(0);
+              v_pound = numberWithCommas(v_pound);
+
+              $("#value").val('£' + v_pound);
+
+              // Do the numberwang for STOPS
+              var newquant = $("#quantity").val();
+              var v_pound = $("#stopprice").val();
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_stoppound = numberWithCommas(v_pound);
+
+              $("#stopvalue").val('-£' + v_stoppound);
+
+              // Do the numberwang for LIMITS
+              var v_pound = $("#limitprice").val();
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_limitpound = numberWithCommas(v_pound);
+
+
+              $("#limitvalue").val('£' + v_limitpound);
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+          }
+      });
+  });
+
+
+
+  // STOPS buttons + calculator
+
+  $(document).ready(function(){
+      // This button will increment the STOP value
+      $('.stopqtyplus').click(function(e){
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseInt($('input[name='+fieldName+']').val());
+          // If is not undefined
+          if (!isNaN(currentVal)) {
+              // Increment
+              $('input[name='+fieldName+']').val(currentVal + 1);
+              //do the number wang too
+              var newquant = $("#quantity").val();
+              var v_pound = $("#stopprice").val();
+              var price = 1.13488;
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_stoppound = numberWithCommas(v_pound);
+
+
+              $("#stopvalue").val('-£' + v_stoppound);
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+
+
+          }
+      });
+      // This button will decrement the STOP value till 0
+      $(".stopqtyminus").click(function(e) {
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseInt($('input[name='+fieldName+']').val());
+          // If it isn't undefined or its greater than 0
+          if (!isNaN(currentVal) && currentVal > 0) {
+              // Decrement one
+              $('input[name='+fieldName+']').val(currentVal - 1);
+              //do the number wang too
+              var newquant = $("#quantity").val();
+              var v_pound = $("#stopprice").val();
+              var price = 1.13488;
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_stoppound = numberWithCommas(v_pound);
+
+              $("#stopvalue").val('-£' + v_stoppound);
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+          }
+      });
+  });
+
+
+
+
+  // LIMITS buttons + calculator
+
+  $(document).ready(function(){
+      // This button will increment the LIMIT value
+      $('.limitqtyplus').click(function(e){
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseInt($('input[name='+fieldName+']').val());
+          // If is not undefined
+          if (!isNaN(currentVal)) {
+              // Increment
+              $('input[name='+fieldName+']').val(currentVal + 1);
+              //do the number wang too
+              var newquant = $("#quantity").val();
+              var v_pound = $("#limitprice").val();
+              var price = 1.13488;
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_limitpound = numberWithCommas(v_pound);
+
+
+              $("#limitvalue").val('£' + v_limitpound);
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+
+
+          }
+      });
+      // This button will decrement the LIMIT value till 0
+      $(".limitqtyminus").click(function(e) {
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseInt($('input[name='+fieldName+']').val());
+          // If it isn't undefined or its greater than 0
+          if (!isNaN(currentVal) && currentVal > 0) {
+              // Decrement one
+              $('input[name='+fieldName+']').val(currentVal - 1);
+              //do the number wang too
+              var newquant = $("#quantity").val();
+              var v_pound = $("#limitprice").val();
+              var price = 1.13488;
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_limitpound = numberWithCommas(v_pound);
+
+              $("#limitvalue").val('£' + v_limitpound);
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+          }
+      });
+  });
+
+
+  // ORDER - Price buttons + calculator
+
+  $(document).ready(function(){
+      // This button will increment the ORDER PRICE value
+      $('.orderpriceplus').click(function(e){
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseFloat($('input[name='+"order_price"+']').val());
+          // If is not undefined
+          if (!isNaN(currentVal)) {
+              // Increment
+              newOrderprice = (currentVal + 0.0001).toFixed(4);
+              $('input[name='+fieldName+']').val(newOrderprice);
+              //do the number wang too
+              
+
+              $("#order_price").val();
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+
+
+          }
+      });
+      // This button will decrement the LIMIT value till 0
+      $(".orderpriceminus").click(function(e) {
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseFloat($('input[name='+"order_price"+']').val());
+          // If it isn't undefined or its greater than 0
+          if (!isNaN(currentVal) && currentVal > 0) {
+              // Decrement one
+              newOrderprice = (currentVal - 0.0001).toFixed(4);
+              $('input[name='+fieldName+']').val(newOrderprice);
+              //do the number wang too
+             
+              $("#order_price").val();
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+          }
+      });
+  });
+
+
+
+  // £POINT quantity buttons + calculator
+
+  $(document).ready(function(){
+      // This button will increment the TRANSACTION value
+      $('.orderqtyplus').click(function(e){
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseInt($('input[name='+fieldName+']').val());
+          var quantav = parseInt($('input[name='+'quantav_f'+']').val());
+
+          // If is not undefined
+          if (!isNaN(currentVal)) {
+              // Increment
+
+
+              if (currentVal < quantav) {
+                  $('input[name='+fieldName+']').val(currentVal + 1);
+                  var newquant = currentVal + 1;
+              }
+
+              //do the number wang too
+              var ov_pound = $("#order_quantity").val();
+              var order_price = $("#order_price").val();
+              var order_value = (ov_pound * order_price * 10000).toFixed(0);
+              ov_pound = numberWithCommas(order_value);
+
+              $("#order_value").val('£' + ov_pound);
+
+              // Do the numberwang for STOPS
+              var newquant = $("#quantity").val();
+              var v_pound = $("#stopprice").val();
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_stoppound = numberWithCommas(v_pound);
+
+              $("#stopvalue").val('-£' + v_stoppound);
+
+              // Do the numberwang for LIMITS
+
+              var v_pound = $("#limitprice").val();
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_limitpound = numberWithCommas(v_pound);
+
+
+              $("#limitvalue").val('£' + v_limitpound);
+
+              // Do the numberwang for MARGIN
+
+              // Margin required is Value (Quantity x Price) * Margin rate (0.5% or similar) ...
+              // then * any currency conversions to base (eg. to USD, yesterday's close + 0.0125) 
+              var exchangerate = 1.4453 + 0.0125;
+              var marginrate = 0.0005;
+              
+              v_pound = (value * marginrate / exchangerate).toFixed(2);
+              v_marginpound = numberWithCommas(v_pound);
+
+              $("#marginreq").val('£' + v_marginpound);
+
+          
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+
+
+          }
+      });
+      // This button will decrement the TRANSACTION value till 0
+      $(".orderqtyminus").click(function(e) {
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseInt($('input[name='+fieldName+']').val());
+          // If it isn't undefined or its greater than 0
+          if (!isNaN(currentVal) && currentVal > 0) {
+              // Decrement one
+              $('input[name='+fieldName+']').val(currentVal - 1);
+              //do the number wang too
+              var v_pound = $("#quantity").val();
+              var price = 1.13488;
+              v_pound = (v_pound * price * 10000).toFixed(0);
+              v_pound = numberWithCommas(v_pound);
+
+              $("#value").val('£' + v_pound);
+
+              // Do the numberwang for STOPS
+              var newquant = $("#quantity").val();
+              var v_pound = $("#stopprice").val();
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_stoppound = numberWithCommas(v_pound);
+
+              $("#stopvalue").val('-£' + v_stoppound);
+
+              // Do the numberwang for LIMITS
+              var v_pound = $("#limitprice").val();
+              v_pound = (v_pound * price * newquant).toFixed(0);
+              v_limitpound = numberWithCommas(v_pound);
+
+
+              $("#limitvalue").val('£' + v_limitpound);
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+          }
+      });
+  });
+
+
+
+  // ALERT buttons + calculator
+
+  $(document).ready(function(){
+      // This button will increment the ALERT value
+      $('.alertqtyplus').click(function(e){
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseFloat($('input[name='+fieldName+']').val());
+          // If is not undefined
+          if (!isNaN(currentVal)) {
+              // Increment
+              currentVal = (currentVal + 0.0001).toFixed(4);
+              $('input[name='+fieldName+']').val(currentVal);
+              //do the number wang too
+
+
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+
+
+          }
+      });
+      // This button will decrement the ALERT price till 0
+      $(".alertqtyminus").click(function(e) {
+          // Stop acting like a button
+          e.preventDefault();
+          // Get the field name
+          fieldName = $(this).attr('field');
+          // Get its current value
+          var currentVal = parseFloat($('input[name='+fieldName+']').val());
+          // If it isn't undefined or its greater than 0
+          if (!isNaN(currentVal) && currentVal > 0) {
+              // Decrement one
+              currentVal = (currentVal - 0.0001).toFixed(4);
+              $('input[name='+fieldName+']').val(currentVal);
+              //do the number wang too
+
+        
+
+          } else {
+              // Otherwise put a 0 there
+              $('input[name='+fieldName+']').val(0);
+          }
+      });
+  });
+
+
+
+
+
+  </script>  </body>
+</html>

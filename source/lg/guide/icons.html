@@ -1,0 +1,306 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>Basics : Design Guide :: Labguru</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo" width="130" height="45" style="padding:14px 0 30px 0" />
+			
+			<!--
+<ul id="topnav">
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Live Help</a></li>
+			<li><a href="#">FAQs</a></li>
+			</ul>
+-->
+
+		</div>
+		
+		<div class="fourcol">
+		
+			<!--
+<img src="images/avi-1.jpg" class="smallavi" />
+		
+			Nicholas Makepeace
+		
+			<ul id="topnav">
+			<li><a href="#">Your profile</a></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+-->
+		
+		</div>
+		
+		<div class="threecol">
+		
+		</div>
+		
+		<div class="threecol last">
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li>Design Guide</li>
+				
+				<ul class="subnav">
+				<li><a href="typography.html">Typography</a></li>
+				<li class="active">Icons</li>
+				<li><a href="buttons.html">Buttons</a></li>
+				
+				<li><a href="colours.html">Colours</a></li>
+				<li><a href="thegrid.html">The Grid</a></li>
+				<li><a href="navigation.html">Navigation</a></li>
+				<li><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="widgets.html">Other UI widgets</a></li>
+				</ul>
+				
+				
+				
+				<ul class="nav">
+				<li><a href="#">News Feed</a></li>
+				<li><a href="#">Work Spaces</a></li>
+				</ul>
+				
+				</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+		
+
+
+
+		<div class="eightcol">
+		
+			<h1 class="megatitle">Icons</h1>
+			
+	<!-- 		<p id="byline" class="meta left">Author <a href="mailto:paulpod@neuromantics.net">Paul Pod</a></p> -->
+			
+	<!-- 		<p id="doctools" class="meta right">You may <a href="#">Edit</a> <a href="#">Delete</a></p> -->
+	
+	<!-- 		<br style="clear:both"/> -->
+	
+			<hr />
+			
+			<div class="longcopy">
+									
+			<h2>Small icon set</h2>
+			
+			<p>This design used lots of whitespace, small type and blue links in a lot of places. In addition there is a visual language of small, clear icons used in toolbars and lists to add meaning and grouping to the page.</p>
+			<p>The main set of visual language is a set of icons, mostly in one sprite, and are based partly on the <a href="http://twitter.github.com/bootstrap/base-css.html#icons">Glyphicons Halflings</a> set used in Bootstrap. If you need additional icons, one of these will probably work well.</p>
+			
+			</div><!-- end long copy region -->
+
+						
+			
+			<div class="smaller fleft addgut" style="padding:1em 0">
+			<p>
+			<i class="icon-spanner"></i> Spanner / Actions or Tools
+			</p><p>
+			<i class="icon-circle-plus"></i> Action / Add or join a thing
+			</p><p>
+			<i class="icon-greenadd"></i> Action / Add a <em>new</em> thing
+			</p><p>
+			<i class="icon-edit-pen"></i> Action / Edit a thing
+			</p><p>
+			<i class="icon-print"></i> Action / Print
+			</p><p>
+			<i class="icon-cross"></i> Action / Remove or Delete
+			</p><p>
+			<i class="icon-bluepaperclip"></i> Action / Add a link or attachment
+			</p><p>
+			<i class="icon-duplicate"></i> Action / Duplicate
+			</p><p>
+			<i class="icon-merge-tag"></i> Action / Merge Tags
+			</p><p>
+			<i class="icon-message-send"></i> Action / Send or Resend message
+			</p><p>
+			<i class="icon-cog"></i> Cog / Settings or Customisation
+			</p><p>
+			<i class="icon-shopper"></i> Shopping cart / Used for materials
+			</p><p>
+			<i class="icon-time"></i> Clock / Used for events, dates, times
+			</p></div>
+			
+			
+			<div class="smaller fleft" style="padding:1em 0">
+			<p>
+			<i class="icon-blackdoc"></i> Metadata / Type: Generic Document
+			</p><p>
+			<i class="icon-blacktag"></i> Metadata / Type: Tag or Keyword
+			</p><p>
+			<i class="icon-blackpaperclip"></i> Metadata / Type: Link or Attachment
+			</p><p>
+			<i class="icon-book"></i> Metadata / Type: Book or Report
+			</p><p>
+			<i class="icon-blackexperi"></i> Metadata / Type: Experiment or Material
+			</p><p>
+			<i class="icon-blackdocgraph"></i> Metadata / Type: Graph, Data or Figure
+			</p><p>
+			<i class="icon-blackdocprotocol"></i> Metadata / Type: Protocol or List
+			</p><p>
+			<i class="icon-blackgenes"></i> Metadata / Type: Gene or DNA Sequence
+			</p><p>
+			<i class="icon-blackcells"></i> Metadata / Type: Cells
+			</p><p>
+			<i class="icon-blackplasmid"></i> Metadata / Type: Plasmids
+			</p>
+			</div>
+			
+			<br clear="all" />
+						
+			<div class="smaller">
+			<p>
+			<i class="icon-filter"></i> Filter / Apply, switch or change filters
+			</p><p>
+			<i class="icon-star-off"></i> Favourite / Off, can be made a favourite
+			</p><p>
+			<i class="icon-star-on"></i> Favourite / On
+			</p><p>
+			<i class="icon-lock"></i> Lock / Secure or private items
+			</p><p>
+			<i class="icon-unlock"></i> Unlock / Remove security, public data
+			</p><p>
+			<i class="icon-lock-check"></i> Check Lock / Change password, apply security
+			</p><p>
+			<i class="icon-user"></i> User / Active users
+			</p><p>
+			<i class="icon-user-old"></i> User / Inactive or unavailable users
+			</p><p>
+			<i class="icon-file-up"></i> File / Data Upload
+			</p><p>
+			<i class="icon-file-down"></i> File / Data Download
+			</p><p>
+			<i class="icon-checked-grey"></i> Status / Done or Complete items
+			</p><p>
+			<i class="icon-hozhandle-on"></i> Affordance / Handle to drag horizontally
+			</p><p>
+			<i class="icon-bluesort-right"></i> Affordance / Arrow indicates item contains multiples, click to reveal
+			</p><p>
+			<i class="icon-bluesort-down"></i> Affordance / Arrow indicates item is sorted top to bottom, click to reverse sorting order
+			</p><p>
+			<i class="icon-bluesort-up"></i> Affordance / Arrow indicates item is sorted bottom to top, click to reverse sorting order
+			</p>
+			</div>
+			
+			
+			<div class="longcopy">
+									
+			<h2>Miscellaneous Icons</h2>
+			
+			<p>Apart from this visual language, plus boxes, lines and arrows, there are only a few additional icons.</p>
+			
+						<img src="images/big-link.png" alt="big-link" width="" height="" />
+
+						<img src="images/big-paperclip.png" alt="big-paperclip" width="" height="" />
+						
+						<img src="images/big-tag.png" alt="big-tag" width="" height="" />
+						
+						<img src="images/blue-file.png" alt="blue-file" width="" height="" />
+						
+						<img src="images/required-star.png" alt="required-star" width="" height="" />
+						
+			</div>
+			
+			
+		</div><!-- end column -->
+		
+		
+		
+
+		
+		
+		
+		<div class="sixcol last">
+		
+	
+						
+			
+						
+			
+		</div><!-- end column -->
+		
+	</div><!-- end ROW -->
+
+</div><!-- end container 'id=content' -->
+
+
+<div class="container" id="footer">
+	<div class="row">
+		<footer>
+		
+		<div class="fleft">
+		<a href="#"><img src="images/biodata-logo.png" alt="biodata-logo" width="25" height="30" style="margin-right:10px;" /></a>
+		</div>
+		
+		<div class="fleft addgap">
+		<p style="line-height:1.1"><span class="smaller">Powered by</span><br />BioData</p>
+		</div>
+		
+		<div class="fleft">
+		<p><a href="#">Privacy</a> | <a href="#">Terms and Conditions</a></p>
+		</div>
+		
+		<div class="fright">
+		<p>All contents &copy; copyright 2008-2012 BioData Ltd.  All rights reserved.  Read updates and reviews on <a href="#">our blog</a></p>
+		</div>
+		
+		<br clear=all />
+		
+		</footer>
+	</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+
+</body>
+
+</html>

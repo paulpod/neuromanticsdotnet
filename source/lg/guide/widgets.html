@@ -1,0 +1,334 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>UI Widgets : Design Guide :: Labguru</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo" width="130" height="45" style="padding:14px 0 30px 0" />
+			
+			<!--
+<ul id="topnav">
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Live Help</a></li>
+			<li><a href="#">FAQs</a></li>
+			</ul>
+-->
+
+		</div>
+		
+		<div class="fourcol">
+		
+			<!--
+<img src="images/avi-1.jpg" class="smallavi" />
+		
+			Nicholas Makepeace
+		
+			<ul id="topnav">
+			<li><a href="#">Your profile</a></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+-->
+		
+		</div>
+		
+		<div class="threecol">
+		
+		</div>
+		
+		<div class="threecol last">
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li>Design Guide</li>
+				
+				<ul class="subnav">
+				<li><a href="typography.html">Typography</li>
+				<li><a href="icons.html">Icons</a></li>
+				<li><a href="buttons.html">Buttons</a></li>
+				<li><a href="colours.html">Colours</a></li>
+				<li><a href="thegrid.html">The Grid</a></li>
+				<li><a href="navigation.html">Navigation</a></li>
+				<li><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li class="active"><a href="widgets.html">Other UI widgets</a></li>
+
+				</ul>
+				
+				
+				
+				<ul class="nav">
+				<li><a href="#">News Feed</a></li>
+				<li><a href="#">Work Spaces</a></li>
+				</ul>
+				
+				</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+		
+
+
+
+		<div class="eightcol">
+		
+			<h1 class="megatitle">Widgets</h1>
+			
+	<!-- 		<p id="byline" class="meta left">Author <a href="mailto:paulpod@neuromantics.net">Paul Pod</a></p> -->
+			
+	<!-- 		<p id="doctools" class="meta right">You may <a href="#">Edit</a> <a href="#">Delete</a></p> -->
+	
+	<!-- 		<br style="clear:both"/> -->
+	
+			<hr />
+			
+			<div class="longcopy">
+									
+			
+			<p>Providing design direction and where possible prototype/example code for of the more obscure UI elements.</p>
+			
+			<h2>Pagination</h2>
+			
+			<p>Pagination should be blue link coloured numbers, aligned left under or above (or both) the main element. The relative word link previous / next should be visible and grey (inactive) at either end of the sequence. The current number in the sequence should be highlighted.</p>
+			
+			</div><!-- end longcopy -->
+			
+			<div class="pagination">
+				<ul class="tab">
+					<li class="inactive">&laquo; Previous</li>
+					<li class="active">1</li>
+					<li><a rel="next" href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a class="next_page" rel="next" href="#">Next &raquo;</a></li>
+				</ul>
+			</div><!-- end pagination -->
+			
+			<br clear="all" />
+			
+			<div class="pagination" style="margin-top:20px;">
+				<ul class="tab">
+					<li><a href="#">&laquo; Previous</a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">&hellip;</a></li>
+					 
+					<li><a rel="previous" href="#">14</a></li>
+					<li class="active"><a href="#">15</a></li>
+					<li><a rel="next" href="#">16</a></li>
+					<li><a class="next_page" rel="next" href="#">Next &raquo;</a></li>
+				</ul>
+			</div><!-- end pagination -->
+			
+			<br clear="all" />			
+			
+			<div class="longcopy">
+
+
+			<h2>Popups and dialogs</h2>
+			
+			<p>Popups should be consistent and arrive in middle of the screen, with a clear title and close button. They can be completely lightboxed, darkening the entire page, or shadowed.</p>
+			
+			</div><!-- end longcopy -->
+			
+			<div class="modal">
+				<div class="modal-title"><h3 class="fleft">Add a task popup</h3>
+				<button type="button" class="modal-title-btn fright "><i class="icon-cross"><span style="display:none">Close</span></i></button>
+				</div>
+				
+				<br clear="all" />
+
+				
+				<div class="modal-content">
+					
+					<div id="quick-task">
+					<form accept-charset="UTF-8" action="/system/tasks" class="addtask last tasksformsubmitclass teamChild" data-remote="true" id="teamChild" method="post" style="padding: 15px 13px 20px;" novalidate="novalidate">
+					
+					<div class="input ">
+					<label for="task_name" style="font-weight:bold">Name:<span class="required_star_class"> * </span></label>
+					<input class="txt-field required " id="task_name" name="task[name]" size="10" type="text">
+					</div>
+					
+					<div class="input "><label for="task_start_date" style="font-weight:bold">Due by:</label>
+					<input class="txt-field hasDatepicker" id="start_date_datepicker_task" name="task[start_date]" size="10" type="text" value="12/17/2012">
+					</div>
+					
+					<div class="input " id="milestone_member">
+					<label for="task_task" style="font-weight:bold">This task is for:</label>
+					<select class="full" id="task_member_id" name="task[member_id]">
+						<option value="4" selected="selected">Daniel Moore</option>
+						<option value="2">Daphne Rosenfeld</option>
+						<option value="211">Eric Kim</option>
+						<option value="11">Jason Turner</option>
+						<option value="151">Jessica Silberstein</option>
+						<option value="31">Julie Warner</option>
+						<option value="3">Megan Lewis</option>
+						<option value="5">Michael Hill</option>
+						<option value="21">Mike Johnson</option>
+						<option value="91">Robert Stevenson</option>
+						<option value="221">Ryan Green</option>
+						<option value="61">Steve Jones</option>
+					</select><span class="select-arrow"></span>
+					</div>
+					
+					<div class="input ">
+					<label for="task_description" style="font-weight:bold">Description:</label>
+					<textarea  class="txt-field" cols="19" id="task_description" name="task[description]" rows="5"></textarea>
+					
+					</div>
+					
+					
+					</form>
+					</div><!-- end Quick-Task -->
+
+					<br clear="all">
+
+
+					<div class="modaltools">
+						<ul class="tab button" style="margin-left:8px;font-size:0.8em;"> 
+						<li><a href="#" style="font-weight:700">Add task</a></li>
+						<li><a href="#" style="font-weight:400">Cancel</a></li>
+						</ul>
+					<br clear="all">
+					</div>
+					
+				</div><!-- end Modal Content -->
+			</div><!-- end Modal box -->
+			
+			<br clear="all" />
+			
+			
+			
+			
+			
+			<div class="longcopy">
+
+			
+			<h2>Timers on protocols</h2>
+			
+			<h2>Shopping list</h2>
+			
+			<h2>Storage hierarchy browser</h2>
+			
+			<h2>Inline editing</h2>
+			
+			<p>Inline editing of small pieces of data can be a much faster process for the user, but the UI affordances need to be very clear and the implementation clean and polished. Here are a few designed examples, but there are many opportunities for small interactions to improve user workflow.
+			
+			<img src="images/eg-add-new-unit-field.png" alt="eg-add-new-unit-field" width="550" height="289" />
+			
+			<p><strong>Form additions,</strong> <em>above</em> : most people will never have to add an extra unit to this field, so it makes sense to keep the option appended to the list. On activating add the extra field right there rather than going to another page and <em>losing the contents of the form</em> already entered.</p>
+						
+			<h2>Flash messages and alerts</h2>
+						
+			</div><!-- end long copy region -->
+			
+			
+		</div><!-- end column -->
+		
+		
+		
+		<div class="onecol">
+		
+		&nbsp;
+
+		</div><!-- end column -->		
+		
+		
+		<div class="fivecol last">
+		
+	
+<!-- 			<h3>/</h3> -->
+			
+						
+			
+			
+						
+			
+		</div><!-- end column -->
+		
+	</div><!-- end ROW -->
+
+</div><!-- end container 'id=content' -->
+
+
+<div class="container" id="footer">
+	<div class="row">
+		<footer>
+		
+		<div class="fleft">
+		<a href="#"><img src="images/biodata-logo.png" alt="biodata-logo" width="25" height="30" style="margin-right:10px;" /></a>
+		</div>
+		
+		<div class="fleft addgap">
+		<p style="line-height:1.1"><span class="smaller">Powered by</span><br />BioData</p>
+		</div>
+		
+		<div class="fleft">
+		<p><a href="#">Privacy</a> | <a href="#">Terms and Conditions</a></p>
+		</div>
+		
+		<div class="fright">
+		<p>All contents &copy; copyright 2008-2012 BioData Ltd.  All rights reserved.  Read updates and reviews on <a href="#">our blog</a></p>
+		</div>
+		
+		<br clear=all />
+		
+		</footer>
+	</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+
+</body>
+
+</html>

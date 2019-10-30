@@ -1,0 +1,828 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+body {
+font-family: "Open Sans", Trebuchet, Verdana, sans-serif;
+text-align: left;
+font-size: 18px;
+color: #333;
+background-color: white;
+padding: 0;
+margin: 0;
+}
+
+
+a {
+color: #005fcc;
+text-decoration: none;
+}
+a:hover {
+color: #000;
+text-decoration: underline;
+}
+a:visited {
+color: #143066;
+}
+.darklink {
+color: #223366;
+}
+.darklink:hover {
+background-color: #ffd;
+text-decoration: none;
+}
+
+.longcopy {
+font-family: Georgia, Times, serif;
+margin-top: 1em;
+}
+
+p {
+margin: 0 0 1.2em 0;
+padding: 0;
+line-height: 1.5;
+font-size: 1.1em;
+font-weight: 300;
+margin-bottom:0.4em
+}
+
+p + p {
+text-indent:1.6em;
+margin-top:0
+}
+
+.small {
+/* font-weight: 500; */
+font-size: 0.9em;
+/* line-height: 2; */
+}
+
+/*
+p a {
+background-color: #fffacd;
+}
+*/
+
+hr {
+clear:both;
+border: 0;
+height: 1px;
+color: #e0e0e0;
+background-color: #e0e0e0;
+margin: 1.5em 0;
+}
+
+.megatitle {
+font-weight: 100;
+font-size: 3.6em;
+}
+
+h1 {
+color: black;
+font-size: 2em;
+font-weight: 300;
+line-height: 1.1em;
+margin: 0.6em 0 0.66em 0;
+padding: 0;		
+}
+
+h2 {
+color: black;
+font-size: 1.2em;
+font-weight: 400;
+line-height: 1.5em;
+margin: 0.8em 0 1em 0;
+padding: 0;		
+}
+
+h3 {
+color: black;
+font-size: 1.1em;
+font-weight: 500;
+line-height: 1.6;
+margin: 0;
+padding: 0;		
+}
+
+h4 {
+color: #999;
+font-size: 1em;
+font-weight: 100;
+line-height: 1em;
+margin: 0.2em 0 0 0;
+padding: 0;		
+}
+h5 {
+color: white;
+letter-spacing: 5;
+font-size: 0.8em;
+font-weight: 600;
+line-height: 1em;
+margin: 0.2em 0 0 0;
+padding: 0;		
+}
+
+
+ol,ul {
+padding: 0;
+margin: 0;
+list-style: none;
+/* line-height: 2.5; */
+font-size: 100%;
+}
+
+
+
+/* **** **** **** **** **** **** **** **** **** */
+/* Stuff for the Main/left navigation list      */
+
+#sidenav {
+margin-top: 1.5em;
+font-size: 0.7em;
+}
+
+.nav li {
+line-height: 2.8;
+border-bottom: 1px #e0e0e0 solid;
+font-weight: 700;
+font-size: 100%;
+}
+.nav li:last-child {
+border-bottom: 4px #e0e0e0 solid;
+}
+
+.subnav li {
+border-bottom: 1px #e0e0e0 dotted;
+font-weight: 500;
+text-indent: 0.8em;
+line-height: 2;
+}
+.subnav li:last-child {
+border-bottom: 1px #e0e0e0 solid;
+}
+
+
+
+
+
+#topbody {
+margin: 0 0 1em 0;
+}
+
+
+
+/* **** **** **** **** **** **** */
+/*  Stuff for tag side boxes     */
+.tags {
+font-size: 0.7em;
+}
+#tagsearch {
+}
+#tagbrowser {
+float: left;
+width: 55.9%;
+height: 24px;
+overflow:hidden;
+}
+#tagprinter {
+}
+#tagprinter li {
+margin-bottom: 0.5em;
+}
+.tags li {
+display: inline-block;
+background: url(images/micro-tag.png) no-repeat 0 5px;
+padding: 0 1em 0 1em;
+margin: 0;
+}
+
+#tag_label {
+background: none;
+padding-left: 0;
+}
+#tag_all {
+background: url(images/mini-all-tag.png) no-repeat 0 4px;
+padding-left: 1.7em;
+}
+#tag_add {
+background: url(images/mini-add-tag.png) no-repeat 0 4px;
+padding-left: 1.3em;
+}
+#tag_add a {
+color: #6a9600;
+}
+.subtags {
+/* font-size: 140%; */
+}
+.subtags li {
+display: inline-block;
+background: url(images/micro-tag.png) no-repeat 0 5px;
+text-indent: 0.9em;
+margin: 0 8px 0 0;
+}
+
+
+
+#doctoolsbox {
+/* background-color: #f0e2a0; */
+background-color: #e9f6c0;
+/* width: 100%; */
+margin: 5px 0;
+border-radius: 3px;
+}
+#doctools {
+padding: 8px;
+font-size: 0.7em;
+}
+#doctools li {
+display: inline-block;
+margin-right: 10px;
+}
+
+
+
+/* ****** ****** **** ****** ****** ****** ** */
+/* Stuff for the top nav header on every page */
+
+#header {
+background: url(images/header-bg-2.png) repeat-x #fff;
+color: white;
+/* font-size: 0.8em; */
+/* margin-bottom: 1em; */
+}
+
+.headerlabel {
+font-size: 1.1em;
+font-weight: 400;
+padding-top: 16px;
+text-shadow: 0px 1px 1px black;
+}
+#topnav {
+font-size: 0.7em;
+margin-top: 16px;
+}
+#topnav ul {
+/* font-size: 0.7em; */
+margin-top: 13px;
+}
+#topnav a {
+color: #71C5EF;
+text-shadow: 0px 1px 1px black;
+}
+#topnav li {
+float: left;
+padding-right: 25px;
+}
+
+.smallavi {
+width: 25px;
+height: 25px;
+border-radius: 4px;
+margin: 0 6px 0 0;
+vertical-align:top;
+box-shadow: 0px 2px 1px 0px black
+}
+
+.miniavi {
+width: 22px;
+height: 22px;
+border-radius: 2px;
+margin: 0 5px 0 0;
+vertical-align:middle;
+/* box-shadow: 0px 2px 1px 0px black */
+}
+
+.num {
+width: 16px;
+display: inline-block;
+text-align: center;
+float: right;
+clear: both;
+}
+
+
+
+/* **** **** **** **** **** **** **** **** **** */
+/*   Stuff for the Research Projects main area  */
+
+#project-title {
+background: url(images/project-large-icon.png) left top no-repeat;
+}
+
+#project-title h1 {
+padding: 4px 0 0 42px;
+}
+
+#project-info {
+/* margin-top: 6em; */
+font-family: Georgia, Times, serif;
+}
+
+#team {
+font-size: 0.7em;
+}
+
+.team li {
+float: left;
+width: 120px;
+}
+
+#tasks {
+/* font-size: 0.7em; */
+}
+#tasks li {
+margin: 0 0 1em 0;
+padding: 0;
+line-height: 2;
+}
+.task {
+background-color: #eec;
+text-indent: 5px;
+}
+.taskannotate {
+border-top: 1px solid #ddb;
+background-color: #ffd;
+display: block;
+}
+.got-task {
+	
+}
+
+
+#mainsubcol {
+width: 80%;
+float: left;
+}
+
+#metasubcol {
+float: right;
+width: 120px;
+}
+
+#hoznav {
+font-size: 0.7em;
+margin: -0.5em 0 0 0;
+padding: 0 0 0.5em 0;
+}
+
+.tab li {
+float: left;
+font-weight: 700;
+padding: 0 3em 0 0;
+}
+.activetab {
+border-bottom: black 3px solid;
+}
+.tabnum {
+margin: 0 0 0 5px;
+padding-top: 2px;
+width: 17px;
+height: 17px;
+display: inline-block;
+text-align: center;
+vertical-align: super;
+font-weight: normal;
+font-size: 70%;
+background: url(images/tabnumb.png);
+}
+.tab li:last-child {
+padding-right: 0;
+}
+
+
+
+
+
+#track-past {
+margin-top: 1.6em;
+}
+
+#track-past h1 {
+background: #f0f0f0;
+color: #999;
+padding: 12px 5px;
+margin: 0.2em 0;
+font-size: 120%;
+font-weight: 300;
+border-bottom: 1px solid #ccc;
+}
+#track-current h1 {
+background: #f0f0f0;
+color: #999;
+padding: 12px 5px;
+margin: 0.2em 0;
+font-size: 120%;
+font-weight: 300;
+border-bottom: 1px solid #ccc;
+}
+
+.milestone {
+border-radius: 3px;
+font-size: 0.8em;
+background-color: #f9f9f9;
+margin-bottom: 1em;
+}
+.milestone h2 {
+/* width: 100%; */
+background: #f2f6ec url(images/ordering-handle.png) right center no-repeat;
+padding: 5px;
+margin: 0;
+font-size: 110%;
+font-weight: 500;
+}
+.milestone h3 {
+/* width: 100%; */
+background: #f5f7f3 url(images/milestone-title-shadow.png) center top repeat-x;
+padding: 5px;
+margin: 0;
+font-size: 90%;
+font-weight: 600;
+}
+.milestone p {
+padding: 5px;
+}
+.milestone li {
+font-size: 92%;
+line-height: 2.8;
+padding-left: 0.3em;
+background: url(images/ordering-handle-sm.png) right center no-repeat;
+border-bottom: 1px solid #e6e8e1;
+border-top: 2px solid white;
+}
+.milestone a:hover {
+background-color: #ffc;
+}
+.redmark {
+padding-top: 2px;
+background: url(images/red-stripe.png) left top repeat-x;
+}
+.redmark h2 {
+background-color: #f0e2d3;
+}
+
+/* ****** ****** ****** ****** ****** ****** ****** ****** ** */
+/* Generic TABLE styling followed by specific IDs if required */
+
+table {
+width: 100%;
+text-align: left;
+font-size: 0.7em;
+margin: 0 0 0.5em 0;
+border-bottom: solid 2px #ddd;
+}
+
+th {
+font-weight: bold;
+color: white;
+background-color: #e0e0e0;
+vertical-align: bottom;
+border-radius: 3px;
+
+}
+
+td,th {
+padding: 8px 6px;
+border-right: solid 1px white;
+}
+td:last-child,th:last-child {
+border: none;
+}
+
+tr {
+border-bottom: solid 1px #ddd;
+}
+
+tr:nth-of-type(even) {
+background-color:#eee;
+}
+
+#byline {
+margin: 1em 0;
+}
+
+
+/* ******* ****** ****** ********** */
+/* Comments on documents and things */
+
+#comments {
+width: 79%;
+}
+#comments h3 {
+color: #999;
+font-style: italic;
+font-weight: 300;
+margin: 0.5em 0 1em 0;
+}
+.comment-avatar {
+width: 44px;
+height: 44px;
+border-radius: 3px;
+float: left;
+margin-right: 32px;
+
+}
+.comment-a {
+}
+.comment-name {
+font-weight: 700;
+font-size: 0.8em;
+/* float: left; */
+}
+.comment-timestamp {
+font-family: Georgia, Times, serif;
+color: #aaa;
+font-size: 0.8em;
+text-align: right;
+}
+.comment p {
+font-family: Georgia, Times, serif;
+color: #444;
+font-size: 1em;
+}
+
+
+/* ******* ****** ****** ** */
+/* Search and form elements */
+
+.searchtextbox {
+font-family: "Open Sans", Trebuchet, Verdana, sans-serif;
+margin: 0;
+background: #f0f0f0 url(images/search-icon-33bk.png) right center no-repeat;
+border: 1px #b8caea solid;
+border-radius: 3px;
+color: #005fcc;
+font-size: 1em;
+width: 120px;
+height: 20px;
+position:relative;
+top:-2px;
+text-indent: 5px;
+float: right;
+}
+
+#topnavsearch {
+border-bottom: #eee solid 2px;
+/* padding: 12px 0 4px 4px; */
+padding: 12px 0 4px 0;
+margin: 0 0 0 3px;
+}
+
+.topinputbox {
+border: none;
+color: white;
+background: none;
+font-size: 0.7em;
+height: 19px;
+}
+#options{
+padding: 5px 4px 0 0;
+height: 19px;
+}
+#searchimg {
+padding-top: 5px;
+height: 19px;
+}
+
+
+/* ==== === ==== ==== ==== === ===== ==== */
+/* ! right-hand sidenav metadata + tools  */
+
+#rightside {
+margin-top: 0.5em;
+}
+.rightsidebox {
+width: 97%;
+background: #999;
+margin: 0.8em 0;
+padding: 4px 3px 7px 5px;
+border-radius: 3px;
+}
+.rightsidehead {
+border-bottom: #999 4px solid;
+padding: 4px 0 6px 0;
+margin: 0.66em 0;
+}
+.resources li {
+font-size: 0.73em;
+padding: 0 0 1em 0;
+}
+
+li.dividerli {
+/* height: 14px; */
+line-height: 1;
+background-color: #ccc;
+border-radius: 2px;
+text-transform: uppercase;
+color: white;
+font-size: 9px;
+font-weight: 600;
+letter-spacing: 2px;
+padding: 0.2em 0.4em 0.3em 0.4em;
+margin: 0 0 1em 0;
+}
+
+#metadecor {
+position: relative;
+left: 224px;
+top: 38px;
+display: block;
+margin-top: -38px;
+}
+
+#uploadspace {
+height: 42px;
+padding: 7px 0 0 48px;
+background: #eee url(images/upload-arrow.png) 8px 8px no-repeat;
+/* border: #ddd 5px dashed; */
+border-radius: 3px;
+box-shadow: inset 0px 1px 4px rgba(0,0,0,0.3);
+font-size: 0.73em;
+}
+
+
+#images {
+font-size: 0.7em;
+}
+
+#images li {
+clear: both;
+}
+
+#files {
+font-size: 0.7em;
+}
+#files li {
+margin-bottom: 1em;
+}
+
+.imgthumb {
+width: 80px;
+height: 80px;
+border-radius: 3px;
+float: left;
+margin: 0 1em 1em 0;
+/* vertical-align: top; */
+border: solid 1px #999;
+}
+
+.meta {
+color: black;
+font-family: "Open Sans", Trebuchet, Verdana, sans-serif;
+font-size: 0.8em;
+font-weight: 600;
+line-height: 1.4em;
+margin: 0;
+padding: 0;		
+}
+
+.fleft {
+float: left;
+}
+.fright {
+float: right;
+}
+
+.clear {
+clear:both;
+height: 0;
+width: 0;
+}
+
+
+/* ============================= */
+/* ! icon set parser             */
+
+i {
+display: inline-block;
+width: 20px;
+height: 20px;
+margin: 0;
+line-height: 20px;
+vertical-align: text-top;
+background-image: url("images/icons.png");
+background-position: 20px 20px;
+background-repeat: no-repeat;
+}
+.icon-spanner {
+background-position: -1px 0;
+}
+.icon-circle-plus {
+background-position: -20px 0;
+}
+.icon-book {
+background-position: -40px 0;
+}
+.icon-file-up {
+background-position: -60px 0;
+}
+.icon-cross {
+background-position: -80px 0;
+}
+.icon-cog {
+background-position: -100px 0;
+}
+.icon-file-down {
+background-position: -120px 0;
+}
+.icon-edit-pen {
+background-position: -140px 0;
+}
+.icon-blacktag {
+background-position: -160px 0;
+}
+.icon-blackexperi {
+background-position: -180px 0;
+}
+.icon-blackdocgraph {
+background-position: -200px 0;
+}
+.icon-blackdocprotocol {
+background-position: -220px 0;
+}
+.icon-blackpaperclip {
+background-position: -240px 0;
+}
+.icon-bluepaperclip {
+background-position: -260px 0;
+}
+.icon-blackdoc {
+background-position: -280px 0;
+}
+.icon-blackgenes {
+background-position: -300px 0;
+}
+.icon-blackcells {
+background-position: -320px 0;
+}
+.icon-blackplasmid {
+background-position: -340px 0;
+}
+.light {
+background-image: url("images/icons-light.png");
+}
+
+/* ==== ==== ==== ==== ==== ===== ====== ===== ===== ====== */
+/* ! Specific styling ONLY for the Design Guide microsite   */
+#font-tests p {
+font-weight: normal;
+}
+#font-test1 {
+margin-top: 2em;
+font-family: Trebuchet, Verdana, sans-serif;
+}
+#font-test2 {
+margin-top: 2em;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#font-test3 {
+margin-top: 2em;
+font-family: "Open Sans", Trebuchet, Verdana, sans-serif;
+}
+.guidebox {
+background: #cef;
+margin: 2.5em 0 0.5em 0;
+padding: 4px 3px 7px 10px;
+border-radius: 3px;
+font-size: 0.9em;
+font-weight: 500;
+color: #1580c2;
+}
+.fullwidth {
+margin-left: -163px;
+width: 1184px;
+padding-bottom: 1em;
+}
+.note {
+background-color: #ffc;
+padding: 5px 5px 5px 16px;
+color: #444;
+text-indent: 0;
+font-size: 0.8em;
+}
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

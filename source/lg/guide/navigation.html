@@ -1,0 +1,565 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>Navigation : Design Guide :: Labguru</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo" width="130" height="45" style="padding:14px 0 30px 0" />
+			
+			<!--
+<ul id="topnav">
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Live Help</a></li>
+			<li><a href="#">FAQs</a></li>
+			</ul>
+-->
+
+		</div>
+		
+		<div class="fourcol">
+		
+			<!--
+<img src="images/avi-1.jpg" class="smallavi" />
+		
+			Nicholas Makepeace
+		
+			<ul id="topnav">
+			<li><a href="#">Your profile</a></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+-->
+		
+		</div>
+		
+		<div class="threecol">
+		
+		</div>
+		
+		<div class="threecol last">
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li>Design Guide</li>
+				
+				<ul class="subnav">
+				<li><a href="typography.html">Typography</li>
+				<li><a href="icons.html">Icons</a></li>
+				<li><a href="buttons.html">Buttons</a></li>
+
+				<li><a href="colours.html">Colours</a></li>
+				<li><a href="thegrid.html">The Grid</a></li>
+				<li class="active"><a href="navigation.html">Navigation</a></li>
+				<li><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="widgets.html">Other UI widgets</a></li>
+
+				</ul>
+				
+				
+				
+				<ul class="nav">
+				<li><a href="#">News Feed</a></li>
+				<li><a href="#">Work Spaces</a></li>
+				</ul>
+				
+				</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+		
+
+
+
+		<div class="eightcol">
+		
+			<h1 class="megatitle">Navigation</h1>
+			
+	<!-- 		<p id="byline" class="meta left">Author <a href="mailto:paulpod@neuromantics.net">Paul Pod</a></p> -->
+			
+	<!-- 		<p id="doctools" class="meta right">You may <a href="#">Edit</a> <a href="#">Delete</a></p> -->
+	
+	<!-- 		<br style="clear:both"/> -->
+	
+			<hr />
+			
+			<div class="longcopy">
+			
+			<p>The old design uses a tab / sub-tab layout on two horizontal levels. Both these navigation layers are now in a simple vertical list, sub-lists appearing in a lighter font weight and indented. Metadata blocks to navigate to a tag/search, or a task, or a linked document or resource appear in a right hand column.</p>
+															
+			<h2>Main Navigation</h2>
+			
+<!-- 			<img src="images/old-main-nav.jpg" alt="old-main-nav" width="574" height="67" /> -->
+						
+			<p>For the specific set of default specimens, it is suggested the user be allowed to customise this list of 14 items, as it was considered unlikely an individual user would require all types available at all times. In addition, this scheme of navigation allows the sub-sub level as currently required for rodent strains/specimens/cages or any future requirement for this third depth of navigation.</p>
+			
+			</div><!-- end long copy region -->
+			
+			
+			<div id="sidenav" style="position:relative;float:left;margin-right:34px">
+				<ul class="nav">
+				<li>Dashboard</li>
+				<li><a href="#">Research</a></li>
+				<li><a href="#">Knowledgebase</a></li>
+				</ul>
+				
+				<ul class="nav">
+				<li><a href="#">Specimen</a></li>
+				<li><a href="#">Molecular</a></li>
+				</ul>
+				<ul class="nav">
+				<li><a href="#">Materials</a></li>
+				<li><a href="#">Storage</a></li>
+				<li><a href="#">Equipment</a></li>
+				</ul>
+			</div><!-- end sidenav -->
+
+			
+			<div id="sidenav" style="position:relative;float:left;margin-right:34px">
+				<ul class="nav">
+				<li><a href="#">Dashboard</a></li>
+				<li>Research</li>
+				
+				<ul class="subnav">
+				<li class="active">My Projects</li>
+				<li><a href="#">Team Projects</a></li>
+				<li><a href="#">Archived Projects</a></li>
+				</ul>
+				
+				<li><a href="#">Knowledgebase</a></li>
+				</ul>
+				
+				<ul class="nav">
+				<li><a href="#">Specimen</a></li>
+				<li><a href="#">Molecular</a></li>
+				</ul>
+				<ul class="nav">
+				<li><a href="#">Materials</a></li>
+				<li><a href="#">Storage</a></li>
+				<li><a href="#">Equipment</a></li>
+				</ul>
+			</div><!-- end sidenav -->
+			
+			
+			<div id="sidenav" style="position:relative;float:left">
+				<ul class="nav">
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="#">Research</a></li>				
+				<li><a href="#">Knowledgebase</a></li>
+				</ul>
+				
+				<ul class="nav">
+				<li>Specimen</li>
+				
+				
+				<ul class="subnav">
+				<li class="active">Jellyfish</li>
+				<li><a href="#">Xenopus</a></li>
+				<li><a href="#">Formulations</a></li>
+				<li><a href="#">Cell Lines</a></li>
+				<li><a href="#">Rodents&hellip;</a></li>
+				<li id="type_add"><a href="#"><i class="icon-greenadd"></i> add a type</a></li>
+
+				</ul>
+
+				
+				
+				<li><a href="#">Molecular</a></li>
+				</ul>
+				<ul class="nav">
+				<li><a href="#">Materials</a></li>
+				<li><a href="#">Storage</a></li>
+				<li><a href="#">Equipment</a></li>
+				</ul>
+			</div><!-- end sidenav -->
+			
+			
+			
+			<div id="sidenav" style="position:relative;float:right">
+				<ul class="nav">
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="#">Research</a></li>				
+				<li><a href="#">Knowledgebase</a></li>
+				</ul>
+				
+				<ul class="nav">
+				<li>Specimen</li>
+				
+				
+				<ul class="subnav">
+				<li><a href="#">Jellyfish</a></li>
+				<li><a href="#">Xenopus</a></li>
+				<li><a href="#">Formulations</a></li>
+				<li><a href="#">Cell Lines</a></li>
+				<li>Rodents&hellip;</li>
+				
+					<ul class="subsubnav">
+					<li><a href="#">Strains</a></li>
+					<li><a href="#">Specimens</a></li>
+					<li><a href="#">Cages</a></li>
+					</ul>
+				
+				<li id="type_add"><a href="#"><i class="icon-greenadd"></i> add a type</a></li>
+
+				</ul>
+
+				
+				
+				<li><a href="#">Molecular</a></li>
+				</ul>
+				
+				<ul class="nav">
+				<li><a href="#">Materials</a></li>
+				<li><a href="#">Storage</a></li>
+				<li><a href="#">Equipment</a></li>
+				</ul>
+			</div><!-- end sidenav -->
+
+			
+			<br style="clear:both"/>
+			
+		
+			
+			<div class="longcopy">			
+			<h2>Header</h2>
+			
+			<p>The header contains four main areas, each providing navigation at a smaller hierarchical layer of the 'account':</p>
+			
+			<p><strong>Labguru  &gt;  User  &gt;  Laboratory  &gt;  Workspaces  +  Search</strong></p>
+			
+			<p>Each of these sections has a small number of direct links:</p>
+			
+			<p><strong>Labguru</strong><br />
+			<em>Home</em> - the main public site entrance<br />
+			<em>Help</em> - a unified page with FAQ's, support documents, links to live-help webchat, etc.</p>
+			
+			<p><strong>User</strong><br />
+			<em>Profile</em> - a combined profile and settings page, user can edit<br />
+			<em>Messages</em> - inter-team messaging<br />
+			<em>Logout</em> immediate logout from shared machines (although short-ish session time reduces usefulness a bit)</p>
+			
+			<p><strong>Group</strong><br />
+			<em>Members</em> - clickable list of team members, links to profile pages, summary newsfeed and activity<br />
+			<em>Group tags</em> - links to a tag cloud and then quick access to (a search really) to all tagged data within the group </p>
+			
+			<p><strong>Workspace</strong><br />
+			<em>Name</em> - select a different workspace from a drop down<br />
+			<em>Index</em> - back to the main workspace chooser with big book icons and team listed under each one</p>
+
+
+			
+			</div><!-- end long copy region -->
+
+			
+			<div class="contentwidth" style="width:1220px;margin-left:-172px;">
+			
+<!-- 			<img src="images/header-01.png" alt="header-01" width="1220" height="100" /> -->
+			</div>
+			
+			
+		</div><!-- end column -->
+		
+		
+				
+		<div class="onecol">
+		
+		&nbsp;
+
+		</div><!-- end column -->		
+		
+		
+		<div class="fivecol last">
+		
+	
+			<div class="meta" style="overflow:visible;padding-top:3.2em;">
+			
+			<h3>Metadata units</h3>
+			
+			<p class="small">There are a range of metadata units that can be placed in the right hand column, here are designs for the most common.</p>
+
+			<span style="height:44px"><img src="images/big-paperclip.png" alt="big-paperclip" width="42" height="44" id="metadecor" /></span>
+
+			<h3>Linked resources</h3>
+
+			<ul class="resources">
+			<li><a href="#"><i class="icon-bluepaperclip"></i> Add a link to existing resource</a></li>
+			<li><a href="#" class="darklink"><i class="icon-blackdoc"></i> October 2012 - Monthly report</a></li>
+			<li><a href="#" class="darklink"><i class="icon-blackexperi"></i> Experiment output codes</a></li>
+			<li><a href="#" class="darklink"><i class="icon-blackdocgraph"></i> Fluid histograms</a></li>
+			<li><a href="#" class="darklink"><i class="icon-blackpaperclip"></i> Alkaline Phosphatase Detection Protocol</a></li>
+			<li><a href="#" class="darklink"><i class="icon-blackdocprotocol"></i> Laser-capture microdissection</a></li>
+			</ul>
+			
+			<div id="uploadspace">
+			<a href="#">Browse and upload a file<br />...or drop a file here</a>
+			</div>
+			
+			
+			
+			<h3>Team tasks</h3>
+			
+			<ul class="tasks">
+			<li><a href="#"><input type="checkbox" class="checkbox" id="4" onclick="#" > Prepare samples</a> <span class="fright"><time><i class="icon-time"></i> 02/28/2012</time> <i class="icon-cross"></i></span></li>
+			<li><a href="#"><input type="checkbox" class="checkbox" id="4" onclick="#" >  Set committee meeting</a> <span class="fright"><time><i class="icon-time"></i> 02/28/2012</time> <i class="icon-cross"></i></span></li>
+			<li><a href="#"><input type="checkbox" class="checkbox" id="4" onclick="#" >  New Account Assigned <span class="fright"><time><i class="icon-time"></i> 02/28/2012</time> <i class="icon-cross"></i></span></li>
+			<li><a href="#"><input type="checkbox" class="checkbox" id="4" onclick="#" >  FACS course <span class="fright"><time><i class="icon-time"></i> 02/28/2012</time> <i class="icon-cross"></i></span></li>
+			<li><a href="#"><input type="checkbox" class="checkbox" id="4" onclick="#" >  Send samples by DHL <span class="fright"><time><i class="icon-time"></i> 02/28/2012</time> <i class="icon-cross"></i></span></li>
+			<li><a href="#"><input type="checkbox" class="checkbox" id="4" onclick="#" >  Clear my bench <span class="fright"><time><i class="icon-time"></i> 02/28/2012</time> <i class="icon-cross"></i></span></li>
+			<li><a href="#"><input type="checkbox" class="checkbox" id="4" onclick="#" >  Thaw 2 Vials <span class="fright"><time><i class="icon-time"></i> 02/28/2012</time> <i class="icon-cross"></i></span></li>
+			
+			<li class="addto"><a href="#"><i class="icon-greenadd"></i> add a task</a></li>
+						
+			</ul>
+			
+			
+			
+			
+			<h3>Tags</h3>			
+
+			<div id="tagprinter">
+				<ul class="tags">
+				<li><a href="#">Antibody</a></li>
+				<li><a href="#">Cell Lines</a></li>
+				<li><a href="#">DFF</a></li>
+				<li><a href="#">ECL</a></li>
+				<li><a href="#">Enzyme</a></li>
+				<li><a href="#">Harmful</a></li>
+				<li><a href="#">Hormone</a></li>
+				<li><a href="#">Label</a></li>
+				<li><a href="#">Liquid</a></li>
+				<li><a href="#">Microscopic</a></li>
+				<li><a href="#">PCR</a></li>
+				<li><a href="#">Toxic</a></li>
+				<li><a href="#">Plastic</a></li>
+				<li><a href="#">Phosphatase</a></li>
+				<li><a href="#">Laser-capture</a></li>
+				<li><a href="#">CO2</a></li>
+				<li><a href="#">Peptide</a></li>
+				<li><a href="#">NMR</a></li>
+				<li><a href="#">Experiments</a></li>
+				
+				<li id="tag_add"><a href="#">add a tag</a></li>
+				</ul>
+							
+			</div><!-- end tagprinter -->
+			
+			
+			<h3>Files</h3>
+			
+			<div class="filemeta">
+				<a href="#a">2010 August Lab meeting</a>
+				<div class="fileprops">
+					<ul>
+					<li>by Daphne Rosenfeld <span class="fright"><i class="icon-time"></i> Nov 11, 2010</span></li>
+					<li>size 1.41 MB, no comments <span class="fright"><i class="icon-cross"></i> <a href="#"> delete</a></span></li>
+					</ul>
+				</div><!-- end FILE properties list -->			
+			</div><!-- end FILE meta -->
+			
+			<div class="filemeta">
+				<a href="#a">2009 Grant Proposal and in depth financial planning doc</a>
+				<div class="fileprops">
+					<ul>
+					<li>by Daphne Rosenfeld <span class="fright"><i class="icon-time"></i> Nov 5, 2009</span></li>
+					<li>size 256 KB, 3 comments <span class="fright"><i class="icon-cross"></i> <a href="#"> delete</a></span></li>
+					</ul>
+				</div><!-- end FILE properties list -->			
+			</div><!-- end FILE meta -->
+			
+			
+			
+			
+			
+			
+			<div class="caltopper">
+			
+			<h3 class="calname">
+				<a href="#"><img src="images/plan-arrow-left.png" alt="October 2012" width="8" height="24" valign="middle" /></a>
+
+				November 2012
+				
+				<a href="#"><img src="images/plan-arrow-right.png" alt="December 2012" width="8" height="24" valign="middle" /></a>
+			</h3>
+
+			
+			</div>
+		
+			<div class="calendar" id="minimonth">				
+				
+				<table cellspacing="0" cellpadding="0" frame="void" rules="rows">
+					
+					<thead>
+					<tr>
+					<th>S</th>
+					<th>M</th>
+					<th>T</th>
+					<th>W</th>
+					<th>T</th>
+					<th>F</th>
+					<th>S</th>
+					</tr>
+					</thead>
+					
+					<tbody>
+					<tr>
+					<td class="grey">28</td>
+					<td class="grey">29</td>
+					<td class="grey">30</td>
+					<td class="grey">31</div></td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					</tr>
+					
+					<tr>
+					<td>4</td>
+					<td>5 <div class="cal-a"></div></td>
+					<td>6 <div class="cal-c"></div></td>
+					<td>7 <div class="cal-a noon"></div></td>
+					<td>8 <div class="cal-b noon"></div> <div class="cal-b"></div></td>
+					<td>9</td>
+					<td>10</td>
+					</tr>
+					
+					<tr class="active">
+					<td>11</td>
+					<td>12 <div class="cal-a"></div></td>
+					<td>13 <div class="cal-b noon"></div></td>
+					<td>14 <div class="cal-a"></div> <div class="cal-a"></div> <div class="cal-a"></div></td>
+					<td>15 <div class="cal-c"></div></td>
+					<td>16 <div class="cal-a"></div> <div class="cal-a"></div> <div class="cal-a"></div></td>
+					<td>17</td>
+					</tr>
+					
+					<tr>
+					<td>18</td>
+					<td>19 <div class="cal-a"></div></td>
+					<td>20</td>
+					<td>21 <div class="cal-a noon"></div></td>
+					<td>22 <div class="cal-b"></div> <div class="cal-a"></div> <div class="cal-b"></div></td>
+					<td>23 <div class="cal-a noon"></div></td>
+					<td>24</td>
+					</tr>
+					
+					<tr>
+					<td>25</td>
+					<td>26 <div class="cal-a"></div></td>
+					<td>27 <div class="cal-b pm"></div></td>
+					<td>28</td>
+					<td>29</td>
+					<td>30</td>
+					<td class="grey">1</td>
+					</tr>
+					
+					</tbody>
+				
+				</table>
+								
+			</div><!-- end dashboard planner-month module -->
+
+			
+			
+			
+			
+
+			<p>&nbsp;</p>
+
+			<img src="images/eg-meta-images.png" alt="eg-meta-images" width="348" height="262" />
+			
+			<p>&nbsp;</p>
+
+			<img src="images/eg-meta-tubes.png" alt="eg-meta-tubes" width="348" height="277" />
+
+			
+			
+			
+			
+			
+			</div><!-- end META block -->
+			
+		</div><!-- end column -->
+		
+	</div><!-- end ROW -->
+
+</div><!-- end container 'id=content' -->
+
+
+<div class="container" id="footer">
+	<div class="row">
+		<footer>
+		
+		<div class="fleft">
+		<a href="#"><img src="images/biodata-logo.png" alt="biodata-logo" width="25" height="30" style="margin-right:10px;" /></a>
+		</div>
+		
+		<div class="fleft addgap">
+		<p style="line-height:1.1"><span class="smaller">Powered by</span><br />BioData</p>
+		</div>
+		
+		<div class="fleft">
+		<p><a href="#">Privacy</a> | <a href="#">Terms and Conditions</a></p>
+		</div>
+		
+		<div class="fright">
+		<p>All contents &copy; copyright 2008-2012 BioData Ltd.  All rights reserved.  Read updates and reviews on <a href="#">our blog</a></p>
+		</div>
+		
+		<br clear=all />
+		
+		</footer>
+	</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+
+</body>
+
+</html>

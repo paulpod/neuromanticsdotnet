@@ -1,0 +1,425 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>Plasmids / Add New</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	<!--from bootstrap - just the dropdown chunk, customized -->
+	<link rel="stylesheet" href="css/bootstrap-dropdown.css" type="text/css" media="screen" />	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo" width="130" height="45" style="padding:14px 0 30px 0" />
+			
+			<!--
+<ul id="topnav">
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Live Help</a></li>
+			<li><a href="#">FAQs</a></li>
+			</ul>
+-->
+
+		</div>
+		
+		<div class="fourcol">
+		
+			<!--
+<img src="images/avi-1.jpg" class="smallavi" />
+		
+			Nicholas Makepeace
+		
+			<ul id="topnav">
+			<li><a href="#">Your profile</a></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+-->
+		
+		</div>
+		
+		<div class="threecol">
+		
+		</div>
+		
+		<div class="threecol last">
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li>Design Guide</li>
+				
+				<ul class="subnav">
+				<li><a href="basics.html">Basic Content</a></li>
+				<li><a href="colours.html">Colours</a></li>
+				<li><a href="thegrid.html">The Grid</a></li>
+				<li><a href="navigation.html">Navigation</a></li>
+				<li class="active"><a href="forms.html">Forms</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="widgets.html">Other UI widgets</a></li>
+				</ul>
+				
+				
+				
+				<ul class="nav">
+				<li><a href="#">News Feed</a></li>
+				<li><a href="#">Work Spaces</a></li>
+				</ul>
+				
+				</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+		
+
+
+
+		<div class="tencol">
+		
+			
+			<div>									
+			<h1 style="font-size:1.66em">Molecular &gt; Plasmids <span style="color:#888">&gt; Add New</span></h1>
+			</div>
+			
+			
+						
+			
+			
+<div id="form_container">
+
+
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_title">Plasmid Name:<span class="required_star_class">*</span></label>
+<div class="txt-field-box"><input class="txt-field required " name="molecular_plasmids_plasmid[title]" type="text" value="User enters text here">
+</div><!-- end box -->
+</div><!-- end input -->
+
+<hr clear="all" class="formtop" />
+
+
+<div class="fivecolsub fleft"><!-- begin sub-column 1 -->
+
+			
+<div class="input ">
+<label for="molecular_plasmids_plasmid_alternative_name">Alternative Name:</label>
+<input class="txt-field" name="molecular_plasmids_plasmid[alternative_name]" value="User enters text here" type="text">
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_length">Length:</label>
+<input class="txt-field" name="molecular_plasmids_plasmid[length]" value="User enters text here" type="text">
+</div><!-- end input -->
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_source">Source:</label>
+<input class="txt-field" name="molecular_plasmids_plasmid[source]" type="text">
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_host">Host:</label>
+<input class="txt-field" name="molecular_plasmids_plasmid[host]" type="text">
+</div><!-- end input -->
+
+
+<div class="input">
+<label for="molecular_plasmids_plasmid_base">Base Vector:</label>
+<div class="fright">
+<select class="full" id="molecular_plasmids_plasmid_base" name="molecular_plasmids_plasmid[base]">
+<option value="">Select one... </option>
+<option value="p425">p425</option>
+<option value="p427">p427</option>
+<option value="pAcSecG2T">pAcSecG2T</option>
+<option value="pAcSecG2T - ErbB4">pAcSecG2T - ErbB4</option>
+<option value="pBABE v500 variant">pBABE v500 variant</option>
+<option value="pBABE-Hygro">pBABE-Hygro</option>
+<option value="pBI221">pBI221</option>
+<option value="pBMP">pBMP</option>
+<option value="pBR">pBR</option>
+<option value="pBR neo">pBR neo</option>
+<option value="pBR-GUD">pBR-GUD</option>
+<option value="pBR-GUF">pBR-GUF</option>
+<option value="pBR-neo">pBR-neo</option>
+<option value="pBR322">pBR322</option>
+<option value="pBS1479">pBS1479</option>
+<option value="pBS1479-Puf1">pBS1479-Puf1</option>
+<option value="pBS1479-Puf2">pBS1479-Puf2</option>
+<option value="pBS1479-Puf3">pBS1479-Puf3</option>
+<option value="pBV220">pBV220</option>
+<option value="pcDNA3">pcDNA3</option>
+<option value="pCDNA5">pCDNA5</option>
+<option value="pCgTrp1">pCgTrp1</option>
+<option value="pCMV-GLuc">pCMV-GLuc</option>
+<option value="pCMV-MIR">pCMV-MIR</option>
+<option value="pDEST™14">pDEST™14</option>
+<option value="pDRIVE">pDRIVE</option>
+<option value="pDrive-GFP">pDrive-GFP</option>
+<option value="pDsRed2-1 Vector">pDsRed2-1 Vector</option>
+<option value="pEY 36">pEY 36</option>
+<option value="pEYFP SUMO-1">pEYFP SUMO-1</option>
+<option value="pGEM p21">pGEM p21</option>
+<option value="pGEM-T">pGEM-T</option>
+<option value="pGEM®-11Zf(+)">pGEM®-11Zf(+)</option>
+<option value="pGEX-2TK">pGEX-2TK</option>
+<option value="pKan-Gal">pKan-Gal</option>
+<option value="pKT007">pKT007</option>
+<option value="pKT78">pKT78</option>
+<option value="pKT79">pKT79</option>
+<option value="pKT80">pKT80</option>
+<option value="pKT81">pKT81</option>
+<option value="pMLM36 (aka pBR-UV5-GP-FD2) ">pMLM36 (aka pBR-UV5-GP-FD2) </option>
+<option value="pQE-9">pQE-9</option>
+<option value="pRS306">pRS306</option>
+<option value="pRS316">pRS316</option>
+<option value="pSK / eL">pSK / eL</option>
+<option value="pTest">pTest</option>
+<option value="pUC18">pUC18</option>
+<option value="pYG2809">pYG2809</option>
+<option value="pYG54">pYG54</option>
+<option value="pYG709">pYG709</option>
+<option value="YEp13">YEp13</option>
+</select><span class="select-arrow"></span>
+</div>
+
+</div><!-- end input -->
+
+    
+<div class="input ">
+<label for="molecular_plasmids_plasmid_usage">Usage:</label>
+<input class="txt-field" name="molecular_plasmids_plasmid[usage]" type="text" value="User enters text here">
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_resistance">Resistance:</label>
+<textarea class="txt-field" cols="19" id="molecular_plasmids_plasmid_resistance" name="molecular_plasmids_plasmid[resistance]" value="User enters text here" rows="4" style="margin-top: 0px; margin-bottom: 0px; height: 36px; "></textarea>
+</div><!-- end input -->
+
+</div><!-- end sub-column 1 -->
+
+<div class="fivecolsub fright"><!-- begin sub-column 2 -->
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_insert">Insert:</label>
+<input class="txt-field" name="molecular_plasmids_plasmid[insert]" type="text">
+</div><!-- end input -->
+
+
+<div class="input "><label for="molecular_plasmids_plasmid_company_name">Manufacturer:</label>
+<input class="txt-field ui-autocomplete-input" id="material_manufacturer" name="molecular_plasmids_plasmid[company_name]" type="text" value="" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+</div><!-- end input -->
+
+
+<div class="input "><label for="molecular_plasmids_plasmid_catalog_number">Catalog Number:</label>
+<input class="txt-field" id="material_catalog_number" name="molecular_plasmids_plasmid[catalog_number]" type="text" value="">
+
+</div><!-- end input -->
+
+
+<div class="input">
+<label for="molecular_plasmids_plasmid_units">Units:</label>
+
+<input class="txt-field short addgap fleft" id="material_units" name="molecular_plasmids_plasmid[units]" type="text" value="">
+
+<div class="dropdown fright ">
+                <button class="btn short dropdown-toggle" data-toggle="dropdown">µl <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">ml</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">µg</a></li>
+                  <li><a href="#">ug</a></li>
+                  <li><a href="#">U</a></li>
+                  <li><a href="#">10U/ul</a></li>
+                  <li><a href="#">1 Liter</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">add a unit&hellip; </a></li>
+                  <!-- <a href="/catalog/units/new"><img alt="Addplus" src="/images/addPlus.png?1355130548" style="padding-left:5px" width="15px"></a> -->
+                </ul>
+</div><!-- end dropdown -->
+
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_web">Web page:</label>
+<input class="txt-field" id="material_web" name="molecular_plasmids_plasmid[web]" type="text" value="">
+
+</div><!-- end input -->
+
+
+<div class="input">
+<label for="material_price">Price:</label>
+
+
+<div class="dropdown fleft ">
+                <button class="btn short addgap dropdown-toggle" data-toggle="dropdown">$ USD <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">$ USD</a></li>
+                  <li><a href="#">€ EUR</a></li>
+                  <li><a href="#">£ GBP</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">other&hellip; </a></li>
+                </ul>
+</div><!-- end dropdown -->
+
+<!-- <select class="selection" name="molecular_plasmids_plasmid[currency]"><option value="1">$ USD</option><option value="2">€ EUR</option><option value="3">£ GBP</option></select> -->
+<input type="text" class="txt-field short" id="material_price" name="molecular_plasmids_plasmid[price]" size="8" value="Amount">
+
+</div><!-- end input -->
+
+</div><!-- end sub-column 2 -->
+
+
+
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_description">Description:</label>
+
+<img src="images/redactor-editbox.png" alt="redactor-editbox" width="" height="" style="margin-top:10px"/>
+
+</div><!-- end input -->
+
+
+
+<!-- OLD FORM SUBMIT CODE
+<div id="addEventBtns">
+<button type="submit" class="addProjBtn" name="commit" value="Save" id="Save"> <button class="addProjBtn" value="Save &amp; New" name="commit">Save &amp; New</button><a href="/molecular/plasmids" class="cancel">Cancel</a>
+</div>
+-->
+
+
+				<div class="pagetools">
+						<ul class="tab button">
+						<li><a href="#">Save</a></li>
+						<li><a href="#">Save &amp; New</a></li>
+						<li><a href="#" style="font-weight:400">Cancel</a></li>
+						</ul>
+					<br clear="all">
+				</div>
+
+
+
+
+			</div><!-- end form container -->
+			
+		</div><!-- end column -->
+		
+		
+		<div class="fourcol last">
+		
+		<h3>Add Tags</h3>
+		
+		<p class="smaller">You may want to add tags at this time. Click on a tag to toggle it on or off.</p>
+		
+		<br />
+		
+		<div id="tagprinter">
+				<ul class="tags">
+				<li><a href="#">Antibody</a></li>
+				<li><a href="#">Cell Lines</a></li>
+				<li><a href="#">DFF</a></li>
+				<li><a href="#">ECL</a></li>
+				<li><a href="#">Enzyme</a></li>
+				<li><a href="#">Harmful</a></li>
+				<li><a href="#">Hormone</a></li>
+				<li><a href="#">Label</a></li>
+				<li><a href="#">Liquid</a></li>
+				<li><a href="#">Microscopic</a></li>
+				<li><a href="#">PCR</a></li>
+				<li><a href="#">Toxic</a></li>
+				<li><a href="#">Plastic</a></li>
+				<li><a href="#">Phosphatase</a></li>
+				<li><a href="#">Laser-capture</a></li>
+				<li><a href="#">CO2</a></li>
+				<li><a href="#">Peptide</a></li>
+				<li><a href="#">NMR</a></li>
+				<li><a href="#">Experiments</a></li>
+				
+				<li id="tag_add"><a href="#">add a tag</a></li>
+				</ul>
+							
+			</div><!-- end tagprinter -->
+
+		</div><!-- end column -->
+		
+</div><!-- end ROW -->
+
+</div><!-- end container 'id=content' -->
+
+
+<div class="container" id="footer">
+	<div class="row">
+		<footer>
+		
+		<div class="fleft">
+		<a href="#"><img src="images/biodata-logo.png" alt="biodata-logo" width="25" height="30" style="margin-right:10px;" /></a>
+		</div>
+		
+		<div class="fleft addgap">
+		<p style="line-height:1.1"><span class="smaller">Powered by</span><br />BioData</p>
+		</div>
+		
+		<div class="fleft">
+		<p><a href="#">Privacy</a> | <a href="#">Terms and Conditions</a></p>
+		</div>
+		
+		<div class="fright">
+		<p>All contents &copy; copyright 2008-2012 BioData Ltd.  All rights reserved.  Read updates and reviews on <a href="#">our blog</a></p>
+		</div>
+		
+		<br clear=all />
+		
+		</footer>
+	</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+
+</body>
+
+</html>

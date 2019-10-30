@@ -1,0 +1,101 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>Plasmids / Add New</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE // I need to get round to update this to work with the new 16 col 1184 grid -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 16 Column 1184px Grid Modified from the 12 Col x 1140 one here by paulpod@neuromantics.net - http://cssgrid.net/ - same code, different numbers -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-new.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	<!--from bootstrap - just the dropdown chunk, customized -->
+	<link rel="stylesheet" href="css/bootstrap-dropdown.css" type="text/css" media="screen" />	
+
+</head>
+
+
+<body>
+
+
+
+<div class="input">
+<label for="molecular_plasmids_plasmid_units" style="font-weight:bold">Units:</label>
+
+<input class="txt-field short fleft" id="material_units" name="molecular_plasmids_plasmid[units]" type="text" value="">
+
+<div class="dropdown fright ">
+                <button class="btn short dropdown-toggle" data-toggle="dropdown">µl <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">ml</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">µg</a></li>
+                  <li><a href="#">ug</a></li>
+                  <li><a href="#">U</a></li>
+                  <li><a href="#">10U/ul</a></li>
+                  <li><a href="#">1 Liter</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">add a unit&hellip; </a></li>
+                  <!-- <a href="/catalog/units/new"><img alt="Addplus" src="/images/addPlus.png?1355130548" style="padding-left:5px" width="15px"></a> -->
+                </ul>
+</div>
+
+
+
+</div><!-- end input -->
+
+
+<div class="input ">
+<label for="molecular_plasmids_plasmid_web" style="font-weight:bold">Web page:</label>
+
+<input class="txt-field " id="material_web" name="molecular_plasmids_plasmid[web]" type="text" value="">
+</div><!-- end input -->
+
+
+<div class="input">
+<label for="material_price">  <b>Price:</b> </label>
+
+
+<div class="dropdown fleft">
+                <button class="btn short dropdown-toggle" data-toggle="dropdown">$ USD <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">$ USD</a></li>
+                  <li><a href="#">€ EUR</a></li>
+                  <li><a href="#">£ GBP</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">other&hellip; </a></li>
+                </ul>
+</div>
+
+<!-- <select class="selection" name="molecular_plasmids_plasmid[currency]"><option value="1">$ USD</option><option value="2">€ EUR</option><option value="3">£ GBP</option></select> -->
+<input type="text" class="txt-field short" id="material_price" name="molecular_plasmids_plasmid[price]" size="8" value="Amount">
+
+</div><!-- end input -->
+
+
+
+<div class="clear"></div>
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+
+</body>
+
+</html>

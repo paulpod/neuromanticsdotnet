@@ -1,0 +1,602 @@
+layout: false
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<meta charset="utf-8" />
+	<title>Dashboard :: Labguru</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1184.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="styles-a.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	
+	
+
+</head>
+
+
+<body>
+
+
+<div class="container" id="header">
+	<div class="row">
+		<div class="twocol">
+			<img src="images/white-labguru-logo-2.png" alt="white-labguru-logo-120" width="120" height="43" style="padding:15px 0 30px 0" />
+			
+			
+		</div>
+		
+		<div class="fourcol">
+		
+			<div id="topnav">
+			<img src="images/avi-1.jpg" class="smallavi" />
+			<span class="headerlabel">
+			Nicholas Makepeace
+			</span>
+		
+			<ul>
+			<li><a href="#">Your profile</a></li>
+			<li id="head-msg"><a href="#">Messages</a> <span class="tabnum" style="color:black;background-image:url(images/tabnumb-b.png)">8</span></li>
+			<li><a href="#">Logout</a></li>
+			</ul>
+			</div>
+		
+		</div>
+		
+		<div class="fourcol">
+		
+			<div id="topnav">
+			<img src="images/avi-team.jpg" class="smallavi" />
+			<span class="headerlabel">
+			Neuromantics Laboratories Inc
+			</span>
+		
+			<ul>
+			<li><a href="#">Group members</a></li>
+			<li><a href="#">Group tags</a></li>
+			</ul>
+			</div>
+		
+		</div>
+		
+		
+		<div class="threecol">
+		
+			<!--
+<div id="topnav">
+			<img src="images/avi-team.jpg" class="smallavi" />
+			<span class="headerlabel">
+			Neuromantics Laboratories Inc
+			</span>
+		
+			<ul>
+			<li><a href="#">Group members</a></li>
+			<li><a href="#">Group tags</a></li>
+			</ul>
+			</div>
+-->
+		
+		</div>
+		
+		
+		<div class="threecol last">
+			
+			<div id="topnavsearch">	
+				<form accept-charset="UTF-8" action="/searches" id="global-search-form" method="post" novalidate="novalidate">
+				<div style="margin:0;padding:0;display:inline">
+					<input name="utf8" type="hidden" value="?">
+					<input name="authenticity_token" type="hidden" value="U2N3q2R0Dyx60R75JwX5PezyvqXNxOIATvNQUDjCoGU=">
+				</div>
+				
+				<div class="fleft" id="options">
+			        <img src="images/search-wt-options.png" alt="search-wt-options" width="23" height="19" />
+		        </div>
+						
+		        <div class="fleft" id="inputbox">
+			        <input type="text" onfocus="this.value='';" name="term" id="search" class="topinputbox" value="Search everything">
+		        </div>
+		        
+		        <div class="fright" id="searchimg">
+					<input type="image" src="images/search-go.png" width="17" height="19" />
+				</div>
+				<br style="clear:both"/>
+		        </form>
+	
+			</div>
+			
+			<div id="topnav" style="margin-top:11px;">
+	        <ul style="margin-top:0;">
+			<li><a href="#">Help</a></li>
+			<li><a href="#">Advanced search</a></li>
+			</ul>
+	        </div>
+		
+		</div><!-- end column -->
+	</div><!-- end row -->
+</div><!-- end container -->
+
+
+
+
+
+
+
+<div class="container" id="content">
+	<div class="row">
+		<div class="twocol">
+		
+			<div id="sidenav">
+				<ul class="nav">
+				<li>Dashboard</li>
+				<li><a href="#">Research</a></li>
+				<li><a href="#">Knowledgebase</a></li>
+				</ul>
+				
+				<ul class="nav">
+				<li><a href="#">Specimen</a></li>
+				<li><a href="#">Molecular</a></li>
+				</ul>
+				<ul class="nav">
+				<li><a href="#">Materials</a></li>
+				<li><a href="#">Storage</a></li>
+				<li><a href="#">Equipment</a></li>
+				</ul>
+			</div><!-- end sidenav -->
+			
+		</div><!-- end column -->
+		
+		
+		
+
+		<div class="fourcol">
+		
+			<div class="caltopper">
+			
+			<h1 class="calname">
+				<a href="#"><img src="images/plan-arrow-left.png" alt="October 2012" width="8" height="24" /></a>
+
+				November 2012
+				
+				<a href="#"><img src="images/plan-arrow-right.png" alt="December 2012" width="8" height="24" /></a>
+			</h1>
+
+			
+			</div>
+		
+			<div class="calendar" id="minimonth">				
+				
+				<table cellspacing="0" cellpadding="0" frame="void" rules="rows">
+					
+					<thead>
+					<tr>
+					<th>S</th>
+					<th>M</th>
+					<th>T</th>
+					<th>W</th>
+					<th>T</th>
+					<th>F</th>
+					<th>S</th>
+					</tr>
+					</thead>
+					
+					<tbody>
+					<tr>
+					<td class="grey">28</td>
+					<td class="grey">29</td>
+					<td class="grey">30</td>
+					<td class="grey">31</div></td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					</tr>
+					
+					<tr>
+					<td>4</td>
+					<td>5 <div class="cal-a"></div></td>
+					<td>6 <div class="cal-c"></div></td>
+					<td>7 <div class="cal-a noon"></div></td>
+					<td>8 <div class="cal-b noon"></div> <div class="cal-b"></div></td>
+					<td>9</td>
+					<td>10</td>
+					</tr>
+					
+					<tr class="active">
+					<td>11</td>
+					<td>12 <div class="cal-a"></div></td>
+					<td>13 <div class="cal-b noon"></div></td>
+					<td>14 <div class="cal-a"></div> <div class="cal-a"></div> <div class="cal-a"></div></td>
+					<td>15 <div class="cal-c"></div></td>
+					<td>16 <div class="cal-a"></div> <div class="cal-a"></div> <div class="cal-a"></div></td>
+					<td>17</td>
+					</tr>
+					
+					<tr>
+					<td>18</td>
+					<td>19 <div class="cal-a"></div></td>
+					<td>20</td>
+					<td>21 <div class="cal-a noon"></div></td>
+					<td>22 <div class="cal-b"></div> <div class="cal-a"></div> <div class="cal-b"></div></td>
+					<td>23 <div class="cal-a noon"></div></td>
+					<td>24</td>
+					</tr>
+					
+					<tr>
+					<td>25</td>
+					<td>26 <div class="cal-a"></div></td>
+					<td>27 <div class="cal-b pm"></div></td>
+					<td>28</td>
+					<td>29</td>
+					<td>30</td>
+					<td class="grey">1</td>
+					</tr>
+					
+					</tbody>
+				
+				</table>
+								
+			</div><!-- end dashboard planner-month module -->
+			
+		</div><!-- end column -->
+			
+			
+		
+		
+		
+		<div class="fivecol">
+		
+			<div class="caltopper" style="margin:42px 0 13px 0;">
+				<div id="hoznav">
+					<ul class="tab">
+					<li><a href="#" class="activetab">Planner</a></li>
+					<li><a href="#">Month</a></li>
+					<li><a href="#">Week</a></li>
+					<li><a href="#">Day</a></li>
+					<li><a href="#" style="font-weight:normal">Today</a></li>
+					</ul>
+					
+					<br style="clear:both"/>
+	
+				</div><!-- end hoztab -->
+			</div><!-- end caltopper -->
+				
+
+			
+			<div class="calendar" id="weeklist">
+			
+				<table cellspacing="0" cellpadding="0" frame="void" rules="rows">
+					
+					<thead>
+					<tr>
+					<th colspan="2">Nov 11&ndash;17</th>
+					<th width="70%" align="right"><span style="text-align:right"><img src="images/week-left.png" alt="Week 45" width="10" height="9" /> Week 46 <img src="images/week-right.png" alt="Week 47" width="10" height="9" /></span></th>
+					</tr>
+					</thead>
+					
+					<tbody>
+					<tr>
+					<td>11 MON</td>
+					<td>09.30</td>
+					<td width="70%">Group meeting</td>
+					</tr>
+					
+					<tr>
+					<td>12 TUE</td>
+					<td>11.00</td>
+					<td>Publisher conference call</td>
+					</tr>
+					
+					<tr class="active time">
+					<td>13 WED</td>
+					<td>10.00<br />
+						11.00<br />
+						13.00
+					</td>
+					<td>Publisher conference call<br />
+						Tumor Signaling in BALBC w/ and w/o ERK Inhibition<br />
+						Lab prep for tomorrow
+					</td>
+					</tr>
+					
+					<tr>
+					<td>14 THU</td>
+					<td>DAY</td>
+					<td>G-PNP process in lab 2</td>
+					</tr>
+					
+					<tr>
+					<td>15 FRI</td>
+					<td>10.00<br />
+						11.00<br />
+						13.00
+					</td>
+					<td>Results pickup<br />
+						Results conference call<br />
+						Clean up time
+					</td>
+					</tr>
+					
+					</tbody>
+					
+				</table>
+						
+			</div>
+		
+		
+		
+		</div><!-- end column -->
+						
+			
+			
+		<div class="fivecol last">
+		
+			<div id="newtasks" class="caltopper" style="margin:42px 0 13px 0;">
+
+			
+				<div id="hoznav">
+					<ul class="tab">
+					<li class="greenplus"><a href="#"> New experiment</a></li>
+					<li class="greenplus"><a href="#"> New event</a></li>
+					</ul>
+					
+					<br style="clear:both"/>
+	
+				</div><!-- end hoztab -->
+
+						
+			</div>
+						
+			<div class="tasks" id="task-info">
+			
+				<div class="calendar" id="faketablehead">
+				
+					<table cellspacing="0" cellpadding="0" frame="void" rules="rows">
+							
+						<thead>
+						<tr>
+						<th>Next today</th>
+						<th align="right"><span style="text-align:right;white-space:nowrap;"><a href="#">Nicholas Makepeace</a></span></th>
+						</tr>
+						</thead>
+						
+					</table>
+				</div>
+
+			
+				<div id="next-cal-action">
+					<p><strong>11.00 </strong> in meeting room Alpha Beta until 12.00</p>
+					<h3>Tumor Signaling in BALBC w/ and w/o ERK Inhibition</h3>
+					<p><a href="#">Daniel Moore</a></p>
+					<p>Mice injected with A375 cells, positive for V600E BRaf mutation. Tumor progession analyzed with and without treatment (detailed in rodent module)</p>
+					
+					<hr style="margin:0.5em 0" />
+					<p style="color:#ccc;text-transform:uppercase;letter-spacing:2px"><strong>Linked</strong></p>
+					<p><a href="#">Tumor Signaling in BALBC w/ and w/o ERK Inhibition (Milestone)</a></p>
+					
+					<hr style="margin:0.5em 0" />
+					<p style="color:#ccc;text-transform:uppercase;letter-spacing:2px;text-align:right"><strong>Next event</strong></p>
+				</div>
+								
+			</div><!-- end team tasks  -->
+			
+						
+		</div><!-- end column -->
+		
+	</div><!-- end row -->
+
+
+
+	<div class="row">
+	
+		<div class="twocol">
+			
+				<div id="fat-divider"></div>
+								
+		</div><!-- end column -->
+		
+		
+		
+		<div class="ninecol">
+		
+			<div id="track-past">
+			
+			<h1><img src="images/milestone-open.png" alt="milestone open" width="16" height="16" /> My Projects</h1>
+	
+			<div class="milestone" style="background-image:none;">
+				<h2 style="background:none;"><img src="images/milestone-open.png" alt="milestone open" width="16" height="16" /> Puf Family role in yeast cells</h2>
+				
+				<ul>
+				<li style="background-image:none;">Daphne completed <a href="#">Isolater Puf Proteins</a> 4 days ago</li>
+				<li style="background-image:none;">Daphne started working on <a href="#">Microarray analysis</a> 3 days ago</li>
+				</ul>
+			</div>
+			
+			<div class="milestone">
+				<h2 style="background:none;"><img src="images/milestone-closed.png" alt="milestone closed" width="16" height="16" /> Inhibiting β-Amyloid Oligomerization</h2>
+				<h2 style="background:none;"><img src="images/milestone-closed.png" alt="milestone closed" width="16" height="16" /> Regulation of secondary metabolism in tomato</h2>
+				<h2 style="background:none;"><img src="images/milestone-closed.png" alt="milestone closed" width="16" height="16" /> Subcellular Distribution of Puf Proteins</h2>
+				<h2 style="background:none;"><img src="images/milestone-closed.png" alt="milestone closed" width="16" height="16" /> Oral administration of OKT3</h2>
+				<h2 style="background:none;"><img src="images/milestone-closed.png" alt="milestone closed" width="16" height="16" /> Moran project</h2>
+
+			</div>
+			
+			</div><!-- end track past milestones -->
+			
+			
+			<div id="track-past">
+			
+			<h1><img src="images/milestone-open.png" alt="milestone open" width="16" height="16" /> Projects I'm part of</h1>
+	
+			<div class="milestone">
+				<h2 style="background:none;"><img src="images/milestone-open.png" alt="milestone open" width="16" height="16" /> Involvement of the gene ZmHLB in transport hormones in the phloem</h2>
+				
+				<ul>
+				<li style="background-image:none;">Daphne started working on <a href="#">construct for HLB transformation</a> 4 days ago</li>
+				<li style="background-image:none;">Daphne started working on <a href="#">EMS-mutant populations</a> 3 days ago</li>
+				<li style="background-image:none;">Daphne added <a href="#">Miniprep #4</a> 3 days ago</li>
+					<ul>
+					<li style="background-image:none;">Daphne uploaded <a href="#">Plasmid_miniprep.jpg</a> 3 days ago</li>
+					</ul>
+				</ul>
+				
+			</div>
+			
+			<div class="milestone">
+				<h2 style="background:none;"><img src="images/milestone-open.png" alt="milestone open" width="16" height="16" /> The effect of PON1 on macrophage differentiation</h2>
+				
+				<ul>
+				<li style="background-image:none;">Daphne started working on <a href="#">Mouse assay using rPON1</a> 7 days ago</li>
+				<li style="background-image:none;">You started working on <a href="#">Produce recombinant PON1</a> 7 days ago</li>
+				<li style="background-image:none;">Daphne added a figure 7 days ago</li>
+				</ul>
+				
+				<h2 style="background:none;"><img src="images/milestone-closed.png" alt="milestone closed" width="16" height="16" /> The role of ACC synthase in Capsicum Annum (Michael Hill)</h2>
+				<h2 style="background:none;"><img src="images/milestone-closed.png" alt="milestone closed" width="16" height="16" /> Chromatin plasticity in embryonic stem (ES) cells (Megan Lewis)</h2>
+				<h2 style="background:none;"><img src="images/milestone-closed.png" alt="milestone closed" width="16" height="16" /> The role of Dopamine-related drugs on GABAA receptor (Jason Turner)</h2>
+				<h2 style="background:none;"><img src="images/milestone-closed.png" alt="milestone closed" width="16" height="16" /> The role of mre11 all in yeast (Daphne Rosenfeld)</h2>
+
+
+			</div>
+			
+			</div><!-- end track past milestones -->
+
+
+		</div><!-- end column -->
+		
+		
+		<div class="fivecol last">
+		
+			<div class="tasks" id="your-tasks">
+			
+				<h2>Your Team Tasks</h2>
+				
+				<ul class="resources">
+
+				<li class="task">
+				<input type="checkbox" class="checkbox" id="1" onclick="update_checkboxes(this.checked)">
+				<a href="#">Set committee meeting</a>
+				<span class="taskright">by <a href="#">02/28</a></span>
+				</li>
+				
+				<li class="task">
+				<input type="checkbox" class="checkbox" id="1" onclick="update_checkboxes(this.checked)">
+				<a href="#">Check results with Megan</a>
+				<span class="taskright">by <a href="#">05/02</a></span>
+				</li>				
+				
+				<li class="task">
+				<input type="checkbox" class="checkbox" id="1" onclick="update_checkboxes(this.checked)">
+				<a href="#">New account assigned</a>
+				<span class="taskright">by <a href="#">05/05</a></span>
+				</li>
+								
+				<li class="task">
+				<input type="checkbox" class="checkbox" id="1" onclick="update_checkboxes(this.checked)">
+				<a href="#">FACS course</a>
+				<span class="taskright">by <a href="#">06/11</a></span>
+				</li>
+				
+				<li class="task">
+				<input type="checkbox" class="checkbox" id="1" onclick="update_checkboxes(this.checked)">
+				<a href="#">Send samples to DHL</a>
+				<span class="taskright">by <a href="#">08/13</a></span>
+				</li>				
+				
+				<li class="task">
+				<input type="checkbox" class="checkbox" id="1" onclick="update_checkboxes(this.checked)">
+				<a href="#">Clear my Bench</a>
+				<span class="taskright">by <a href="#">09/21</a></span>
+				</li>
+								
+				<li class="task">
+				<input type="checkbox" class="checkbox" id="1" onclick="update_checkboxes(this.checked)">
+				<a href="#">Thaw 2 Vials</a>
+				<span class="taskright">by <a href="#">11/12</a></span>
+				</li>
+								
+				</ul>
+				
+				<br style="clear:both"/>
+
+				
+			</div><!-- end team tasks  -->
+		
+		
+			<div class="tasks" id="updates">
+			
+				<h2>Knowledge Updates</h2>
+				
+				<h3>Papers</h3>
+								
+				<ul>
+				<li class="update">
+				<i class="icon-blackdoc"></i> <a href="#">p38 MAPK Signaling.full.pdf1353073227</a><br />
+				by Daphne Rosenfeld <span class="date">11/16/2012</span>
+				</li>
+				<li class="update">
+				<i class="icon-blackdoc"></i> <a href="#">Progression of RAS-Mutant Leukemia during RAF Inhibitor Treatment.</a><br />
+				by Daphne Rosenfeld <span class="date">11/16/2012</span>
+				</li>
+				<li class="update">
+				<i class="icon-blackdoc"></i> <a href="#">The Tumor Suppressor CYLD Controls the Function of Murine Regulatory T Cells..pdf1352880273</a><br />
+				by Daphne Rosenfeld <span class="date">11/14/2012</span>
+				</li>
+				<li class="update">
+				<i class="icon-blackdoc"></i> <a href="#">Acute selective ablation of rat insulin promoter-expressing (RIP HER) neurons defines their orexigenic nature.pdf1352880264</a><br />
+				by Daphne Rosenfeld <span class="date">11/14/2012</span>
+				</li>
+				<li class="update">
+				<i class="icon-blackdoc"></i> <a href="#">Structure of the immature retroviral capsid at 8A˚ resolution by cryo-electron microscopy.pdf1352880123</a><br />
+				by Daphne Rosenfeld <span class="date">11/14/2012</span>
+				</li>
+				<li class="update">
+				<i class="icon-blackdoc"></i> <a href="#">The complete sequence of the coding region of the ATM gene reveals similarity to cell cycle regulators in different species.</a><br />
+				by Daphne Rosenfeld <span class="date">11/12/2012</span>
+				</li>
+				</ul>
+				
+				<br style="clear:both"/>
+				
+				<h3>Protocols</h3>
+								
+				<ul>
+				<li class="update">
+				<i class="icon-blackexperi"></i> <a href="#">Annexin V-FITC Apoptosis Detection Kit</a><br />
+				by Daniel Moore <span class="date">11/21/2012</span>
+				</li>
+				<li class="update">
+				<i class="icon-blackexperi"></i> <a href="#">RAS-Mutant Leukemia Inhibitor Treatment Process</a><br />
+				by Daphne Rosenfeld <span class="date">11/21/2012</span>
+				</li>
+				</ul>
+				
+				<br style="clear:both"/>
+
+
+			</div><!-- end updates -->
+		
+		</div><!-- end column -->
+		
+	</div><!-- end row -->
+	
+</div><!-- end container -->
+	
+
+
+
+
+</body>
+
+</html>
