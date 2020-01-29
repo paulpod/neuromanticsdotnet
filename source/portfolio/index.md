@@ -160,7 +160,7 @@ I created a strategy and vision video, prototyping and explaining future concept
 
 **click image below to play video**
 
-[![Money Advice Service](http://img.youtube.com/vi/tp3H-_AYAt0/0.jpg)](http://www.youtube.com/watch?v=Ytp3H-_AYAt0)
+[![Money Advice Service](http://img.youtube.com/vi/tp3H-_AYAt0/0.jpg)](https://youtu.be/WUKR5oBFLto)
 
 I followed this with a refreshed brand identity for digital use and art directed a series of consumer facing information videos for financial concepts, such as auto-enrolment pensions.
 
