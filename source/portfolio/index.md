@@ -1,7 +1,22 @@
 ---
 title: portfolio
-date: 2019-02-14 13:24:55
+date: 2020-03-14 18:24:55
 ---
+
+2019-now / Seedrs
+===============================
+As **Interaction Designer** I have mostly been working on designing a mobile app for Seedrs users. I've been using Framer X to make a number of high fidelity, deep prototypes as well as conducting user research to design the right thing.
+
+[![A few screens from the app](/portfolioimg/seedrs-app.png)](/portfolioimg/seedrs-app.png)
+
+* contributing towards a design system for Seedrs
+* redesigning and simplifying the payment flows
+* reworking a login flow more appropriate for mobile native users
+
+Link to the app prototype on request.
+
+
+
 2017-19 / NHS Digital, Urgent and Emergency Care
 ===============================
 As **Interaction Designer** I have been working on products for healthcare professionals to access and improve the Directory of Services, a piece of core national infrastructure that allows patients to be referred to the most appropriate service for their condition, location and urgency.
