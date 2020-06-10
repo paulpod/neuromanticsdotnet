@@ -13,6 +13,8 @@ As **Interaction Designer** I have mostly been working on designing a mobile app
 * redesigning and simplifying the payment flows
 * reworking a login flow more appropriate for mobile native users
 
+[![A screengrab overview of the framerx prototype](/portfolioimg/seedrs-app-map-thumb.png)](/portfolioimg/seedrs-app-prototype-map.png)
+
 Link to the app prototype on request.
 
 
@@ -34,7 +36,11 @@ As **Interaction Designer** I have been working on products for healthcare profe
 
 [![Service Finder screens](/portfolioimg/nhs-servicefinder-02.jpg)](/portfolioimg/nhs-servicefinder-02.jpg)
 
-I'm writing up a comprehensive exploration of the [search design that is central to Service Finder here.](https://neuromantics.net/2019/02/16/search-for-nhs-digital/)
+Service Finder is a tool for a wide range of healthcare professionals in a wide range of settings to look for the most appropriate service to send a patient. This can mean a paramedic or district nurse visiting a non-urgent patient using the mobile implementation, or a pharmacist or 999 non-emergency callback operator using the large screen version.
+
+I have written up a comprehensive exploration of the [search design that is central to Service Finder here.](https://neuromantics.net/2019/02/16/search-for-nhs-digital/)
+
+Profile Updater is a tool that allows service operators (in the first iteration, pharmacies) to update the central NHS directory of services with their opening times and the specific patient services they offer. 
 
 
 2017 / Department for International Trade
