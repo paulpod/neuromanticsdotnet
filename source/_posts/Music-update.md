@@ -59,6 +59,7 @@ Logic Pro X with assorted plugins but heavily leaning on [Portal from Output](ht
 [Sound Toys range](https://www.soundtoys.com)
 
 [Spitfire BT Phobos](https://www.spitfireaudio.com/shop/a-z/bt-phobos/)
+
 After Effects and the [Tao 3D fractal generator from Trapcode](https://www.redgiant.com/products/trapcode-tao/)
 
 _Here's one track as a test render, what do you think?_
