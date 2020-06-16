@@ -72,4 +72,4 @@ Handy note from UAH, the headliner of the evening, that Zoom drops to mono for a
 Live(ish) 23rd June
 ---
 
-Wish us luck and if you fancy hearing the whole thing along with the *actual musicians* [Polyop](http://polyop.uk) and [UAH](https://u-a-h.bandcamp.com) on the [23rd June register here](https://us02web.zoom.us/webinar/register/WN_ULDZ2lnORIOjqbbP_O9bCA) ... and _thank you Alex for inviting me in the first place, I'd probaly never have got beyond making 1 minute instagrams without this!_
+Wish us luck and if you fancy hearing the whole thing along with the *actual musicians* [Polyop](http://polyop.uk) and [UAH](https://u-a-h.bandcamp.com) on the [23rd June register here](https://us02web.zoom.us/webinar/register/WN_ULDZ2lnORIOjqbbP_O9bCA) ... and _thank you Alex for inviting me in the first place, I would probably never have got beyond making 1 minute instagrams without this!_
