@@ -23,3 +23,5 @@ Designed a HTML trading platform from scratch, and other freelance things in Lon
 Now doing design of digital services for the NHS. 
 
 I used to live in London and feel a tiny bit responsible for ridiculous Shoreditch. Escaped the city to a small rural village in North Oxfordshire to keep bees. Then went mad and moved to a smallholding in furthest, darkest South Wales with sheep, chickens and lots of trees. Still here.
+
+paulpod@mac.com
