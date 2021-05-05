@@ -1,11 +1,23 @@
 ---
 title: portfolio
-date: 2020-03-14 18:24:55
+date: 2021-05-05 09:10:00
 ---
 
-2019-now / Seedrs
+2020-now / NHS 111 online
 ===============================
-As **Interaction Designer** I have mostly been working on designing a mobile app for Seedrs users. I've been using Framer X to make a number of high fidelity, deep prototypes as well as conducting user research to design the right thing.
+As **Designer** I joined the 111 online team in September 2020, the COVID-19 pandemic in full flow. My initial job was to add booking functionality for patients requiring an A&E visit, with all the complications that can raise. As a new concept for people to understand, it was throughly prototyped and researched with users.
+
+Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink and travellers from Denmark, through information about vaccines and vaccination side effects, to returning the 111 online service to business as normal.
+
+* adapting 111 online to apply the NHS design system
+* adding images, sounds and video to better explain triage questions
+* updating user flows to detect, ask and confirm location
+* improving less "emergency" outcomes, for users needing dentists, opticians or midwifery
+
+
+2019-20 / Seedrs
+===============================
+As **Interaction Designer** I mostly worked on designing a mobile app for Seedrs users. I've used Framer X to make a number of high fidelity, deep prototypes as well as conducting user research to design the right thing.
 
 [![A few screens from the app](/portfolioimg/seedrs-app.png)](/portfolioimg/seedrs-app.png)
 
@@ -21,7 +33,7 @@ Link to the app prototype on request.
 
 2017-19 / NHS Digital, Urgent and Emergency Care
 ===============================
-As **Interaction Designer** I have been working on products for healthcare professionals to access and improve the Directory of Services, a piece of core national infrastructure that allows patients to be referred to the most appropriate service for their condition, location and urgency.
+As **Interaction Designer** I have worked on products for healthcare professionals to access and improve the Directory of Services, a piece of core national infrastructure that allows patients to be referred to the most appropriate service for their condition, location and urgency.
 
 [![Service Finder partial flow](/portfolioimg/nhs-servicefinder-01.png)](/portfolioimg/nhs-servicefinder-01.png)
 
