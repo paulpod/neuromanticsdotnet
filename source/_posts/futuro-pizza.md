@@ -16,28 +16,28 @@ I had a little design exercise to complete for a recent job interview, and got a
 
 
 
-[![futuro pizza](/images/futuropizza.002.jpg)](/images/futuropizza.002.jpg) 
+[![futuro pizza](/images/futuropizza002.jpg)](/images/futuropizza002.jpg) 
 
-[![futuro pizza](/images/futuropizza.003.jpg)](/images/futuropizza.003.jpg) 
+[![futuro pizza](/images/futuropizza003.jpg)](/images/futuropizza003.jpg) 
 
-[![futuro pizza](/images/futuropizza.004.jpg)](/images/futuropizza.004.jpg) 
+[![futuro pizza](/images/futuropizza004.jpg)](/images/futuropizza004.jpg) 
 
-[![futuro pizza](/images/futuropizza.005.jpg)](/images/futuropizza.005.jpg) 
+[![futuro pizza](/images/futuropizza005.jpg)](/images/futuropizza005.jpg) 
 
-[![futuro pizza](/images/futuropizza.006.jpg)](/images/futuropizza.006.jpg) 
+[![futuro pizza](/images/futuropizza006.jpg)](/images/futuropizza006.jpg) 
 
-[![futuro pizza](/images/futuropizza.007.jpg)](/images/futuropizza.007.jpg) 
+[![futuro pizza](/images/futuropizza007.jpg)](/images/futuropizza007.jpg) 
 
-[![futuro pizza](/images/futuropizza.008.jpg)](/images/futuropizza.008.jpg) 
+[![futuro pizza](/images/futuropizza008.jpg)](/images/futuropizza008.jpg) 
 
-[![futuro pizza](/images/futuropizza.009.jpg)](/images/futuropizza.009.jpg)  
+[![futuro pizza](/images/futuropizza009.jpg)](/images/futuropizza009.jpg)  
 
-[![futuro pizza](/images/futuropizza.011.jpg)](/images/futuropizza.011.jpg) 
+[![futuro pizza](/images/futuropizza011.jpg)](/images/futuropizza011.jpg) 
 
-[![futuro pizza](/images/futuropizza.012.jpg)](/images/futuropizza.012.jpg) 
+[![futuro pizza](/images/futuropizza012.jpg)](/images/futuropizza012.jpg) 
 
-[![futuro pizza](/images/futuropizza.013.jpg)](/images/futuropizza.013.jpg) 
+[![futuro pizza](/images/futuropizza013.jpg)](/images/futuropizza013.jpg) 
 
-[![futuro pizza](/images/futuropizza.014.jpg)](/images/futuropizza.014.jpg) 
+[![futuro pizza](/images/futuropizza014.jpg)](/images/futuropizza014.jpg) 
 
-[![futuro pizza](/images/futuropizza.015.jpg)](/images/futuropizza.015.jpg)
+[![futuro pizza](/images/futuropizza015.jpg)](/images/futuropizza015.jpg)
