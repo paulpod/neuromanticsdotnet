@@ -16,28 +16,28 @@ I had a little design exercise to complete for a recent job interview, and got a
 
 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.002.jpg)](/wpimages/2009/02/futuropizza.002.jpg) 
+[![futuro pizza](/images/futuropizza.002.jpg)](/images/futuropizza.002.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.003.jpg)](/wpimages/2009/02/futuropizza.003.jpg) 
+[![futuro pizza](/images/futuropizza.003.jpg)](/images/futuropizza.003.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.004.jpg)](/wpimages/2009/02/futuropizza.004.jpg) 
+[![futuro pizza](/images/futuropizza.004.jpg)](/images/futuropizza.004.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.005.jpg)](/wpimages/2009/02/futuropizza.005.jpg) 
+[![futuro pizza](/images/futuropizza.005.jpg)](/images/futuropizza.005.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.006.jpg)](/wpimages/2009/02/futuropizza.006.jpg) 
+[![futuro pizza](/images/futuropizza.006.jpg)](/images/futuropizza.006.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.007.jpg)](/wpimages/2009/02/futuropizza.007.jpg) 
+[![futuro pizza](/images/futuropizza.007.jpg)](/images/futuropizza.007.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.008.jpg)](/wpimages/2009/02/futuropizza.008.jpg) 
+[![futuro pizza](/images/futuropizza.008.jpg)](/images/futuropizza.008.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.009.jpg)](/wpimages/2009/02/futuropizza.009.jpg)  
+[![futuro pizza](/images/futuropizza.009.jpg)](/images/futuropizza.009.jpg)  
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.011.jpg)](/wpimages/2009/02/futuropizza.011.jpg) 
+[![futuro pizza](/images/futuropizza.011.jpg)](/images/futuropizza.011.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.012.jpg)](/wpimages/2009/02/futuropizza.012.jpg) 
+[![futuro pizza](/images/futuropizza.012.jpg)](/images/futuropizza.012.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.013.jpg)](/wpimages/2009/02/futuropizza.013.jpg) 
+[![futuro pizza](/images/futuropizza.013.jpg)](/images/futuropizza.013.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.014.jpg)](/wpimages/2009/02/futuropizza.014.jpg) 
+[![futuro pizza](/images/futuropizza.014.jpg)](/images/futuropizza.014.jpg) 
 
-[![futuro pizza](/wpimages/2009/02/futuropizza.015.jpg)](/wpimages/2009/02/futuropizza.015.jpg)
+[![futuro pizza](/images/futuropizza.015.jpg)](/images/futuropizza.015.jpg)
