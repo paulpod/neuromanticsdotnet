@@ -129,6 +129,7 @@ Scenarios were then introduced to users, with a gradual increase in utility vs i
 {% raw %}
 <a name="localsocial"></a>
 {% endraw %}
+
 Local Social
 ------------
 Exploring service design ideas around socialised Wifi, community mediated services at village scale ahead of 4G rollout.
