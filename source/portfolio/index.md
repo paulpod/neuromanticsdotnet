@@ -5,14 +5,17 @@ date: 2021-08-31 11:55:00
 
 2020-now / NHS 111 online
 ===============================
-As **Designer** I joined the 111 online team in September 2020, the COVID-19 pandemic in full flow. My initial job was to add booking functionality for patients requiring an A&E visit, with all the complications that can raise. As a new concept for people to understand, it was throughly prototyped and researched with users.
+As **Interaction Designer** I joined the 111 online team in September 2020, the COVID-19 pandemic in full flow. My initial job was to add booking functionality for patients requiring an A&E visit, with all the complications that can raise. As a new concept for people to understand, it was throughly prototyped and researched with users.
 
-Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink and travellers from Denmark, through information about vaccines and vaccination side effects, to returning the 111 online service to business as normal.
+Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on "virtual wards", through information about vaccines and vaccination side effects. Now in 2022 we're working on returning the 111 online service to business as normal.
 
 * adapting 111 online to apply the NHS design system
-* adding images, sounds and video to better explain triage questions
+* adding images, sounds and video to improve triage questions
 * updating user flows to detect, ask and confirm location
-* improving less "emergency" outcomes, for users needing dentists, opticians or midwifery
+* improving less urgent outcomes: dentists, opticians, midwifery
+* designing ways to _very vaguely_ tell people about callback times
+
+I've spend most of the past 6 months working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research.
 
 Visit [111 online](https://111.nhs.uk)
 
@@ -62,7 +65,7 @@ Profile Updater is a tool that allows service operators (in the first iteration,
 As the **Lead Designer** I worked on a part of the GREAT campaign website that was intended to handle enquiries about inward investment. Unfortunately due to the realities around Brexit, there were few user needs we could actually meet, so the project was cancelled.
 
 * applying deep user research to personas, segmentation
-* prototyping using toolkits : NodeJS, JQuery, SASS, Git, Heroku, HTML, CSS
+* prototyping using toolkits : NodeJS, SASS, HTML, CSS
 
 
 2016 / Fjord + Unilever
@@ -72,6 +75,11 @@ As **Interaction Designer** I worked on a small innovation project to prototype 
 * flows and scripts for chatbot interaction
 * prototyping using PullString, Skype Bots, Messenger Bots
 
+Here's a slightly cheesy video about it
+
+[![Una - Unilever HR Chatbot](/portfolioimg/una-chatbot.png)](https://youtu.be/5EAgWRVfjos)
+
+
 
 2016 / Gain Capital, City Index
 ===============================
@@ -80,7 +88,7 @@ As the **Lead Designer** I was brought in to kickstart a dramatic refresh of ret
 * applying deep user research to personas, segmentation
 * create new design guidelines
 * helping improve internal design capability
-* prototyping using toolkits : NodeJS, JQuery, SASS, Git, Heroku, HTML, CSS
+* prototyping using toolkits : NodeJS, JQuery, HTML, CSS
 
 [![Gain Capital Screens](/portfolioimg/gaincap-pics.png)](/portfolioimg/gaincap-pics.png)
 
@@ -96,13 +104,17 @@ As the **Head of Design** my brief was to help teams at the DVLA in Swansea crea
 [![DVLA montage](/portfolioimg/dvla-pics.jpg)](/portfolioimg/dvla-pics.jpg)
 
 * content design: less is usually more
-* apply & adapt design guidelines and best practice from across government
+* apply & adapt design guidelines and best practice
 * helping build internal design capability
-* prototyping using GOVUK toolkits : NodeJS, SASS, Git, Heroku, HTML, CSS
+* prototyping using GOVUK toolkits : NodeJS, SASS, HTML, CSS
 * mentoring and training civil service interaction designers
 
 **Things:** I made a DVLA specific style guide and quickstart design kit. A large proportion of the work was continuous iteration of prototypes for Vehicle Tax and other services. The live service is at [www.gov.uk/vehicle-tax](http://www.gov.uk/vehicle-tax) and handles over 40 million transactions a year.
 
+Yeah, that's my registration used as the example on a bunch of the services, like [Checking the MOT status](https://www.gov.uk/check-mot-status) and others.
+
+
+[![DVLA services use my car reg for the example](/portfolioimg/cu57-car.png)](/portfolioimg/cu57-car.png)
 
 2013-14 / Telefonica Digital, Innovation Lab
 ==============================================
@@ -154,10 +166,6 @@ Earlier extensive user research and simple prototypes by the talented Barcelona 
 
 The promotional site was ~~is at [www.getaradiome.com](http://www.getaradiome.com)~~
 
-Here's the boss of Telefonica I+D talking about it **click image below to play video**
-
-[![RadioMe](http://img.youtube.com/vi/ZlsO7WN37HU/0.jpg)](http://www.youtube.com/watch?v=ZlsO7WN37HU)
-
 [![RadioMe photos](/portfolioimg/radiome-photos.jpg)](/portfolioimg/radiome-photos.jpg)
 
 It was a short fun project, for me, going from zero to coding and soldering working prototypes in a few weeks but the work from the Barcelona team in bringing it to market, even in a limited form, was amazing.
@@ -180,9 +188,9 @@ Alongside, we were working with live installed store tracking technologies and d
 
 
 Older work
-===
+---
 2012 / LabGuru / Biodata / Digital Science
-------------------------
+===
 I was brought in as a remote consulting designer to attempt a rationalisation of the UI and other elements in a laboratory management service.
 
 [LabGuru design guide LabGuru design guide](/lg/guide/index.html)
@@ -192,14 +200,14 @@ Without the scope for a complete redesign, we opted for a rational tidy up and a
 
 
 2012 / Money Advice Service
-------------------------
+===
 I created a strategy and vision video, prototyping and explaining future concepts for board level discussion as to how and where the Money Advice Service could leverage their unique position in the financial sector.
 
 [![Money Advice Service montage](/portfolioimg/money-montage.jpg)](/portfolioimg/money-montage.jpg)
 
 **click image below to play video**
 
-[![Money Advice Service](http://img.youtube.com/vi/tp3H-_AYAt0/0.jpg)](https://youtu.be/WUKR5oBFLto)
+[![Money Advice Service](/portfolioimg/mas-video.png)](https://youtu.be/WUKR5oBFLto)
 
 I followed this with a refreshed brand identity for digital use and art directed a series of consumer facing information videos for financial concepts, such as auto-enrolment pensions.
 
@@ -207,18 +215,24 @@ I followed this with a refreshed brand identity for digital use and art directed
 
 
 2010-2012 / Artfinder
-------------------------
+===
 As part of the founding team, I had a head of product / design role.
 
 [![Artfinder montage](/portfolioimg/artfinder-montage.jpg)](/portfolioimg/artfinder-montage.jpg)
 
 Artfinder was a website, phone and tablet platform bringing art into the digital age. Our first steps were around collating a decent sized catalogue and providing cultural institutions with digital superpowers.
 
+[![Artfinder UI montage](/portfolioimg/artfinder-ui-montage.png)](/portfolioimg/artfinder-ui-montage.png)
+
 [Collected screens - single PDF](/portfolioimg/artfinder-for-portfolio.pdf)
 
 We followed this with by enhancing the real world experience using image recognition, location based services around events and exhibitions.
 
+[![Artfinder events UI montage](/portfolioimg/artfinder-events-ui-montage.png)](/portfolioimg/artfinder-events-ui-montage.png)
+
 I also designed a wide array of iPad apps as the digital version of coffee table books, and experimented with ebooks and ibooks as a simpler medium for this. Below is a video prototype (After Effects) exploring some of the native iPad interactions.
+
+[![Artfinder iPad app](/portfolioimg/artfinder-ipad.png)](https://youtu.be/-l1cjHQM_CE)
 
 I created a strategy for a sustainable, authentic and eco-focused print and framing business for Artfinder, [You Want to Buy a Woodland?](/portfolioimg/artfinder-woodland.pdf) for consideration as we closed Series A investment.
 
