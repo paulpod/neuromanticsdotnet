@@ -1,0 +1,15 @@
+.sakurabody {
+    padding:0;
+    margin:0;
+    overflow:hidden;
+	height: 300px;
+}
+canvas {
+    padding:0;
+    margin:0;
+}
+div.btnbg {
+    position:fixed;
+    left:0;
+    top:0;
+}
