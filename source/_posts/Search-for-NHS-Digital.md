@@ -7,14 +7,13 @@ I was in a conversation with the wider NHS Digital design team yesterday, provid
 
 Special snowflake
 ====
-Our search tool has _unconventional requirements_ so let's run through those first
+Our search tool has _unconventional requirements_ so let's run through those first. It is a structured search query with a number of parameters expected by the backend:
+* service type(s)
+* location, distance/range to consider
+* urgency of treatment
+* patient age, sex and their GP
 
-* it is a structured search query, with a number of parameters expected by the backend
-- service type(s), location, distance/range to consider, urgency, patient age, sex and their GP
-* within the steps to contruct this query, we have search tools for which service type(s) and which GP
-* we also have a location search function
-* so that's a few questions and three searches to construct a search query, and it needs all of that to function
-
+Within the steps to contruct this query, we have search tools for which service type(s) and finding a patients GP. We also have a location search function, that might need to work with places not just postcodes. So that's a few questions and three searches to construct a search query, and it needs all of that to function on a mobile interface.
 	
 The old version did all of that on one (complicated) page, but unsurprisingly there were usability issues. These issues meant the tool had poor adoption by the intended users. Meanwhile, the need for a tool like this for a much wider range of users has been identified, so we've had another go. 
 
