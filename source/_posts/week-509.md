@@ -9,7 +9,7 @@ categories:
 date: 2010-09-14 04:49:46
 ---
 
-[![SAD Lightbox](http://farm5.static.flickr.com/4103/4989366543_99175fbd47.jpg)](http://www.flickr.com/photos/paulpod/4989366543/ "SAD Lightbox by Paulpod, on Flickr") Avoiding the effects of the darkness of winter at the moment, while chugging through a second round of wireframes and designs for new project, after excellent spiralling design/feature/detail chat with Norm & James. That'll get a bit easier soon I think with a permanent space. 
+[![SAD Lightbox](https://farm5.static.flickr.com/4103/4989366543_99175fbd47.jpg)](https://www.flickr.com/photos/paulpod/4989366543/ "SAD Lightbox by Paulpod, on Flickr") Avoiding the effects of the darkness of winter at the moment, while chugging through a second round of wireframes and designs for new project, after excellent spiralling design/feature/detail chat with Norm & James. That'll get a bit easier soon I think with a permanent space. 
 
 Last week was quite large, or felt that way, beginning with a chunky bit of mockup design completed to show off an iPad concept - fairly straightforward actually, don't want to scare the horses just yet. 
 

@@ -236,3 +236,19 @@ I also designed a wide array of iPad apps as the digital version of coffee table
 
 I created a strategy for a sustainable, authentic and eco-focused print and framing business for Artfinder, [You Want to Buy a Woodland?](/portfolioimg/artfinder-woodland.pdf) for consideration as we closed Series A investment.
 
+Highlights of older work
+===
+2005 - BBC Concept for non linear internet TV
+---
+{% html5video %} /images/neurotv-re-edit22.webm {% endhtml5video %}
+
+Love this bit of work we did for the BBC: concepting a future TV _cloud_ around suggestions, recommendations, social TV traces of what your friends might have been watching. Two years before iPlayer launched.
+
+Longer design document with [words and pictures here (PDF)](/images/bbc_neurotv_1.pdf)
+
+
+2004 - The Light 3000 music video (unfinished)
+---
+{% html5video %} /images/light3000test1.webm {% endhtml5video %}
+
+Never quite got around to finishing it, but it’s quite nice.

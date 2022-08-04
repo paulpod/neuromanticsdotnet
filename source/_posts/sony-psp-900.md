@@ -13,4 +13,4 @@ Unlike [Alice](http://crystaltips.typepad.com/wonderland/2005/08/p900_meets_psp.
 
 When is this fusion out though? it would be great! :-)
 
-[![Psp900](http://www.neuromantics.net/bunker/psp900-tm.jpg)](http://www.neuromantics.net/bunker/psp900.jpg)
+[![Psp900](/images/psp900.jpg)](/images/psp900.jpg)

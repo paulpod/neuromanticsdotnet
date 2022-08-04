@@ -11,7 +11,9 @@ I’ve been messing about with electronic music, some of the bigger bits are on 
 
 I’ve done a few things
 ===
-Worked for brilliant design agencies including Razorfish v1, Poke and BERG. After that it made sense to start a small digital design boutique called Neuromantics with clients like Nokia, BBC and Vodafone.
+Worked for brilliant design agencies including Razorfish v1, Poke and BERG. After that it made sense to start a small digital design boutique called Neuromantics with clients like Nokia, BBC and Vodafone. 
+
+I’ve made games, design guidelines, newspapers, videos, animations and maps. Some of these things were on paper, some on big screens and a lot on small ones. 
 
 I’ve started start-ups
 ===
@@ -27,7 +29,7 @@ Spent a year and a half as a head of design at the DVLA, working with the Govern
 
 Designed a HTML trading platform from scratch, and other freelance things in London, commuting from Wales.
 
-Now I’m doing design of digital services for the NHS, including [111 online](https://111.nhs.uk). 
+Now I’m doing design of digital services for the NHS, including [111 online](https://111.nhs.uk). It might be the best job.
 
 I used to live in London, escaped the city to a small rural village in North Oxfordshire to keep bees. Then went mad and moved to a smallholding in furthest, South Wales with sheep, chickens and lots of trees. Still here.
 
