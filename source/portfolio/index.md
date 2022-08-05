@@ -240,7 +240,13 @@ Highlights of older work
 ===
 2005 - BBC Concept for non linear internet TV
 ---
-{% html5video %} /images/neurotv-re-edit22.webm {% endhtml5video %}
+{% raw %}
+<video controls playsinline width="100%">
+	<source src="neurotv.mp4" type='video/mp4' />
+	
+	Sorry, your browser doesn't support embedded videos.
+</video>
+{% endraw %}
 
 Love this bit of work we did for the BBC: concepting a future TV _cloud_ around suggestions, recommendations, social TV traces of what your friends might have been watching. Two years before iPlayer launched.
 
@@ -249,6 +255,12 @@ Longer design document with [words and pictures here (PDF)](/images/bbc_neurotv_
 
 2004 - The Light 3000 music video (unfinished)
 ---
-{% html5video %} /images/light3000test1.webm {% endhtml5video %}
+{% raw %}
+<video controls playsinline width="100%">
+	<source src="light3000.mp4" type="video/mp4" />
+
+	Sorry, your browser doesn't support embedded videos.
+</video>
+{% endraw %}
 
 Never quite got around to finishing it, but it’s quite nice.
