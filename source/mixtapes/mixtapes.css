@@ -1,0 +1,19 @@
+.soundcloud-mixtape {
+	max-width: 700px;
+	margin-top: 1em;
+}
+
+.mixtape-table tr {
+	padding: 0.5em 0 1em 0;
+	border-bottom: 1px solid #999;
+}
+.mixtape-table tr:last-child {
+	border-bottom: none;
+}
+.mixtape-table td {
+	line-height: 2;
+	padding: 0.75em 0 0.75em 0;
+}
+.mixtape-table td:first-child {
+	font-weight: 600;
+}
