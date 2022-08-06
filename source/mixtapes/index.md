@@ -29,3 +29,9 @@ Full [tracklisting and Soundcloud player](mixtape010604.html)
 - Not quite the mixes & versions [Spotify playlist](https://open.spotify.com/playlist/00KIp0RIW2QJcRbl3JZuGQ?si=10371437da444329)
 - Download full mix 53:34 [AAC M4A file](neuromantics-mixtape-010604-pinchpunch.m4a)
 
+
+MIXTAPE010704 / SUMMERSUN
+---
+Full [tracklisting and Soundcloud player](mixtape010704.html)
+- Not quite the mixes & versions [Spotify playlist](https://open.spotify.com/playlist/1alazI2iArLox7xgehsrPM?si=361b51cb689f432e)
+- Download full mix 50:06 [AAC M4A file](neuromantics-mixtape-010704-summersun.m4a)
