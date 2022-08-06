@@ -14,6 +14,18 @@ Hello, Mixtapes have been found from the early 2000s.
 MIXTAPE140404 / SPRINGFRISKY
 ---
 Full [tracklisting and Soundcloud player](mixtape140404.html)
+- Not quite the mixes & versions [Spotify playlist](https://open.spotify.com/playlist/7aUEU6EGzZ7109mxcwsvIb?si=930ca6ff43dc4f56)
+- Download full mix 45:38 [AAC M4A file](neuromantics-mixtape-140404-springfrisky.m4a)
 
-Download full mix 45:38 [AAC M4A file](neuromantics-mixtape-140404-springfrisky.m4a)
+
+MIXTAPE010504 / MAYDAY - the missing mixtape
+---
+_Gonna be a little while_
+
+
+MIXTAPE010604 / PINCHPUNCH
+---
+Full [tracklisting and Soundcloud player](mixtape010604.html)
+- Not quite the mixes & versions [Spotify playlist](https://open.spotify.com/playlist/00KIp0RIW2QJcRbl3JZuGQ?si=10371437da444329)
+- Download full mix 53:34 [AAC M4A file](neuromantics-mixtape-010604-pinchpunch.m4a)
 

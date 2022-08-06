@@ -15,7 +15,7 @@ MIXTAPE140404 / SPRINGFRISKY
 <table class="mixtape-table">
 	<tr>
 		<td>Emerge (Daft Punk Mix)</td>
-		<td>Fisherspooner</td>
+		<td>Fischerspooner</td>
 	</tr>
 	<tr>
 		<td>Bombs Over Baghdad</td>
@@ -38,7 +38,7 @@ MIXTAPE140404 / SPRINGFRISKY
 		<td>Kenickie</td>
 	</tr>
 	<tr>
-		<td>Gay Bar mixed mast</td>
+		<td>Gay Bar (Big Nurse Mashup)</td>
 		<td>Electric Six</td>
 	</tr>
 	<tr>
@@ -64,3 +64,4 @@ MIXTAPE140404 / SPRINGFRISKY
 
 Download full mix 45:38 [AAC M4A file](neuromantics-mixtape-140404-springfrisky.m4a)
 
+Not quite the mixes & versions [Spotify playlist](https://open.spotify.com/playlist/7aUEU6EGzZ7109mxcwsvIb?si=930ca6ff43dc4f56)
