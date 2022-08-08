@@ -20,6 +20,7 @@ I've spend most of the past 6 months working on a more inclusive way to ask peop
 Visit [111 online](https://111.nhs.uk)
 
 
+
 2019-20 / Seedrs
 ===============================
 As **Interaction Designer** I mostly worked on designing a mobile app for Seedrs users. I've used Framer X to make a number of high fidelity, deep prototypes as well as conducting user research to design the right thing.

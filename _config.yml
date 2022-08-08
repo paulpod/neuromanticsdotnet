@@ -74,7 +74,15 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus-neuro
-
+instagramWall:
+  enable: true
+  requestedCount: 18
+  itemsPerRow: 3
+  showCaption: true 
+  gutterSize: '10px'
+  overlayColor: 'black'
+  textColor: 'white'
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
