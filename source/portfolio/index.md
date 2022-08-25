@@ -15,7 +15,7 @@ Following that I have been working on frequent improvements to the 111 online se
 * improving less urgent outcomes: dentists, opticians, midwifery
 * designing ways to _very vaguely_ tell people about callback times
 
-I've spend most of the past 6 months working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research.
+I've spent most of the past 6 months working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research.
 
 Visit [111 online](https://111.nhs.uk)
 
