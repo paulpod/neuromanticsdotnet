@@ -76,9 +76,11 @@ As **Interaction Designer** I worked on a small innovation project to prototype 
 * flows and scripts for chatbot interaction
 * prototyping using PullString, Skype Bots, Messenger Bots
 
-Here's a slightly cheesy video about it
+Here's a slightly cheesy video about it.
 
-[![Una - Unilever HR Chatbot](/portfolioimg/una-chatbot.png)](https://youtu.be/5EAgWRVfjos)
+{% raw %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5EAgWRVfjos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endraw %}
 
 
 
