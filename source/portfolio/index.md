@@ -79,7 +79,13 @@ As **Interaction Designer** I worked on a small innovation project to prototype 
 Here's a slightly cheesy video about it.
 
 {% raw %}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5EAgWRVfjos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
+
+
+<div class="embed-container">
+	<iframe src="https://www.youtube.com/embed/5EAgWRVfjos" frameborder="0"></iframe>
+</div>
 {% endraw %}
 
 
@@ -169,6 +175,14 @@ Earlier extensive user research and simple prototypes by the talented Barcelona 
 
 The promotional site was ~~is at [www.getaradiome.com](http://www.getaradiome.com)~~
 
+{% raw %}
+<div class="embed-container">
+	<iframe src="https://www.youtube.com/embed/X7S5_XBirPM?enablejsapi=1&cc_load_policy=1&cc_lang_pref=en" frameborder="0"></iframe>
+</div>
+{% endraw %}
+
+
+
 [![RadioMe photos](/portfolioimg/radiome-photos.jpg)](/portfolioimg/radiome-photos.jpg)
 
 It was a short fun project, for me, going from zero to coding and soldering working prototypes in a few weeks but the work from the Barcelona team in bringing it to market, even in a limited form, was amazing.
@@ -208,9 +222,11 @@ I created a strategy and vision video, prototyping and explaining future concept
 
 [![Money Advice Service montage](/portfolioimg/money-montage.jpg)](/portfolioimg/money-montage.jpg)
 
-**click image below to play video**
-
-[![Money Advice Service](/portfolioimg/mas-video.png)](https://youtu.be/WUKR5oBFLto)
+{% raw %}
+<div class="embed-container">
+	<iframe src="https://www.youtube.com/embed/WUKR5oBFLto" frameborder="0"></iframe>
+</div>
+{% endraw %}
 
 I followed this with a refreshed brand identity for digital use and art directed a series of consumer facing information videos for financial concepts, such as auto-enrolment pensions.
 
@@ -235,7 +251,11 @@ We followed this with by enhancing the real world experience using image recogni
 
 I also designed a wide array of iPad apps as the digital version of coffee table books, and experimented with ebooks and ibooks as a simpler medium for this. Below is a video prototype (After Effects) exploring some of the native iPad interactions.
 
-[![Artfinder iPad app](/portfolioimg/artfinder-ipad.png)](https://youtu.be/-l1cjHQM_CE)
+{% raw %}
+<div class="embed-container">
+	<iframe src="https://www.youtube.com/embed/l1cjHQM_CE" frameborder="0"></iframe>
+</div>
+{% endraw %}
 
 I created a strategy for a sustainable, authentic and eco-focused print and framing business for Artfinder, [You Want to Buy a Woodland?](/portfolioimg/artfinder-woodland.pdf) for consideration as we closed Series A investment.
 
