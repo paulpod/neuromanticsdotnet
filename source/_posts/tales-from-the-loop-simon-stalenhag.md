@@ -16,4 +16,4 @@ The pastoral scenes show the decay of the once mighty industry, alongside such o
 
 [![talesfromtheloop](/wpimages/2016/01/talesfromtheloop.jpg)](/wpimages/2016/01/talesfromtheloop.jpg) 
 
-Utterly charming, we get 125+ pages with paintings alongside half remembered childhood stories. It's on Amazon: [Tales from the Loop](http://www.amazon.co.uk/gp/product/1624650392/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=1624650392&linkCode=as2&tag=neuromantics-21)![](http://ir-uk.amazon-adsystem.com/e/ir?t=neuromantics-21&l=as2&o=2&a=1624650392)
+Utterly charming, we get 125+ pages with paintings alongside half remembered childhood stories. It's on Amazon: [Tales from the Loop](https://www.amazon.co.uk/gp/product/1624650392/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=1624650392&linkCode=as2&tag=neuromantics-21)![](https://ir-uk.amazon-adsystem.com/e/ir?t=neuromantics-21&l=as2&o=2&a=1624650392)
