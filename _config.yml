@@ -90,4 +90,4 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: images/apple-touch-icon.png
+  icon: images/favicon.ico
