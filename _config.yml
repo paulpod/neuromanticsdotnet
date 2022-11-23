@@ -74,14 +74,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus-neuro
-instagramWall:
-  enable: true
-  requestedCount: 18
-  itemsPerRow: 3
-  showCaption: true 
-  gutterSize: '10px'
-  overlayColor: 'black'
-  textColor: 'white'
+
   
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -97,3 +90,4 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+  icon: images/apple-touch-icon.png
