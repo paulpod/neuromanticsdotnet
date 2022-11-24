@@ -6,7 +6,7 @@ comments: false
 categories:
   - technology
 date: 2003-12-18 17:25:26
-tags:
+tags: code
 ---
 
 My spam has been getting quite strange recently, all caught thanks to [Spamsieve](http://www.c-command.com/spamsieve/), and bordering on the oddly beautiful...

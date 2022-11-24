@@ -6,7 +6,7 @@ comments: false
 categories:
   - technology
 date: 2004-10-06 08:36:26
-tags:
+tags: music
 ---
 
 Just trying it out for now as an alternative method of disseminating our monthly mixtapes, but you'll be awfully glad to hear I'm not planning on recording some god-awful talk radio show. An invisible, background, underground, decentralised music distribution system **YES!** Wittering geekery about pretty much nothing **NO**

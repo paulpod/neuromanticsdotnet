@@ -6,7 +6,7 @@ comments: false
 categories:
   - Uncategorized
 date: 2003-12-03 17:03:48
-tags:
+tags: colour
 ---
 
 Here's a rather simple example broadly outlining the requirements, benefits and outcomes of using a colour/context/emotion management and metadata dataset like 'Feel Of A Colour'. [Click for PDF.](/images/FOAC_example1.pdf) 

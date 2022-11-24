@@ -2,6 +2,7 @@
 title: Pentagram – Ideas on Design
 tags:
   - pentagram
+  - design
 url: 450.html
 id: 450
 categories:

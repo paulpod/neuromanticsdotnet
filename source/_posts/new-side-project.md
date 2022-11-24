@@ -6,7 +6,7 @@ comments: false
 categories:
   - Uncategorized
 date: 2005-10-09 23:15:43
-tags:
+tags: startup
 ---
 
 With all the hoo-har going on about the BBC iMP project both in public and behind the scenes, why the hell not: [Tape It Off The Internet.com](http://www.tapeitofftheinternet.com/) pops it's barely formed head over the precipice. 

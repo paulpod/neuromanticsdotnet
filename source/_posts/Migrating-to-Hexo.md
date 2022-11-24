@@ -1,7 +1,7 @@
 ---
 title: Migrating to Hexo
 date: 2018-12-17 15:45:10
-tags:
+tags: code
 ---
 Migrating from an old Wordpress and handbuilt personal site to Hexo
 ===

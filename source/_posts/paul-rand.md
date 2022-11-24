@@ -5,7 +5,7 @@ id: 411
 categories:
   - bookaholic
 date: 2013-01-08 09:39:38
-tags:
+tags: book
 ---
 
 One of my favourite graphic designers, Paul Rand needs no introduction. A legend who practically invented the role of designer in public life. Thankfully, his work is thoroughly  documented. 

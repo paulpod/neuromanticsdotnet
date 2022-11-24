@@ -2,6 +2,7 @@
 title: Pentagram – Black Book
 tags:
   - pentagram
+  - design
 url: 468.html
 id: 468
 categories:

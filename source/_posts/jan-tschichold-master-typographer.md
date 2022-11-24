@@ -5,7 +5,7 @@ id: 432
 categories:
   - bookaholic
 date: 2013-01-09 09:35:24
-tags:
+tags: book
 ---
 
 Tschichold in the 1920s was a pioneer of incredible, beautiful asymmetrical typographic based layouts, an literally wrote the book on this new style, called The Neue Typography ([here's a PDF](http://neuromantics.net/tmp/the-new-typography.pdf.zip "Big old Tschichold")). And then, he rewrote the book on classical symmetrical typography too. Master. 
