@@ -7,4 +7,4 @@ OMG so pretty. The beautiful machines of Docubyte, perfectly refined images as a
 
 [![IBM 1401, 1959](/images/docubyte-ibm1401.png)](/images/docubyte-ibm1401.png) 
 
-(https://www.docubyte.com/projects/guide-to-computing/)
+[Docubyte / Guide to computing](https://www.docubyte.com/projects/guide-to-computing/)
