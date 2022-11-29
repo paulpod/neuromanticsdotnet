@@ -33,6 +33,7 @@ customize:
         instagram: http://instagram.com/paulpod
         twitter: http://twitter.com/paulpod
         linkedin: https://www.linkedin.com/in/paulpod/
+        mastodon: https://mastodon.cloud/web/accounts/7288
     show_all_posts: false
     post_count: 10
     highlight: pojoaque
