@@ -1,6 +1,6 @@
 ---
 title: Year note 2022
-date: 2022-12-19 11:55:00
+date: 2022-12-31 23:59:00
 tags: work
 ---
 It is New Years Day and I'm writing this as a work marker for the year just gone. It's been a long year, for me. A bit of a slog. What got done?
