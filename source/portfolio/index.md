@@ -17,7 +17,7 @@ Following that I have been working on frequent improvements to the 111 online se
 * better ways to let people tell us their location
 * sorting out edge cases around opening and closing times
 
-I've spent most of the past 6 months working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research.
+I've spent most of the past 6 months working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research. I’ve written up some of the work from 2022 in my [Year Note post](/2022/12/31/year-note-2022/)
 
 Visit [111 online](https://111.nhs.uk)
 
