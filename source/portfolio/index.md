@@ -7,13 +7,15 @@ date: 2021-08-31 11:55:00
 ===============================
 As **Interaction Designer** I joined the 111 online team in September 2020, the COVID-19 pandemic in full flow. My initial job was to add booking functionality for patients requiring an A&E visit, with all the complications that can raise. As a new concept for people to understand, it was throughly prototyped and researched with users.
 
-Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on "virtual wards", through information about vaccines and vaccination side effects. Now in 2022 we're working on returning the 111 online service to business as normal.
+Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on "virtual wards", through information about vaccines and vaccination side effects. Now in 2023 we're working on returning the 111 online service to business as normal.
 
 * adapting 111 online to apply the NHS design system
 * adding images, sounds and video to improve triage questions
 * updating user flows to detect, ask and confirm location
 * improving less urgent outcomes: dentists, opticians, midwifery
 * designing ways to _very vaguely_ tell people about callback times
+* better ways to let people tell us their location
+* sorting out edge cases around opening and closing times
 
 I've spent most of the past 6 months working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research.
 

@@ -79,22 +79,6 @@ theme: cactus-neuro
 
 # Renderer -
 # replaced the default with this markdown plus
-markdown_it_plus:
-  highlight: true
-  html: false
-  xhtmlOut: true
-  breaks: true
-  langPrefix:
-  linkify: true
-  typographer: 
-  quotes: “”‘’
-  pre_class: highlight
-
-emoji:
-  enable: true
-  className: github-emoji
-  styles:
-  customEmojis:
 
   
 # Deployment
