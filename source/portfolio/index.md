@@ -263,6 +263,18 @@ I created a strategy for a sustainable, authentic and eco-focused print and fram
 
 Highlights of older work
 ===
+2009-2010 - EMI Music, digital product development
+---
+
+{% raw %}
+<div class="embed-container">
+	<iframe src="https://www.youtube.com/embed/3Z1P7eHQyuI" frameborder="0"></iframe>
+</div>
+{% endraw %}
+
+EMI were trying to get a handle on the shift to digital music, and part of the strategy was to make digital deluxe box-sets. Something deep and immersive, that could wrap up an artist's entire discography and archive in a living, mostly online product with exclusivity and quality. Quite difficult, it turns out vs the commodification of music, digitally. 
+
+
 2005 - BBC Concept for non linear internet TV
 ---
 {% raw %}
