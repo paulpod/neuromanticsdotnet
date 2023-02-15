@@ -274,6 +274,20 @@ Highlights of older work
 
 EMI were trying to get a handle on the shift to digital music, and part of the strategy was to make digital deluxe box-sets. Something deep and immersive, that could wrap up an artist's entire discography and archive in a living, mostly online product with exclusivity and quality. Quite difficult, it turns out vs the commodification of music, digitally. 
 
+[![EMI Lava design doc](/portfolioimg/emi-lava.png)](/portfolioimg/emi-lava.pdf)
+
+Here's a fun [PDF of the design overview for these products](/portfolioimg/emi-lava.pdf) - they could be wide or deep, depending on the artist and content available.
+
+One full-size product was released based on these concepts before EMI Music was acquired by Universal in 2011. It used terrific archive material of John Lennon for this, a capture of some of the site is here.
+
+{% raw %}
+<div class="embed-container">
+	<iframe src="https://www.youtube.com/embed/ew7BqDmS4vc" frameborder="0"></iframe>
+</div>
+{% endraw %}
+
+I guess it looks a bit rough these days but it was developed in 2010 and was intended to be web native rather than locking into apps, with the limitations that creates.
+
 
 2005 - BBC Concept for non linear internet TV
 ---
