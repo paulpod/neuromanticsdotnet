@@ -229,7 +229,7 @@ I created a strategy and vision video, prototyping and explaining future concept
 
 {% raw %}
 <div class="embed-container">
-	<iframe src="https://www.youtube.com/embed/WUKR5oBFLto" frameborder="0"></iframe>
+	<iframe src="https://youtu.be/W_eQo8X80H8" frameborder="0"></iframe>
 </div>
 {% endraw %}
 
