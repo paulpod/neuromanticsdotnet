@@ -25,7 +25,7 @@ I say “design” in the loosest sense, as some of this is technical (implement
 *Users:* “got yelled at, felt bad”
 =
 
-This on the network norms on their side is very telling. The network is the people, not just the people who were there first. If your network requires behaviour police it’s not as 
+This on the network norms on their side is very telling. The network is the people, not just the people who were there first. If your network requires behaviour police it’s not that great. 
 
 *Issue:* Content warnings
 ==
