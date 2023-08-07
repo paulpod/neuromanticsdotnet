@@ -13,7 +13,6 @@ At 111 online, we’ve incorporated images into select triage questions based on
 
 [![First tab for meningitis rash images on 111 online](/images/meningitis-early-stage-rash.jpg)](/images/meningitis-early-stage-rash.jpg) 
 
-meningitis-early-stage-rash.jpg
  
 The other common feedback has been around checking skin rashes, where “Show me a photo” is a common theme. One of the most important questions we ask is about ruling out a meningococcal sepsis rash - the skin rash that might suggest meningitis. 
 https://www.nhs.uk/conditions/meningitis/symptoms/
