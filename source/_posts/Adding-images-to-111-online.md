@@ -3,11 +3,7 @@ title: Adding images to 111 online
 date: 2023-06-26 14:52:49
 tags: work
 ---
----
-title: Images on NHS 111 online
-date: 2023-08-07 14:50:47
-tags: work
----
+
 _I wrote this to answer a request for a blog post on the NHS Design blog. After a million revisions it [got published there](https://digital.nhs.uk/blog/design-matters/2023/using-meningitis-pictures-and-video-on-111-online), but this is my original “designers voice” draft:_
 
 At 111 online we’ve been adding images to our triage questions. Not very many, just selected ones, where we've had feedback from our users that they need more help with understanding the question.
