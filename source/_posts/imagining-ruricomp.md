@@ -25,22 +25,22 @@ The city street is bustling, overflowing with activity, both the physical as wel
 
 **Twitter as parish noticeboard**
 
-[![Twitter as parish noticeboard](/wpimages/uploads/2009/10/twitter-parish1-242x300.jpg "Twitter as parish noticeboard")](/wpimages/2009/10/twitter-parish1.jpg)
+[![Twitter as parish noticeboard](/wpimages/2009/10/twitter-parish1.jpg "Twitter as parish noticeboard")](/wpimages/2009/10/twitter-parish1.jpg)
 
 So this is quite simple, mostly done or doable now but much more personalised and democratic than the traditional (and usually locked) noticeboard on the village green or by the church. We don't get mains gas round here, but I have a 1600 litre tank in the garden full of LPG (or propane for americans). It has a tiny little dial on it telling me how much is in it - it also has telemetry sending this amount to the supplier so they know when to come and top it up. This data should be available: _retweet me my gas!_ Chuck in local organisations (school, church) retailers (I choose, no spam thank you) and useful data from the outdoors (weather stations, postbox).
 
 **Duckpond climate data augmentation**
 
-[![duckpond-climate-overlay](/wpimages/uploads/2009/10/duckpond-climate-overlay-300x209.jpg "duckpond-climate-overlay")](/wpimages/2009/10/duckpond-climate-overlay.jpg)
+[![duckpond-climate-overlay](/wpimages/2009/10/duckpond-climate-overlay.jpg "duckpond-climate-overlay")](/wpimages/2009/10/duckpond-climate-overlay.jpg)
 
 It might be because my urban battlesuit protected me when I lived in the city, but the weather out here takes on a new importance. Rains a lot, and you get a lot wetter. But it'd be cool to have a bit more depth to that, and where better to construct the climate-data than on the duckpond. Show me the trends right here, show me the CO2 we collectively spit out - crickey that’s a lot, and the couple hundred trees here don't really make a dent do they?
 
-[![flood-map-overlay](/wpimages/uploads/2009/10/flood-map-overlay-192x300.jpg "flood-map-overlay")](/wpimages/2009/10/flood-map-overlay.jpg)
+[![flood-map-overlay](/wpimages/2009/10/flood-map-overlay.jpg "flood-map-overlay")](/wpimages/2009/10/flood-map-overlay.jpg)
 
 Mash me up some data while I'm out walking too - here's a floodmap/water overlay with some historical water levels of a stream near here. It's not rained that much for the past month actually. There's also an insurance-supplied party pooper there reminding me that the water's not ideal even when it is there.
 
 **It's all fields round here**
 
-[![wheat-to-bread](/wpimages/uploads/2009/10/wheat-to-bread-300x202.jpg "wheat-to-bread")](/wpimages/2009/10/wheat-to-bread.jpg)
+[![wheat-to-bread](/wpimages/2009/10/wheat-to-bread.jpg "wheat-to-bread")](/wpimages/2009/10/wheat-to-bread.jpg)
 
 Yes, but _fields_ of what exactly? Being a country newbie it's good to learn about this stuff, and to put it into some sort of context. Wheat = bread clearly, but _how much_ bread? Estimate me how much is an acre and show me with cute little infographics and Royksopp-style bakers how much bread that makes (2250 loaves per acre I calculated - could be miles out tho so I apologise in advance). more soon...
