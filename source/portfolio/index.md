@@ -108,7 +108,7 @@ As the **Lead Designer** I was brought in to kickstart a dramatic refresh of ret
 
 **Things:** I made a Gain Capital design guide and prototyping kit. We explored and prototyped a range of trading interfaces, covering expert to beginner levels of experience.
 
-[Archived research and prototypes](/gainux-rebuild/index.html)
+
 
 
 2014-15 / Government Digital Service @ DVLA
