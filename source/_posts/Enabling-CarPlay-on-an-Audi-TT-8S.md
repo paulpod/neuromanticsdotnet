@@ -1,13 +1,16 @@
 ---
 title: Enabling CarPlay on an Audi TT (8S)
 date: 2024-04-18 21:22:23
-tags: technology
+tags:
+  - carplay
+categories:
+  - technology
 ---
 Way, way back in time (2014) I bought a 2007 Audi TT (8J). Fun car, SHIT stereo and satnav. It came with the standard (at the time) RNS-E, which I absolutely hated, and DIY replaced very quickly with a (then brand new) CarPlay capable unit from Pioneer. I [wrote more about that](https://neuromantics.net/2015/02/26/six-months-with-carplay/) at the time. 
 
 ![RNS-E unit](/images/audi-rnse.jpg)
 
-But good things don't last forever, and new cars become old cars. But it was a fun car, so I replaced it with an identical newer version - a 2019 TT (8S). Lots of fancy modern tech, awesome.
+Good things don't last forever, and new cars become old cars. But it was a fun car, so I replaced it with an identical newer version - a 2019 TT (8S). Lots of fancy modern tech, awesome.
 
 But wait a minute, someone seriously bought a new car in 2019 without CarPlay? And never got it added? Amazing. OK how hard could that be, huh? It turns out, brilliant naughty people have been doing this for a while and here are my notes on how I did it, in case I need to do it again.
 

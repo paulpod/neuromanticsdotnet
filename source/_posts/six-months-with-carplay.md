@@ -11,6 +11,10 @@ date: 2015-02-26 10:00:39
 
 I thought I'd write some notes on using this for a while because no one else seems to have, and other people might find it useful. 
 
+I did [exactly the things on this post](https://www.ttforum.co.uk/threads/how-to-retrofit-a-pioneer-head-unit-in-your-tt.973058/), except the HDMI/USB socket. I used a Pioneer AVICF60DAB because I wanted BBC 6 Music, all in the kit was a little over £1k, all from [caraudiodirect.co.uk](https://www.caraudiodirect.co.uk/adapters/audi/tt)
+
+![Shopping list](/images/carplay-shoppinglist.png)
+
 It might not be clear from the product pages and reviews but it's important to remember - Carplay runs on the phone, it just uses the head unit in the car as a dumb touch screen, and steering wheel buttons as additional hardware. The content on the car unit is not available, indeed it runs in parallel. Use the unit GPS directions, and music off the phone or vice versa. 
 
 That means at any time there may be two different UIs in play. Yes, that is a bit rubbish. I'll admit I'm an early adopter and maybe more tolerant of rough edges and glitches. Any one one of these might put off someone with a less tolerant attitude:
