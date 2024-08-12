@@ -3,6 +3,7 @@ title: Enabling CarPlay on an Audi TT (8S)
 date: 2024-04-18 21:22:23
 tags:
   - carplay
+  - technology
 categories:
   - technology
 ---
