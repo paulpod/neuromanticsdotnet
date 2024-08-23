@@ -3,14 +3,11 @@ title: portfolio
 date: 2021-08-31 11:55:00
 ---
 
-Visit [my Linkedin profile](https://www.linkedin.com/in/paulpod/)
-
-
 2020-now / NHS 111 online
 ===============================
 As **Interaction Designer** I joined the 111 online team in September 2020, the COVID-19 pandemic in full flow. My initial job was to add booking functionality for patients requiring an A&E visit, with all the complications that can raise. As a new concept for people to understand, it was throughly prototyped and researched with users.
 
-Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on "virtual wards", through information about vaccines and vaccination side effects. Since 2023 we have been working on returning the 111 online service to business as normal, and introducing new features.
+Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on "virtual wards", through information about vaccines and vaccination side effects. In 2023 we're working on returning the 111 online service to business as normal, with new features.
 
 * adapting 111 online to apply the NHS design system
 * adding images, sounds and video to improve triage questions
@@ -21,15 +18,15 @@ Following that I have been working on frequent improvements to the 111 online se
 * sorting out edge cases around opening and closing times
 * improving access to mental health services
 
-[![Images were added to 111 online](/images/111-images-flank.png)](/images/111-images-flank.png)
-
-One of the interesting parts of my work on 111 online was adding images to what was a telephony based triage ... so no images. But sometimes a photo or illustration can definitely help. Read more about [adding images to 111 online](/2023/06/26/adding-images-to-111-online/).
-
 [![Where we got to with asking a users sex, where relevant, and clarifying body parts ahead of a specific triage pathway](/images/sex-screens.png)](/images/sex-screens.png) 
 
-I spent most of 2022 working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research. That and my work on location are covered in more depth on my [Year Note post](/2022/12/31/year-note-2022/).
+I spent most of 2023 working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research. I’ve written up some of the work from 2022 in my [Year Note post](/2022/12/31/year-note-2022/) which covers this sex question as well as improving how to determine a users location in all circumstances.
 
-In this role I also mentored young designers and contributed to the NHS Design System.
+[![Images were added to the triage that had come from a telephony-based service](/images/111-images-flank.png)](/images/111-images-flank.png) 
+
+I wrote a bit about how we [researched and added images](/2023/06/26/adding-images-to-111-online/) to 111 online. while keeping the highest standards of accessibility and diversity.
+
+In this role I mentored young designers and contributed to the NHS design system.
 
 Visit [111 online](https://111.nhs.uk)
 
@@ -47,7 +44,7 @@ As **Interaction Designer** I mostly worked on designing a mobile app for Seedrs
 
 [![A screengrab overview of the framerx prototype](/portfolioimg/seedrs-app-map-thumb.png)](/portfolioimg/seedrs-app-prototype-map.png)
 
-Link to the app prototype on request.
+~Link to the app prototype on request.~ long decayed to bitrot
 
 
 
@@ -130,7 +127,7 @@ As the **Head of Design** my brief was to help teams at the DVLA in Swansea crea
 * apply & adapt design guidelines and best practice
 * helping build internal design capability
 * prototyping using GOVUK toolkits : NodeJS, SASS, HTML, CSS
-* mentoring and training civil service interaction designers
+* mentoring and training civil servants into interaction designers
 
 **Things:** I made a DVLA specific style guide and quickstart design kit. A large proportion of the work was continuous iteration of prototypes for Vehicle Tax and other services. The live service is at [www.gov.uk/vehicle-tax](http://www.gov.uk/vehicle-tax) and handles over 40 million transactions a year.
 
@@ -153,7 +150,9 @@ We built prototypes covering digital documents and ID, personal shopping assista
 
 We trialed technologies like Passbook and OCR, email proxy servers and web browser extensions.
 
-Scenarios were then introduced to users, with a gradual increase in utility vs intrusiveness and responses were recorded. Results were interesting!
+Scenarios were then introduced to users, with a gradual increase in utility vs intrusiveness and responses were recorded. Results were interesting! There was an appetite for understanding the exchange of data and privacy for better prices and services. 
+
+*New* This work was in 2013 but I have noticed that tools in the augemented shopper space are reaching the market so have [written a new blog post about this work](/2024/08/23/Revisiting-digital-mediated-shopping/) in a modern context.
 
 [![Datalocker montage](/portfolioimg/datalocker-montage.jpg)](/portfolioimg/datalocker-montage.jpg)
 
