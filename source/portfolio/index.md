@@ -3,11 +3,14 @@ title: portfolio
 date: 2021-08-31 11:55:00
 ---
 
+Visit [my Linkedin profile](https://www.linkedin.com/in/paulpod/)
+
+
 2020-now / NHS 111 online
 ===============================
 As **Interaction Designer** I joined the 111 online team in September 2020, the COVID-19 pandemic in full flow. My initial job was to add booking functionality for patients requiring an A&E visit, with all the complications that can raise. As a new concept for people to understand, it was throughly prototyped and researched with users.
 
-Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on "virtual wards", through information about vaccines and vaccination side effects. Now in 2023 we're working on returning the 111 online service to business as normal.
+Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on "virtual wards", through information about vaccines and vaccination side effects. Since 2023 we have been working on returning the 111 online service to business as normal, and introducing new features.
 
 * adapting 111 online to apply the NHS design system
 * adding images, sounds and video to improve triage questions
@@ -16,11 +19,17 @@ Following that I have been working on frequent improvements to the 111 online se
 * designing ways to _very vaguely_ tell people about callback times
 * better ways to let people tell us their location
 * sorting out edge cases around opening and closing times
+* improving access to mental health services
 
+[![Images were added to 111 online](/images/111-images-flank.png)](/images/111-images-flank.png)
+
+One of the interesting parts of my work on 111 online was adding images to what was a telephony based triage ... so no images. But sometimes a photo or illustration can definitely help. Read more about [adding images to 111 online](/2023/06/26/adding-images-to-111-online/).
 
 [![Where we got to with asking a users sex, where relevant, and clarifying body parts ahead of a specific triage pathway](/images/sex-screens.png)](/images/sex-screens.png) 
 
-I've spent most of the past 6 months working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research. I’ve written up some of the work from 2022 in my [Year Note post](/2022/12/31/year-note-2022/)
+I spent most of 2022 working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research. That and my work on location are covered in more depth on my [Year Note post](/2022/12/31/year-note-2022/).
+
+In this role I also mentored young designers and contributed to the NHS Design System.
 
 Visit [111 online](https://111.nhs.uk)
 
