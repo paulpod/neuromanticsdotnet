@@ -1,9 +1,7 @@
 ---
 title: On digital archeology and govenment services
 date: 2024-11-14 10:38:28
-tags: 
-	- work
- 	- technology
+tags: technology
 ---
 I’m working for a Government department again. A fairly classic brief: we‘re designing a replacement for a 25 year old service used by a relatively small number of people but it captures an important set of data from a specialist group of users. 
 
