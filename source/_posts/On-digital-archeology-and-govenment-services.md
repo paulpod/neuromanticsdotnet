@@ -1,11 +1,11 @@
 ---
-title: On digital archeology and govenment services
+title: On digital archeology and government services
 date: 2024-11-14 10:38:28
 tags: technology
 ---
 I’m working for a Government department again. A fairly classic brief: we‘re designing a replacement for a 25 year old service used by a relatively small number of people but it captures an important set of data from a specialist group of users. 
 
-It is basically digital forms. The old one being inpenetrable grey forms on small grey screens with cryptic acronyms and truncations on all the labels. It comes with an 880 page manual. Getting stuck in was very much one bite at a time, the elephant isn‘t going to eat itself. 
+It is basically digital forms. The old one being impenetrable grey forms on small grey screens with cryptic acronyms and truncations on all the labels. It comes with an 880 page manual. Getting stuck in was very much one bite at a time, the elephant isn‘t going to eat itself. 
 
 One fun quirk is that it was built on Oracle, so every field can be used as a database query. I guess that’s what things look like when you are a database company?
 
