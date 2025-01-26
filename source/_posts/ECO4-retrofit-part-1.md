@@ -10,10 +10,12 @@ If like me you live in an old stone cottage with no mains gas, or water you migh
 I wasn’t jumping on it though, as the scheme was rightly targeted at low income, benefit receiving households -  that’s not us. 
 
 But there was a route, called **ECO Flex**, that covered a small range of medical conditions to qualify. Which ones?
+
 * Cardiovascular conditions
 * Respiratory disease
 * Limited mobility
 * Immunosuppression
+
 Ok, that's me. Despite being pretty well at the moment, I did actually qualify with my various cardiac conditions.
 
 OK, how? And who, to do it? The county council had a webpage with suppliers they vouched for, so I looked at the Trustpilot reviews for all of them, and picked a very local firm who had top scores - [Stellar Enegy of Llanelli](https://www.stellarenergy.org) - to see if it was possible. 
@@ -24,9 +26,15 @@ Insulation
 ===
 The internal faces of external walls, ceilings where upstairs is mostly in the roof as is our case. The flat part of the ceiling is less than 1m in parts, the newer section a little wider (but insulated to 2008 spec).
 
+
+[![Before / During](/images/house-reno-1.jpg)](/images/house-reno-1.jpg) 
+
 Now, in looking at this over the years, it's clearly problematic in old stone walled buildings. The latest spec for this is one product of breathable glass wool batts, engineered foam/osb stud wall, and an “intelligent” open vapour membrane. This is the specific product [SWIP IWI](https://www.swipiwi.co.uk/products/internal-wall-insulation/)
 
 Then boarded and plaster skimmed. Sad to see the bumpy stone walls gone but, in theory, _reversible_ on a house-lifespan timescale (it's about 200 years old). 
+
+
+[![During / After](/images/house-reno-2.jpg)](/images/house-reno-2.jpg) 
 
 Ventilation
 ===
@@ -62,7 +70,7 @@ We slide into the new year. Unexpected phone call on Monday 6th, ”We're starti
 
 Move *everything*, pack up *everything*, boxes and boxes of books and things moved, furniture piled into the centre of rooms, overflowing wardrobes vacuum packed. The whole moving (but not moving) deal. I guess do a Marie Kondo and sort and downsize many of these things on the unpacking end, which might be a nice thing to do at leisure. Far too much stuff.
 
-As I write, the internal walls are done, raw plaster drying nicely into the lightly patchy pale pink, which I think I might want to [leave it is]?(https://www.yourhomestyle.uk/home-decor/raw-plaster-walls-interior)
+As I write, the internal walls are done, raw plaster drying nicely into the lightly patchy pale pink, which I think I might want to [leave it as is?](https://www.yourhomestyle.uk/home-decor/raw-plaster-walls-interior)
 
 Scaffolding went up on Friday, the plumbers and heatpump and solar PV install starts tomorrow and may well be done in a week. 
 
