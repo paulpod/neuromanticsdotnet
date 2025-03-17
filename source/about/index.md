@@ -3,7 +3,7 @@ title: About
 date: 2011-01-07 11:22:03
 ---
 
-Hello, my name is Paul and this is my intermittent blog and website. I write more regularly on ~~[Twitter as @paulpod](http://twitter.com/paulpod "@paulpod on Twitter")~~ Bluesky as @paulpod](https://bsky.app/profile/paulpod.bsky.social "@paulpod on Bluesky"), used to put photos on [Flickr as paulpod](http://flickr.com/paulpod "Flickr photos") but use [Instagram more](https://www.instagram.com/paulpod/ "Instagram photos"). And ~~[@paulpod@mastodon.cloud](https://mastodon.cloud/web/accounts/7288#)~~ now rarely.
+Hello, my name is Paul and this is my intermittent blog and website. I write more regularly on ~~[Twitter as @paulpod](http://twitter.com/paulpod "@paulpod on Twitter")~~ [Bluesky as @paulpod](https://bsky.app/profile/paulpod.bsky.social "@paulpod on Bluesky"), used to put photos on [Flickr as paulpod](http://flickr.com/paulpod "Flickr photos") but use [Instagram more](https://www.instagram.com/paulpod/ "Instagram photos"). And ~~[@paulpod@mastodon.cloud](https://mastodon.cloud/web/accounts/7288#)~~ now rarely.
 
 I’m a designer, my [portfolio is here http://SP1.ME](http://sp1.me "My Portfolio") and this is my [Linkedin profile](http://uk.linkedin.com/in/paulpod "Paulpod on Linkedin"). 
 
