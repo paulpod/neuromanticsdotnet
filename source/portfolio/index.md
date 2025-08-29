@@ -13,7 +13,7 @@ An opportunity arose to pitch an alternative to the vast MS Dynamics-based strat
 
 [![Sample screens from part of the flow for our speculative end-to-end licence application service](/images/screens-for-wrls-pitch.png)](/images/screens-for-wrls-pitch.png) 
 
-This was followed by designing a way for users of the existing online Licence Service to investigate previous versions of licences, tracing changed across the history of a water resource.
+This was followed by designing a way for users of the existing online Licensing Service to investigate previous versions of licences, tracing changes across the history of a water resource.
 
 * designing in code: building prototypes for user research
 * working on a speculative pitch to replace the entire end-to-end wider licensing system
@@ -31,7 +31,7 @@ Following that I have been working on frequent improvements to the 111 online se
 * adding images, sounds and video to improve triage questions
 * updating user flows to detect, ask and confirm location
 * improving less urgent outcomes: dentists, opticians, midwifery
-* designing ways to _very vaguely_ tell people about callback times
+* designing ways to deliberately and  _very vaguely_ tell people about callback times
 * better ways to let people tell us their location
 * sorting out edge cases around opening and closing times
 * improving access to mental health services
