@@ -5,7 +5,7 @@ date: 2025-08-29 11:55:00
 
 2024-25 / Defra / Environment Agency
 ===============================
-Water Resources Licencing Service
+Water Resources Licensing Service
 ---------------
 Working as **Interaction Designer** I joined the WRLS team in September 2024. The initial brief was to design a replacement for an existing 1990s database frontend with a more modern GOV.UK service, reminaging data entry into a more user friendly process that didn't require months of training to use correctly.
 
