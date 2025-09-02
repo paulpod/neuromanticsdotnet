@@ -48,7 +48,7 @@ I spent most of 2023 working on a more inclusive way to ask people their sex bef
 
 I wrote a bit about how we [researched and added images](/2023/06/26/adding-images-to-111-online/) to 111 online. while keeping the highest standards of accessibility and diversity.
 
-In this role I mentored young designers and contributed to the NHS design system.
+In this role I mentored young designers and contributed to the NHS design system. I [wrote up a series of explorations on dark mode](https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-2328681420) for the NHS design system. 
 
 Visit [111 online](https://111.nhs.uk)
 
