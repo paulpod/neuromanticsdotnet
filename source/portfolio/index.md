@@ -2,14 +2,16 @@
 title: portfolio
 date: 2025-08-29 11:55:00
 ---
-
+{% raw %}
+<a name="defra"></a>
+{% endraw %}
 2024-25 / Defra / Environment Agency
 ===============================
 Water Resources Licensing Service
 ---------------
-Working as **Interaction Designer** I joined the WRLS team in September 2024. The initial brief was to design a replacement for an existing 1990s database frontend with a more modern GOV.UK service, reminaging data entry into a more user friendly process that didn't require months of training to use correctly.
+Working as **Interaction Designer** I joined the WRLS team in September 2024. The initial brief was to design a replacement for an existing 1990s database frontend with a more modern GOV.UK service, redesigning data entry into a more user friendly process that won’t require months of training to use correctly.
 
-An opportunity arose to pitch an alternative to the vast MS Dynamics-based strategic programme, so quickly worked with a small team to create a speculative solution for that.
+Also, an opportunity arose to pitch an alternative to the vast MS Dynamics-based strategic programme, so quickly worked with a small team to create a speculative solution for that:
 
 [![Sample screens from part of the flow for our speculative end-to-end licence application service](/images/screens-for-wrls-pitch.png)](/images/screens-for-wrls-pitch.png) 
 
@@ -20,7 +22,9 @@ This was followed by designing a way for users of the existing online Licensing 
 * new UI and userflows to investigate history, changes and versions of licences
 * improving the overall service with new navigation
 
-
+{% raw %}
+<a name="nhs-111online"></a>
+{% endraw %}
 2020-24 / NHS 111 online
 ===============================
 As **Interaction Designer** I joined the 111 online team in September 2020, the COVID-19 pandemic in full flow. My initial job was to add booking functionality for patients requiring an A&E visit, with all the complications that can raise. As a new concept for people to understand, it was throughly prototyped and researched with users.
@@ -49,7 +53,9 @@ In this role I mentored young designers and contributed to the NHS design system
 Visit [111 online](https://111.nhs.uk)
 
 
-
+{% raw %}
+<a name="seedrs"></a>
+{% endraw %}
 2019-20 / Seedrs
 ===============================
 As **Interaction Designer** I mostly worked on designing a mobile app for Seedrs users. I've used Framer X to make a number of high fidelity, deep prototypes as well as conducting user research to design the right thing.
@@ -65,7 +71,9 @@ As **Interaction Designer** I mostly worked on designing a mobile app for Seedrs
 ~Link to the app prototype on request.~ long decayed to bitrot
 
 
-
+{% raw %}
+<a name="nhs-servicefinder"></a>
+{% endraw %}
 2017-19 / NHS Digital, Urgent and Emergency Care
 ===============================
 As **Interaction Designer** I have worked on products for healthcare professionals to access and improve the Directory of Services, a piece of core national infrastructure that allows patients to be referred to the most appropriate service for their condition, location and urgency.
@@ -89,7 +97,9 @@ I have written up a comprehensive exploration of the [search design that is cent
 
 Profile Updater is a tool that allows service operators (in the first iteration, pharmacies) to update the central NHS directory of services with their opening times and the specific patient services they offer. 
 
-
+{% raw %}
+<a name="dit"></a>
+{% endraw %}
 2017 / Department for International Trade
 ===============================
 As the **Lead Designer** I worked on a part of the GREAT campaign website that was intended to handle enquiries about inward investment. Unfortunately due to the realities around Brexit, there were few user needs we could actually meet, so the project was cancelled.
@@ -97,7 +107,9 @@ As the **Lead Designer** I worked on a part of the GREAT campaign website that w
 * applying deep user research to personas, segmentation
 * prototyping using toolkits : NodeJS, SASS, HTML, CSS
 
-
+{% raw %}
+<a name="unilever"></a>
+{% endraw %}
 2016 / Fjord + Unilever
 ===============================
 As **Interaction Designer** I worked on a small innovation project to prototype a chatbot to relieve pressure on HR teams attending to frequently asked questions and tasks for employees.
@@ -118,7 +130,9 @@ Here's a slightly cheesy video about it.
 {% endraw %}
 
 
-
+{% raw %}
+<a name="gaincapital"></a>
+{% endraw %}
 2016 / Gain Capital, City Index
 ===============================
 As the **Lead Designer** I was brought in to kickstart a dramatic refresh of retail trading platforms. The existing flash-based platform had an end of life on the horizon, and moving to a new HTML5 technology stack provided the opportunity to bring user-centred design principles to the problem.
@@ -134,7 +148,9 @@ As the **Lead Designer** I was brought in to kickstart a dramatic refresh of ret
 
 
 
-
+{% raw %}
+<a name="dvla"></a>
+{% endraw %}
 2014-15 / Government Digital Service @ DVLA
 ===========================================
 As the **Head of Design** my brief was to help teams at the DVLA in Swansea create and improve world-class digital public services. As well as an overall design leadership role, I was lead designer on the popular *Tax your vehicle* service.
@@ -199,6 +215,10 @@ As a micro-sized exploration of the Smart Cities meme, identifying and applying 
 
 [More of this work is collected as a PDF](/portfolioimg/localsocial.pdf)
 
+{% raw %}
+<a name="physicalux"></a>
+{% endraw %}
+
 Physical UX
 ---
 I worked with a small team designing and implementing the electronics on Android IOIO boards for a 'screenless' messaging prototype aimed at the elderly and digitally excluded. 
@@ -221,6 +241,10 @@ The promotional site was ~~is at [www.getaradiome.com](http://www.getaradiome.co
 
 It was a short fun project, for me, going from zero to coding and soldering working prototypes in a few weeks but the work from the Barcelona team in bringing it to market, even in a limited form, was amazing.
 
+{% raw %}
+<a name="digitalretail"></a>
+{% endraw %}
+
 Digital Retail Analytics
 ------------------------
 Indoor positioning, iBeacons, Passbook — location-based digital loyalty.
@@ -240,6 +264,9 @@ Alongside, we were working with live installed store tracking technologies and d
 
 Older work
 ---
+{% raw %}
+<a name="labguru"></a>
+{% endraw %}
 2012 / LabGuru / Biodata / Digital Science
 ===
 I was brought in as a remote consulting designer to attempt a rationalisation of the UI and other elements in a laboratory management service.
@@ -249,7 +276,9 @@ As a fast growing Israel-based startup, Biodata had added features and views in 
 
 Without the scope for a complete redesign, we opted for a rational tidy up and a refresh of the visual language. The work is presented here as a set of guidelines.
 
-
+{% raw %}
+<a name="mas"></a>
+{% endraw %}
 2012 / Money Advice Service
 ===
 I created a strategy and vision video, prototyping and explaining future concepts for board level discussion as to how and where the Money Advice Service could leverage their unique position in the financial sector.
@@ -266,7 +295,9 @@ I followed this with a refreshed brand identity for digital use and art directed
 
 [![Money Advice Service guides](/portfolioimg/money-guide.jpg)](/portfolioimg/money-guide.jpg)
 
-
+{% raw %}
+<a name="artfinder"></a>
+{% endraw %}
 2010-2012 / Artfinder
 ===
 As part of the founding team, I had a head of product / design role.
@@ -295,6 +326,9 @@ I created a strategy for a sustainable, authentic and eco-focused print and fram
 
 Highlights of older work
 ===
+{% raw %}
+<a name="emi"></a>
+{% endraw %}
 2009-2010 - EMI Music, digital product development
 ---
 
@@ -320,7 +354,16 @@ One full-size product was released based on these concepts before EMI Music was 
 
 I guess it looks a bit rough these days but it was developed in 2010 and was intended to be web native rather than locking into apps, with the limitations that creates.
 
+{% raw %}
+<a name="tioti"></a>
+{% endraw %}
+2005-2008 - TIOTI : Tape it off the internet
+---
+Internet storytime ... ask me about it one day.
 
+{% raw %}
+<a name="neurotv"></a>
+{% endraw %}
 2005 - BBC Concept for non linear internet TV
 ---
 {% raw %}
@@ -335,7 +378,9 @@ Love this bit of work we did for the BBC: concepting a future TV _cloud_ around 
 
 Longer design document with [words and pictures here (PDF)](/images/bbc_neurotv_1.pdf)
 
-
+{% raw %}
+<a name="light3000"></a>
+{% endraw %}
 2004 - The Light 3000 music video (unfinished)
 ---
 {% raw %}
