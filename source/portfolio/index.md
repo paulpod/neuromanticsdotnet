@@ -29,7 +29,7 @@ This was followed by designing a way for users of the existing online Licensing 
 ===============================
 As **Interaction Designer** I joined the 111 online team in September 2020, the COVID-19 pandemic in full flow. My initial job was to add booking functionality for patients requiring an A&E visit, with all the complications that can raise. As a new concept for people to understand, it was throughly prototyped and researched with users.
 
-Following that I have been working on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on "virtual wards", through information about vaccines and vaccination side effects. In 2023 we're working on returning the 111 online service to business as normal, with new features.
+Following that I worked on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on "virtual wards", through information about vaccines and vaccination side effects. In 2023 we worked on returning the 111 online service to business as normal, with new features.
 
 * adapting 111 online to apply the NHS design system
 * adding images, sounds and video to improve triage questions
