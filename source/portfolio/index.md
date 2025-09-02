@@ -137,17 +137,20 @@ As the **Lead Designer** I was brought in to kickstart a dramatic refresh of ret
 
 2014-15 / Government Digital Service @ DVLA
 ===========================================
-As the **Head of Design** my brief was to help teams at the DVLA in Swansea create and improve world-class digital public services.
+As the **Head of Design** my brief was to help teams at the DVLA in Swansea create and improve world-class digital public services. As well as an overall design leadership role, I was lead designer on the popular *Tax your vehicle* service.
 
 [![DVLA montage](/portfolioimg/dvla-pics.jpg)](/portfolioimg/dvla-pics.jpg)
 
-* content design: less is usually more
+* helping with content design: less is usually more
+* lead designer on Tax your vehicle
 * apply & adapt design guidelines and best practice
 * helping build internal design capability
 * prototyping using GOVUK toolkits : NodeJS, SASS, HTML, CSS
 * mentoring and training civil servants into interaction designers
 
-**Things:** I made a DVLA specific style guide and quickstart design kit. A large proportion of the work was continuous iteration of prototypes for Vehicle Tax and other services. The live service is at [www.gov.uk/vehicle-tax](http://www.gov.uk/vehicle-tax) and handles over 40 million transactions a year.
+**Things:** I made a DVLA specific style guide and quickstart design kit. 
+
+A large proportion of the work was continuous iteration of prototypes for Vehicle Tax and other services. The live service is at [www.gov.uk/vehicle-tax](http://www.gov.uk/vehicle-tax) and handles over 40 million transactions a year.
 
 Yeah, that's my registration used as the example on a bunch of the services, like [Checking the MOT status](https://www.gov.uk/check-mot-status) and others.
 
