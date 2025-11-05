@@ -7,7 +7,7 @@ tags: Music
 I'm between jobs, and have had a bit of an itch to scratch regarding music playback technology and how we actually interact with it. The journey has inspired some new ideas that could work towards a new type of music player. 
 
 ## Music
-We love music. When COVID hit [I got into making it](Music-update). Most of us love listening to music, sometimes digitally, which used to require a dedicated device and more often than not, is now an app on a more universal device. Maybe you used to make mixtapes, now playlists.
+We love music. When COVID hit [I got into making it](https://neuromantics.net/2020/06/16/music-update/). Most of us love listening to music, sometimes digitally, which used to require a dedicated device and more often than not, is now an app on a more universal device. Maybe you used to make mixtapes, now playlists.
 
 ## From physical to digital
 The convenience of playing music digitally is considerable. CDs were great, I never fully got into the habit of buying vinyl. So big, fragile and heavy! Although once you accumulate a certain number of CDs you learn they are also big and heavy.
