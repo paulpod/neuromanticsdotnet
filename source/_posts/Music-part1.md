@@ -46,7 +46,7 @@ Quite niche, and consequently hard to find. But I had a dim recollection of CDJs
 
 Still, eBay rewards patience, and one [bargain CDJ-900 later](https://www.pioneerdj.com/en-gb/product/player/archive/cdj-900/black/overview/) I can play, and play with_ CDs again. 
 
-[![It is big](/images/cdj-900-large.png)](/images/cdj-900-large.png)
+[![It is big](/images/cdj-900-large.jpg)](/images/cdj-900-large.jpg)
 
 ## What is old is new
 Play _with..._ yeah, interesting. Now, this is a 16 year old CD player for a very specific use case. It does some things I had not realised it would do, and I'm going to describe these from my complete newbie perspective - apologies if this is annoying.
