@@ -2,6 +2,19 @@
 title: portfolio
 date: 2025-08-29 11:55:00
 ---
+# Portfolio
+Experienced designer, founder, product, ideas. Ex GOV, NHS, GDS, startups. Available now.
+
+**Designer of three of the most used online public services:** NHS 111, Tax your vehicle, and Check MOT history, each with tens of millions of users probably including you.
+
+ So, extensive GOV.UK, GDS and NHS digital experience. But! I am open to *designing non-gov related* products, services and also music tech curious. I have worked in most areas - fintech (including trading), music, internet TV, telcos and have a digital agency background.
+
+**Makes prototypes:** I prefer making things to drawing pictures of things. Variety over specialism. Quick and dirty over finished and polished. 
+
+Learn. Repeat. Learn. Repeat. This is what Design means in agile.
+
+Tinkerer with all sorts of interesting things, so many wonderful toys. Electronic music botherer.
+
 {% raw %}
 <a name="defra"></a>
 {% endraw %}
@@ -42,13 +55,15 @@ Following that I worked on frequent improvements to the 111 online service as th
 
 [![Where we got to with asking a users sex, where relevant, and clarifying body parts ahead of a specific triage pathway](/images/sex-screens.png)](/images/sex-screens.png) 
 
-I spent most of 2023 working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research. I’ve written up some of the work from 2022 in my [Year Note post](/2022/12/31/year-note-2022/) which covers this sex question as well as improving how to determine a users location in all circumstances.
+I spent most of 2023 working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research. I’ve [written up some of the work from 2022 in my Year Note post](/2022/12/31/year-note-2022/) which covers this sex question as well as improving how to determine a users location in all circumstances.
 
 [![Images were added to the triage that had come from a telephony-based service](/images/111-images-flank.png)](/images/111-images-flank.png) 
 
 I wrote a bit about how we [researched and added images](/2023/06/26/adding-images-to-111-online/) to 111 online. while keeping the highest standards of accessibility and diversity.
 
-In this role I mentored young designers and contributed to the NHS design system. I [wrote up a series of explorations on dark mode](https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/453#issuecomment-2328681420) for the NHS design system. 
+In this role I mentored young designers and contributed to the NHS design system. 
+
+Here I [wrote up a series of explorations on dark mode](https://neuromantics.net/2025/11/17/dark-mode-for-nhs-111/) for the NHS design system. 
 
 Visit [111 online](https://111.nhs.uk)
 
