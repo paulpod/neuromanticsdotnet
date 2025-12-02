@@ -1,0 +1,54 @@
+---
+title: Music, part 3
+date: 2025-11-18 11:23:23
+tags: Music
+---
+
+I have become far too distracted documenting my journey towards some ideas, so let's park that for now and create some designs of a future music player.
+
+## What makes it so immersive?
+
+I am not a real DJ, so these are my observations playing favourites and "blind" picks for fun, at home - and even there, fully getting into a bit of a flow-state:
+
+- you might not know the track, so you only get a brief look ahead to decide where the next one fits
+- the analysed visuals of the waveform, and the phrases helps a lot
+- the time jeopardy of only 5-6 minutes to mix into the next track
+- if you are not playing off a playlist, that is not long to choose your next tune
+- decisions, which track, and a choice on how to mix it in grab your focus
+- line it up and dial in the bpm, unless you use the sync button, takes a few moments
+- on-the-beat timing requires total attention, followed by a tweak if you miss it
+- enjoy a longer blend, mixing in the EQ bands - I am spoilt by the 7 bands of the DJM2000
+- if that goes nicely, it is a real peak of enjoyment, attention and reward
+- once it's in, resetting the dials for the next one
+- and start again ... 
+
+While you _could_ automate some of that into an Ai assisted workflow, to do so would be to miss the point entirely.
+
+
+
+
+
+
+
+
+
+
+
+[![Rekordbox library view](/images/rekordbox-library.png)](/images/rekordbox-library.png)
+
+
+
+{% raw %}
+<video controls playsinline width="100%">
+	<source src="/images/rekordbox-one-deck.mp4" type='video/mp4' />
+	
+	Sorry, your browser doesn't support embedded videos.
+</video>
+{% endraw %}
+
+
+
+
+
+
+

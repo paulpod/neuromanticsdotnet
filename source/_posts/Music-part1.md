@@ -17,12 +17,14 @@ The convenience of playing music digitally is considerable. CDs were great, I ne
 When digital music files appeared in the 90s it was literally a weight off my shoulders. I kept buying CDs for quite a few more years, but being able to move the music on them around freely was a joy.
 
 ## Innovation and evolution
-Innovation was rapid, and exciting. Winamp, Soundjam and iTunes leapt into the future. The iPod and iPhone trace their lineage directly. These are interesting stories in their own right: [Straight Dope on the IPod's Birth](), Wired
+Innovation was rapid, and exciting. In the 16-bit era I had played with MOD trackers, and later Winamp, Soundjam and iTunes leapt into the future. The iPod and iPhone trace their lineage directly. These are interesting stories in their own right: [Straight Dope on the IPod's Birth](), Wired
+
+[![Software music players, from MOD Trackers to iTunes](/images/history-of-players.png)](/images/history-of-players.png)
 
 ## Holding back the flood
 The iTunes music store (and other online platforms for purchasing digital media) was not equally great. It tried to be, the brief had to be "make it easier than copying a file" but also needed [DRM](https://en.wikipedia.org/wiki/Digital_rights_management) to prevent onwards-copying, which leads to squeezing you into a specific player and platform. Not as much fun, and as I understand it was the demand of the major record labels, not the platforms, or artists - as [Steve Jobs made clear](https://web.archive.org/web/20070207234839/http://www.apple.com/hotnews/thoughtsonmusic/).
 
-It feels like a fumble of the ideal medium at that point. Streaming came in, and quickly became ubiquitous, rendering the question of a "file" and "copying" meaningless. A link was sufficient.
+It feels like a fumble of the ideal medium at that point. Streaming came in, and quickly became ubiquitous, rendering the question of a "file" and "copying" meaningless. A link was sufficient. But also, ownership and tending to your files evaporated. Mostly for the good, I think, but the infinite pool of music feels like a loss somehow.
 
 ## A parallel evolution: DJ Tech
 Meanwhile, a different digital media story was unfolding elsewhere. Less visible but equally innovative. The CDJ was being developed and refined as a tool for DJs to play digital music.

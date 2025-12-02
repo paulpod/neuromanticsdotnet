@@ -7,13 +7,110 @@ Experienced designer, founder, product, ideas. Ex GOV, NHS, GDS, startups. Avail
 
 **Designer of three of the most used online public services:** NHS 111, Tax your vehicle, and Check MOT history, each with tens of millions of users probably including you.
 
- So, extensive GOV.UK, GDS and NHS digital experience. But! I am open to *designing non-gov related* products, services and also music tech curious. I have worked in most areas - fintech (including trading), music, internet TV, telcos and have a digital agency background.
+{% raw %}
+<figure>
+<div class="gallery">
+<img src="/portfolioimg/portfolio-top-01.png" class="spar3">
+<img src="/portfolioimg/portfolio-top-03.png">
+<img src="/portfolioimg/portfolio-top-05.png">
+<img src="/portfolioimg/portfolio-top-08.png" class="spare">
+<img src="/portfolioimg/portfolio-top-10.png">
+</div>
+<figcaption>
+		<span class="spare">Older work, </span>
+		 L<span class="spar3">eft</span> to R<span class="spar3">ight</span>: 
+		<span class="spar3">EMI Music, </span>Telefonica, Tax your vehicle, <span class="spar3">Sway.ly, </span>City Index</span>
+		
+	</figcaption>
+	
+</figure>
+<style>
+.gallery {
+display: grid;
+grid-gap: 5px;
+}
+
+figure {
+	margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+figcaption {
+	color: #999;
+	margin: 6px 0 0 0;
+	font-size: 90%;
+}
+@media (max-width: 575.98px) {
+    .gallery {
+        display: none;
+    }
+    figure {
+    	display: none;
+    }
+}
+@media (max-width: 768.98px) and (min-width: 576px) {
+    .gallery {
+        display: none;
+    }
+    figure {
+    	display: none;
+    }
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .spare {
+		display: none;
+    } 
+    .spar3 {
+		display: none;
+	}
+}
+@media (max-width: 1199.98px) and (min-width: 992px) {
+    .gallery {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+    .spare {
+		display: none;
+	}
+}
+@media (min-width: 1200px) {
+    .gallery {
+        grid-template-columns: repeat(5, 1fr); 
+    }
+}
+
+</style>
+{% endraw %}
+
+So, extensive GOV.UK, GDS and NHS digital experience. But! I am open to *designing non-gov related* products, services and also music tech curious. I have worked in most areas - fintech (including trading), music, internet TV, telcos and have a digital agency background.
 
 **Makes prototypes:** I prefer making things to drawing pictures of things. Variety over specialism. Quick and dirty over finished and polished. 
 
 Learn. Repeat. Learn. Repeat. This is what Design means in agile.
 
-Tinkerer with all sorts of interesting things, so many wonderful toys. Electronic music botherer.
+{% raw %}
+<figure>
+	<div class="gallery">
+	<img src="/portfolioimg/portfolio-top-02.png" alt="Artfinder front screen off iPad">
+	<img src="/portfolioimg/portfolio-top-04.png" alt="Seedrs dataviz montage">
+	<img src="/portfolioimg/portfolio-top-06.png" alt="NHS 111 body map illustration">
+	<img src="/portfolioimg/portfolio-top-07.png" alt="NHS 111 images for sepsis" class="spare">
+	<img src="/portfolioimg/portfolio-top-09.png" alt="Futuro Pizza delivery concept" class="spar3">
+
+	</div>
+
+	<figcaption>
+		<span class="spare">Older work, </span>
+		from L<span class="spar3">eft</span> to R<span class="spar3">ight</span>: 
+		Artfinder, Seedrs, NHS 111 images<span class="spar3">, Futuro Pizza</span>
+		
+	</figcaption>
+	
+</figure>
+{% endraw %}
 
 {% raw %}
 <a name="defra"></a>
@@ -49,6 +146,7 @@ Following that I worked on frequent improvements to the 111 online service as th
 * updating user flows to detect, ask and confirm location
 * improving less urgent outcomes: dentists, opticians, midwifery
 * designing ways to deliberately and  _very vaguely_ tell people about callback times
+here is a video about this piece of [work from the show and tell](https://youtu.be/vvYfO8RH_cI) at the time
 * better ways to let people tell us their location
 * sorting out edge cases around opening and closing times
 * improving access to mental health services
