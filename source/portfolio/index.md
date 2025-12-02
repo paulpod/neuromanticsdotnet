@@ -7,6 +7,8 @@ Experienced designer, founder, product, ideas. Ex GOV, NHS, GDS, startups. Avail
 
 **Designer of three of the most used online public services:** NHS 111, Tax your vehicle, and Check MOT history, each with tens of millions of users probably including you.
 
+Here is a [downloadable CV in PDF format](/images/paulpod-cv-20256.pdf).
+
 {% raw %}
 <figure>
 <div class="gallery">

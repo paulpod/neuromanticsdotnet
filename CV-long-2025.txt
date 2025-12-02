@@ -1,0 +1,179 @@
+PAUL POD 
+CURRICULUM VITÆ – 2025
+Introduction
+
+Designer of three of the most used online public services: NHS 111, Tax your vehicle, and Check MOT history, each with tens of millions of users probably including you.
+
+Most recently I was a contract interaction designer with Defra / Environment agency, and before that I was at the NHS as interaction designer with the product team on the 111 online service.
+
+Through COVID and the aftermath it was a hectic and demanding role. That was my second tour of duty with NHS Digital, and right before that I was designing a mobile app for start-up crowdfunder Seedrs.
+
+Previously I worked on a range of innovation projects at Telefonica Digital covering mobile, internet of things, retail and other curious subjects. I’ve also done a range of design roles at startups and larger organisations.
+
+With my own startups, Artfinder and TIOTI.com, I was co-founder and took an idea from sketch through prototype, into production through launch and beyond. Both receiving angel round funding at first, following up with a successful series A VC funded round. Tioti was acquired by Vizimo in 2008, Artfinder continues today. 
+
+GOV.UK, GDS and NHS digital experience, also open to designing non-gov related products, services and also music tech / startup curious.
+
+Makes prototypes: I prefer making things to drawing pictures of things. Variety over specialism. Quick and dirty over finished and polished. Learn. Repeat. Learn. Repeat. This is what Design means in agile.
+
+Skills
+All to an expert level, 20+ years experience
+- Interaction design: graphic design, prototyping
+- User research: conducting and analysing
+- Software development: HTML, CSS, Javascript, GPT
+- Design software: Adobe Suite, Figma, Miro, Mural, 3D and video editing
+
+Education
+1992 – 1995 : Staffordshire University
+BA (hons) Design - Electronic Media
+
+1990 – 1992 : Blackpool & Fylde College
+BTEC National Diploma Design - Graphic Design
+
+paulpod@neuromantics.net
+portfolio http://sp1.me +44 771 872 4329
+
+Sept 2024 – Oct 2025 : Defra / Environment Agency
+Design for water licensing.
+
+Working as Interaction Designer I joined the WRLS team in September 2024. The initial brief was to design a replacement for an existing 1990s database frontend with a more modern GOV.UK service, redesigning data entry into a more user friendly process that won’t require months of training to use correctly.
+
+This was followed by designing a way for users of the existing online Licensing Service to investigate previous versions of licences, tracing changes across the history of a water resource.
+
+- Designing in code: building prototypes for user research
+- Working on a speculative pitch to replace the entire end-to-end wider licensing system
+- Wew UI and userflows to investigate history, changes and versions of licences
+- Improving the overall service with new navigation
+
+Sept 2020 – Sept 2024 : NHS 111 Online
+Design for urgent and emergency healthcare in a pandemic.
+
+As Interaction Designer I joined the 111 online team in September 2020, the COVID-19 pandemic in full flow. My initial job was to add booking functionality for patients requiring an A&E visit, with all the complications that can raise. As a new concept for people to understand, it was throughly prototyped and researched with users.
+
+Following that I worked on frequent improvements to the 111 online service as the pandemic progressed - from alerts around mink, travellers from Denmark, using pulse oximeters on “virtual wards”, through information about vaccines and vaccination side effects. By 2023 we worked on returning the 111 online service to business as normal, with new features.
+
+- Adapting 111 online to apply the NHS design system
+- Adding images, sounds and video to improve triage questions
+- Updating user flows to detect, ask and confirm location
+- Improving less urgent outcomes: dentists, opticians, midwifery
+- Designing ways to deliberately and very vaguely tell people about callback times
+- Better ways to let people tell us their location
+- Sorting out edge cases around showing accurate opening and closing times
+- Improving access to mental health services
+
+In addition, I spent most of 2023 working on a more inclusive way to ask people their sex before starting a triage. Fascinating work with deep user research. 
+
+In this role I mentored young designers and contributed to the NHS design system.
+
+
+June 2019 – April 2020: Seedrs
+User research, design & prototyping a mobile app for this crowdfunding platform using Framer X.
+
+As Interaction Designer I mostly worked on designing a mobile app for Seedrs users. I’ve used Framer X to make a number of high fidelity, deep prototypes as well as conducting user research to design the right thing.
+
+- Contributing towards a design system for Seedrs
+- Redesigning and simplifying the payment flows
+- Reworking a login flow more appropriate for mobile native users
+- Mentoring younger designers
+
+2017 – 2019: NHS Digital
+Interaction designer & prototyping data orientated products to direct urgent and emergency care patients to appropriate services.
+
+- Built and launched Profile Updater (fixing data about services)
+- Built and launched Service Finder (clinical users searching for services)
+- Applying NHS/GOV.UK design guidelines as appropriate
+- User research with a range of healthcare professionals
+- Prototyping using toolkits : NodeJS, JQuery, SASS, etc
+
+Things: I worked in multidisciplinary teams that deliver live products to real users - Paramedics and Pharmacists, 999 and 111 operators.
+
+2017: Department for International Trade / Methods
+As the Lead Designer I worked on a part of the GREAT campaign website that was intended to handle enquiries about inward investment. Unfortunately due to the realities around Brexit, there were few user needs we could actually meet, so the project was cancelled.
+
+- Applying deep user research to personas, segmentation
+- Prototyping using toolkits : NodeJS, SASS, HTML, CSS
+
+2016 / Fjord + Unilever
+As Interaction Designer I worked on a small innovation project to prototype a chatbot to relieve pressure on HR teams attending to frequently asked questions and tasks for employees.
+
+- Flows and scripts for chatbot interaction
+- Prototyping using PullString, Skype Bots, Messenger Bots
+
+2016: Gain Capital / Design Lead (UX)
+As the Lead Designer I was brought in to kickstart a dramatic refresh of retail trading platforms.
+
+The existing flash-based platform had an end of life on the horizon, and moving to a new HTML5 technology stack provided the opportunity to bring user-centred design principles to the problem.
+
+I made a Gain Capital design guide, user research hub and prototyping kit. We explored and prototyped a range of trading interfaces, covering expert to beginner levels of experience.
+
+- Applying deep user research to personas, segmentation
+- Create new design guidelines
+- Helping improve internal design capability
+- Prototyping using toolkits : NodeJS, JQuery, HTML, CSS
+
+
+2014 – 2015 : GDS / Head of Design DVLA
+Providing central government design support to the Drivers & Vehicles agency – interaction and content design, enforcing guidelines, guiding internal teams.
+
+As the Head of Design my brief was to help teams at the DVLA in Swansea create and improve world-class digital public services. As well as an overall design leadership role, I was lead designer on the popular Tax your vehicle service.
+
+- Helping with content design: less is usually more
+- Lead designer on Tax your vehicle
+- Apply & adapt design guidelines and best practice
+- Helping build internal design capability
+- Prototyping using GOVUK toolkits : NodeJS, SASS, HTML, CSS
+- Mentoring and training civil servants into interaction designers
+
+Things: I made a DVLA specific style guide and quickstart design kit.
+
+A large proportion of the work was continuous iteration of prototypes for Vehicle Tax and other services. The live service is at www.gov.uk/vehicle-tax and handles over 40 million transactions a year.
+
+Earlier experience
+
+2014 : Telefonica Digital / Instore Digital retail
+Retail solutions - iBeacons, iOS Passbook and Google Wallets as part of product strategy and development.
+
+2013 : Telefonica Digital / Digital Lab
+Collaborating as part of a mostly technical team on internal innovation projects. Integrated Android with physical interface using IOIO boards, and other projects.
+
+2012 : Lab Guru / Biodata
+Complete visual and ux overhaul for a growing startup creating collaborative tools for labs.
+
+2012 : Money Advice Service
+Created a strategy and vision video, prototyping and explaining future concepts for board level discussion, a digital brand guide, consumer facing information videos for financial concepts.
+
+2010 - 2012 : Artfinder
+Co-founder and VP for product and design I helped launch an ambitious digital media project. We grew our site, launched a dozen iPad apps as well as our unique iPhone app with image recognition.
+
+2009 - 2010 : EMI Music
+Future product development - new digital products to fulfill a product line better catering to music fans.
+
+2009 : Freelance (selected projects)
+BBC & BERG: 
+Design and interactive flash prototype of crowdsourced space archeology game.
+
+Plink: Startup turning Oxford University computer vision research into mobile app, acquired by Google April 2010.
+
+Microsoft: Future concepts for audio/visual products with industrial design agency Native.
+The Incidental: Design, CSS for British Council at Milan Design Fair with design agency BERG.
+
+2006 - 2008 : Tioti.com
+Founder, designer and CEO of web 2.0 startup ‘Tape It Off The Internet’ a social network and guide for online TV.
+Tioti successfully raised VC funding and launched in 2007 and was acquired by Vizimo in 
+2008
+
+2006 : Aggregator.tv
+User experience lead for online TV startup.
+
+2006 : Poke/Zopa.com
+Lead designer on award winning Zopa, social lending and investment site with digital agency Poke.
+
+2004 - 2006 : Neuromantics
+Partner and creative director of a small independent digital design agency: visual strategy and prototyping for cutting edge new media applications, specifically IPTV, mobile, podcasting and social media. Clients included BBC, FHM, Nokia, Vodafone and Skype.
+Projects have included set-top box interfaces, brand development and guidelines, newspaper design, motion graphics.
+
+2001 – 2003 : Freelance digital agency work 
+
+1999 – 2000 : Senior Designer, Razorfish 1995 – 1997 : Xerox
+
+1995 : BT Research Labs
