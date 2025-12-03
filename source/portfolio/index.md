@@ -47,6 +47,9 @@ figcaption {
 	p, li {
 		font-size: 14px;
 	}
+	li {
+		margin-left: -28px;
+	}
     .gallery {
         display: none;
     }
@@ -57,6 +60,9 @@ figcaption {
 @media (max-width: 768.98px) and (min-width: 576px) {
 	p, li {
 		font-size: 16px;
+	}
+	li {
+		margin-left: -21px;
 	}
     .gallery {
         display: none;
