@@ -44,7 +44,7 @@ figcaption {
 	font-size: 90%;
 }
 @media (max-width: 575.98px) {
-	p {
+	p, li {
 		font-size: 14px;
 	}
     .gallery {
@@ -55,7 +55,7 @@ figcaption {
     }
 }
 @media (max-width: 768.98px) and (min-width: 576px) {
-	p {
+	p, li {
 		font-size: 16px;
 	}
     .gallery {
