@@ -44,6 +44,9 @@ figcaption {
 	font-size: 90%;
 }
 @media (max-width: 575.98px) {
+	p {
+		font-size: 14px;
+	}
     .gallery {
         display: none;
     }
@@ -52,6 +55,9 @@ figcaption {
     }
 }
 @media (max-width: 768.98px) and (min-width: 576px) {
+	p {
+		font-size: 16px;
+	}
     .gallery {
         display: none;
     }
@@ -159,7 +165,7 @@ I spent most of 2023 working on a more inclusive way to ask people their sex bef
 
 [![Images were added to the triage that had come from a telephony-based service](/images/111-images-flank.png)](/images/111-images-flank.png) 
 
-I wrote a bit about how we [researched and added images](/2023/06/26/adding-images-to-111-online/) to 111 online. while keeping the highest standards of accessibility and diversity.
+I wrote a bit about how we [researched and added images](/2023/06/26/adding-images-to-111-online/) to 111 online, while keeping the highest standards of accessibility and diversity.
 
 [![A few notes from the darkmode exploration](/portfolioimg/nhs111-darkmode-montage.png)](/portfolioimg/nhs111-darkmode-montage.png)
 
