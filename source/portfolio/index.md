@@ -219,6 +219,8 @@ Profile Updater is a tool that allows service operators (in the first iteration,
 ===============================
 As the **Lead Designer** I worked on a part of the GREAT campaign website that was intended to handle enquiries about inward investment. Unfortunately due to the realities around Brexit, there were few user needs we could actually meet, so the project was cancelled.
 
+[![Where to invest, mobile flows](/portfolioimg/dit-wheretoinvest.png)](/portfolioimg/dit-wheretoinvest.png)
+
 * applying deep user research to personas, segmentation
 * prototyping using toolkits : NodeJS, SASS, HTML, CSS
 
