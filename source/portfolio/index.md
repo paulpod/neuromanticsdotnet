@@ -390,7 +390,7 @@ Older work
 ===
 I was brought in as a remote consulting designer to attempt a rationalisation of the UI and other elements in a laboratory management service.
 
-[LabGuru design guide LabGuru design guide](/lg/guide/index.html)
+[LabGuru design guide](/lg/guide/index.html)
 As a fast growing Israel-based startup, Biodata had added features and views in an organic, agile way by the team. Over time these old and new elements had become complex and inconsistent.
 
 Without the scope for a complete redesign, we opted for a rational tidy up and a refresh of the visual language. The work is presented here as a design system with html smaple code as well as usage guidelines.
