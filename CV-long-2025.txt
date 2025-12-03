@@ -128,7 +128,7 @@ Things: I made a DVLA specific style guide and quickstart design kit.
 
 A large proportion of the work was continuous iteration of prototypes for Vehicle Tax and other services. The live service is at www.gov.uk/vehicle-tax and handles over 40 million transactions a year.
 
-Earlier experience
+Earlier experience includes
 
 2014 : Telefonica Digital / Instore Digital retail
 Retail solutions - iBeacons, iOS Passbook and Google Wallets as part of product strategy and development.

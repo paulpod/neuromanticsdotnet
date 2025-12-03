@@ -227,7 +227,9 @@ As the **Lead Designer** I worked on a part of the GREAT campaign website that w
 {% endraw %}
 2016 / Fjord + Unilever
 ===============================
-As **Interaction Designer** I worked on a small innovation project to prototype a chatbot to relieve pressure on HR teams attending to frequently asked questions and tasks for employees.
+As **Interaction Designer** I worked on a small innovation project to prototype a chatbot to relieve pressure on HR teams attending to frequently asked questions and tasks for employees. The service was platform agnostic and used MS language services to create a smarter text-input branching structure - Choose your own HR adventure.
+
+[![Example chat flow](/portfolioimg/una-sick-flow.png)](/portfolioimg/una-sick-flow.png)
 
 * flows and scripts for chatbot interaction
 * prototyping using PullString, Skype Bots, Messenger Bots
