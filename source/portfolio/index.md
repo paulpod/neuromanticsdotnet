@@ -278,8 +278,9 @@ As the **Lead Designer** I was brought in to kickstart a dramatic refresh of ret
 
 [![Gain Capital Screens](/portfolioimg/gaincap-pics.png)](/portfolioimg/gaincap-pics.png)
 
-**Things:** I made a Gain Capital design guide and prototyping kit. We explored and prototyped a range of trading interfaces, covering expert to beginner levels of experience.
+**Things:** I made a Gain Capital design guide and prototyping kit. We explored and prototyped a range of trading interfaces, covering expert to beginner levels of experience. There is a bit [more on this project here](/gainux-rebuild-x/sprintzero-flows.html).
 
+[![Gain Search Screens](/portfolioimg/gainux-search-megatabs.png)](/portfolioimg/gainux-search-megatabs.png)
 
 
 {% raw %}
