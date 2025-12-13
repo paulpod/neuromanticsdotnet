@@ -1,37 +1,34 @@
----
-title: Music, part 2
-date: 2025-11-18 11:23:23
-tags: Music
----
-In the first post in this series I talked about getting a CD player, and how that ended up in 2025 being a CDJ. Here I talk about how it's also a digital media player, and the software it uses.
+# Music, part 2: The Architecture of Flow
 
-Why does a CD player need to be a soundcard over USB and why does it have ethernet? I think the simple answer is "Rekordbox".
+In part one, I explored how a CDJ turns a CD player into an instrument—something you play *with*, not just play *from*. But the physical device is only half the story. The other half is software, and it reveals something fundamental about attention.
+
+Why does a CD player need ethernet and USB audio? The answer is Rekordbox — and understanding it might reveal what's been missing from how we interact with music.
 
 [![Software music players, from MOD Trackers to iTunes](/images/history-of-players.png)](/images/history-of-players.png)
 
-I thought I had kept up with digital music player software over the years. I remember typing in a program on my Dragon 32 that sampled sounds. But 32K isn't going to get you very far. That was followed by sound trackers in the Amiga/Atari ST era, Winamp, Soundjam, iTunes, Zune, Spotify. I'd designed music products around a few of them even. But this was new to me.
+I thought I'd kept up with music player software: early sampling on my Dragon 32 (32K doesn't get you far), trackers in the 16-bit era, Winamp, Soundjam, iTunes, Zune, Spotify. I'd even designed music products around some of them.
+
+But this was new to me.
 
 [![Rekordbox icon, see it's a box with a record in it](/images/rekordbox-logo-disection.png)](/images/rekordbox-logo-disection.png)
 
-## What's in the box?
+## Timecode and trax
 
-The Rekordbox, specifically. I had never heard of it.
+Rekordbox. I'd never heard of it.
 
-Not actually new of course. It has a [bit of a history](https://www.mixvibes.com/story).
+Not *actually* new — it has [a history](https://www.mixvibes.com/story). Mixvibes and Looptrax were sample-playing apps in the 90s. Looptrax was somewhat Ableton Live-ish. Mixvibes became a digital vinyl system — I don't recall it, but another, [Stanton Final Scratch](https://www.youtube.com/watch?v=CTd0hUxlp2A) I do remember.
 
-Mixvibes and Looptrax were sample playing music software apps in the 90s. Looptrax was a bit Ableton Live-ish I think. Mixvibes became a digital vinyl system—I don't recall it, but the [first one was Stanton Final Scratch](https://www.youtube.com/watch?v=CTd0hUxlp2A) which I do. 
+Records with timecode controlling digital playback. Looked cool, though I never used it. Pioneer DJ tapped Mixvibes in 2008 to build a digital media tool for their hardware. They called it Rekordbox.
 
-Records with timecode controlling digital playback. Looked cool, but I've never used it. They continued development and Pioneer DJ tapped Mixvibes in 2008 to build a digital media tool for their hardware, which they named Rekordbox.
+## Beyond the library
 
-## What does that do?
-
-If you're building digital media playback off USB sticks into your CD players, you'd need a file-library tool, right? At first glance, Rekordbox looks similar to other digital music libraries—the big spreadsheet view for titles, artists and other metadata:
+If you're building USB playback into CD players, you need music library management. At first glance, Rekordbox looks like other music libraries—the spreadsheet view of titles, artists, metadata:
 
 [![Rekordbox library view](/images/rekordbox-library.png)](/images/rekordbox-library.png)
 
-But it should also playback those files, ideally with all the tools represented digitally that a set of decks and mixer provide.
+But it's also a playback engine, representing all the tools that physical decks and a mixer provide—digitally.
 
-So you'd normally have buttons for playback and a progress bar, time/pitch stretching, looping and all that good stuff we found on our CDJ. Playing one track looks a bit like this:
+Standard stuff: playback controls, progress bar, time/pitch stretching, looping. Playing one track looks like this:
 
 {% raw %}
 <video width="956" height="456" loop controls="true" playsinline poster="/images/1deck.jpg" type="video/mp4">
@@ -44,9 +41,16 @@ So you'd normally have buttons for playback and a progress bar, time/pitch stret
 </video>
 {% endraw %}
 
-But it does _more…_
+But this is where it gets interesting.
 
-Here, you have multiple players—2 or 4 decks—and instead of a simple progress bar, each deck has a big visual representation of the audio waveform moving past a static playback head, as well as the "spinning" playback head on the disc, and position along the current track. It is a lot!
+## User interface for now
+
+You can run 2 or 4 decks simultaneously. Instead of a simple progress bar, each deck displays:
+
+- A large waveform moving past a static playhead
+- A "spinning" virtual disc with playhead position
+- Position markers along the track
+- All visible at once, in one place
 
 {% raw %}
 <video controls playsinline width="100%">
@@ -56,62 +60,64 @@ Here, you have multiple players—2 or 4 decks—and instead of a simple progres
 </video>
 {% endraw %}
 
-In addition there's volume and EQ for each track. That's a whole bunch of visual information representing the music, all at once and in one place. Let's break that down.
-
-- Bar and beats scrolling timeline
-- Waveform showing frequencies and volumes
-- Position in the song
-- Sections or "phrases" of the song
-- Cue points
+Plus volume and EQ for each track. It's an overwhelming amount of visual information representing music. Let's break down what you're actually seeing:
 
 [![Rekordbox player ](/images/rekordbox-player-breakdown.png)](/images/rekordbox-player-breakdown.png)
 
-Loads of stuff, but the focus of attention is the now—the playhead, which the music, represented by the scrolling beats and waveform, moves across.
+## Multiple views of now
 
-With a second track lined up, you're looking ahead a few bars, matching the beats of one tune to another. Yes, DJ mixing!
+The display shows multiple representations simultaneously:
 
-## Are you a DJ now?
+- **Bar and beats scrolling timeline** - rhythmic structure
+- **Waveform** - frequencies and volumes
+- **Position** - where you are in the song
+- **Phrases** - sections and movements
+- **Cue points** - markers you've set
 
-I have mixed records in the distant past - but it did not involve software. It was playing one record and then playing another record. Being fancy, that meant cuing up the first beat of the second track into the first beat of the last 4 bars of the first and crossfading it up. No visuals, no tech, no software! This is ... um something else.
+This isn't decoration. Each layer serves a specific cognitive function.
 
-One thing I have noticed though, it is extremely immersive. 
+Here's what's crucial: the focus of attention is **the now** — the playhead. Everything else moves past it. The scrolling beats and waveform represent what's coming, what's happening, what's just passed.
 
-## What makes it so immersive?
+With a second track lined up, you're looking ahead a few bars. You're matching beats. You're anticipating transitions. You're listening to two tracks at once, hearing where they'll align. Once that's complete, line up the _next one_, and think about the one after that.
 
-I am not a real DJ, so these are my observations playing favourites and "blind" picks for fun, at home - and even there, fully getting into a bit of a flow-state:
+This is active listening as a flow state.
 
-- you might not know the track, so you only get a brief look ahead to decide where the next one fits
-- the analysed visuals of the waveform, and the phrases helps a lot
-- the time jeopardy of only 5-6 minutes to mix into the next track
-- if you are not playing off a playlist, that is not long to choose your next tune
-- decisions, which track, and a choice on how to mix it in grab your focus
-- line it up and dial in the bpm, unless you use the sync button, takes a few moments
-- on-the-beat timing requires total attention, followed by a tweak if you miss it
-- enjoy a longer blend, mixing in the EQ bands - I am spoilt by the 7 bands of the DJM2000
-- if that goes nicely, it is a real peak of enjoyment, attention and reward
-- once it's in, resetting the dials for the next one
-- and start again ... 
+## The difference is more
 
-While you _could_ automate some of that into an Ai assisted workflow, to do so would be to miss the point entirely.
+Compare this to Spotify, iTunes, or any streaming interface. You get:
+- A static progress bar
+- Track information
+- Play/pause/skip controls
 
+You can listen, but the interface doesn't give you anything to *do* with the music. It's consumption, not engagement.
 
-## Active listening = Flow state
+Rekordbox (and DJ software generally) creates an interface where you're constantly making micro-decisions:
+- Where to set cue points
+- When to trigger loops
+- How to blend frequencies
+- When to transition
+- What to play next
 
-Quite apart from all the exciting new user interface experiences I am documenting here I discovered something else. A source of flow-state and attention that seems pretty reliable to get into. 
+## The structure of flow
 
-What is flow-state? Being in the zone, or being completely absorbed in the activity time just floats past. 
+Psychologist Mihaly Csikszentmihalyi identified the conditions for flow states:
+- Clear goals
+- Immediate feedback
+- Balance between challenge and skill
+- Loss of self-consciousness
+- Sense of control
+- Altered time perception
 
-First stumbles aside, it's not super hard to get into the basics of a nice simple mix. Select your next track, ideally in an adjacent key, beat match it in, count bars and pick up on the phrases, then blend in the high frequencies then swap over the lows at a good point.
+DJing hits every one. The goal is clear (keep people dancing, or maintain energy, or create a journey). Feedback is immediate (you hear it, you see the waveforms, you feel the crowd). The challenge scales with skill. You're too focused to be self-conscious. You control the music's flow. Time disappears.
 
-There's loads more to the art of it, but that's the competency basics i think. For extra points, swap some frequencies back over and keep the blended “new” track going a while longer with loops. Lots of fun.
+## The hypothesis
 
-There’s a nice little quote in this article from Norman Cook, on teaching mixing as a mental health therapy, here:
-https://www.theguardian.com/music/2022/jun/21/twiddle-knob-make-a-face-norman-cook-fatboy-slim-mental-health-dj-classes
+**DJing creates a flow state of active listening.**
 
-“Sometimes I can get a bit blasé about what I do for a job, and seeing that innocent joy about the way you can manipulate music: it’s exciting, it centres you, it gives you a nice warm feeling. So it’s joyful to see people who’ve been struggling going through that process.”
+Not just for the DJ, but potentially for the listener if given the right interface. What if we could design music playback that maintains some of this architecture of attention, without requiring the full skill of DJing?
 
-Ryan Keeling writes much more eloquently about it here
-https://blog.pioneerdj.com/dj-culture/flow-might-be-why-you-love-djing-so-much/
+What if we could make listening active again?
 
+That's the question that led me here, and the one I'm still exploring.
 
-
+continues…
