@@ -1,4 +1,8 @@
-# Music, part 2: The Architecture of Flow
+---
+title: Music, part 2
+date: 2025-11-18 11:23:23
+tags: Music
+---
 
 In part one, I explored how a CDJ turns a CD player into an instrument—something you play *with*, not just play *from*. But the physical device is only half the story. The other half is software, and it reveals something fundamental about attention.
 
