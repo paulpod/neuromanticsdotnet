@@ -3,6 +3,7 @@ title: Music, part 2
 date: 2025-11-18 11:23:23
 tags: Music
 ---
+In the first post in this series I talked about getting a CD player, and how that ended up in 2025 being a CDJ. Here I talk about how it is also a digital media player, and the software it uses.
 
 Why does a CD player need to be a soundcard over USB and why does it have ethernet? I think the simple answer is "Rekordbox".
 
@@ -28,15 +29,20 @@ I guess building digital media playback off USB sticks into your CD players, you
 
 But it should be able to playback those files too, ideally with all the tools represented digitally that a set of decks and mixer provide.
 
-So you'd normally have some buttons for a playback and progress bar, time/pitch stretching, looping and all that good stuff we found on our CDJ. Playing one track look like this:
+So you'd normally have some buttons for a playback and progress bar, time/pitch stretching, looping and all that good stuff we found on our CDJ. Playing one track looks a bit like this:
 
 {% raw %}
-<video controls playsinline width="100%">
-	<source src="/images/rekordbox-one-deck.mp4" type='video/mp4' />
+<video width="956" height="456" loop controls="true" playsinline poster="/images/1deck.jpg" type="video/mp4">
+    <source src="/images/rekordbox-one-deck.mp4" type="video/mp4"/>
+
+
+	
 	
 	Sorry, your browser doesn't support embedded videos.
 </video>
 {% endraw %}
+
+But it does more...
 
 Here, you have multiple players represented - 2 or 4 decks - and instead of a simple progress bar, each deck has a big visual representation of the audio waveform moving past a static playback head, as well as the "spinning" playback head on the disc, and position of the playback along the current track. It is a lot!
 
@@ -50,6 +56,17 @@ Here, you have multiple players represented - 2 or 4 decks - and instead of a si
 
 In addition there is volume and eq for each track. That's a whole bunch of visual information representing the music, all at once and in one place. Let's break that down.
 
+- Bar and beats scrolling timeline
+- Waveform showing frequencies and volumes
+- Position in the song
+- Sections or "phrases" of the song
+- Cue points
+
+[![Rekordbox player ](/images/rekordbox-player-breakdown.png)](/images/rekordbox-player-breakdown.png)
+
+Loads of stuff, but the focus of attention is **the now** - the playhead, which the music, represented by the scrolling beats and waveform move across. 
+
+With a second track lined up, you are looking ahead a few bars, you match the beats up of one tune to another.
 
 
 
@@ -57,24 +74,5 @@ In addition there is volume and eq for each track. That's a whole bunch of visua
 
 
 
-
-[![Separated at birth?](/images/cdj-ipod.png)](/images/cdj-ipod.png)
-
-## Push the button
-It is of course worth noting that *like the first iPod*, it has a physically moving jog wheel. Connected but separate to that, the platter is a touch sensitive surface, pressure responsive too, with a circular screen in the middle of it. 
-
-A dial controls the response to simulate vinyl with a slowing touch, stop and speed up, or tight and instant, like digital, or somewhere in between. Thoughtful detail.
-
-[![Circular screen](/images/cdj-900-jogscreen.png)](/images/cdj-900-jogscreen.png)
-
-## Round and round
-The circular screen in the middle is curious, it's made up of fixed LEDs and does some subtle modal things but mostly provides visual spinning feedback for the placement of a virtual playhead on the record. Which, yes, is the inverse of an actual needle on a stylus, but makes sense I suppose. I think mainly it helps orientate the playhead when scratching.
-
-Yes you can scratch it, like vinyl, and this model has functions to let you do that but return it to the beat, in time (called Slip). It has a USB stick port and there's a chunky screen, and a dial for file browsing playback off that. Lots of buttons, mostly single function. Honestly, it's more like controls on a pre-2010s car, there is no touch screen (which is good). It is built like a tank.
-
-## Connectivity
-I have a nice Arcam thing with a DAC running active speakers, so wanted something with digital out. Perfect. As well as the slot on top for a USB stick, this CDJ has a second USB for audio in. What? Yeah, it can work as a sound card,  USB audio out from your laptop. Also it has ethernet. Eh?
-
-And this where things started to get interesting.
 
 continues...
