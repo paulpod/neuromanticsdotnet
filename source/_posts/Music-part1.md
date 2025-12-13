@@ -80,4 +80,4 @@ I have a nice Arcam thing with a DAC running active speakers, so wanted somethin
 
 And this where things started to get interesting.
 
-continues...
+[continues...](https://neuromantics.net/2025/11/18/music-part2/)
