@@ -4,7 +4,7 @@ date: 2025-11-18 11:23:23
 tags: Music
 ---
 
-In part one, I explored how a CDJ turns a CD player into an instrument—something you play *with*, not just play *from*. But the physical device is only half the story. The other half is software, and it reveals something fundamental about attention.
+In [part one, I explored](https://neuromantics.net/2025/11/05/music-part1/) how a CDJ turns a CD player into an instrument—something you play *with*, not just play *from*. But the physical device is only half the story. The other half is software, and it reveals something fundamental about attention.
 
 Why does a CD player need ethernet and USB audio? The answer is Rekordbox — and understanding it might reveal what's been missing from how we interact with music.
 
