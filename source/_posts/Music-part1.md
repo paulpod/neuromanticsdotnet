@@ -4,7 +4,7 @@ date: 2025-11-05 12:57:49
 tags: Music
 ---
 
-I'm between jobs, and have had a bit of an itch to scratch regarding music playback technology and how we actually interact with it. The journey has inspired some new ideas that could work towards a new type of music player — one that might change how we pay attention to music itself.
+I've taken a break [from the usual](https://www.linkedin.com/in/paulpod/) to scratch a design itch regarding music playback technology and how we actually interact with it. The journey has inspired some new ideas that could work towards a new type of music player — one that might change how we pay attention to music itself.
 
 [![Imagining a new type of music player](/images/imagine-music.png)](/images/imagine-music.png)
 
@@ -14,6 +14,10 @@ We love music. Most of us love listening to it, at least. But somewhere along th
 When COVID hit, [I got into making music](https://neuromantics.net/2020/06/16/music-update/). Making music forces you to listen differently—actively, critically, structurally. You hear the parts, not just the whole. 
 
 Maybe you used to [make mixtapes](https://neuromantics.net/mixtapes/), now playlists. But playing music back? That's remained passive for most of us.
+
+What if it didn't have to be? What if listening to music wasn't passive? I think DJing creates a flow state of active listening — and not just for the DJ. Something in the interface itself creates a fundamentally different relationship with music. 
+
+But first, a little bit of history and unboxing...
 
 ## From physical to digital
 The shift from physical to digital music was about convenience. CDs were great — I never fully got into vinyl. So big, fragile and heavy! Although once you accumulate enough CDs you learn they're also big and heavy.
