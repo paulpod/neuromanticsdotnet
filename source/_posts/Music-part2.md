@@ -26,11 +26,11 @@ Records with timecode controlling digital playback. Looked cool, though I never 
 
 ## Beyond the library
 
-If you're building USB playback into CD players, you need music library management. At first glance, Rekordbox looks like other music libraries—the spreadsheet view of titles, artists, metadata:
+If you're building USB playback into CD players, you need music library management. At first glance, Rekordbox looks like other music libraries — the spreadsheet view of titles, artists, metadata:
 
 [![Rekordbox library view](/images/rekordbox-library.png)](/images/rekordbox-library.png)
 
-But it's also a playback engine, representing all the tools that physical decks and a mixer provide—digitally.
+But it's also a playback engine, representing all the tools that physical decks and a mixer provide — digitally.
 
 Standard stuff: playback controls, progress bar, time/pitch stretching, looping. Playing one track looks like this:
 
@@ -86,7 +86,7 @@ With a second track lined up, you're looking ahead a few bars. You're matching b
 
 This is active listening as a flow state.
 
-## The difference is more
+## More is more
 
 Compare this to Spotify, iTunes, or any streaming interface. You get:
 - A static progress bar
@@ -104,7 +104,9 @@ Rekordbox (and DJ software generally) creates an interface where you're constant
 
 ## The structure of flow
 
-Psychologist Mihaly Csikszentmihalyi identified the conditions for flow states:
+Mihaly Csikszentmihalyi's [famous TED Talk, "Flow, the secret to happiness,"](https://www.youtube.com/watch?v=fXIeFJCqsPs) explains his concept of "flow"—a state of deep engagement where you're so immersed in an activity that nothing else matters, leading to optimal experience, focus, and intrinsic enjoyment.
+
+Csikszentmihalyi identified the conditions for flow states:
 - Clear goals
 - Immediate feedback
 - Balance between challenge and skill
