@@ -15,7 +15,7 @@ When COVID hit, [I got into making music](https://neuromantics.net/2020/06/16/mu
 
 But playing music back? That's remained passive for most of us. Maybe you used to [make mixtapes](https://neuromantics.net/mixtapes/), now playlists. 
 
-What if it didn't have to be? What if listening to music wasn't passive? I think DJing creates a flow state of active listening — and not just for the DJ. Something in the interface itself creates a fundamentally different relationship with music. 
+What if listening to music wasn't passive? What if being more engaged with the sequencing of what's playing was enough to snap into that state? The hypothesis I want to sketch out, is that DJing creates a flow state of active listening — and not just for the DJ. Something in the interface itself creates a fundamentally different relationship with music. 
 
 But first, a little bit of history and unboxing...
 
