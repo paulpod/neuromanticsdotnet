@@ -104,7 +104,7 @@ Rekordbox (and DJ software generally) creates an interface where you're constant
 
 ## The structure of flow
 
-Mihaly Csikszentmihalyi's [famous TED Talk, "Flow, the secret to happiness,"](https://www.youtube.com/watch?v=fXIeFJCqsPs) explains his concept of "flow"—a state of deep engagement where you're so immersed in an activity that nothing else matters, leading to optimal experience, focus, and intrinsic enjoyment.
+Mihaly Csikszentmihalyi's [famous TED Talk, "Flow, the secret to happiness,"](https://www.youtube.com/watch?v=fXIeFJCqsPs) explains his concept of "flow" — a state of deep engagement where you're so immersed in an activity that nothing else matters, leading to optimal experience, focus, and intrinsic enjoyment.
 
 Csikszentmihalyi identified the conditions for flow states:
 - Clear goals
@@ -120,7 +120,7 @@ DJing hits every one. The goal is clear (keep people dancing, or maintain energy
 
 **DJing creates a flow state of active listening.**
 
-Not just for the DJ, but potentially for the listener if given the right interface. What if we could design music playback that maintains some of this architecture of attention, without requiring the full skill of DJing?
+Not just for the DJ, but potentially for the listener if given the right interface. What if we could design music playback that maintains some of this architecture of attention, without requiring the full skill (and gear!) of DJing?
 
 What if we could make listening active again?
 
