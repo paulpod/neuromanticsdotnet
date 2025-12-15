@@ -4,7 +4,7 @@ date: 2025-11-05 12:57:49
 tags: Music
 ---
 
-I've taken a break [from the usual](https://www.linkedin.com/in/paulpod/) to scratch a design itch regarding music playback technology and how we actually interact with it. The journey has inspired some new ideas that could work towards a new type of music player — one that might change how we pay attention to music itself.
+I've taken a break [from the usual](https://www.linkedin.com/in/paulpod/) to scratch a design itch regarding music players, and how we interact with it can induce a flow-state.
 
 [![Imagining a new type of music player](/images/imagine-music.png)](/images/imagine-music.png)
 
