@@ -11,9 +11,9 @@ I've taken a break [from the usual](https://www.linkedin.com/in/paulpod/) to scr
 ## The passive listener
 We love music. Most of us love listening to it, at least. But somewhere along the way, listening became background radiation. Music plays while we work, commute, exercise, cook. It's there, but are we really *there* with it?
 
-When COVID hit, [I got into making music](https://neuromantics.net/2020/06/16/music-update/). Making music forces you to listen differently—actively, critically, structurally. You hear the parts, not just the whole. 
+When COVID hit, [I got into making music](https://neuromantics.net/2020/06/16/music-update/). Making music forces you to listen differently — actively, critically, structurally. You hear the parts, not just the whole. It's quite full on, and you can lose hours. 
 
-Maybe you used to [make mixtapes](https://neuromantics.net/mixtapes/), now playlists. But playing music back? That's remained passive for most of us.
+But playing music back? That's remained passive for most of us. Maybe you used to [make mixtapes](https://neuromantics.net/mixtapes/), now playlists. 
 
 What if it didn't have to be? What if listening to music wasn't passive? I think DJing creates a flow state of active listening — and not just for the DJ. Something in the interface itself creates a fundamentally different relationship with music. 
 
