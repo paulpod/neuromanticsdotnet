@@ -10,7 +10,7 @@ Why does a CD player need ethernet and USB audio? The answer is Rekordbox — an
 
 [![Software music players, from MOD Trackers to iTunes](/images/history-of-players.png)](/images/history-of-players.png)
 
-I thought I'd kept up with music player software: early sampling on my Dragon 32 (32K doesn't get you far), trackers in the 16-bit era, Winamp, Soundjam, iTunes, Zune, Spotify. I'd even designed music products around some of them.
+I thought I'd kept up with music player software: early sampling on my Dragon 32 (32K doesn't get you far), trackers in the 16-bit era, Winamp, Soundjam, iTunes, Zune, Spotify. I'd even [designed music products](https://neuromantics.net/portfolio/#emi) around some of them.
 
 But this was new to me.
 
