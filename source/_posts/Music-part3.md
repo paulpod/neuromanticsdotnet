@@ -12,6 +12,8 @@ OK, so the actual minimum is no visuals, do it all by ear - match the beats of t
 
 In our post-rekordbox, visual waveform world though? Minimum would be something like track one, with some sort of beat and bar indicator, playing and defining the playhead - the point in time of *now*. 
 
+[![Rekordbox waveforms ](/images/matching-up.png)](/images/matching-up.png)
+
 Then, a second track being brought in, with a matching visual of these beats, allowing the player to do the matching. As the second track is brought alongside the first, a high pass filter brings in the lower frequencies, and like some magnetic blocks, they *click together* perfectly.
 
 Maybe a little bit like this:
