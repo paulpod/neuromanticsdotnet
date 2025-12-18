@@ -34,7 +34,7 @@ The DJ software world uses variations on waveforms - these are the standard spik
 
 ## Graphical notation
 
-Solid options, but what other visual elements might convey useful, structural information? Especially combined with the latest AI powered tools of dynamic stems (stripping multiple tracks out of one recording - eg. vocal, bass, drums, melody)? Decoding those stems into the notes might be useful - this might take us into graphic notation territory.
+Solid options, but what other visual elements might convey useful, structural information? Especially combined with the latest AI powered tools of dynamic stems (stripping multiple tracks out of one recording - eg. vocal, bass, drums, melody)? Decoding those stems into the notes might be useful - this might take us into [graphic notation territory](https://davidhall.io/visualising-music-graphic-scores/).
 
 [![Ambient 1 music for airport cover, notation ](/images/alternative-notation-example-by-eno.png)](/images/alternative-notation-example-by-eno.png)
 
