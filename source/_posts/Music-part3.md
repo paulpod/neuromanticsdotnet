@@ -4,7 +4,8 @@ date: 2025-12-18 11:23:23
 tags: Music
 ---
 
-I have become far too distracted documenting my journey towards some ideas, so let's park that for now and create some designs of a future music player.
+I have become far too [distracted documenting my journey]
+(https://neuromantics.net/2025/11/18/music-part2/) towards some ideas, so let's park that for now and create some designs of a future music player.
 
 ## What is the minimum?
 

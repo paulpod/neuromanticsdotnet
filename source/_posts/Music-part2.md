@@ -126,4 +126,4 @@ What if we could make listening active again?
 
 That's the question that led me here, and the one I'm still exploring.
 
-continues…
+[continues…](https://neuromantics.net/2025/12/18/music-part3/)
