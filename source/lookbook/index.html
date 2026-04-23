@@ -138,9 +138,9 @@ padding: 0;
 }
 
 .quote {
-font-size: 32px;
+font-size: 34px;
 line-height: 1.12;
-max-width: 580px;
+max-width: 600px;
 overflow: visible;
 padding-left: 20px;
 margin: 1em 0;
@@ -165,6 +165,9 @@ margin: 1em 0;
 }
 #banner {  
 }
+#navboxheader {
+    display: none;
+  }
 #navbox {
   position: relative;
   margin-top:-160px;
@@ -201,6 +204,7 @@ margin: 1em 0;
     a {color: #506868;}
   }
 }
+
 
 .description-text {
 padding-left: 0.6em;
@@ -242,7 +246,30 @@ margin: 0 1em;
   }
   .global-header {
     visibility: hidden;
+    display: none;
   }
+
+  #navbox {
+  background-image: url('house-header-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+  left:0;
+  margin: 0 10px;
+  padding: 400px 0 0.35em 0;
+  background-color: #506868;
+  color: white;
+  text-align: center;
+  width: 95%;
+  }
+
+  .quote {
+    width: 360px;
+  font-size: 26px;
+  }
+
+  
 }
 
 #myBtn {
@@ -289,6 +316,7 @@ text-transform: uppercase;
    
 
     <div id="navbox">
+  
       <h1 style="font-size:2.5em;font-weight:normal;margin: 0;">Ty Newydd Farm</h1>
        <span style="font-size: 1.5em;font-weight:normal">Smallholding</span>
 
