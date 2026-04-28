@@ -248,6 +248,10 @@ margin: 0 1em;
     visibility: hidden;
     display: none;
   }
+  .video1 {
+    visibility: hidden;
+    display: none;
+  }
 
   #navbox {
   background-image: url('house-header-mobile.jpg');
@@ -275,10 +279,11 @@ margin: 0 1em;
 
 #myBtn {
 appearance: none;
-background-color: transparent;
+background-color: green;
+color: white;
 border-radius: 3px;
 padding: 6px 24px;
-border: 1px solid black;
+border: 1px solid white;
 font-family: "sofia-pro", sans-serif;
 font-weight: 700;
 font-style: normal;
@@ -347,9 +352,7 @@ text-transform: uppercase;
 
 
     <div class="scrollblock">
-      <!--<img src="house-external.jpg" class="stickypic" style="max-height: 300px;">-->
-
-      <div class="description-text">
+      <div class="columnular">
 
         <p>
           Ty Newydd Farm is a 5 acre holding comprising a characterful detached 3 bed stone cottage, a modern 1 bed cabin, a small yard with useful outbuildings, extensive gardens, vegetable plot, woodland and land suited to poultry, pigs etc. The property is in a quiet and private location but lies just a mile or so outside the town.
@@ -361,21 +364,30 @@ text-transform: uppercase;
           The cottage has recently been upgraded to have internal wall insulation, central heating and hot water from a airsource heatpump, with solar panels and a battery for storage.
         </p>
 
-        <center>
-          <p>
-           <span id="dots">Interested in this ideal smallholding?</span>
-         </p>
-         </center>
 
-        <div style="text-align: center;">
-          <button onclick="readmore()" id="myBtn">Read more</button>
+        <div style="max-width: 485px;text-align: center;">
+          <p>
+            <span id="dots">Interested in this ideal smallholding?</span>
+          </p>
+
+          <div>
+            <button onclick="readmore()" id="myBtn">Read more</button>
+          </div>
+          
         </div>
 
       </div>
 
-      <br>
+      <div class="columnular">
+       
+        <video controls muted playsinline width="80%" style="border-radius: 8px;" class="video1">
+          <source src="garden-portrait-1080p.mp4" type='video/mp4' />
+          
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+      </div>
 
-    </div>
+    </div><!-- END SCROLLBLOCK -->
 
 
 </section>
@@ -525,7 +537,9 @@ text-transform: uppercase;
 
        <div class="columnular">
 
-        <img src="house-barn.jpg" class="stickypic">
+        <img src="yard-outbuildings.jpg" class="stickypic">
+        <br>
+        <img src="garden-05.jpg" class="stickypic">
         
       </div>
     </div><!-- end scrollblock -->
@@ -610,7 +624,7 @@ text-transform: uppercase;
 
       <div class="columnular">
 
-        <img src="pod-outside.jpg" class="stickypic">
+        <img src="pod-outside-01.jpg" class="stickypic">
         <br>
         <img src="house-path.jpg" class="stickypic">
        
@@ -759,6 +773,12 @@ text-transform: uppercase;
    
 
     <h3>Garden</h3>
+      <br>
+        <a href="garden-01.jpg" target="_new"><img src="garden-01.jpg" class="thumbpic"></a>
+        <a href="garden-02.jpg" target="_new"><img src="garden-02.jpg" class="thumbpic"></a>
+        <a href="garden-03.jpg" target="_new"><img src="garden-03.jpg" class="thumbpic"></a>
+        <a href="garden-04.jpg" target="_new"><img src="garden-04.jpg" class="thumbpic"></a>
+        <a href="garden-05.jpg" target="_new"><img src="garden-05.jpg" class="thumbpic"></a>
 
 
 
