@@ -31,6 +31,6 @@ Designed a HTML trading platform from scratch, and other freelance things in Lon
 
 During the 2020 Covid pandemic I worked on design of digital services for the NHS, including [111 online](https://111.nhs.uk). It might be the best job I've done.
 
-I used to live in London, escaped the city to a small rural village in North Oxfordshire to keep bees. Then went mad and moved to a smallholding in furthest, South Wales with sheep, chickens and lots of trees. Still here.
+I used to live in London, escaped the city to a small rural village in North Oxfordshire to keep bees. Then went mad and moved to a smallholding in furthest, South Wales with sheep, chickens and lots of trees. ~~Still here.~~ Selling up, returning to civilisation (SE England), much as I have loved Wales, it is time.
 
 paulpod@mac.com
