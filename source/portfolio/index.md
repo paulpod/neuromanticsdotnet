@@ -133,10 +133,10 @@ Learn. Repeat. Learn. Repeat. This is what Design means in agile.
 ===============================
 Market rent determination
 ---------------
-Modernisation through legislation allows renters to negotiate unfair rent increases via courts with their landlords, and vice versa. A pair of short **Interaction Design** projects in 2026 supporting a contracted UCD team as part of a wider engagement to rebuild some unsexy services. 
+Modernisation through legislation allows renters to negotiate unfair rent increases via courts with their landlords, and vice versa. A pair of short **Interaction Design** projects in 2026 supporting a contracted UCD team (with Transform UK) as part of a wider engagement to rebuild some unsexy services. 
 
 * interaction design to support user research
-* designing in code for prototypes , HTML, CSS, GOV Prototype kit
+* designing in code for prototypes, HTML, CSS, GOV Prototype kit
 * new services design for citizen users, casework systems for civil servants
 
 {% raw %}
