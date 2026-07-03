@@ -5,6 +5,8 @@ tags:
 ---
 Writing this up while I remember what I did. Bit of a yak shave.
 
+## Rekordbox vs Ableton Live Link, and the rest
+
 *This is my setup:* bunch of modern synths, mostly semi-modular, USB midi for the most part. Things like a Make Noise 0-Coast and a Behringer Neutron alongside more slick gear like a Novation Peak. I was definitely part of the Covid surge in interest there.
 
 *Plus*, an ebay flavoured DJ rig with very old parts - because they were cheaper - 2x CDJ-900s (2009) and a big old DJM-2000 (2010) and a Mac Mini and screen. These can play CDs, USB or off Rekordbox. It's a lot of fun.
