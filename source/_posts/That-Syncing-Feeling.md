@@ -25,7 +25,7 @@ On the DJ side, the tracks on USB and Rekordbox are analysed for BPM, beats and 
 
 As a neat reminder, these are the three options you get to see your waveform, beats, bars and all the visual information a modern CDJ (or Rekordbox) presents...
 
-[![3 waveforms options in Rekordboxx](/images/3-waveforms.png)](/images/3-waveforms.png)
+[![3 waveforms options in Rekordbox](/images/3-waveforms.png)](/images/3-waveforms.png)
 
 Meanwhile, on the CDJ we get peaks of 5 pixels...
 
@@ -49,9 +49,9 @@ Works on playback of Rekordbox analysed files off USB, but only shows the track 
 
 [Prolink tools](https://github.com/evanpurkhiser/prolink-tools)
 [Prolink tools manual](https://app.notion.com/p/evanpurkhiser/Prolink-Tools-User-Manual-1c0e5b28732b435a9804b992939ed791#eb891bc2fc7e4d92bc4cc7d16f6316e5)
-Is based on the above, also works, and is nice and simple - JS html and CSS, also creates a "now-playing" overlay for OBS for Twitch DJs. Might come back to that.
+Is based on the above, also works, and is nice and simple - JS, HTML and CSS, also creates a "now-playing" overlay for OBS for Twitch DJs. Might come back to that.
 
-Also tried, with no success, a simple app that, I think, tries to send out MIDI clock from the ProDJLink beats - but again, I don't think these CDJs sends that.
+Also tried, with no success, a simple app that, I think, tries to send out MIDI clock from the ProDJLink beats - but again, I don't think these CDJs send that.
 [CDJ-Clock](https://github.com/g-zi/CDJ_Clock)
 (For CDJ clock I also needed to [install MacPorts](https://www.macports.org/install.php), and [Wireshark chmodbpf](https://ports.macports.org/port/wireshark-chmodbpf/))
 
@@ -60,7 +60,7 @@ Also tried, with no success, a simple app that, I think, tries to send out MIDI 
 I even tried hardware to get there... 
 ALM Busy Circuits [Pamela's Disco](https://busycircuits.com/pages/alm049) - again, I think this was looking for the beats, and they never came, so the lights never lit and we all learned something, but it had to be returned.
 
-A PioneerDJ [Toraiz SP-16](https://www.soundonsound.com/reviews/pioneer-toraiz-sp-16) - one last, large push - trying to get there with offical gear, that also includes a fantastic sampler, sequencer, groovebox thing. Did not succeed. DID NOT SUCCEED.
+A PioneerDJ [Toraiz SP-16](https://www.soundonsound.com/reviews/pioneer-toraiz-sp-16) - one last, large push - trying to get there with official gear, that also includes a fantastic sampler, sequencer, groovebox thing. Did not succeed. DID NOT SUCCEED.
 
 # OK, now I'm annoyed. 
 
@@ -68,15 +68,15 @@ A PioneerDJ [Toraiz SP-16](https://www.soundonsound.com/reviews/pioneer-toraiz-s
 
 So I tried the MIDI BPM out of the DJM-2000 which was OK but not the same data as was in the analysed track, it's doing it on the fly (intended for the tempo-based fx, like delays) and is hmmm not quite as good. Didn't work well enough for me anyway, in Logic or Ableton.
 
-I suppose one way would be to just decide on a tempo and stick to it, on whatever is playing out of the decks/Rekordbox and set the same in Logic/Ableton, and just mix the audio at the mixer. Yes this worked, needs a bit of beatmatching, and occasionally nudging back in time. But we are not cavemen! Can we not make the tech do more work?
+I suppose one way would be to just decide on a tempo and stick to it, on whatever is playing out of the decks/Rekordbox and set the same in Logic/Ableton, and just mix the audio at the mixer. Yes this worked, but needs a bit of beatmatching, and occasionally nudging back in time. But we are not cavemen! Can we not make the tech do more work?
 
 ## Let's try Ableton Link
 
 [![Not my gear, but wow the dream is here](/images/ableton-live-link-header.jpg)](/images/ableton-live-link-header.jpg)
 
-A [feature of Ableton Live](https://www.ableton.com/en/link/), and is built into Rekordbox for ages. In theory this is the solution to all the problems, right? Unfortunately I did this try this earlier on, and it's not quite the magical solution you'd think.
+A [feature of Ableton Live](https://www.ableton.com/en/link/), and one that's been built into Rekordbox for ages. In theory this is the solution to all the problems, right? Unfortunately I did try this earlier on, and it's not quite the magical solution you'd think.
 
-For some reason, the tempo is shared over the network but changes are not bidirectional, playing tunes in Rekordbox match the Ableton tempo, but changes at the Rekordbox end are not transmitted in the other direction. Not the freeflowing scenario I imagined!
+For some reason, the tempo is shared over the network but changes are not bidirectional, playing tunes in Rekordbox matches the Ableton tempo, but changes at the Rekordbox end are not transmitted in the other direction. Not the freeflowing scenario I imagined!
 
 But, seeing as the other avenues had come up short, it was time to have another crack at it. I found this project, currently in development.
 
@@ -87,7 +87,7 @@ Blurb sounds good:
 Mac [version](https://github.com/grufkork/rkbx_link/releases/tag/v1.2.0) is [little bit adhoc](https://github.com/grufkork/rkbx_link/issues/11), and I had a few issues. 
 
 - Only works with one specific version of Rekordbox ([7.2.8](https://cdn.rekordbox.com/files/20251203151846/Install_rekordbox_7_2_8.pkg_.zip)), 
-- The [script to 'resign' it](https://raw.githubusercontent.com/grufkork/rkbx_link/refs/heads/master/resign_rekordbox.sh) was is a different place
+- The [script to 'resign' it](https://raw.githubusercontent.com/grufkork/rkbx_link/refs/heads/master/resign_rekordbox.sh) was in a different place
 - It needs permissions set to run - 'chmod +x resign_sh'
 - I got stuck with the download '/data/offsets-macos' and the extracted Rekordbox permissions ending up in my '~/user' folder not the working directory
 - Terminal had to be given permissions to make a change to another app... I did not see the dialog box on the Mac Mini I VNC into
@@ -106,9 +106,9 @@ Increasing or decreasing the BPM on *either* app running on separate machines ch
 </video>
 {% endraw %}
 
-I just got this working, and need to tweak the latency when it's all running through the one mixer. But hopefully get to try some stuff out soon.
+I just got this working, and need to tweak the latency when it's all running through the one mixer. But hopefully I'll get to try some stuff out soon.
 
 ## Other links that were helpful
-[5 secret features of PioneerDJs protocol](https://djtechtools.com/2018/10/08/pro-dj-link-5-secret-features-of-pioneer-djs-protocol/)
+[5 secret features of Pioneer DJ's protocol](https://djtechtools.com/2018/10/08/pro-dj-link-5-secret-features-of-pioneer-djs-protocol/)
 
 
