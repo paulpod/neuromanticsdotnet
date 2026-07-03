@@ -88,9 +88,9 @@ Mac [version](https://github.com/grufkork/rkbx_link/releases/tag/v1.2.0) is [lit
 
 - Only works with one specific version of Rekordbox ([7.2.8](https://cdn.rekordbox.com/files/20251203151846/Install_rekordbox_7_2_8.pkg_.zip)), 
 - The [script to 'resign' it](https://raw.githubusercontent.com/grufkork/rkbx_link/refs/heads/master/resign_rekordbox.sh) was in a different place
-- It needs permissions set to run - 'chmod +x resign_sh'
-- I got stuck with the download '/data/offsets-macos' and the extracted Rekordbox permissions ending up in my '~/user' folder not the working directory
-- Terminal had to be given permissions to make a change to another app... I did not see the dialog box on the Mac Mini I VNC into
+- It needs permissions set to run - `chmod +x resign_sh`
+- I got stuck with the download `/data/offsets-macos` and the extracted Rekordbox permissions ending up in my `~/user` folder not the working directory
+- Terminal had to be given permissions to make a change to another app... I did not see the dialog box on the Mac Mini I VNC into, oops
 
 Phew - we got there in the end. 
 
