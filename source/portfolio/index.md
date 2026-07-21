@@ -193,7 +193,7 @@ In this role I mentored young designers and contributed to the NHS design system
 
 Here I [wrote up a series of explorations on dark mode](https://neuromantics.net/2025/11/17/dark-mode-for-nhs-111/) for the NHS design system. 
 
-I can talk at length about many aspects of this work, all so deep and interesting, abd improving health outcomes! Visit [111 online](https://111.nhs.uk)
+I can talk at length about many aspects of this work, all so deep and interesting, and improving health outcomes! Visit [111 online](https://111.nhs.uk)
 
 
 {% raw %}
