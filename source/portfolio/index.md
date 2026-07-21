@@ -103,7 +103,7 @@ So, extensive GOV.UK, GDS and NHS digital experience. But! I am open to *designi
 
 **Makes prototypes:** I prefer making things to drawing pictures of things. Variety over specialism. Quick and dirty over finished and polished. 
 
-Learn. Repeat. Learn. Repeat. This is what Design means in agile.
+Learn, repeat. Learn, repeat. Improve outcomes. 
 
 {% raw %}
 <figure>
@@ -135,6 +135,7 @@ Market rent determination
 ---------------
 Modernisation through legislation allows renters to negotiate unfair rent increases via courts with their landlords, and vice versa. A pair of short **Interaction Design** projects in 2026 supporting a contracted UCD team (with Transform UK) as part of a wider engagement to rebuild some unsexy services. 
 
+* aim: reduce backlogs and broaden access to justice
 * interaction design to support user research
 * designing in code for prototypes, HTML, CSS, GOV Prototype kit
 * new services design for citizen users, casework systems for civil servants
@@ -192,8 +193,7 @@ In this role I mentored young designers and contributed to the NHS design system
 
 Here I [wrote up a series of explorations on dark mode](https://neuromantics.net/2025/11/17/dark-mode-for-nhs-111/) for the NHS design system. 
 
-
-Visit [111 online](https://111.nhs.uk)
+I can talk at length about many aspects of this work, all so deep and interesting, abd improving health outcomes! Visit [111 online](https://111.nhs.uk)
 
 
 {% raw %}
@@ -201,17 +201,17 @@ Visit [111 online](https://111.nhs.uk)
 {% endraw %}
 2019-20 / Seedrs
 ===============================
-As **Interaction Designer** I mostly worked on designing a mobile app for Seedrs users. I've used Framer X to make a number of high fidelity, deep prototypes as well as conducting user research to design the right thing.
+As **Interaction Designer** I mostly worked on designing a mobile app for Seedrs users. I've used Framer X to make a number of high fidelity, deep prototypes as well as conducting user research sessions to design the right thing.
 
 [![A few screens from the app](/portfolioimg/seedrs-app.png)](/portfolioimg/seedrs-app.png)
 
 * contributing towards a design system for Seedrs
-* redesigning and simplifying the payment flows
-* reworking a login flow more appropriate for mobile native users
+* redesigning and simplifying the payment flows, reducing dropped transactions
+* reworking a login flow more appropriate for mobile native users, reducing lost signups
 
 [![A screengrab overview of the framerx prototype](/portfolioimg/seedrs-app-map-thumb.png)](/portfolioimg/seedrs-app-prototype-map.png)
 
-~Link to the app prototype on request.~ long decayed to bitrot
+~Link to the app prototype on request.~ long decayed to Framer bitrot
 
 
 {% raw %}
@@ -223,11 +223,11 @@ As **Interaction Designer** I have worked on products for healthcare professiona
 
 [![Service Finder partial flow](/portfolioimg/nhs-servicefinder-01.png)](/portfolioimg/nhs-servicefinder-01.png)
 
-* applying NHS/GOV.UK design guidelines as appropriate
+* applying NHS/GOV.UK design guidelines as appropriate (NHS design system was embryonic)
 * user research with a range of healthcare professionals
 * prototyping using toolkits : NodeJS, JQuery, SASS, etc
 
-**Things:** I work in multidisciplinary teams that deliver live products to real users - Paramedics and Pharmacists, 999 and 111 operators.
+**Things:** I worked in multidisciplinary teams that delivered live products to real users - Paramedics and Pharmacists, 999 and 111 operators that improved health outcomes.
 
 * Profile Updater (fixing data about services) 
 * Service Finder (searching for services) 
@@ -245,7 +245,7 @@ Profile Updater is a tool that allows service operators (in the first iteration,
 {% endraw %}
 2017 / Department for International Trade
 ===============================
-As the **Lead Designer** I worked on a part of the GREAT campaign website that was intended to handle enquiries about inward investment. Unfortunately due to the realities around Brexit, there were few user needs we could actually meet, so the project was cancelled.
+As the **Lead Designer** I worked on a part of the GREAT campaign website that was intended to handle enquiries about inward investment. Unfortunately due to the grim realities around Brexit, there were few user needs we could actually meet, so sadly the project was cancelled.
 
 [![Where to invest, mobile flows](/portfolioimg/dit-wheretoinvest.png)](/portfolioimg/dit-wheretoinvest.png)
 
@@ -261,6 +261,7 @@ As **Interaction Designer** I worked on a small innovation project to prototype 
 
 [![Example chat flow](/portfolioimg/una-sick-flow.png)](/portfolioimg/una-sick-flow.png)
 
+* aim: reduce repetitive HR tasks to more activity on complex problems
 * flows and scripts for chatbot interaction
 * prototyping using PullString, Skype Bots, Messenger Bots
 
@@ -284,6 +285,7 @@ Here's a slightly cheesy video about it.
 ===============================
 As the **Lead Designer** I was brought in to kickstart a dramatic refresh of retail trading platforms. The existing flash-based platform had an end of life on the horizon, and moving to a new HTML5 technology stack provided the opportunity to bring user-centred design principles to the problem.
 
+* aim: most people lose most of their money - help them do better!
 * applying deep user research to personas, segmentation
 * create new design guidelines
 * helping improve internal design capability
